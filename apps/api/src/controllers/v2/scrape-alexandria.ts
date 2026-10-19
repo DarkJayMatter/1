@@ -189,10 +189,17 @@ export async function providerScrapeController(
         target,
         team_id: req.auth.team_id,
         options: {
-          alexandria: body.alexandria.map(({ provider, capability }) => ({
-            provider,
-            capability,
-          })),
+          alexandria: body.alexandria.map(({ provider, capability }, i) => {
+            const item = served.success ? served.data.results[i] : undefined;
+            return item
+              ? {
+                  provider,
+                  capability,
+                  code: item.error?.code ?? null,
+                  creditsCost: item.creditsCost ?? 0,
+                }
+              : { provider, capability };
+          }),
         },
         time_taken: timeTaken,
         credits_cost:
