@@ -13,6 +13,7 @@ import { getError } from './helpers/get_error';
 import { lookup } from 'dns/promises';
 import IPAddr from 'ipaddr.js';
 import { Server, RequestError } from 'proxy-chain';
+import { installConnectTimeSSRFGuard } from './helpers/ssrf_connect_guard';
 
 dotenv.config();
 
@@ -566,6 +567,35 @@ app.post('/scrape', async (req: Request, res: Response) => {
 });
 
 const start = async () => {
+  // Connect-time backstop for the SSRF proxy: the hostname pre-check inside
+  // startSSRFProxy() resolves the target once, but the outbound connection
+  // re-resolves it on its own, so a rebinding hostname can slip past the
+  // pre-check and land on a private address. The guard validates the address
+  // each socket actually connects to and destroys it otherwise.
+  // The guard is inert when local targets are allowed, so PROXY_SERVER must
+  // not be parsed in that case: a malformed PROXY_SERVER used to fail the
+  // individual scrape requests that use it, never the boot sequence.
+  let upstreamProxyUrl: string | undefined;
+  if (!ALLOW_LOCAL_WEBHOOKS) {
+    try {
+      upstreamProxyUrl = buildUpstreamProxyUrl();
+    } catch (error) {
+      // A malformed PROXY_SERVER keeps its old failure shape: the affected
+      // scrape requests fail on their own; boot must not. Warn at startup so
+      // the misconfiguration is visible once, not as opaque per-request
+      // failures.
+      console.warn(
+        `PROXY_SERVER is set but unusable (${
+          error instanceof Error ? error.message : String(error)
+        }); scrape requests that need the upstream proxy will fail until it is fixed.`,
+      );
+      upstreamProxyUrl = undefined;
+    }
+  }
+  installConnectTimeSSRFGuard({
+    allowLocal: ALLOW_LOCAL_WEBHOOKS,
+    upstreamProxyUrl,
+  });
   ssrfProxyPort = await startSSRFProxy();
   await initializeBrowser();
   app.listen(port, () => {
