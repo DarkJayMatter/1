@@ -1,0 +1,37 @@
+name: account-discovery-scrape
+# Reads the command line from account-discovery/run.txt, runs the scraper,
+# and commits any output back to the same branch under account-discovery/out/.
+on:
+  push:
+    paths:
+      - "account-discovery/run.txt"
+      - "account-discovery/account_scrapers.py"
+      - ".github/workflows/account-discovery-scrape.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 "psycopg[binary]"
+      - name: Run scraper
+        working-directory: account-discovery
+        run: |
+          python account_scrapers.py $(cat run.txt) 2>&1 | tee run.log
+      - name: Commit output
+        if: always()
+        run: |
+          git config user.name "account-discovery-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A account-discovery/out account-discovery/run.log account-discovery/debug_*.html 2>/dev/null || true
+          git commit -m "account-discovery: scraper output" || echo "nothing to commit"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
