@@ -1,1 +1,1 @@
-erekrut --csv out
+erekrut --csv out --max-pages 50

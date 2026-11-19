@@ -284,7 +284,7 @@ def parse_erekrut(html):
 
 def run_erekrut(sink, args):
     cfg = SELECTORS["erekrut"]
-    page, empty_streak = args.start_page, 0
+    page, empty_streak, stale_streak = args.start_page, 0, 0
     while page <= args.max_pages:
         url = cfg["base"] if page == 1 else cfg["base"] + cfg["page_path"].format(n=page)
         r = get(url, args.delay)
@@ -300,7 +300,8 @@ def run_erekrut(sink, args):
             print(json.dumps(rows[:3], indent=1))
             return
         empty_streak = empty_streak + 1 if not rows else 0
-        if empty_streak >= 2:
+        stale_streak = stale_streak + 1 if new == 0 else 0
+        if empty_streak >= 2 or stale_streak >= 3:
             break
         page += 1
     print(f"Erekrut: {sink.added} new rows (last page {page})")
