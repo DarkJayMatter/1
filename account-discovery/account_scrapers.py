@@ -350,7 +350,79 @@ def make_table_runner(label, url):
     return run
 
 
+def _sec(url, delay):
+    """SEC fair access: declared User-Agent, <=10 req/s. APIs are public; no robots check."""
+    for attempt in range(4):
+        try:
+            r = SESSION.get(url, timeout=45)
+            if r.status_code == 200:
+                time.sleep(delay)
+                return r
+            if r.status_code in (403, 429):
+                time.sleep(5 * (attempt + 1))
+            else:
+                return None
+        except requests.RequestException:
+            time.sleep(2)
+    return None
+
+
+def run_edgar(sink, args):
+    """Parents from out/R63.csv -> latest 10-K -> Exhibit 21 -> subsidiaries in India."""
+    parents = [row["name"] for row in csv.DictReader(open("out/R63.csv", encoding="utf-8"))]
+    # split multi-parent cells like "FedEx, Lufthansa"
+    parents = sorted({x.strip() for p in parents for x in re.split(r",\s*(?![^()]*\))", p) if x.strip()})
+    r = _sec("https://www.sec.gov/files/company_tickers.json", 0.2)
+    if r is None:
+        print("EDGAR: tickers file unavailable"); return
+    tickers = [(norm(v["title"]), v["cik_str"], v["title"]) for v in r.json().values()]
+    for parent in parents:
+        pn = norm(parent)
+        cands = [t for t in tickers if t[0] == pn or t[0].startswith(pn + " ")]
+        if not cands:
+            print(f"- {parent}: no SEC match (probably non-US)"); continue
+        _, cik, title = min(cands, key=lambda t: len(t[0]))
+        sub = _sec(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json", args.delay)
+        if sub is None:
+            print(f"- {parent}: submissions failed"); continue
+        rec = sub.json()["filings"]["recent"]
+        ten_k = [i for i, f in enumerate(rec["form"]) if f == "10-K"]
+        if not ten_k:
+            print(f"- {parent} ({title}): no 10-K"); continue
+        i = ten_k[0]
+        acc = rec["accessionNumber"][i].replace("-", "")
+        idx = _sec(f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/index.json", args.delay)
+        if idx is None:
+            print(f"- {parent}: filing index failed"); continue
+        files = [it["name"] for it in idx.json()["directory"]["item"]]
+        ex = [f for f in files if re.search(r"(ex|exhibit)[-_ ]?0?21", f, re.I)]
+        if not ex:
+            print(f"- {parent} ({title}): no Ex-21 file"); continue
+        doc = _sec(f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{ex[0]}", args.delay)
+        if doc is None:
+            print(f"- {parent}: Ex-21 download failed"); continue
+        soup = BeautifulSoup(doc.text, "html.parser")
+        names = set()
+        for tr in soup.find_all("tr"):
+            cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"]) if c.get_text(strip=True)]
+            if cells and any(c.lower() == "india" or c.lower().endswith(", india") for c in cells[1:]):
+                names.add(cells[0])
+            elif cells and "india" in cells[0].lower():
+                names.add(cells[0])
+        if not names:  # plain-text exhibits
+            for line in soup.get_text("\n").splitlines():
+                if "india" in line.lower() and 3 < len(line.strip()) < 150:
+                    names.add(line.strip())
+        added = 0
+        for nm in names:
+            added += sink.add(nm, industry=f"subsidiary of {parent}", profile_url=f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{ex[0]}",
+                              raw={"parent": parent, "sec_title": title, "filed": rec["filingDate"][i]})
+        print(f"+ {parent} ({title}, 10-K {rec['filingDate'][i]}): {len(names)} India entities, {added} new")
+    print(f"EDGAR: {sink.added} new rows")
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+        "edgar": ("R25", run_edgar),
         "astravise": ("R63", make_table_runner("astravise", "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/")),
         "gccjournal": ("R62", make_table_runner("gccjournal", "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/"))}
 

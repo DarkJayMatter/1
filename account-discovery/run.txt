@@ -1,1 +1,1 @@
-gccjournal --csv out --debug
+edgar --csv out
