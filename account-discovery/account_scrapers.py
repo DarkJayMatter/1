@@ -512,9 +512,32 @@ def run_bankzop(sink, args):
         time.sleep(args.delay)
 
 
+def run_careerjet(sink, args):
+    """/companies/{letter}[/{page}] -> <a href=/company/Slug/jobs>Name</a>; stop a letter when a page adds nothing."""
+    base = "https://www.careerjet.co.in/companies/"
+    for letter in list("abcdefghijklmnopqrstuvwxyz") + ["_"]:
+        stale = 0
+        for page in range(1, args.max_pages + 1):
+            url = base + letter + ("" if page == 1 else f"/{page}")
+            r = get(url, args.delay)
+            if r is None:
+                print(f"{letter} p{page}: no response, next letter"); break
+            soup = BeautifulSoup(r.text, "html.parser")
+            links = [a for a in soup.find_all("a", href=re.compile(r"^/company/[^/]+/jobs$")) if a.get_text(strip=True)]
+            new = sum(sink.add(a.get_text(" ", strip=True), profile_url="https://www.careerjet.co.in" + a["href"]) for a in links)
+            print(f"{letter} p{page}: {len(links)} links, {new} new")
+            if not links:
+                break
+            stale = stale + 1 if new == 0 else 0
+            if stale >= 2:
+                break
+    print(f"Careerjet: {sink.added} new rows")
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "careerjet": ("R61", run_careerjet),
         "nextknock": ("R54", run_nextknock),
         "hirehire": ("R57", run_hirehire),
         "trai": ("R48", run_trai),
