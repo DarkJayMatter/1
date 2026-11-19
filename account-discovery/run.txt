@@ -1,1 +1,1 @@
-astravise --csv out
+gccjournal --csv out --debug
