@@ -534,9 +534,71 @@ def run_careerjet(sink, args):
     print(f"Careerjet: {sink.added} new rows")
 
 
+SEBI_AJAX = "https://www.sebi.gov.in/sebiweb/ajax/other/getintmfpiinfo.jsp"
+SEBI_TYPES = {  # intmId: label (smaller lists first; big ones are run by passing --sebi-ids)
+    9: "Merchant Banker", 5: "Banker to an Issue", 7: "Credit Rating Agency", 27: "Custodian",
+    6: "Debenture Trustee", 23: "Mutual Fund", 33: "Portfolio Manager", 10: "RTA / Share Transfer Agent",
+    8: "KYC Registration Agency", 20: "InvIT", 42: "REIT", 47: "ESG Rating Provider", 48: "SM REIT",
+}
+
+
+def _sebi_records(html):
+    """Fragment is 'Name <x> Registration No. <y> ... Address <z>' blocks; keep name, reg no, address only (no contact persons/emails)."""
+    soup = BeautifulSoup(html, "html.parser")
+    lines = [t.strip() for t in soup.get_text("\n").splitlines() if t.strip()]
+    recs, cur = [], None
+    for i, ln in enumerate(lines):
+        if ln == "Name" and i + 1 < len(lines):
+            cur = {"name": lines[i + 1]}
+            recs.append(cur)
+        elif cur is not None and ln == "Registration No." and i + 1 < len(lines):
+            cur["reg"] = lines[i + 1]
+        elif cur is not None and ln == "Address" and i + 1 < len(lines):
+            cur["address"] = lines[i + 1]
+    total = re.search(r"of ([\d,]+) records", soup.get_text(" "))
+    return recs, int(total.group(1).replace(",", "")) if total else None
+
+
+def run_sebi(sink, args):
+    if not allowed(SEBI_AJAX):
+        print("sebi: robots.txt disallows the list endpoint; stopping"); return
+    for intm, label in SEBI_TYPES.items():
+        page, total = 1, None
+        while page <= args.max_pages:
+            data = {"nextValue": "1", "next": "n", "intmId": intm, "contPer": "", "name": "", "regNo": "",
+                    "email": "", "location": "", "exchange": "", "affiliate": "", "alp": "",
+                    "doDirect": page - 1, "intmIds": ""}
+            if page == 1:
+                data["next"] = "s"; data["doDirect"] = "-1"
+            try:
+                r = SESSION.post(SEBI_AJAX, data=data, timeout=45,
+                                 headers={"Referer": f"https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId={intm}"})
+            except requests.RequestException as e:
+                print(f"{label} p{page}: {e}"); break
+            if args.debug:
+                open(f"debug_sebi_{intm}_{page}.html", "w", encoding="utf-8").write(r.text)
+            recs, total = _sebi_records(r.text)
+            new = 0
+            for x in recs:
+                addr = x.get("address", "")
+                new += sink.add(x["name"], industry=label, state=None,
+                                raw={"reg_no": x.get("reg"), "address": addr, "sebi_type": label})
+            print(f"{label} p{page}: {len(recs)} records ({total} total), {new} new")
+            if args.debug and page >= 2:
+                break
+            if not recs or page * 25 >= (total or 0):
+                break
+            page += 1
+            time.sleep(args.delay)
+        if args.debug:
+            break
+    print(f"SEBI: {sink.added} new rows")
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "sebi": ("R47", run_sebi),
         "careerjet": ("R61", run_careerjet),
         "nextknock": ("R54", run_nextknock),
         "hirehire": ("R57", run_hirehire),
