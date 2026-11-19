@@ -320,8 +320,9 @@ def parse_tables(html):
                 if any(k in h for k in keys):
                     return i
             return None
-        ni = col("parent", "company", "gcc", "name")
-        ni = 0 if ni is None else ni
+        ni = col("parent", "company", "gcc", "name", "entity")
+        if ni is None:  # not a company table (e.g. stats)
+            continue
         ci = col("city", "cities", "location")
         for tr in t.find_all("tr")[1:]:
             cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
