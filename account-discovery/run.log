@@ -1,1 +1,36 @@
-astravise: 100 rows, 100 new
+gccjournal: 41 rows, 40 new
+[
+ {
+  "city": null,
+  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
+  "profile_url": null,
+  "raw": {
+   "company / gcc name": "Microsoft India Development Center",
+   "sector": "Technology / Cloud / AI",
+   "approx. headcount": "10,000+",
+   "key focus areas": "Core Azure, Office, and global AI products."
+  }
+ },
+ {
+  "city": null,
+  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
+  "profile_url": null,
+  "raw": {
+   "company / gcc name": "Amazon / AWS India",
+   "sector": "Technology / Cloud",
+   "approx. headcount": "10,000+",
+   "key focus areas": "AWS cloud infrastructure, logistics AI, retail tech."
+  }
+ },
+ {
+  "city": null,
+  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
+  "profile_url": null,
+  "raw": {
+   "company / gcc name": "SAP Labs India",
+   "sector": "Technology / Cloud",
+   "approx. headcount": "10,000+",
+   "key focus areas": "Largest SAP R&D hub outside Germany; ERP and ML."
+  }
+ }
+]

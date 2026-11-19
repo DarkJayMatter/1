@@ -1,0 +1,41 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id
+R62,Microsoft India Development Center,microsoft development center,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Amazon / AWS India,amazon aws,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,SAP Labs India,sap labs,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Intel India Design Center,intel design center,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Target India,target,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Bosch Global Software,bosch global software,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Rolls-Royce GCC,rolls royce gcc,,,Bengaluru (The Silicon Valley and Tech HQ),,,,,20261119T171718-176076
+R62,Wells Fargo India,wells fargo,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,Citigroup India,citigroup,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,Microsoft India,microsoft,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,Vanguard India GCC,vanguard gcc,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,McDonald’s India GCC,mcdonald s gcc,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,DAZN India GCC,dazn gcc,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,AstraZeneca India,astrazeneca,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,Dai-ichi Life India,dai ichi life,,,Hyderabad (The High-Growth Engineering & BFSI Hub),,,,,20261119T171718-176076
+R62,HSBC Global Technology,hsbc global technology,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Mercedes-Benz Tech India,mercedes benz tech,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Barclays India,barclays,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Eaton India Innovation,eaton innovation,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Medtronic India GCC,medtronic gcc,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Icertis India,icertis,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Volkswagen Group Tech,volkswagen group tech,,,"Pune (The Manufacturing, Automotive & Enterprise Tech Hub)",,,,,20261119T171718-176076
+R62,Standard Chartered,standard chartered,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,Walmart Global Tech,walmart global tech,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,Ford Motor Tech Center,ford motor tech center,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,Freshworks India HQ,freshworks hq,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,Caterpillar India,caterpillar,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,M2P Fintech,m2p fintech,,,"Chennai (The Deep Tech, Auto & SaaS Powerhouse)",,,,,20261119T171718-176076
+R62,Microsoft India (Noida),microsoft noida,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,American Express India,american express,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,S&P Global India,s and p global,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,Gartner India,gartner,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,Daikin India GCC,daikin gcc,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,Carlsberg Group India,carlsberg group,,,"Delhi NCR (The Consulting, Retail & Digital Hub)",,,,,20261119T171718-176076
+R62,JPMorgan Chase India,jpmorgan chase,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
+R62,Morgan Stanley India,morgan stanley,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
+R62,Deutsche Bank India,deutsche bank,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
+R62,UBS India,ubs,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
+R62,BSE Technology Center,bse technology center,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
+R62,WPP India GCC,wpp gcc,,,Mumbai (The Undisputed BFSI & Financial Tech Hub),,,,,20261119T171718-176076
