@@ -286,7 +286,7 @@ def run_erekrut(sink, args):
     cfg = SELECTORS["erekrut"]
     page, empty_streak, stale_streak = args.start_page, 0, 0
     while page <= args.max_pages:
-        url = cfg["base"] if page == 1 else cfg["base"] + cfg["page_path"].format(n=page)
+        url = f'{cfg["base"]}?company_name=&indstry_name=&farea_name=&selcity=&selstate=&pages={page}'
         r = get(url, args.delay)
         if r is None:
             print(f"page {page}: no response, stopping (resume with --start-page {page})")
