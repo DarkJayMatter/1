@@ -1,1 +1,1 @@
-erekrut --csv out --max-pages 90
+astravise --csv out --debug

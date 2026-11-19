@@ -307,7 +307,51 @@ def run_erekrut(sink, args):
     print(f"Erekrut: {sink.added} new rows (last page {page})")
 
 
-JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut)}
+def parse_tables(html):
+    """Generic: every <table> -> rows; name = first column matching company/parent/name, else col 0."""
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    for t in soup.find_all("table"):
+        heads = [c.get_text(" ", strip=True).lower() for c in (t.find("tr").find_all(["th", "td"]) if t.find("tr") else [])]
+        prev = t.find_previous(["strong", "b", "h2", "h3", "h4"])
+        sector = prev.get_text(" ", strip=True) if prev else None
+        def col(*keys):
+            for i, h in enumerate(heads):
+                if any(k in h for k in keys):
+                    return i
+            return None
+        ni = col("parent", "company", "gcc", "name")
+        ni = 0 if ni is None else ni
+        ci = col("city", "cities", "location")
+        for tr in t.find_all("tr")[1:]:
+            cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
+            if len(cells) <= ni or not cells[ni]:
+                continue
+            link = tr.find("a", href=True)
+            out.append({"name": cells[ni], "city": cells[ci] if ci is not None and ci < len(cells) else None,
+                        "industry": sector, "profile_url": link["href"] if link else None,
+                        "raw": dict(zip(heads, cells))})
+    return out
+
+
+def make_table_runner(label, url):
+    def run(sink, args):
+        r = get(url, args.delay)
+        if r is None:
+            print(f"{label}: no response"); return
+        if args.debug:
+            open(f"debug_{label}.html", "w", encoding="utf-8").write(r.text)
+        rows = parse_tables(r.text)
+        new = sum(sink.add(x.pop("name"), **x) for x in rows)
+        print(f"{label}: {len(rows)} rows, {new} new")
+        if args.debug:
+            print(json.dumps(rows[:3], indent=1))
+    return run
+
+
+JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+        "astravise": ("R63", make_table_runner("astravise", "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/")),
+        "gccjournal": ("R62", make_table_runner("gccjournal", "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/"))}
 
 
 def main():
