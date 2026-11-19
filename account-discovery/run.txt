@@ -1,1 +1,1 @@
-astravise --csv out --debug
+astravise --csv out
