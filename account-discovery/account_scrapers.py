@@ -146,7 +146,7 @@ class Sink:
             self.csv = csv.writer(self.csv_f)
             if new:
                 self.csv.writerow(["source_id", "name", "name_norm", "city", "state", "industry",
-                                   "size_band", "isin", "listing_date", "profile_url", "run_id"])
+                                   "size_band", "isin", "listing_date", "profile_url", "run_id", "extra"])
             else:  # load names already written so a re-run does not duplicate
                 with open(path, encoding="utf-8") as f:
                     for row in csv.DictReader(f):
@@ -172,7 +172,7 @@ class Sink:
         if self.csv:
             self.csv.writerow([self.source_id, name, n, f.get("city"), f.get("state"), f.get("industry"),
                                f.get("size_band"), f.get("isin"), f.get("listing_date"),
-                               f.get("profile_url"), self.run_id])
+                               f.get("profile_url"), self.run_id, json.dumps(f.get("raw") or {}, ensure_ascii=False)])
         self.added += 1
         return True
 

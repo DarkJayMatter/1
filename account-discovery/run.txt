@@ -1,1 +1,1 @@
-bankzop --csv out --max-pages 1
+bankzop --csv out
