@@ -271,8 +271,14 @@ def parse_erekrut(html):
         loc = box.find("span") if box else None
         place = loc.get_text(" ", strip=True) if loc else ""
         state = re.sub(r",?\s*IN$", "", place).strip() or None
+        raw = {"location": place}
+        if name.endswith(".."):
+            # site truncates long names; rebuild from the profile slug
+            raw["listed_name"] = name
+            slug = a["href"].rstrip("/").rsplit("/", 1)[-1]
+            name = " ".join(w.capitalize() for w in slug.split("-"))
         rows.append({"name": name, "profile_url": a["href"], "state": state,
-                     "raw": {"location": place}})
+                     "raw": raw})
     return rows
 
 
