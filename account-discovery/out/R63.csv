@@ -1,0 +1,104 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id
+R63,60+,60,Coimbatore,,Where India’s GCCs actually are,,,,,20261119T171417-181ae9
+R63,45+,45,Ahmedabad,,Where India’s GCCs actually are,,,,,20261119T171417-181ae9
+R63,35+,35,Vadodara,,Where India’s GCCs actually are,,,,,20261119T171417-181ae9
+R63,JPMorgan Chase & Co.,jpmorgan chase and co,"Mumbai, Bengaluru",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Goldman Sachs,goldman sachs,"Bengaluru, Hyderabad",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,HSBC,hsbc,"Bengaluru, Chennai, Hyderabad, Kolkata, Visakhapatnam",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Standard Chartered,standard chartered,"Bengaluru, Chennai",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Deutsche Bank,deutsche bank,"Bengaluru, Pune",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,BNY Mellon,bny mellon,"Pune, Chennai",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Barclays,barclays,Pune,,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,BlackRock,blackrock,"Mumbai, Gurugram",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Morgan Stanley,morgan stanley,Mumbai,,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Wells Fargo,wells fargo,"Bengaluru, Chennai, Hyderabad",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,American Express,american express,"Bengaluru, Gurugram",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Fidelity Investments,fidelity investments,Bengaluru,,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Franklin Templeton,franklin templeton,"Hyderabad, Mumbai, Chennai, Visakhapatnam",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Swiss Re,swiss re,"Hyderabad, Bengaluru",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,MUFG Bank,mufg bank,"Bengaluru, Chennai, Mumbai, New Delhi, Gandhinagar",,"Banking, financial services and insurance",,,,,20261119T171417-181ae9
+R63,Microsoft,microsoft,"Bengaluru, Hyderabad, Noida",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Amazon,amazon,"Bengaluru, Hyderabad, Chennai",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Google,google,"Bengaluru, Hyderabad",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Intel,intel,"Bengaluru, Hyderabad",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Qualcomm,qualcomm,"Hyderabad, Bengaluru, Chennai, Noida",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Nvidia,nvidia,"Hyderabad, Pune, Gurugram, Bengaluru",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,NXP Semiconductors,nxp semiconductors,"Hyderabad, Pune, Noida, Bengaluru",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Texas Instruments,texas instruments,"Bengaluru, Chennai",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Adobe,adobe,"Noida, Bengaluru",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Oracle,oracle,"Hyderabad, Mumbai, Pune",,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Salesforce,salesforce,Hyderabad,,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Samsung Electronics,samsung electronics,Bengaluru,,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,AMD,amd,Named in nasscom-Zinnov 2026,,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Atlassian,atlassian,Bengaluru,,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,Databricks,databricks,Bengaluru,,"Technology, software and semiconductors",,,,,20261119T171417-181ae9
+R63,AstraZeneca,astrazeneca,"Bengaluru, Chennai",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,GlaxoSmithKline,glaxosmithkline,"Bengaluru, Mumbai, Hyderabad",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Novartis,novartis,"Mumbai, Hyderabad",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Novo Nordisk,novo nordisk,Bengaluru,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Bayer,bayer,"Hyderabad, Bengaluru",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Abbott,abbott,"Mumbai, Bengaluru",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Optum (UnitedHealth Group),optum unitedhealth group,"Gurugram, Noida, Bengaluru, Chennai, Hyderabad",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,GE HealthCare,ge healthcare,Bengaluru,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Philips Healthcare,philips healthcare,"Bengaluru, Pune",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Boston Scientific,boston scientific,"Gurugram, Pune",,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Roche Diagnostics,roche diagnostics,Pune,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Providence,providence,Hyderabad,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Biogen,biogen,Bengaluru,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Viatris,viatris,Hyderabad,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,"Medtronic, Eli Lilly",medtronic eli lilly,Multiple,,"Healthcare, pharmaceuticals and life sciences",,,,,20261119T171417-181ae9
+R63,Walmart,walmart,"Bengaluru, Chennai, Gurugram",,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Target Corporation,target corporation,Bengaluru,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Lowe’s Companies,lowe s companies,Bengaluru,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Nike,nike,Bengaluru,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Unilever,unilever,"Bengaluru, Mumbai",,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Procter & Gamble,procter and gamble,Mumbai,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Nestlé,nestl,Gurugram,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Mondelez International,mondelez international,Thane,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Colgate-Palmolive,colgate palmolive,Mumbai,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,L’Oréal,l or al,"Mumbai, Bengaluru",,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Cargill,cargill,"Bengaluru, Gurugram",,Retail and consumer,,,,,20261119T171417-181ae9
+R63,H&M,h and m,Bengaluru,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Marks and Spencer,marks and spencer,Gurugram,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Adidas,adidas,Chennai,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,General Mills,general mills,Mumbai,,Retail and consumer,,,,,20261119T171417-181ae9
+R63,Mercedes-Benz,mercedes benz,"Bengaluru, Pune",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,BMW Group,bmw group,"Pune, Bengaluru, Chennai",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,General Motors,general motors,Bengaluru,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Renault Nissan Mitsubishi Alliance,renault nissan mitsubishi alliance,"Chennai, Hyderabad, Bengaluru",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Hyundai Motor Company,hyundai motor company,"Hyderabad, Delhi",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Honda Motor Co.,honda motor co,"Manesar, Bengaluru",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Bosch,bosch,"Hyderabad, Coimbatore",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Siemens,siemens,"Bengaluru, Chennai, Pune, Gurugram, Noida",,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Schneider Electric,schneider electric,Bengaluru,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Cummins,cummins,Pune,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,John Deere,john deere,Pune,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Caterpillar,caterpillar,Chennai,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Schaeffler,schaeffler,Pune,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,ABB,abb,Bengaluru,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,"ZF, Knorr-Bremse, Daikin",zf knorr bremse daikin,Multiple,,"Automotive, industrial and manufacturing",,,,,20261119T171417-181ae9
+R63,Airbus,airbus,Bengaluru,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Safran,safran,Bengaluru,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Spirit AeroSystems,spirit aerosystems,Hyderabad,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Bombardier,bombardier,Hyderabad,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Shell,shell,"Bengaluru, Chennai",,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,ExxonMobil,exxonmobil,Bengaluru,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,TotalEnergies,totalenergies,"Mumbai, Pune",,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,SLB (Schlumberger),slb schlumberger,"Pune, Coimbatore",,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Vestas,vestas,Chennai,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Siemens Gamesa,siemens gamesa,Bengaluru,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,BASF,basf,Mumbai,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Dow,dow,Navi Mumbai,,"Aerospace, energy and resources",,,,,20261119T171417-181ae9
+R63,Ericsson,ericsson,"Chennai, Bengaluru, Gurugram",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Nokia,nokia,"Gurugram, Bengaluru, Chennai, Mumbai",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Vodafone,vodafone,"Pune, Bengaluru, Ahmedabad",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,BT Group,bt group,"Bengaluru, Gurugram",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Verizon,verizon,"Chennai, Hyderabad, Bengaluru",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Thomson Reuters,thomson reuters,"Hyderabad, Bengaluru",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Wolters Kluwer,wolters kluwer,"Chennai, Pune",,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,"Experian, T-Mobile",experian t mobile,Multiple,,"Telecom, media and information services",,,,,20261119T171417-181ae9
+R63,Delta Air Lines,delta air lines,Bengaluru,,"Travel, logistics and hospitality",,,,,20261119T171417-181ae9
+R63,Marriott International,marriott international,Hyderabad,,"Travel, logistics and hospitality",,,,,20261119T171417-181ae9
+R63,McDonald’s,mcdonald s,Hyderabad,,"Travel, logistics and hospitality",,,,,20261119T171417-181ae9
+R63,Uber,uber,"Hyderabad, Bengaluru",,"Travel, logistics and hospitality",,,,,20261119T171417-181ae9
+R63,"FedEx, Lufthansa",fedex lufthansa,Multiple,,"Travel, logistics and hospitality",,,,,20261119T171417-181ae9

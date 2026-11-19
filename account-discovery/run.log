@@ -1,39 +1,33 @@
-astravise: 109 rows, 107 new
+astravise: 105 rows, 103 new
 [
  {
-  "city": null,
-  "industry": "How many GCCs are there in India in 2026?",
+  "city": "Coimbatore",
+  "industry": "Where India\u2019s GCCs actually are",
   "profile_url": null,
   "raw": {
-   "measure": "GCC revenue",
-   "fy19": "USD 40.4 bn",
-   "fy24": "USD 64.6 bn",
-   "fy26e": "USD 98.4 bn",
-   "2030 projection": "USD 105 bn"
+   "emerging city": "Coimbatore",
+   "gcc units fy26e": "60+",
+   "examples of gccs present": "Amazon, Bosch Global Software Technologies, Colruyt Group"
   }
  },
  {
-  "city": null,
-  "industry": "How many GCCs are there in India in 2026?",
+  "city": "Ahmedabad",
+  "industry": "Where India\u2019s GCCs actually are",
   "profile_url": null,
   "raw": {
-   "measure": "GCCs",
-   "fy19": "Not stated",
-   "fy24": "1,700+",
-   "fy26e": "2,117",
-   "2030 projection": "~2,400"
+   "emerging city": "Ahmedabad",
+   "gcc units fy26e": "45+",
+   "examples of gccs present": "S&P Global, Bank of America, Cadence"
   }
  },
  {
-  "city": null,
-  "industry": "How many GCCs are there in India in 2026?",
+  "city": "Kolkata",
+  "industry": "Where India\u2019s GCCs actually are",
   "profile_url": null,
   "raw": {
-   "measure": "Units or centres",
-   "fy19": "Not stated",
-   "fy24": "2,975+",
-   "fy26e": "3,728",
-   "2030 projection": "Not stated"
+   "emerging city": "Kolkata",
+   "gcc units fy26e": "45+",
+   "examples of gccs present": "Siemens, Honeywell, Philips"
   }
  }
 ]
