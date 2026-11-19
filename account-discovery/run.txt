@@ -1,1 +1,1 @@
-sebi --csv out --debug --max-pages 2
+sebi --csv out --max-pages 100
