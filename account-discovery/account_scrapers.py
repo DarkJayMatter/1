@@ -422,14 +422,9 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "nextknock": "https://www.nextknock.in/companies",
-    "hirehire": "https://hirehire.in/companies.html",
-    "careerjet": "https://www.careerjet.co.in/companies",
-    "bankzop": "https://bankzop.com/nbfc-directory/",
-    "sebi": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognised=yes",
-    "irdai_life": "https://intranet.irdai.gov.in/web/guest/list-of-life-insurers1",
-    "irdai_general": "https://irdai.gov.in/web/guest/list-of-general-insurers",
-    "trai": "https://tariffnew.trai.gov.in/service-provider/2",
+    "cj_a": "https://www.careerjet.co.in/companies/a",
+    "cj_a2": "https://www.careerjet.co.in/companies/a/2",
+    "cj_p2": "https://www.careerjet.co.in/companies/2",
 }
 
 
