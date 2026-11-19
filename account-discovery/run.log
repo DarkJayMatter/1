@@ -1,36 +1,106 @@
-gccjournal: 41 rows, 40 new
-[
- {
-  "city": null,
-  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
-  "profile_url": null,
-  "raw": {
-   "company / gcc name": "Microsoft India Development Center",
-   "sector": "Technology / Cloud / AI",
-   "approx. headcount": "10,000+",
-   "key focus areas": "Core Azure, Office, and global AI products."
-  }
- },
- {
-  "city": null,
-  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
-  "profile_url": null,
-  "raw": {
-   "company / gcc name": "Amazon / AWS India",
-   "sector": "Technology / Cloud",
-   "approx. headcount": "10,000+",
-   "key focus areas": "AWS cloud infrastructure, logistics AI, retail tech."
-  }
- },
- {
-  "city": null,
-  "industry": "Bengaluru (The Silicon Valley and Tech HQ)",
-  "profile_url": null,
-  "raw": {
-   "company / gcc name": "SAP Labs India",
-   "sector": "Technology / Cloud",
-   "approx. headcount": "10,000+",
-   "key focus areas": "Largest SAP R&D hub outside Germany; ERP and ML."
-  }
- }
-]
+- ABB (ABB LTD): no 10-K
+- AMD: no SEC match (probably non-US)
+- Abbott (ABBOTT LABORATORIES): no Ex-21 file
+- Adidas: no SEC match (probably non-US)
++ Adobe (ADOBE INC., 10-K 2026-01-15): 1 India entities, 1 new
+- Airbus: no SEC match (probably non-US)
++ Amazon (AMAZON COM INC, 10-K 2026-02-06): 0 India entities, 0 new
+- American Express (AMERICAN EXPRESS CO): no Ex-21 file
+- AstraZeneca (ASTRAZENECA PLC): no 10-K
++ Atlassian (Atlassian Corp, 10-K 2026-08-14): 3 India entities, 3 new
+- BASF: no SEC match (probably non-US)
+- BMW Group: no SEC match (probably non-US)
+- BNY Mellon (BNY MELLON STRATEGIC MUNICIPALS, INC.): no 10-K
+- BT Group: no SEC match (probably non-US)
+- Barclays (BARCLAYS PLC): no 10-K
+- Bayer: no SEC match (probably non-US)
++ Biogen (BIOGEN INC., 10-K 2026-02-06): 2 India entities, 2 new
++ BlackRock (BlackRock, Inc., 10-K 2026-02-25): 10 India entities, 10 new
+- Bombardier: no SEC match (probably non-US)
+- Bosch: no SEC match (probably non-US)
++ Boston Scientific (BOSTON SCIENTIFIC CORP, 10-K 2026-02-17): 3 India entities, 3 new
+- Cargill: no SEC match (probably non-US)
+- Caterpillar (CATERPILLAR INC): no Ex-21 file
++ Colgate-Palmolive (COLGATE PALMOLIVE CO, 10-K 2026-02-23): 3 India entities, 3 new
++ Cummins (CUMMINS INC, 10-K 2026-02-10): 8 India entities, 8 new
+- Daikin (Daikin Industries Ltd): no 10-K
+- Databricks: no SEC match (probably non-US)
++ Delta Air Lines (DELTA AIR LINES, INC., 10-K 2026-02-11): 1 India entities, 1 new
+- Deutsche Bank (DEUTSCHE BANK AKTIENGESELLSCHAFT): no 10-K
++ Dow (DOW INC., 10-K 2026-02-03): 1 India entities, 1 new
++ Eli Lilly (ELI LILLY & Co, 10-K 2026-02-12): 2 India entities, 2 new
+- Ericsson (ERICSSON LM TELEPHONE CO): no 10-K
+- Experian: no SEC match (probably non-US)
+- ExxonMobil (ExxonMobil Holdings Corp): no 10-K
+- FedEx (FEDEX CORP): no Ex-21 file
+- Fidelity Investments: no SEC match (probably non-US)
++ Franklin Templeton (FRANKLIN TEMPLETON INC, 10-K 2026-11-09): 6 India entities, 6 new
++ GE HealthCare (GE HealthCare Technologies Inc., 10-K 2026-02-04): 4 India entities, 4 new
++ General Mills (GENERAL MILLS INC, 10-K 2026-07-01): 0 India entities, 0 new
++ General Motors (General Motors Co, 10-K 2026-01-27): 2 India entities, 2 new
+- GlaxoSmithKline: no SEC match (probably non-US)
+- Goldman Sachs (Goldman Sachs BDC, Inc.): no Ex-21 file
+- Google: no SEC match (probably non-US)
+- H&M (H&M HENNES & MAURITZ AB): no 10-K
+- HSBC (HSBC HOLDINGS PLC): no 10-K
+- Honda Motor Co. (HONDA MOTOR CO LTD): no 10-K
+- Hyundai Motor Company: no SEC match (probably non-US)
++ Intel (INTEL CORP, 10-K 2026-01-23): 0 India entities, 0 new
++ JPMorgan Chase & Co. (JPMORGAN CHASE & CO, 10-K 2026-02-13): 1 India entities, 1 new
+- John Deere: no SEC match (probably non-US)
+- Knorr-Bremse: no SEC match (probably non-US)
+- Lowe’s Companies: no SEC match (probably non-US)
+- Lufthansa: no SEC match (probably non-US)
+- L’Oréal: no SEC match (probably non-US)
+- MUFG Bank: no SEC match (probably non-US)
+- Marks and Spencer: no SEC match (probably non-US)
+- Marriott International (MARRIOTT INTERNATIONAL INC /MD/): no Ex-21 file
+- McDonald’s: no SEC match (probably non-US)
++ Medtronic (Medtronic plc, 10-K 2026-06-18): 3 India entities, 3 new
+- Mercedes-Benz: no SEC match (probably non-US)
++ Microsoft (MICROSOFT CORP, 10-K 2026-07-29): 0 India entities, 0 new
++ Mondelez International (Mondelez International, Inc., 10-K 2026-02-04): 3 India entities, 3 new
++ Morgan Stanley (MORGAN STANLEY, 10-K 2026-02-19): 0 India entities, 0 new
+- NXP Semiconductors (NXP Semiconductors N.V.): no Ex-21 file
+- Nestlé: no SEC match (probably non-US)
++ Nike (NIKE, Inc., 10-K 2026-07-15): 0 India entities, 0 new
+- Nokia (NOKIA CORP): no 10-K
+- Novartis (NOVARTIS AG): no 10-K
+- Novo Nordisk (NOVO NORDISK A S): no 10-K
+- Nvidia (NVIDIA CORP): no Ex-21 file
+- Optum (UnitedHealth Group): no SEC match (probably non-US)
++ Oracle (ORACLE CORP, 10-K 2026-06-22): 0 India entities, 0 new
+- Philips Healthcare: no SEC match (probably non-US)
++ Procter & Gamble (PROCTER & GAMBLE Co, 10-K 2026-08-04): 8 India entities, 8 new
+- Providence: no SEC match (probably non-US)
++ Qualcomm (QUALCOMM INC/DE, 10-K 2026-11-04): 1 India entities, 1 new
+- Renault Nissan Mitsubishi Alliance: no SEC match (probably non-US)
+- Roche Diagnostics: no SEC match (probably non-US)
+- SLB (Schlumberger): no SEC match (probably non-US)
+- Safran: no SEC match (probably non-US)
++ Salesforce (Salesforce, Inc., 10-K 2026-03-02): 10 India entities, 10 new
+- Samsung Electronics: no SEC match (probably non-US)
+- Schaeffler (Schaeffler AG/ADR): no 10-K
+- Schneider Electric: no SEC match (probably non-US)
+- Shell (Shell plc): no 10-K
+- Siemens (Siemens Energy AG/ADR): no 10-K
+- Siemens Gamesa: no SEC match (probably non-US)
+- Spirit AeroSystems: no SEC match (probably non-US)
+- Standard Chartered: no SEC match (probably non-US)
+- Swiss Re: no SEC match (probably non-US)
++ T-Mobile (T-Mobile US, Inc., 10-K 2026-02-11): 2 India entities, 2 new
+- Target Corporation: no SEC match (probably non-US)
++ Texas Instruments (TEXAS INSTRUMENTS INC, 10-K 2026-02-06): 1 India entities, 1 new
+- Thomson Reuters (THOMSON REUTERS CORP /CAN/): no 10-K
+- TotalEnergies (TotalEnergies SE): no 10-K
++ Uber (Uber Technologies, Inc, 10-K 2026-02-13): 0 India entities, 0 new
+- Unilever (UNILEVER PLC): no 10-K
++ Verizon (VERIZON COMMUNICATIONS INC, 10-K 2026-02-17): 0 India entities, 0 new
+- Vestas (VESTAS WIND SYSTEMS A/S): no 10-K
++ Viatris (Viatris Inc, 10-K 2026-02-26): 3 India entities, 3 new
+- Vodafone (VODAFONE GROUP PUBLIC LTD CO): no 10-K
++ Walmart (Walmart Inc., 10-K 2026-03-13): 0 India entities, 0 new
++ Wells Fargo (WELLS FARGO & COMPANY/MN, 10-K 2026-02-24): 1 India entities, 1 new
+- Wolters Kluwer (WOLTERS KLUWER N V /FI): no 10-K
+- ZF: no SEC match (probably non-US)
+EDGAR: 79 new rows
