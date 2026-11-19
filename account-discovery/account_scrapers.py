@@ -448,16 +448,89 @@ def run_probe(sink, args):
         time.sleep(args.delay)
 
 
+def run_nextknock(sink, args):
+    """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
+    r = get("https://www.nextknock.in/companies", args.delay)
+    if r is None:
+        print("nextknock: no response"); return
+    soup = BeautifulSoup(r.text, "html.parser")
+    n = new = 0
+    for a in soup.find_all("a", href=re.compile(r"^/companies/[^/]+$")):
+        span = a.find("span")
+        roles = span.get_text(strip=True) if span else None
+        if span:
+            span.extract()
+        name = a.get_text(" ", strip=True)
+        if not name:
+            continue
+        n += 1
+        new += sink.add(name, profile_url="https://www.nextknock.in" + a["href"], raw={"open_roles": roles})
+    print(f"nextknock: {n} companies, {new} new")
+
+
+def run_hirehire(sink, args):
+    r = get("https://hirehire.in/companies.html", args.delay)
+    if r is None:
+        print("hirehire: no response"); return
+    soup = BeautifulSoup(r.text, "html.parser")
+    n = new = 0
+    for a in soup.select("a.ci-card"):
+        b = a.find("b"); sp = a.find("span")
+        if not b:
+            continue
+        info = sp.get_text(" ", strip=True) if sp else ""
+        sector = info.split("·")[-1].strip() if "·" in info else None
+        n += 1
+        new += sink.add(b.get_text(strip=True), industry=sector,
+                        profile_url="https://hirehire.in" + a["href"], raw={"info": info})
+    print(f"hirehire: {n} companies, {new} new")
+
+
+def run_trai(sink, args):
+    r = get("https://tariffnew.trai.gov.in/service-provider/2", args.delay)
+    if r is None:
+        print("trai: no response"); return
+    rows = parse_tables(r.text)
+    new = sum(sink.add(x.pop("name"), industry="ISP (TRAI)", raw=x["raw"]) for x in rows)
+    print(f"trai: {len(rows)} rows, {new} new")
+
+
+def run_bankzop(sink, args):
+    """BankZop NBFC directory via the JSON endpoint its own page calls (20 per page)."""
+    page = args.start_page
+    while page <= args.max_pages:
+        url = f"https://www.bankzop.com/api/nbfc/search?page={page}&per_page=20&q=a"
+        if not allowed(url):
+            print("bankzop: robots.txt disallows the API; stopping"); return
+        try:
+            r = SESSION.get(url, headers={"Accept": "application/json"}, timeout=45)
+            d = r.json()
+        except Exception as e:
+            print(f"bankzop page {page}: failed ({e}); stopping"); return
+        rows = d.get("data") or []
+        new = sum(sink.add(x["name"], state=x.get("state"), industry=x.get("category"),
+                           raw={"cin_or_reg": x.get("registration_number")}) for x in rows)
+        print(f"page {page}/{d.get('pages')}: {len(rows)} rows, {new} new")
+        if not rows or page >= (d.get("pages") or 0):
+            break
+        page += 1
+        time.sleep(args.delay)
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "nextknock": ("R54", run_nextknock),
+        "hirehire": ("R57", run_hirehire),
+        "trai": ("R48", run_trai),
+        "bankzop": ("R44", run_bankzop),
         "astravise": ("R63", make_table_runner("astravise", "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/")),
         "gccjournal": ("R62", make_table_runner("gccjournal", "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/"))}
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("source", choices=list(JOBS) + ["all"])
+    p.add_argument("source", help="one of: " + ", ".join(JOBS) + ", all, or a comma-separated list")
     p.add_argument("--db", help="Postgres URL for the staging database")
     p.add_argument("--csv", help="Directory for CSV output (one file per source)")
     p.add_argument("--delay", type=float, default=1.5, help="Seconds between requests")
@@ -467,7 +540,11 @@ def main():
     args = p.parse_args()
     if not args.db and not args.csv and not args.debug:
         p.error("give --db and/or --csv")
-    for name in (JOBS if args.source == "all" else [args.source]):
+    names = list(JOBS) if args.source == "all" else args.source.split(",")
+    bad = [n for n in names if n not in JOBS]
+    if bad:
+        p.error(f"unknown source: {bad}")
+    for name in names:
         sid, fn = JOBS[name]
         sink = Sink(args.db, args.csv, sid)
         try:

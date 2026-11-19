@@ -1,1 +1,1 @@
-probe --csv out
+nextknock,hirehire,trai --csv out
