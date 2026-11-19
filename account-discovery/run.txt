@@ -1,1 +1,1 @@
-nextknock,hirehire,trai --csv out
+bankzop --csv out --max-pages 1
