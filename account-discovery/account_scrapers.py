@@ -254,22 +254,25 @@ def run_careerscan(sink, args):
 
 # --- R55: Erekrut ------------------------------------------------------------
 def parse_erekrut(html):
+    """Cards are <a href=/company/slug><h5>Name</h5></a> followed by a location span."""
     soup = BeautifulSoup(html, "html.parser")
-    needle = SELECTORS["erekrut"]["card_link_contains"]
     rows, seen = [], set()
     for a in soup.find_all("a", href=True):
-        if needle not in a["href"] or "all-companies" in a["href"]:
+        if "/company/" not in a["href"]:
             continue
-        name = a.get_text(" ", strip=True)
-        if not name or len(name) < 2 or name in seen:
+        h = a.find(["h5", "h4", "h3"])
+        if not h:  # skips the "Visit Jobs" links
             continue
-        seen.add(name)
-        card = a.find_parent(["article", "li", "div"])
-        text = card.get_text(" | ", strip=True) if card else name
-        loc = re.search(r"([A-Za-z .&]+),\s*IN\b", text)
-        rows.append({"name": name, "profile_url": a["href"],
-                     "state": loc.group(1).strip() if loc else None,
-                     "raw": {"card_text": text[:400]}})
+        name = h.get_text(" ", strip=True)
+        if not name or a["href"] in seen:
+            continue
+        seen.add(a["href"])
+        box = a.parent
+        loc = box.find("span") if box else None
+        place = loc.get_text(" ", strip=True) if loc else ""
+        state = re.sub(r",?\s*IN$", "", place).strip() or None
+        rows.append({"name": name, "profile_url": a["href"], "state": state,
+                     "raw": {"location": place}})
     return rows
 
 
