@@ -1,1 +1,1 @@
-careerjet --csv out --max-pages 200
+probe --csv out

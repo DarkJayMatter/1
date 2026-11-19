@@ -422,9 +422,9 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "cj_a": "https://www.careerjet.co.in/companies/a",
-    "cj_a2": "https://www.careerjet.co.in/companies/a/2",
-    "cj_p2": "https://www.careerjet.co.in/companies/2",
+    "sebi_9": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=9",
+    "sebi_13": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=13",
+    "sebi_23": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=23",
 }
 
 
