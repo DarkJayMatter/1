@@ -1,1 +1,1 @@
-edgar --csv out
+probe --csv out

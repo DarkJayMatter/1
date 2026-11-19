@@ -421,8 +421,36 @@ def run_edgar(sink, args):
     print(f"EDGAR: {sink.added} new rows")
 
 
+PROBES = {
+    "nextknock": "https://www.nextknock.in/companies",
+    "hirehire": "https://hirehire.in/companies.html",
+    "careerjet": "https://www.careerjet.co.in/companies",
+    "bankzop": "https://bankzop.com/nbfc-directory/",
+    "sebi": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognised=yes",
+    "irdai_life": "https://intranet.irdai.gov.in/web/guest/list-of-life-insurers1",
+    "irdai_general": "https://irdai.gov.in/web/guest/list-of-general-insurers",
+    "trai": "https://tariffnew.trai.gov.in/service-provider/2",
+}
+
+
+def run_probe(sink, args):
+    """Save raw HTML of first page of each source so parsers can be written against real markup."""
+    os.makedirs("out/probe", exist_ok=True)
+    for k, url in PROBES.items():
+        try:
+            if not allowed(url):
+                print(f"{k}: robots.txt disallows"); continue
+            r = SESSION.get(url, timeout=45)
+            open(f"out/probe/{k}.html", "w", encoding="utf-8").write(r.text)
+            print(f"{k}: HTTP {r.status_code}, {len(r.text)} bytes")
+        except Exception as e:
+            print(f"{k}: failed {e}")
+        time.sleep(args.delay)
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
+        "probe": ("PROBE", run_probe),
         "astravise": ("R63", make_table_runner("astravise", "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/")),
         "gccjournal": ("R62", make_table_runner("gccjournal", "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/"))}
 
