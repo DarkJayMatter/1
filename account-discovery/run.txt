@@ -1,1 +1,1 @@
-careerscan --csv out --debug
+erekrut --csv out --debug
