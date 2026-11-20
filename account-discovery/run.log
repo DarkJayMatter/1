@@ -1,6 +1,9 @@
-p_hirehire: HTTP 200, 14364 bytes
-p_nextknock: HTTP 200, 67715 bytes
-p_ingrid: HTTP 200, 14181 bytes
-p_riseflake: HTTP 200, 134513 bytes
-p_erekrut: HTTP 200, 434020 bytes
-p_careerjet: HTTP 200, 10952 bytes
+Traceback (most recent call last):
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 826, in <module>
+    main()
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 820, in main
+    fn(sink, args)
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 746, in run_enrich
+    inp = [r for r in csv.DictReader(open("scoring/enrich_input.csv", encoding="utf-8")) if r["source_id"] in only]
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'scoring/enrich_input.csv'
