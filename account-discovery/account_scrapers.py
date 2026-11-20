@@ -787,7 +787,10 @@ GPTW_PAGES = ["indias-best-companies-to-work-for", "indias-best-workplaces-in-ma
               "indias-great-mid-size-workplaces", "indias-best-workplaces-in-bfsi", "indias-best-workplaces-in-it-it-bpm",
               "indias-best-workplaces-in-health-wellness", "indias-best-workplaces-in-retail",
               "indias-best-workplaces-in-pharmaceuticals-healthcare-biotech",
-              "indias-best-employers-among-nation-builders"]
+              "indias-best-employers-among-nation-builders",
+              "indias-best-workplaces-in-it-and-it-bpm", "indias-best-workplaces-in-it-it-bpm-2025",
+              "indias-best-workplaces-in-it", "indias-best-workplaces-in-pharmaceuticals-healthcare-and-biotech",
+              "indias-best-workplaces-in-pharma-healthcare-biotech", "indias-best-workplaces-in-pharmaceuticals"]
 
 
 def run_gptw(sink, args):
@@ -842,6 +845,11 @@ def run_rbi(sink, args):
     print(f"rbi: {url} -> HTTP {x.status_code}, {len(x.content)} bytes")
     if x.status_code != 200:
         return
+    os.makedirs("out/probe", exist_ok=True)
+    open("out/probe/rbi_nbfc_file.bin", "wb").write(x.content)
+    print(f"rbi: content-type {x.headers.get('content-type')}, first bytes {x.content[:120]!r}")
+    if not x.content.startswith(b"PK"):
+        print("rbi: not an xlsx zip; saved to out/probe/rbi_nbfc_file.bin for inspection"); return
     wb = openpyxl.load_workbook(io.BytesIO(x.content), read_only=True, data_only=True)
     new = total = 0
     for ws in wb.worksheets:

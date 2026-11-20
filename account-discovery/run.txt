@@ -1,1 +1,1 @@
-gptw,wiki,rbi --csv out --delay 2
+gptw,rbi --csv out --delay 2
