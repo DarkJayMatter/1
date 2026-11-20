@@ -1,0 +1,439 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id,extra
+R59,Atlassian,atlassian,,,cloud developer tools,,,,https://ingrid.fyi/companies/atlassian,20261120T025616-b7aa17,{}
+R59,DigitalOcean,digitalocean,,,cloud developer tools,,,,https://ingrid.fyi/companies/digitalocean,20261120T025616-b7aa17,{}
+R59,Sumo Logic,sumo logic,,,cloud developer tools,,,,https://ingrid.fyi/companies/sumo-logic,20261120T025616-b7aa17,{}
+R59,Postman,postman,,,cloud developer tools,,,,https://ingrid.fyi/companies/postman,20261120T025616-b7aa17,{}
+R59,MathWorks,mathworks,,,cloud developer tools,,,,https://ingrid.fyi/companies/mathworks,20261120T025616-b7aa17,{}
+R59,GitLab,gitlab,,,cloud developer tools,,,,https://ingrid.fyi/companies/gitlab,20261120T025616-b7aa17,{}
+R59,New Relic,new relic,,,cloud developer tools,,,,https://ingrid.fyi/companies/new-relic,20261120T025616-b7aa17,{}
+R59,Harness,harness,,,cloud developer tools,,,,https://ingrid.fyi/companies/harness,20261120T025616-b7aa17,{}
+R59,Emergent,emergent,,,cloud developer tools,,,,https://ingrid.fyi/companies/emergent,20261120T025616-b7aa17,{}
+R59,Blitzy,blitzy,,,cloud developer tools,,,,https://ingrid.fyi/companies/blitzy,20261120T025616-b7aa17,{}
+R59,CodeRabbit,coderabbit,,,cloud developer tools,,,,https://ingrid.fyi/companies/coderabbit,20261120T025616-b7aa17,{}
+R59,Sauce Labs,sauce labs,,,cloud developer tools,,,,https://ingrid.fyi/companies/sauce-labs,20261120T025616-b7aa17,{}
+R59,SmartBear,smartbear,,,cloud developer tools,,,,https://ingrid.fyi/companies/smartbear,20261120T025616-b7aa17,{}
+R59,AlgoShack,algoshack,,,cloud developer tools,,,,https://ingrid.fyi/companies/algoshack,20261120T025616-b7aa17,{}
+R59,SolarWinds,solarwinds,,,cloud developer tools,,,,https://ingrid.fyi/companies/solarwinds,20261120T025616-b7aa17,{}
+R59,NetApp,netapp,,,data ai,,,,https://ingrid.fyi/companies/netapp,20261120T025616-b7aa17,{}
+R59,Databricks,databricks,,,data ai,,,,https://ingrid.fyi/companies/databricks,20261120T025616-b7aa17,{}
+R59,Teradata,teradata,,,data ai,,,,https://ingrid.fyi/companies/teradata,20261120T025616-b7aa17,{}
+R59,NielsenIQ,nielseniq,,,data ai,,,,https://ingrid.fyi/companies/nielseniq,20261120T025616-b7aa17,{}
+R59,Fivetran,fivetran,,,data ai,,,,https://ingrid.fyi/companies/fivetran,20261120T025616-b7aa17,{}
+R59,Strategy,strategy,,,data ai,,,,https://ingrid.fyi/companies/strategy,20261120T025616-b7aa17,{}
+R59,MongoDB,mongodb,,,data ai,,,,https://ingrid.fyi/companies/mongodb,20261120T025616-b7aa17,{}
+R59,Nasuni,nasuni,,,data ai,,,,https://ingrid.fyi/companies/nasuni,20261120T025616-b7aa17,{}
+R59,HERE Technologies,here technologies,,,data ai,,,,https://ingrid.fyi/companies/here-technologies,20261120T025616-b7aa17,{}
+R59,Esri,esri,,,data ai,,,,https://ingrid.fyi/companies/esri,20261120T025616-b7aa17,{}
+R59,AEREO,aereo,,,data ai,,,,https://ingrid.fyi/companies/aereo,20261120T025616-b7aa17,{}
+R59,WisdomAI,wisdomai,,,data ai,,,,https://ingrid.fyi/companies/wisdomai,20261120T025616-b7aa17,{}
+R59,SAS,sas,,,data ai,,,,https://ingrid.fyi/companies/sas,20261120T025616-b7aa17,{}
+R59,S&P Global Mobility,s and p global mobility,,,data ai,,,,https://ingrid.fyi/companies/s-p-global-mobility,20261120T025616-b7aa17,{}
+R59,Nielsen,nielsen,,,data ai,,,,https://ingrid.fyi/companies/nielsen,20261120T025616-b7aa17,{}
+R59,Precisely,precisely,,,data ai,,,,https://ingrid.fyi/companies/precisely,20261120T025616-b7aa17,{}
+R59,Cognite,cognite,,,data ai,,,,https://ingrid.fyi/companies/cognite,20261120T025616-b7aa17,{}
+R59,Blue Yonder,blue yonder,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/blue-yonder,20261120T025616-b7aa17,{}
+R59,Agoda,agoda,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/agoda,20261120T025616-b7aa17,{}
+R59,eBay,ebay,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/ebay,20261120T025616-b7aa17,{}
+R59,Expedia Group,expedia group,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/expedia-group,20261120T025616-b7aa17,{}
+R59,NCR Voyix,ncr voyix,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/ncr-voyix,20261120T025616-b7aa17,{}
+R59,Toast,toast,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/toast,20261120T025616-b7aa17,{}
+R59,Sabre Corp.,sabre corp,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/sabre-corp,20261120T025616-b7aa17,{}
+R59,Amadeus,amadeus,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/amadeus,20261120T025616-b7aa17,{}
+R59,Cencora,cencora,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/cencora,20261120T025616-b7aa17,{}
+R59,Delhivery,delhivery,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/delhivery,20261120T025616-b7aa17,{}
+R59,DTDC Express Ltd,dtdc express,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/dtdc-express-ltd,20261120T025616-b7aa17,{}
+R59,Pitney Bowes,pitney bowes,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/pitney-bowes,20261120T025616-b7aa17,{}
+R59,LogiNext,loginext,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/loginext,20261120T025616-b7aa17,{}
+R59,Blitz,blitz,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/blitz,20261120T025616-b7aa17,{}
+R59,GreyOrange,greyorange,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/greyorange,20261120T025616-b7aa17,{}
+R59,Infios,infios,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/infios,20261120T025616-b7aa17,{}
+R59,Botsync,botsync,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/botsync,20261120T025616-b7aa17,{}
+R59,Kaleris,kaleris,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/kaleris,20261120T025616-b7aa17,{}
+R59,Platform Science,platform science,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/platform-science,20261120T025616-b7aa17,{}
+R59,Porter,porter,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/porter,20261120T025616-b7aa17,{}
+R59,project44,project44,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/project44,20261120T025616-b7aa17,{}
+R59,Shippeo,shippeo,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/shippeo,20261120T025616-b7aa17,{}
+R59,TraceLink,tracelink,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/tracelink,20261120T025616-b7aa17,{}
+R59,CrimsonLogic,crimsonlogic,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/crimsonlogic,20261120T025616-b7aa17,{}
+R59,KlearNow.AI,klearnow ai,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/klearnow-ai,20261120T025616-b7aa17,{}
+R59,GeoServe,geoserve,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/geoserve,20261120T025616-b7aa17,{}
+R59,GHX,ghx,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/ghx,20261120T025616-b7aa17,{}
+R59,QAD,qad,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/qad,20261120T025616-b7aa17,{}
+R59,Wayfair,wayfair,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/wayfair,20261120T025616-b7aa17,{}
+R59,Meesho,meesho,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/meesho,20261120T025616-b7aa17,{}
+R59,Fanatics,fanatics,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/fanatics,20261120T025616-b7aa17,{}
+R59,Purplle.com,purplle com,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/purplle-com,20261120T025616-b7aa17,{}
+R59,Quince,quince,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/quince,20261120T025616-b7aa17,{}
+R59,Grab,grab,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/grab,20261120T025616-b7aa17,{}
+R59,Urban Company,urban company,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/urban-company,20261120T025616-b7aa17,{}
+R59,Snabbit,snabbit,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/snabbit,20261120T025616-b7aa17,{}
+R59,StockX,stockx,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/stockx,20261120T025616-b7aa17,{}
+R59,Mercari Inc.,mercari,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/mercari-inc,20261120T025616-b7aa17,{}
+R59,Carousell Group,carousell group,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/carousell-group,20261120T025616-b7aa17,{}
+R59,Mouser Electronics,mouser electronics,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/mouser-electronics,20261120T025616-b7aa17,{}
+R59,Syndigo,syndigo,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/syndigo,20261120T025616-b7aa17,{}
+R59,Pattern,pattern,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/pattern,20261120T025616-b7aa17,{}
+R59,Reliance Retail,reliance retail,,,ecommerce travel logistics,,,,https://ingrid.fyi/companies/reliance-retail,20261120T025616-b7aa17,{}
+R59,UKG,ukg,,,enterprise software,,,,https://ingrid.fyi/companies/ukg,20261120T025616-b7aa17,{}
+R59,Infor,infor,,,enterprise software,,,,https://ingrid.fyi/companies/infor,20261120T025616-b7aa17,{}
+R59,ServiceNow,servicenow,,,enterprise software,,,,https://ingrid.fyi/companies/servicenow,20261120T025616-b7aa17,{}
+R59,Rippling,rippling,,,enterprise software,,,,https://ingrid.fyi/companies/rippling,20261120T025616-b7aa17,{}
+R59,Docusign,docusign,,,enterprise software,,,,https://ingrid.fyi/companies/docusign,20261120T025616-b7aa17,{}
+R59,Epsilon,epsilon,,,enterprise software,,,,https://ingrid.fyi/companies/epsilon,20261120T025616-b7aa17,{}
+R59,Kaseya,kaseya,,,enterprise software,,,,https://ingrid.fyi/companies/kaseya,20261120T025616-b7aa17,{}
+R59,Freshworks,freshworks,,,enterprise software,,,,https://ingrid.fyi/companies/freshworks,20261120T025616-b7aa17,{}
+R59,HackerRank,hackerrank,,,enterprise software,,,,https://ingrid.fyi/companies/hackerrank,20261120T025616-b7aa17,{}
+R59,Karat,karat,,,enterprise software,,,,https://ingrid.fyi/companies/karat,20261120T025616-b7aa17,{}
+R59,Talview,talview,,,enterprise software,,,,https://ingrid.fyi/companies/talview,20261120T025616-b7aa17,{}
+R59,isolved,isolved,,,enterprise software,,,,https://ingrid.fyi/companies/isolved,20261120T025616-b7aa17,{}
+R59,Joveo,joveo,,,enterprise software,,,,https://ingrid.fyi/companies/joveo,20261120T025616-b7aa17,{}
+R59,Phenom,phenom,,,enterprise software,,,,https://ingrid.fyi/companies/phenom,20261120T025616-b7aa17,{}
+R59,Sense,sense,,,enterprise software,,,,https://ingrid.fyi/companies/sense,20261120T025616-b7aa17,{}
+R59,Weekday,weekday,,,enterprise software,,,,https://ingrid.fyi/companies/weekday,20261120T025616-b7aa17,{}
+R59,HireQuotient,hirequotient,,,enterprise software,,,,https://ingrid.fyi/companies/hirequotient,20261120T025616-b7aa17,{}
+R59,Vahan.ai,vahan ai,,,enterprise software,,,,https://ingrid.fyi/companies/vahan-ai,20261120T025616-b7aa17,{}
+R59,First Advantage,first advantage,,,enterprise software,,,,https://ingrid.fyi/companies/first-advantage,20261120T025616-b7aa17,{}
+R59,HireRight,hireright,,,enterprise software,,,,https://ingrid.fyi/companies/hireright,20261120T025616-b7aa17,{}
+R59,Accurate Background,accurate background,,,enterprise software,,,,https://ingrid.fyi/companies/accurate-background,20261120T025616-b7aa17,{}
+R59,Cornerstone OnDemand,cornerstone ondemand,,,enterprise software,,,,https://ingrid.fyi/companies/cornerstone-ondemand,20261120T025616-b7aa17,{}
+R59,Whatfix,whatfix,,,enterprise software,,,,https://ingrid.fyi/companies/whatfix,20261120T025616-b7aa17,{}
+R59,HowNow,hownow,,,enterprise software,,,,https://ingrid.fyi/companies/hownow,20261120T025616-b7aa17,{}
+R59,Leena AI,leena ai,,,enterprise software,,,,https://ingrid.fyi/companies/leena-ai,20261120T025616-b7aa17,{}
+R59,CultureMonkey,culturemonkey,,,enterprise software,,,,https://ingrid.fyi/companies/culturemonkey,20261120T025616-b7aa17,{}
+R59,SpeakUp,speakup,,,enterprise software,,,,https://ingrid.fyi/companies/speakup,20261120T025616-b7aa17,{}
+R59,Alegeus,alegeus,,,enterprise software,,,,https://ingrid.fyi/companies/alegeus,20261120T025616-b7aa17,{}
+R59,Alight Solutions,alight solutions,,,enterprise software,,,,https://ingrid.fyi/companies/alight-solutions,20261120T025616-b7aa17,{}
+R59,bswift,bswift,,,enterprise software,,,,https://ingrid.fyi/companies/bswift,20261120T025616-b7aa17,{}
+R59,Envoy Global,envoy global,,,enterprise software,,,,https://ingrid.fyi/companies/envoy-global,20261120T025616-b7aa17,{}
+R59,Multiplier,multiplier,,,enterprise software,,,,https://ingrid.fyi/companies/multiplier,20261120T025616-b7aa17,{}
+R59,Papaya Global,papaya global,,,enterprise software,,,,https://ingrid.fyi/companies/papaya-global,20261120T025616-b7aa17,{}
+R59,Broccoli AI,broccoli ai,,,enterprise software,,,,https://ingrid.fyi/companies/broccoli-ai,20261120T025616-b7aa17,{}
+R59,Neuron7.ai,neuron7 ai,,,enterprise software,,,,https://ingrid.fyi/companies/neuron7-ai,20261120T025616-b7aa17,{}
+R59,Yellow.ai,yellow ai,,,enterprise software,,,,https://ingrid.fyi/companies/yellow-ai,20261120T025616-b7aa17,{}
+R59,NiCE,nice,,,enterprise software,,,,https://ingrid.fyi/companies/nice,20261120T025616-b7aa17,{}
+R59,Five9,five9,,,enterprise software,,,,https://ingrid.fyi/companies/five9,20261120T025616-b7aa17,{}
+R59,Genesys,genesys,,,enterprise software,,,,https://ingrid.fyi/companies/genesys,20261120T025616-b7aa17,{}
+R59,Zendesk,zendesk,,,enterprise software,,,,https://ingrid.fyi/companies/zendesk,20261120T025616-b7aa17,{}
+R59,Gainsight,gainsight,,,enterprise software,,,,https://ingrid.fyi/companies/gainsight,20261120T025616-b7aa17,{}
+R59,Enterpret,enterpret,,,enterprise software,,,,https://ingrid.fyi/companies/enterpret,20261120T025616-b7aa17,{}
+R59,Bazaarvoice,bazaarvoice,,,enterprise software,,,,https://ingrid.fyi/companies/bazaarvoice,20261120T025616-b7aa17,{}
+R59,Reputation,reputation,,,enterprise software,,,,https://ingrid.fyi/companies/reputation,20261120T025616-b7aa17,{}
+R59,ServiceTitan,servicetitan,,,enterprise software,,,,https://ingrid.fyi/companies/servicetitan,20261120T025616-b7aa17,{}
+R59,Zenoti,zenoti,,,enterprise software,,,,https://ingrid.fyi/companies/zenoti,20261120T025616-b7aa17,{}
+R59,Syncron,syncron,,,enterprise software,,,,https://ingrid.fyi/companies/syncron,20261120T025616-b7aa17,{}
+R59,Level AI,level ai,,,enterprise software,,,,https://ingrid.fyi/companies/level-ai,20261120T025616-b7aa17,{}
+R59,Observe.AI,observe ai,,,enterprise software,,,,https://ingrid.fyi/companies/observe-ai,20261120T025616-b7aa17,{}
+R59,Uniphore,uniphore,,,enterprise software,,,,https://ingrid.fyi/companies/uniphore,20261120T025616-b7aa17,{}
+R59,Deltek,deltek,,,enterprise software,,,,https://ingrid.fyi/companies/deltek,20261120T025616-b7aa17,{}
+R59,Harris Computer,harris computer,,,enterprise software,,,,https://ingrid.fyi/companies/harris-computer,20261120T025616-b7aa17,{}
+R59,Conga,conga,,,enterprise software,,,,https://ingrid.fyi/companies/conga,20261120T025616-b7aa17,{}
+R59,OpenText,opentext,,,enterprise software,,,,https://ingrid.fyi/companies/opentext,20261120T025616-b7aa17,{}
+R59,Workfabric AI,workfabric ai,,,enterprise software,,,,https://ingrid.fyi/companies/workfabric-ai,20261120T025616-b7aa17,{}
+R59,NextDimension AI,nextdimension ai,,,enterprise software,,,,https://ingrid.fyi/companies/nextdimension-ai,20261120T025616-b7aa17,{}
+R59,Ema UnLtd,ema unltd,,,enterprise software,,,,https://ingrid.fyi/companies/ema-unltd,20261120T025616-b7aa17,{}
+R59,Skan AI,skan ai,,,enterprise software,,,,https://ingrid.fyi/companies/skan-ai,20261120T025616-b7aa17,{}
+R59,UiPath,uipath,,,enterprise software,,,,https://ingrid.fyi/companies/uipath,20261120T025616-b7aa17,{}
+R59,Celonis,celonis,,,enterprise software,,,,https://ingrid.fyi/companies/celonis,20261120T025616-b7aa17,{}
+R59,Redwood Software,redwood software,,,enterprise software,,,,https://ingrid.fyi/companies/redwood-software,20261120T025616-b7aa17,{}
+R59,Celigo,celigo,,,enterprise software,,,,https://ingrid.fyi/companies/celigo,20261120T025616-b7aa17,{}
+R59,TEBillion,tebillion,,,enterprise software,,,,https://ingrid.fyi/companies/tebillion,20261120T025616-b7aa17,{}
+R59,AiSensy,aisensy,,,enterprise software,,,,https://ingrid.fyi/companies/aisensy,20261120T025616-b7aa17,{}
+R59,Quickreply Ai,quickreply ai,,,enterprise software,,,,https://ingrid.fyi/companies/quickreply-ai,20261120T025616-b7aa17,{}
+R59,Bik,bik,,,enterprise software,,,,https://ingrid.fyi/companies/bik,20261120T025616-b7aa17,{}
+R59,dunnhumby,dunnhumby,,,enterprise software,,,,https://ingrid.fyi/companies/dunnhumby,20261120T025616-b7aa17,{}
+R59,Kobie,kobie,,,enterprise software,,,,https://ingrid.fyi/companies/kobie,20261120T025616-b7aa17,{}
+R59,Capillary Technologies,capillary technologies,,,enterprise software,,,,https://ingrid.fyi/companies/capillary-technologies,20261120T025616-b7aa17,{}
+R59,Zeta Global,zeta global,,,enterprise software,,,,https://ingrid.fyi/companies/zeta-global,20261120T025616-b7aa17,{}
+R59,Ansira,ansira,,,enterprise software,,,,https://ingrid.fyi/companies/ansira,20261120T025616-b7aa17,{}
+R59,Netcore Cloud,netcore cloud,,,enterprise software,,,,https://ingrid.fyi/companies/netcore-cloud,20261120T025616-b7aa17,{}
+R59,Adobe,adobe,,,enterprise software,,,,https://ingrid.fyi/companies/adobe,20261120T025616-b7aa17,{}
+R59,Cvent,cvent,,,enterprise software,,,,https://ingrid.fyi/companies/cvent,20261120T025616-b7aa17,{}
+R59,Goldcast,goldcast,,,enterprise software,,,,https://ingrid.fyi/companies/goldcast,20261120T025616-b7aa17,{}
+R59,SurveyMonkey,surveymonkey,,,enterprise software,,,,https://ingrid.fyi/companies/surveymonkey,20261120T025616-b7aa17,{}
+R59,Kantar,kantar,,,enterprise software,,,,https://ingrid.fyi/companies/kantar,20261120T025616-b7aa17,{}
+R59,Dynata,dynata,,,enterprise software,,,,https://ingrid.fyi/companies/dynata,20261120T025616-b7aa17,{}
+R59,Notified,notified,,,enterprise software,,,,https://ingrid.fyi/companies/notified,20261120T025616-b7aa17,{}
+R59,Meltwater,meltwater,,,enterprise software,,,,https://ingrid.fyi/companies/meltwater,20261120T025616-b7aa17,{}
+R59,Sprinklr,sprinklr,,,enterprise software,,,,https://ingrid.fyi/companies/sprinklr,20261120T025616-b7aa17,{}
+R59,LiveRamp,liveramp,,,enterprise software,,,,https://ingrid.fyi/companies/liveramp,20261120T025616-b7aa17,{}
+R59,Zeotap,zeotap,,,enterprise software,,,,https://ingrid.fyi/companies/zeotap,20261120T025616-b7aa17,{}
+R59,Mastercard,mastercard,,,fintech,,,,https://ingrid.fyi/companies/mastercard,20261120T025616-b7aa17,{}
+R59,SimCorp,simcorp,,,fintech,,,,https://ingrid.fyi/companies/simcorp,20261120T025616-b7aa17,{}
+R59,Bajaj Finserv,bajaj finserv,,,fintech,,,,https://ingrid.fyi/companies/bajaj-finserv,20261120T025616-b7aa17,{}
+R59,The Depository Trust & Clearing Corp (DTCC),depository trust and clearing corp dtcc,,,fintech,,,,https://ingrid.fyi/companies/the-depository-trust-clearing-corp-dtcc,20261120T025616-b7aa17,{}
+R59,Visa,visa,,,fintech,,,,https://ingrid.fyi/companies/visa,20261120T025616-b7aa17,{}
+R59,Intuit,intuit,,,fintech,,,,https://ingrid.fyi/companies/intuit,20261120T025616-b7aa17,{}
+R59,FactSet,factset,,,fintech,,,,https://ingrid.fyi/companies/factset,20261120T025616-b7aa17,{}
+R59,LSEG (London Stock Exchange Group),lseg london stock exchange group,,,fintech,,,,https://ingrid.fyi/companies/lseg-london-stock-exchange-group,20261120T025616-b7aa17,{}
+R59,PhonePe,phonepe,,,fintech,,,,https://ingrid.fyi/companies/phonepe,20261120T025616-b7aa17,{}
+R59,super.money,super money,,,fintech,,,,https://ingrid.fyi/companies/super-money,20261120T025616-b7aa17,{}
+R59,Jupiter,jupiter,,,fintech,,,,https://ingrid.fyi/companies/jupiter,20261120T025616-b7aa17,{}
+R59,ACI Worldwide,aci worldwide,,,fintech,,,,https://ingrid.fyi/companies/aci-worldwide,20261120T025616-b7aa17,{}
+R59,PayPal,paypal,,,fintech,,,,https://ingrid.fyi/companies/paypal,20261120T025616-b7aa17,{}
+R59,Razorpay,razorpay,,,fintech,,,,https://ingrid.fyi/companies/razorpay,20261120T025616-b7aa17,{}
+R59,Stripe,stripe,,,fintech,,,,https://ingrid.fyi/companies/stripe,20261120T025616-b7aa17,{}
+R59,Wise,wise,,,fintech,,,,https://ingrid.fyi/companies/wise,20261120T025616-b7aa17,{}
+R59,Payoneer,payoneer,,,fintech,,,,https://ingrid.fyi/companies/payoneer,20261120T025616-b7aa17,{}
+R59,Western Union,western union,,,fintech,,,,https://ingrid.fyi/companies/western-union,20261120T025616-b7aa17,{}
+R59,WEX,wex,,,fintech,,,,https://ingrid.fyi/companies/wex,20261120T025616-b7aa17,{}
+R59,Blackhawk Network,blackhawk network,,,fintech,,,,https://ingrid.fyi/companies/blackhawk-network,20261120T025616-b7aa17,{}
+R59,Billtrust,billtrust,,,fintech,,,,https://ingrid.fyi/companies/billtrust,20261120T025616-b7aa17,{}
+R59,Verifone,verifone,,,fintech,,,,https://ingrid.fyi/companies/verifone,20261120T025616-b7aa17,{}
+R59,ABC Fitness,abc fitness,,,fintech,,,,https://ingrid.fyi/companies/abc-fitness,20261120T025616-b7aa17,{}
+R59,Clover,clover,,,fintech,,,,https://ingrid.fyi/companies/clover,20261120T025616-b7aa17,{}
+R59,Arcana,arcana,,,fintech,,,,https://ingrid.fyi/companies/arcana,20261120T025616-b7aa17,{}
+R59,CoinDCX,coindcx,,,fintech,,,,https://ingrid.fyi/companies/coindcx,20261120T025616-b7aa17,{}
+R59,Coinbase,coinbase,,,fintech,,,,https://ingrid.fyi/companies/coinbase,20261120T025616-b7aa17,{}
+R59,GoodScore,goodscore,,,fintech,,,,https://ingrid.fyi/companies/goodscore,20261120T025616-b7aa17,{}
+R59,Bright Money,bright money,,,fintech,,,,https://ingrid.fyi/companies/bright-money,20261120T025616-b7aa17,{}
+R59,Dezerv,dezerv,,,fintech,,,,https://ingrid.fyi/companies/dezerv,20261120T025616-b7aa17,{}
+R59,InvestCloud Inc.,investcloud,,,fintech,,,,https://ingrid.fyi/companies/investcloud-inc,20261120T025616-b7aa17,{}
+R59,Addepar,addepar,,,fintech,,,,https://ingrid.fyi/companies/addepar,20261120T025616-b7aa17,{}
+R59,Genesis Global,genesis global,,,fintech,,,,https://ingrid.fyi/companies/genesis-global,20261120T025616-b7aa17,{}
+R59,73 Strings,73 strings,,,fintech,,,,https://ingrid.fyi/companies/73-strings,20261120T025616-b7aa17,{}
+R59,Millennium,millennium,,,fintech,,,,https://ingrid.fyi/companies/millennium,20261120T025616-b7aa17,{}
+R59,D. E. Shaw,d e shaw,,,fintech,,,,https://ingrid.fyi/companies/d-e-shaw,20261120T025616-b7aa17,{}
+R59,IMC Trading,imc trading,,,fintech,,,,https://ingrid.fyi/companies/imc-trading,20261120T025616-b7aa17,{}
+R59,Clearwater Analytics,clearwater analytics,,,fintech,,,,https://ingrid.fyi/companies/clearwater-analytics,20261120T025616-b7aa17,{}
+R59,NeoXam,neoxam,,,fintech,,,,https://ingrid.fyi/companies/neoxam,20261120T025616-b7aa17,{}
+R59,Moody's Corp.,moody s corp,,,fintech,,,,https://ingrid.fyi/companies/moody-s-corp,20261120T025616-b7aa17,{}
+R59,Snapmint,snapmint,,,fintech,,,,https://ingrid.fyi/companies/snapmint,20261120T025616-b7aa17,{}
+R59,InCred Financial Services,incred financial services,,,fintech,,,,https://ingrid.fyi/companies/incred-financial-services,20261120T025616-b7aa17,{}
+R59,HDFC Bank,hdfc bank,,,fintech,,,,https://ingrid.fyi/companies/hdfc-bank,20261120T025616-b7aa17,{}
+R59,Au Small Finance Bank,au small finance bank,,,fintech,,,,https://ingrid.fyi/companies/au-small-finance-bank,20261120T025616-b7aa17,{}
+R59,IDFC FIRST Bank,idfc first bank,,,fintech,,,,https://ingrid.fyi/companies/idfc-first-bank,20261120T025616-b7aa17,{}
+R59,Experian,experian,,,fintech,,,,https://ingrid.fyi/companies/experian,20261120T025616-b7aa17,{}
+R59,LexisNexis Risk Solutions,lexisnexis risk solutions,,,fintech,,,,https://ingrid.fyi/companies/lexisnexis-risk-solutions,20261120T025616-b7aa17,{}
+R59,CredHive,credhive,,,fintech,,,,https://ingrid.fyi/companies/credhive,20261120T025616-b7aa17,{}
+R59,Care.fi,care fi,,,fintech,,,,https://ingrid.fyi/companies/care-fi,20261120T025616-b7aa17,{}
+R59,Yubi,yubi,,,fintech,,,,https://ingrid.fyi/companies/yubi,20261120T025616-b7aa17,{}
+R59,Solifi,solifi,,,fintech,,,,https://ingrid.fyi/companies/solifi,20261120T025616-b7aa17,{}
+R59,JioStar,jiostar,,,gaming streaming media,,,,https://ingrid.fyi/companies/jiostar,20261120T025616-b7aa17,{}
+R59,Thomson Reuters,thomson reuters,,,gaming streaming media,,,,https://ingrid.fyi/companies/thomson-reuters,20261120T025616-b7aa17,{}
+R59,Light & Wonder,light and wonder,,,gaming streaming media,,,,https://ingrid.fyi/companies/light-wonder,20261120T025616-b7aa17,{}
+R59,Roku,roku,,,gaming streaming media,,,,https://ingrid.fyi/companies/roku,20261120T025616-b7aa17,{}
+R59,RELX,relx,,,gaming streaming media,,,,https://ingrid.fyi/companies/relx,20261120T025616-b7aa17,{}
+R59,Scientific Games,scientific games,,,gaming streaming media,,,,https://ingrid.fyi/companies/scientific-games,20261120T025616-b7aa17,{}
+R59,Elsevier,elsevier,,,gaming streaming media,,,,https://ingrid.fyi/companies/elsevier,20261120T025616-b7aa17,{}
+R59,PubMatic,pubmatic,,,gaming streaming media,,,,https://ingrid.fyi/companies/pubmatic,20261120T025616-b7aa17,{}
+R59,Electronic Arts (EA),electronic arts ea,,,gaming streaming media,,,,https://ingrid.fyi/companies/electronic-arts-ea,20261120T025616-b7aa17,{}
+R59,2K,2k,,,gaming streaming media,,,,https://ingrid.fyi/companies/2k,20261120T025616-b7aa17,{}
+R59,Scopely,scopely,,,gaming streaming media,,,,https://ingrid.fyi/companies/scopely,20261120T025616-b7aa17,{}
+R59,BookMyShow,bookmyshow,,,gaming streaming media,,,,https://ingrid.fyi/companies/bookmyshow,20261120T025616-b7aa17,{}
+R59,Playo,playo,,,gaming streaming media,,,,https://ingrid.fyi/companies/playo,20261120T025616-b7aa17,{}
+R59,Zippy,zippy,,,gaming streaming media,,,,https://ingrid.fyi/companies/zippy,20261120T025616-b7aa17,{}
+R59,Coda,coda,,,gaming streaming media,,,,https://ingrid.fyi/companies/coda,20261120T025616-b7aa17,{}
+R59,KGEN,kgen,,,gaming streaming media,,,,https://ingrid.fyi/companies/kgen,20261120T025616-b7aa17,{}
+R59,Entain India,entain,,,gaming streaming media,,,,https://ingrid.fyi/companies/entain-india,20261120T025616-b7aa17,{}
+R59,Skillz,skillz,,,gaming streaming media,,,,https://ingrid.fyi/companies/skillz,20261120T025616-b7aa17,{}
+R59,Baazi Games,baazi games,,,gaming streaming media,,,,https://ingrid.fyi/companies/baazi-games,20261120T025616-b7aa17,{}
+R59,IGT,igt,,,gaming streaming media,,,,https://ingrid.fyi/companies/igt,20261120T025616-b7aa17,{}
+R59,Thermo Fisher Scientific,thermo fisher scientific,,,health life sciences,,,,https://ingrid.fyi/companies/thermo-fisher-scientific,20261120T025616-b7aa17,{}
+R59,GE HealthCare,ge healthcare,,,health life sciences,,,,https://ingrid.fyi/companies/ge-healthcare,20261120T025616-b7aa17,{}
+R59,Inovalon,inovalon,,,health life sciences,,,,https://ingrid.fyi/companies/inovalon,20261120T025616-b7aa17,{}
+R59,Medtronic,medtronic,,,health life sciences,,,,https://ingrid.fyi/companies/medtronic,20261120T025616-b7aa17,{}
+R59,Experity,experity,,,health life sciences,,,,https://ingrid.fyi/companies/experity,20261120T025616-b7aa17,{}
+R59,Stryker,stryker,,,health life sciences,,,,https://ingrid.fyi/companies/stryker,20261120T025616-b7aa17,{}
+R59,HealthEdge,healthedge,,,health life sciences,,,,https://ingrid.fyi/companies/healthedge,20261120T025616-b7aa17,{}
+R59,ValGenesis,valgenesis,,,health life sciences,,,,https://ingrid.fyi/companies/valgenesis,20261120T025616-b7aa17,{}
+R59,Beckman Coulter Diagnostics,beckman coulter diagnostics,,,health life sciences,,,,https://ingrid.fyi/companies/beckman-coulter-diagnostics,20261120T025616-b7aa17,{}
+R59,Clinisys,clinisys,,,health life sciences,,,,https://ingrid.fyi/companies/clinisys,20261120T025616-b7aa17,{}
+R59,Labcorp,labcorp,,,health life sciences,,,,https://ingrid.fyi/companies/labcorp,20261120T025616-b7aa17,{}
+R59,Philips,philips,,,health life sciences,,,,https://ingrid.fyi/companies/philips,20261120T025616-b7aa17,{}
+R59,Pramana,pramana,,,health life sciences,,,,https://ingrid.fyi/companies/pramana,20261120T025616-b7aa17,{}
+R59,symplr,symplr,,,health life sciences,,,,https://ingrid.fyi/companies/symplr,20261120T025616-b7aa17,{}
+R59,CertifyOS,certifyos,,,health life sciences,,,,https://ingrid.fyi/companies/certifyos,20261120T025616-b7aa17,{}
+R59,Surgimate,surgimate,,,health life sciences,,,,https://ingrid.fyi/companies/surgimate,20261120T025616-b7aa17,{}
+R59,Advanced Sterilization Products,advanced sterilization products,,,health life sciences,,,,https://ingrid.fyi/companies/advanced-sterilization-products,20261120T025616-b7aa17,{}
+R59,Teladoc Health,teladoc health,,,health life sciences,,,,https://ingrid.fyi/companies/teladoc-health,20261120T025616-b7aa17,{}
+R59,Practo,practo,,,health life sciences,,,,https://ingrid.fyi/companies/practo,20261120T025616-b7aa17,{}
+R59,MediBuddy,medibuddy,,,health life sciences,,,,https://ingrid.fyi/companies/medibuddy,20261120T025616-b7aa17,{}
+R59,BlinkRx,blinkrx,,,health life sciences,,,,https://ingrid.fyi/companies/blinkrx,20261120T025616-b7aa17,{}
+R59,Omnicell,omnicell,,,health life sciences,,,,https://ingrid.fyi/companies/omnicell,20261120T025616-b7aa17,{}
+R59,Outcomes,outcomes,,,health life sciences,,,,https://ingrid.fyi/companies/outcomes,20261120T025616-b7aa17,{}
+R59,Zocdoc,zocdoc,,,health life sciences,,,,https://ingrid.fyi/companies/zocdoc,20261120T025616-b7aa17,{}
+R59,Relatient,relatient,,,health life sciences,,,,https://ingrid.fyi/companies/relatient,20261120T025616-b7aa17,{}
+R59,DexCare,dexcare,,,health life sciences,,,,https://ingrid.fyi/companies/dexcare,20261120T025616-b7aa17,{}
+R59,Netsmart,netsmart,,,health life sciences,,,,https://ingrid.fyi/companies/netsmart,20261120T025616-b7aa17,{}
+R59,ModMed,modmed,,,health life sciences,,,,https://ingrid.fyi/companies/modmed,20261120T025616-b7aa17,{}
+R59,Suki,suki,,,health life sciences,,,,https://ingrid.fyi/companies/suki,20261120T025616-b7aa17,{}
+R59,Commure,commure,,,health life sciences,,,,https://ingrid.fyi/companies/commure,20261120T025616-b7aa17,{}
+R59,Frontera,frontera,,,health life sciences,,,,https://ingrid.fyi/companies/frontera,20261120T025616-b7aa17,{}
+R59,Hinge Health,hinge health,,,health life sciences,,,,https://ingrid.fyi/companies/hinge-health,20261120T025616-b7aa17,{}
+R59,Welldoc,welldoc,,,health life sciences,,,,https://ingrid.fyi/companies/welldoc,20261120T025616-b7aa17,{}
+R59,sugar.fit,sugar fit,,,health life sciences,,,,https://ingrid.fyi/companies/sugar-fit,20261120T025616-b7aa17,{}
+R59,Dexcom,dexcom,,,health life sciences,,,,https://ingrid.fyi/companies/dexcom,20261120T025616-b7aa17,{}
+R59,Tricog Health,tricog health,,,health life sciences,,,,https://ingrid.fyi/companies/tricog-health,20261120T025616-b7aa17,{}
+R59,Masimo,masimo,,,health life sciences,,,,https://ingrid.fyi/companies/masimo,20261120T025616-b7aa17,{}
+R59,HARMAN,harman,,,industrial tech mobility,,,,https://ingrid.fyi/companies/harman,20261120T025616-b7aa17,{}
+R59,Caterpillar Inc.,caterpillar,,,industrial tech mobility,,,,https://ingrid.fyi/companies/caterpillar-inc,20261120T025616-b7aa17,{}
+R59,GE Vernova,ge vernova,,,industrial tech mobility,,,,https://ingrid.fyi/companies/ge-vernova,20261120T025616-b7aa17,{}
+R59,Solera Holdings,solera holdings,,,industrial tech mobility,,,,https://ingrid.fyi/companies/solera-holdings,20261120T025616-b7aa17,{}
+R59,Aptiv,aptiv,,,industrial tech mobility,,,,https://ingrid.fyi/companies/aptiv,20261120T025616-b7aa17,{}
+R59,Tekion Corp.,tekion corp,,,industrial tech mobility,,,,https://ingrid.fyi/companies/tekion-corp,20261120T025616-b7aa17,{}
+R59,Autodesk,autodesk,,,industrial tech mobility,,,,https://ingrid.fyi/companies/autodesk,20261120T025616-b7aa17,{}
+R59,Trane Technologies,trane technologies,,,industrial tech mobility,,,,https://ingrid.fyi/companies/trane-technologies,20261120T025616-b7aa17,{}
+R59,Ather Energy,ather energy,,,industrial tech mobility,,,,https://ingrid.fyi/companies/ather-energy,20261120T025616-b7aa17,{}
+R59,Zeno,zeno,,,industrial tech mobility,,,,https://ingrid.fyi/companies/zeno,20261120T025616-b7aa17,{}
+R59,Ultraviolette Automotive,ultraviolette automotive,,,industrial tech mobility,,,,https://ingrid.fyi/companies/ultraviolette-automotive,20261120T025616-b7aa17,{}
+R59,Uber,uber,,,industrial tech mobility,,,,https://ingrid.fyi/companies/uber,20261120T025616-b7aa17,{}
+R59,Rapido,rapido,,,industrial tech mobility,,,,https://ingrid.fyi/companies/rapido,20261120T025616-b7aa17,{}
+R59,Metropolis Technologies,metropolis technologies,,,industrial tech mobility,,,,https://ingrid.fyi/companies/metropolis-technologies,20261120T025616-b7aa17,{}
+R59,Visteon Corp.,visteon corp,,,industrial tech mobility,,,,https://ingrid.fyi/companies/visteon-corp,20261120T025616-b7aa17,{}
+R59,Xperi Inc.,xperi,,,industrial tech mobility,,,,https://ingrid.fyi/companies/xperi-inc,20261120T025616-b7aa17,{}
+R59,Waymo,waymo,,,industrial tech mobility,,,,https://ingrid.fyi/companies/waymo,20261120T025616-b7aa17,{}
+R59,Applied Intuition,applied intuition,,,industrial tech mobility,,,,https://ingrid.fyi/companies/applied-intuition,20261120T025616-b7aa17,{}
+R59,Virya Autonomous Technologies,virya autonomous technologies,,,industrial tech mobility,,,,https://ingrid.fyi/companies/virya-autonomous-technologies,20261120T025616-b7aa17,{}
+R59,Veoneer,veoneer,,,industrial tech mobility,,,,https://ingrid.fyi/companies/veoneer,20261120T025616-b7aa17,{}
+R59,Valeo,valeo,,,industrial tech mobility,,,,https://ingrid.fyi/companies/valeo,20261120T025616-b7aa17,{}
+R59,ChargePoint,chargepoint,,,industrial tech mobility,,,,https://ingrid.fyi/companies/chargepoint,20261120T025616-b7aa17,{}
+R59,Shell Recharge Solutions,shell recharge solutions,,,industrial tech mobility,,,,https://ingrid.fyi/companies/shell-recharge-solutions,20261120T025616-b7aa17,{}
+R59,Presto,presto,,,industrial tech mobility,,,,https://ingrid.fyi/companies/presto,20261120T025616-b7aa17,{}
+R59,WirelessCar,wirelesscar,,,industrial tech mobility,,,,https://ingrid.fyi/companies/wirelesscar,20261120T025616-b7aa17,{}
+R59,Sibros,sibros,,,industrial tech mobility,,,,https://ingrid.fyi/companies/sibros,20261120T025616-b7aa17,{}
+R59,Netradyne,netradyne,,,industrial tech mobility,,,,https://ingrid.fyi/companies/netradyne,20261120T025616-b7aa17,{}
+R59,Motive,motive,,,industrial tech mobility,,,,https://ingrid.fyi/companies/motive,20261120T025616-b7aa17,{}
+R59,Intangles Lab,intangles lab,,,industrial tech mobility,,,,https://ingrid.fyi/companies/intangles-lab,20261120T025616-b7aa17,{}
+R59,ACV Auctions,acv auctions,,,industrial tech mobility,,,,https://ingrid.fyi/companies/acv-auctions,20261120T025616-b7aa17,{}
+R59,Wabtec Corp.,wabtec corp,,,industrial tech mobility,,,,https://ingrid.fyi/companies/wabtec-corp,20261120T025616-b7aa17,{}
+R59,Alstom,alstom,,,industrial tech mobility,,,,https://ingrid.fyi/companies/alstom,20261120T025616-b7aa17,{}
+R59,ApnaTech,apnatech,,,industrial tech mobility,,,,https://ingrid.fyi/companies/apnatech,20261120T025616-b7aa17,{}
+R59,Cubic Transportation Systems,cubic transportation systems,,,industrial tech mobility,,,,https://ingrid.fyi/companies/cubic-transportation-systems,20261120T025616-b7aa17,{}
+R59,Trellint,trellint,,,industrial tech mobility,,,,https://ingrid.fyi/companies/trellint,20261120T025616-b7aa17,{}
+R59,Chalo,chalo,,,industrial tech mobility,,,,https://ingrid.fyi/companies/chalo,20261120T025616-b7aa17,{}
+R59,Danfoss,danfoss,,,industrial tech mobility,,,,https://ingrid.fyi/companies/danfoss,20261120T025616-b7aa17,{}
+R59,Copeland,copeland,,,industrial tech mobility,,,,https://ingrid.fyi/companies/copeland,20261120T025616-b7aa17,{}
+R59,Ingersoll Rand,ingersoll rand,,,industrial tech mobility,,,,https://ingrid.fyi/companies/ingersoll-rand,20261120T025616-b7aa17,{}
+R59,Esko,esko,,,industrial tech mobility,,,,https://ingrid.fyi/companies/esko,20261120T025616-b7aa17,{}
+R59,Mastercam,mastercam,,,industrial tech mobility,,,,https://ingrid.fyi/companies/mastercam,20261120T025616-b7aa17,{}
+R59,Rockwell Automation,rockwell automation,,,industrial tech mobility,,,,https://ingrid.fyi/companies/rockwell-automation,20261120T025616-b7aa17,{}
+R59,AVEVA,aveva,,,industrial tech mobility,,,,https://ingrid.fyi/companies/aveva,20261120T025616-b7aa17,{}
+R59,Yokogawa,yokogawa,,,industrial tech mobility,,,,https://ingrid.fyi/companies/yokogawa,20261120T025616-b7aa17,{}
+R59,Litmus,litmus,,,industrial tech mobility,,,,https://ingrid.fyi/companies/litmus,20261120T025616-b7aa17,{}
+R59,Amtech Software,amtech software,,,industrial tech mobility,,,,https://ingrid.fyi/companies/amtech-software,20261120T025616-b7aa17,{}
+R59,CAI Software,cai software,,,industrial tech mobility,,,,https://ingrid.fyi/companies/cai-software,20261120T025616-b7aa17,{}
+R59,Octave,octave,,,industrial tech mobility,,,,https://ingrid.fyi/companies/octave,20261120T025616-b7aa17,{}
+R59,Bytebeam,bytebeam,,,industrial tech mobility,,,,https://ingrid.fyi/companies/bytebeam,20261120T025616-b7aa17,{}
+R59,Detect Technologies,detect technologies,,,industrial tech mobility,,,,https://ingrid.fyi/companies/detect-technologies,20261120T025616-b7aa17,{}
+R59,ZEISS,zeiss,,,industrial tech mobility,,,,https://ingrid.fyi/companies/zeiss,20261120T025616-b7aa17,{}
+R59,Sciemetric Technologies (TASI India),sciemetric technologies tasi,,,industrial tech mobility,,,,https://ingrid.fyi/companies/sciemetric-technologies-tasi-india,20261120T025616-b7aa17,{}
+R59,Cognex Corp.,cognex corp,,,industrial tech mobility,,,,https://ingrid.fyi/companies/cognex-corp,20261120T025616-b7aa17,{}
+R59,Qualitrol,qualitrol,,,industrial tech mobility,,,,https://ingrid.fyi/companies/qualitrol,20261120T025616-b7aa17,{}
+R59,Molex,molex,,,industrial tech mobility,,,,https://ingrid.fyi/companies/molex,20261120T025616-b7aa17,{}
+R59,nVent,nvent,,,industrial tech mobility,,,,https://ingrid.fyi/companies/nvent,20261120T025616-b7aa17,{}
+R59,Protolabs,protolabs,,,industrial tech mobility,,,,https://ingrid.fyi/companies/protolabs,20261120T025616-b7aa17,{}
+R59,Xometry,xometry,,,industrial tech mobility,,,,https://ingrid.fyi/companies/xometry,20261120T025616-b7aa17,{}
+R59,Ethereal Machines,ethereal machines,,,industrial tech mobility,,,,https://ingrid.fyi/companies/ethereal-machines,20261120T025616-b7aa17,{}
+R59,The Weir Group PLC,weir group plc,,,industrial tech mobility,,,,https://ingrid.fyi/companies/the-weir-group-plc,20261120T025616-b7aa17,{}
+R59,CNH,cnh,,,industrial tech mobility,,,,https://ingrid.fyi/companies/cnh,20261120T025616-b7aa17,{}
+R59,Vertiv,vertiv,,,industrial tech mobility,,,,https://ingrid.fyi/companies/vertiv,20261120T025616-b7aa17,{}
+R59,Allegion,allegion,,,industrial tech mobility,,,,https://ingrid.fyi/companies/allegion,20261120T025616-b7aa17,{}
+R59,Buckman,buckman,,,industrial tech mobility,,,,https://ingrid.fyi/companies/buckman,20261120T025616-b7aa17,{}
+R59,Corning Inc.,corning,,,industrial tech mobility,,,,https://ingrid.fyi/companies/corning-inc,20261120T025616-b7aa17,{}
+R59,W. L. Gore & Associates,w l gore and associates,,,industrial tech mobility,,,,https://ingrid.fyi/companies/w-l-gore-associates,20261120T025616-b7aa17,{}
+R59,Enphase Energy,enphase energy,,,industrial tech mobility,,,,https://ingrid.fyi/companies/enphase-energy,20261120T025616-b7aa17,{}
+R59,Fluence,fluence,,,industrial tech mobility,,,,https://ingrid.fyi/companies/fluence,20261120T025616-b7aa17,{}
+R59,Itron Inc.,itron,,,industrial tech mobility,,,,https://ingrid.fyi/companies/itron-inc,20261120T025616-b7aa17,{}
+R59,Hitachi Energy,hitachi energy,,,industrial tech mobility,,,,https://ingrid.fyi/companies/hitachi-energy,20261120T025616-b7aa17,{}
+R59,GridCrest (Kaynes),gridcrest kaynes,,,industrial tech mobility,,,,https://ingrid.fyi/companies/gridcrest-kaynes,20261120T025616-b7aa17,{}
+R59,SPAN,span,,,industrial tech mobility,,,,https://ingrid.fyi/companies/span,20261120T025616-b7aa17,{}
+R59,Arcadia,arcadia,,,industrial tech mobility,,,,https://ingrid.fyi/companies/arcadia,20261120T025616-b7aa17,{}
+R59,Perch Energy,perch energy,,,industrial tech mobility,,,,https://ingrid.fyi/companies/perch-energy,20261120T025616-b7aa17,{}
+R59,Intelex Technologies ULC,intelex technologies ulc,,,industrial tech mobility,,,,https://ingrid.fyi/companies/intelex-technologies-ulc,20261120T025616-b7aa17,{}
+R59,Sphera,sphera,,,industrial tech mobility,,,,https://ingrid.fyi/companies/sphera,20261120T025616-b7aa17,{}
+R59,Benchmark Gensuite,benchmark gensuite,,,industrial tech mobility,,,,https://ingrid.fyi/companies/benchmark-gensuite,20261120T025616-b7aa17,{}
+R59,Energy Exemplar,energy exemplar,,,industrial tech mobility,,,,https://ingrid.fyi/companies/energy-exemplar,20261120T025616-b7aa17,{}
+R59,Aurora Energy Research,aurora energy research,,,industrial tech mobility,,,,https://ingrid.fyi/companies/aurora-energy-research,20261120T025616-b7aa17,{}
+R59,Zema Global Data Corp,zema global data corp,,,industrial tech mobility,,,,https://ingrid.fyi/companies/zema-global-data-corp,20261120T025616-b7aa17,{}
+R59,SkySpecs,skyspecs,,,industrial tech mobility,,,,https://ingrid.fyi/companies/skyspecs,20261120T025616-b7aa17,{}
+R59,Baker Hughes,baker hughes,,,industrial tech mobility,,,,https://ingrid.fyi/companies/baker-hughes,20261120T025616-b7aa17,{}
+R59,Kongsberg Digital,kongsberg digital,,,industrial tech mobility,,,,https://ingrid.fyi/companies/kongsberg-digital,20261120T025616-b7aa17,{}
+R59,Quorum Software,quorum software,,,industrial tech mobility,,,,https://ingrid.fyi/companies/quorum-software,20261120T025616-b7aa17,{}
+R59,W Energy,w energy,,,industrial tech mobility,,,,https://ingrid.fyi/companies/w-energy,20261120T025616-b7aa17,{}
+R59,Cisco,cisco,,,network infrastructure security,,,,https://ingrid.fyi/companies/cisco,20261120T025616-b7aa17,{}
+R59,Okta,okta,,,network infrastructure security,,,,https://ingrid.fyi/companies/okta,20261120T025616-b7aa17,{}
+R59,Qualys,qualys,,,network infrastructure security,,,,https://ingrid.fyi/companies/qualys,20261120T025616-b7aa17,{}
+R59,Hewlett Packard Enterprise (HPE),hewlett packard enterprise hpe,,,network infrastructure security,,,,https://ingrid.fyi/companies/hewlett-packard-enterprise-hpe,20261120T025616-b7aa17,{}
+R59,Palo Alto Networks,palo alto networks,,,network infrastructure security,,,,https://ingrid.fyi/companies/palo-alto-networks,20261120T025616-b7aa17,{}
+R59,Zscaler,zscaler,,,network infrastructure security,,,,https://ingrid.fyi/companies/zscaler,20261120T025616-b7aa17,{}
+R59,SonicWall,sonicwall,,,network infrastructure security,,,,https://ingrid.fyi/companies/sonicwall,20261120T025616-b7aa17,{}
+R59,Securonix,securonix,,,network infrastructure security,,,,https://ingrid.fyi/companies/securonix,20261120T025616-b7aa17,{}
+R59,Abnormal Security,abnormal security,,,network infrastructure security,,,,https://ingrid.fyi/companies/abnormal-security,20261120T025616-b7aa17,{}
+R59,Mimecast,mimecast,,,network infrastructure security,,,,https://ingrid.fyi/companies/mimecast,20261120T025616-b7aa17,{}
+R59,Barracuda,barracuda,,,network infrastructure security,,,,https://ingrid.fyi/companies/barracuda,20261120T025616-b7aa17,{}
+R59,IDfy,idfy,,,network infrastructure security,,,,https://ingrid.fyi/companies/idfy,20261120T025616-b7aa17,{}
+R59,AiPrise,aiprise,,,network infrastructure security,,,,https://ingrid.fyi/companies/aiprise,20261120T025616-b7aa17,{}
+R59,HyperVerge,hyperverge,,,network infrastructure security,,,,https://ingrid.fyi/companies/hyperverge,20261120T025616-b7aa17,{}
+R59,DigiCert,digicert,,,network infrastructure security,,,,https://ingrid.fyi/companies/digicert,20261120T025616-b7aa17,{}
+R59,SailPoint,sailpoint,,,network infrastructure security,,,,https://ingrid.fyi/companies/sailpoint,20261120T025616-b7aa17,{}
+R59,JumpCloud,jumpcloud,,,network infrastructure security,,,,https://ingrid.fyi/companies/jumpcloud,20261120T025616-b7aa17,{}
+R59,N-able,n able,,,network infrastructure security,,,,https://ingrid.fyi/companies/n-able,20261120T025616-b7aa17,{}
+R59,SentinelOne,sentinelone,,,network infrastructure security,,,,https://ingrid.fyi/companies/sentinelone,20261120T025616-b7aa17,{}
+R59,Cyberhaven,cyberhaven,,,network infrastructure security,,,,https://ingrid.fyi/companies/cyberhaven,20261120T025616-b7aa17,{}
+R59,Concentric AI,concentric ai,,,network infrastructure security,,,,https://ingrid.fyi/companies/concentric-ai,20261120T025616-b7aa17,{}
+R59,Fortanix,fortanix,,,network infrastructure security,,,,https://ingrid.fyi/companies/fortanix,20261120T025616-b7aa17,{}
+R59,Aqua Security,aqua security,,,network infrastructure security,,,,https://ingrid.fyi/companies/aqua-security,20261120T025616-b7aa17,{}
+R59,Sysdig,sysdig,,,network infrastructure security,,,,https://ingrid.fyi/companies/sysdig,20261120T025616-b7aa17,{}
+R59,CoreStack,corestack,,,network infrastructure security,,,,https://ingrid.fyi/companies/corestack,20261120T025616-b7aa17,{}
+R59,Black Duck,black duck,,,network infrastructure security,,,,https://ingrid.fyi/companies/black-duck,20261120T025616-b7aa17,{}
+R59,Sonatype,sonatype,,,network infrastructure security,,,,https://ingrid.fyi/companies/sonatype,20261120T025616-b7aa17,{}
+R59,Revenera,revenera,,,network infrastructure security,,,,https://ingrid.fyi/companies/revenera,20261120T025616-b7aa17,{}
+R59,Safe Security,safe security,,,network infrastructure security,,,,https://ingrid.fyi/companies/safe-security,20261120T025616-b7aa17,{}
+R59,Rapid7,rapid7,,,network infrastructure security,,,,https://ingrid.fyi/companies/rapid7,20261120T025616-b7aa17,{}
+R59,Gurucul,gurucul,,,network infrastructure security,,,,https://ingrid.fyi/companies/gurucul,20261120T025616-b7aa17,{}
+R59,Swimlane,swimlane,,,network infrastructure security,,,,https://ingrid.fyi/companies/swimlane,20261120T025616-b7aa17,{}
+R59,Deepwatch,deepwatch,,,network infrastructure security,,,,https://ingrid.fyi/companies/deepwatch,20261120T025616-b7aa17,{}
+R59,Arctic Wolf,arctic wolf,,,network infrastructure security,,,,https://ingrid.fyi/companies/arctic-wolf,20261120T025616-b7aa17,{}
+R59,Critical Start,critical start,,,network infrastructure security,,,,https://ingrid.fyi/companies/critical-start,20261120T025616-b7aa17,{}
+R59,CloudSEK,cloudsek,,,network infrastructure security,,,,https://ingrid.fyi/companies/cloudsek,20261120T025616-b7aa17,{}
+R59,RiskProfiler,riskprofiler,,,network infrastructure security,,,,https://ingrid.fyi/companies/riskprofiler,20261120T025616-b7aa17,{}
+R59,ZeroFox,zerofox,,,network infrastructure security,,,,https://ingrid.fyi/companies/zerofox,20261120T025616-b7aa17,{}
+R59,OneTrust,onetrust,,,network infrastructure security,,,,https://ingrid.fyi/companies/onetrust,20261120T025616-b7aa17,{}
+R59,Clearwater,clearwater,,,network infrastructure security,,,,https://ingrid.fyi/companies/clearwater,20261120T025616-b7aa17,{}
+R59,Corporater,corporater,,,network infrastructure security,,,,https://ingrid.fyi/companies/corporater,20261120T025616-b7aa17,{}
+R59,Ring,ring,,,network infrastructure security,,,,https://ingrid.fyi/companies/ring,20261120T025616-b7aa17,{}
+R59,Smiths Detection,smiths detection,,,network infrastructure security,,,,https://ingrid.fyi/companies/smiths-detection,20261120T025616-b7aa17,{}
+R59,HID,hid,,,network infrastructure security,,,,https://ingrid.fyi/companies/hid,20261120T025616-b7aa17,{}
+R59,Tumeryk,tumeryk,,,network infrastructure security,,,,https://ingrid.fyi/companies/tumeryk,20261120T025616-b7aa17,{}
+R59,NETGEAR,netgear,,,network infrastructure security,,,,https://ingrid.fyi/companies/netgear,20261120T025616-b7aa17,{}
+R59,Plume,plume,,,network infrastructure security,,,,https://ingrid.fyi/companies/plume,20261120T025616-b7aa17,{}
+R59,Airties,airties,,,network infrastructure security,,,,https://ingrid.fyi/companies/airties,20261120T025616-b7aa17,{}
+R59,Nokia,nokia,,,network infrastructure security,,,,https://ingrid.fyi/companies/nokia,20261120T025616-b7aa17,{}
+R59,Ericsson,ericsson,,,network infrastructure security,,,,https://ingrid.fyi/companies/ericsson,20261120T025616-b7aa17,{}
+R59,Circles,circles,,,network infrastructure security,,,,https://ingrid.fyi/companies/circles,20261120T025616-b7aa17,{}
+R59,Arista Networks,arista networks,,,network infrastructure security,,,,https://ingrid.fyi/companies/arista-networks,20261120T025616-b7aa17,{}
+R59,Extreme Networks,extreme networks,,,network infrastructure security,,,,https://ingrid.fyi/companies/extreme-networks,20261120T025616-b7aa17,{}
+R59,Viasat,viasat,,,network infrastructure security,,,,https://ingrid.fyi/companies/viasat,20261120T025616-b7aa17,{}
+R59,Lynk,lynk,,,network infrastructure security,,,,https://ingrid.fyi/companies/lynk,20261120T025616-b7aa17,{}
+R59,Skylo,skylo,,,network infrastructure security,,,,https://ingrid.fyi/companies/skylo,20261120T025616-b7aa17,{}
+R59,VIAVI Solutions,viavi solutions,,,network infrastructure security,,,,https://ingrid.fyi/companies/viavi-solutions,20261120T025616-b7aa17,{}
+R59,Gigamon,gigamon,,,network infrastructure security,,,,https://ingrid.fyi/companies/gigamon,20261120T025616-b7aa17,{}
+R59,Forward Networks,forward networks,,,network infrastructure security,,,,https://ingrid.fyi/companies/forward-networks,20261120T025616-b7aa17,{}
+R59,Lattice Semiconductor,lattice semiconductor,,,network infrastructure security,,,,https://ingrid.fyi/companies/lattice-semiconductor,20261120T025616-b7aa17,{}
+R59,EdgeQ Inc.,edgeq,,,network infrastructure security,,,,https://ingrid.fyi/companies/edgeq-inc,20261120T025616-b7aa17,{}
+R59,Axiado Corp.,axiado corp,,,network infrastructure security,,,,https://ingrid.fyi/companies/axiado-corp,20261120T025616-b7aa17,{}
+R59,NVIDIA,nvidia,,,semiconductors devices,,,,https://ingrid.fyi/companies/nvidia,20261120T025616-b7aa17,{}
+R59,Qualcomm,qualcomm,,,semiconductors devices,,,,https://ingrid.fyi/companies/qualcomm,20261120T025616-b7aa17,{}
+R59,Cadence,cadence,,,semiconductors devices,,,,https://ingrid.fyi/companies/cadence,20261120T025616-b7aa17,{}
+R59,Keysight Technologies,keysight technologies,,,semiconductors devices,,,,https://ingrid.fyi/companies/keysight-technologies,20261120T025616-b7aa17,{}
+R59,AMD,amd,,,semiconductors devices,,,,https://ingrid.fyi/companies/amd,20261120T025616-b7aa17,{}
+R59,Broadcom,broadcom,,,semiconductors devices,,,,https://ingrid.fyi/companies/broadcom,20261120T025616-b7aa17,{}
+R59,Applied Materials,applied materials,,,semiconductors devices,,,,https://ingrid.fyi/companies/applied-materials,20261120T025616-b7aa17,{}
+R59,Zebra Technologies,zebra technologies,,,semiconductors devices,,,,https://ingrid.fyi/companies/zebra-technologies,20261120T025616-b7aa17,{}
+R59,Sandisk,sandisk,,,semiconductors devices,,,,https://ingrid.fyi/companies/sandisk,20261120T025616-b7aa17,{}
+R59,Micron Technology,micron technology,,,semiconductors devices,,,,https://ingrid.fyi/companies/micron-technology,20261120T025616-b7aa17,{}
+R59,Western Digital,western digital,,,semiconductors devices,,,,https://ingrid.fyi/companies/western-digital,20261120T025616-b7aa17,{}
+R59,Silicon Labs,silicon labs,,,semiconductors devices,,,,https://ingrid.fyi/companies/silicon-labs,20261120T025616-b7aa17,{}
+R59,Skyworks Solutions,skyworks solutions,,,semiconductors devices,,,,https://ingrid.fyi/companies/skyworks-solutions,20261120T025616-b7aa17,{}
+R59,Graphcore,graphcore,,,semiconductors devices,,,,https://ingrid.fyi/companies/graphcore,20261120T025616-b7aa17,{}
+R59,EnCharge AI,encharge ai,,,semiconductors devices,,,,https://ingrid.fyi/companies/encharge-ai,20261120T025616-b7aa17,{}
+R59,Tsavorite Scalable Intelligence,tsavorite scalable intelligence,,,semiconductors devices,,,,https://ingrid.fyi/companies/tsavorite-scalable-intelligence,20261120T025616-b7aa17,{}
+R59,NXP Semiconductors,nxp semiconductors,,,semiconductors devices,,,,https://ingrid.fyi/companies/nxp-semiconductors,20261120T025616-b7aa17,{}
+R59,Infineon Technologies,infineon technologies,,,semiconductors devices,,,,https://ingrid.fyi/companies/infineon-technologies,20261120T025616-b7aa17,{}
+R59,Analog Devices,analog devices,,,semiconductors devices,,,,https://ingrid.fyi/companies/analog-devices,20261120T025616-b7aa17,{}
+R59,Arm,arm,,,semiconductors devices,,,,https://ingrid.fyi/companies/arm,20261120T025616-b7aa17,{}
+R59,Oxmiq Labs,oxmiq labs,,,semiconductors devices,,,,https://ingrid.fyi/companies/oxmiq-labs,20261120T025616-b7aa17,{}
+R59,Imagination Technologies,imagination technologies,,,semiconductors devices,,,,https://ingrid.fyi/companies/imagination-technologies,20261120T025616-b7aa17,{}
+R59,Synopsys Inc.,synopsys,,,semiconductors devices,,,,https://ingrid.fyi/companies/synopsys-inc,20261120T025616-b7aa17,{}
+R59,Maieutic Semiconductors,maieutic semiconductors,,,semiconductors devices,,,,https://ingrid.fyi/companies/maieutic-semiconductors,20261120T025616-b7aa17,{}
+R59,KLA,kla,,,semiconductors devices,,,,https://ingrid.fyi/companies/kla,20261120T025616-b7aa17,{}

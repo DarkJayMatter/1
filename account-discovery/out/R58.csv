@@ -1,0 +1,735 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id,extra
+R58,Godrej Agrovet Ltd,godrej agrovet,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/godrej-agrovet-ltd,20261120T025642-ea723f,{}
+R58,Parag Milk Foods Ltd,parag milk foods,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/parag-milk-foods-ltd,20261120T025642-ea723f,{}
+R58,PR,pr,,,Prudential Sugar Corporation Ltd,,,,https://jobportal.riseflake.com/companies/prudential-sugar-corporation-ltd,20261120T025642-ea723f,{}
+R58,ADF Foods Ltd,adf foods,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/adf-foods-ltd,20261120T025642-ea723f,{}
+R58,AVT Natural Products Ltd,avt natural products,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/avt-natural-products-ltd,20261120T025642-ea723f,{}
+R58,AWL Agri Business Ltd,awl agri business,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/awl-agri-business-ltd,20261120T025642-ea723f,{}
+R58,AD,ad,,,Advance Agrolife Ltd,,,,https://jobportal.riseflake.com/companies/advance-agrolife-ltd,20261120T025642-ea723f,{}
+R58,Agri-Tech (India) Ltd,agri tech,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/agri-tech-india-ltd,20261120T025642-ea723f,{}
+R58,Agro Phos India Ltd,agro phos,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/agro-phos-india-ltd,20261120T025642-ea723f,{}
+R58,AJ,aj,,,Ajanta Soya Ltd,,,,https://jobportal.riseflake.com/companies/ajanta-soya-ltd,20261120T025642-ea723f,{}
+R58,Ambika Cotton Mills Ltd,ambika cotton mills,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/ambika-cotton-mills-ltd,20261120T025642-ea723f,{}
+R58,AM,am,,,Amdhan,,,,https://jobportal.riseflake.com/companies/amdhan,20261120T025642-ea723f,{}
+R58,Apex Frozen Foods Ltd,apex frozen foods,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/apex-frozen-foods-ltd,20261120T025642-ea723f,{}
+R58,Aries Agro Ltd,aries agro,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/aries-agro-ltd,20261120T025642-ea723f,{}
+R58,AU,au,,,Auri Grow India Ltd,,,,https://jobportal.riseflake.com/companies/auri-grow-india-ltd,20261120T025642-ea723f,{}
+R58,Avanti Feeds Ltd,avanti feeds,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/avanti-feeds-ltd,20261120T025642-ea723f,{}
+R58,AV,av,,,Aveer Foods Ltd,,,,https://jobportal.riseflake.com/companies/aveer-foods-ltd,20261120T025642-ea723f,{}
+R58,Axita Cotton Ltd,axita cotton,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/axita-cotton-ltd,20261120T025642-ea723f,{}
+R58,BN,bn,,,BN Agrochem Ltd,,,,https://jobportal.riseflake.com/companies/bn-agrochem-ltd,20261120T025642-ea723f,{}
+R58,BA,ba,,,Baba Food Processing India Ltd,,,,https://jobportal.riseflake.com/companies/baba-food-processing-india-ltd,20261120T025642-ea723f,{}
+R58,Bajaj Hindusthan Sugar Ltd,bajaj hindusthan sugar,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/bajaj-hindusthan-sugar-ltd,20261120T025642-ea723f,{}
+R58,BakeLite Food Processing Pvt. Ltd.,bakelite food processing,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/bakelite-food-processing-pvt-ltd,20261120T025642-ea723f,{}
+R58,Balrampur Chini Mills Ltd,balrampur chini mills,,,Agriculture & Food,,,,https://jobportal.riseflake.com/companies/balrampur-chini-mills-ltd,20261120T025642-ea723f,{}
+R58,Bajaj Auto Ltd,bajaj auto,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/bajaj-auto-ltd,20261120T025642-ea723f,{}
+R58,Samvardhana Motherson International Ltd,samvardhana motherson international,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/samvardhana-motherson-international-ltd,20261120T025642-ea723f,{}
+R58,AS,as,,,ASK Automotive Ltd,,,,https://jobportal.riseflake.com/companies/ask-automotive-ltd,20261120T025642-ea723f,{}
+R58,AK,ak,,,Akar Auto Industries Ltd,,,,https://jobportal.riseflake.com/companies/akar-auto-industries-ltd,20261120T025642-ea723f,{}
+R58,Apollo Tyres Ltd,apollo tyres,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/apollo-tyres-ltd,20261120T025642-ea723f,{}
+R58,Atul Auto Ltd,atul auto,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/atul-auto-ltd,20261120T025642-ea723f,{}
+R58,Automobile Corporation Of Goa Ltd,automobile corporation of goa,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/automobile-corporation-of-goa-ltd,20261120T025642-ea723f,{}
+R58,Automotive Axles Ltd,automotive axles,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/automotive-axles-ltd,20261120T025642-ea723f,{}
+R58,Automotive Stampings & Assemblies Ltd,automotive stampings and assemblies,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/automotive-stampings-assemblies-ltd,20261120T025642-ea723f,{}
+R58,BI,bi,,,Bike bazaar,,,,https://jobportal.riseflake.com/companies/bike-bazaar,20261120T025642-ea723f,{}
+R58,BO,bo,,,Bombay Cycle & Motor Agency Ltd,,,,https://jobportal.riseflake.com/companies/bombay-cycle-motor-agency-ltd,20261120T025642-ea723f,{}
+R58,CEAT Ltd,ceat,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/ceat-ltd,20261120T025642-ea723f,{}
+R58,CI,ci,,,CIE Automotive India Ltd,,,,https://jobportal.riseflake.com/companies/cie-automotive-india-ltd,20261120T025642-ea723f,{}
+R58,CA,ca,,,Carraro India Ltd,,,,https://jobportal.riseflake.com/companies/carraro-india-ltd,20261120T025642-ea723f,{}
+R58,Cars24,cars24,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/cars24,20261120T025642-ea723f,{}
+R58,Cochin Shipyard Ltd,cochin shipyard,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/cochin-shipyard-ltd,20261120T025642-ea723f,{}
+R58,DE,de,,,Delta Autocorp Ltd,,,,https://jobportal.riseflake.com/companies/delta-autocorp-ltd,20261120T025642-ea723f,{}
+R58,Eicher Motors Ltd,eicher motors,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/eicher-motors-ltd,20261120T025642-ea723f,{}
+R58,EM,em,,,Emerald Tyre Manufacturers Ltd,,,,https://jobportal.riseflake.com/companies/emerald-tyre-manufacturers-ltd,20261120T025642-ea723f,{}
+R58,Endurance Technologies Ltd,endurance technologies,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/endurance-technologies-ltd,20261120T025642-ea723f,{}
+R58,EN,en,,,Enkei Wheels India Ltd,,,,https://jobportal.riseflake.com/companies/enkei-wheels-india-ltd,20261120T025642-ea723f,{}
+R58,Escorts Kubota Ltd,escorts kubota,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/escorts-kubota-ltd,20261120T025642-ea723f,{}
+R58,Federal-Mogul Goetze (India) Ltd,federal mogul goetze,,,Automobile & Transport,,,,https://jobportal.riseflake.com/companies/federal-mogul-goetze-india-ltd,20261120T025642-ea723f,{}
+R58,Kotak Mahindra Bank Ltd,kotak mahindra bank,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/kotak-mahindra-bank-ltd,20261120T025642-ea723f,{}
+R58,KreditBee,kreditbee,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/kreditbee,20261120T025642-ea723f,{}
+R58,AAVAS Financiers Ltd,aavas financiers,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/aavas-financiers-ltd,20261120T025642-ea723f,{}
+R58,Acquirex,acquirex,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/acquirex,20261120T025642-ea723f,{}
+R58,Bajaj Finserv Ltd,bajaj finserv,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/bajaj-finserv-ltd,20261120T025642-ea723f,{}
+R58,JM Financial Ltd,jm financial,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/jm-financial-ltd,20261120T025642-ea723f,{}
+R58,Jammu and Kashmir Bank Ltd,jammu and kashmir bank,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/jammu-and-kashmir-bank-ltd,20261120T025642-ea723f,{}
+R58,Sindhuja Microcredit,sindhuja microcredit,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/sindhuja-microcredit,20261120T025642-ea723f,{}
+R58,Sundaram Finance Ltd,sundaram finance,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/sundaram-finance-ltd,20261120T025642-ea723f,{}
+R58,36,36,,,360 ONE WAM Ltd,,,,https://jobportal.riseflake.com/companies/360-one-wam-ltd,20261120T025642-ea723f,{}
+R58,3P Land Holdings Ltd,3p land holdings,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/3p-land-holdings-ltd,20261120T025642-ea723f,{}
+R58,5paisa Capital Ltd,5paisa capital,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/5paisa-capital-ltd,20261120T025642-ea723f,{}
+R58,A.,a,,,A.K.Capital Services Ltd,,,,https://jobportal.riseflake.com/companies/akcapital-services-ltd,20261120T025642-ea723f,{}
+R58,AC,ac,,,ACME Solar Holdings Ltd,,,,https://jobportal.riseflake.com/companies/acme-solar-holdings-ltd,20261120T025642-ea723f,{}
+R58,AMJ Land Holdings Ltd,amj land holdings,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/amj-land-holdings-ltd,20261120T025642-ea723f,{}
+R58,AR,ar,,,ARC Finance Ltd,,,,https://jobportal.riseflake.com/companies/arc-finance-ltd,20261120T025642-ea723f,{}
+R58,AU Small Finance Bank Ltd,au small finance bank,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/au-small-finance-bank-ltd,20261120T025642-ea723f,{}
+R58,AA,aa,,,Aadhar Housing Finance Ltd,,,,https://jobportal.riseflake.com/companies/aadhar-housing-finance-ltd,20261120T025642-ea723f,{}
+R58,AB,ab,,,Abans Financial Services Ltd,,,,https://jobportal.riseflake.com/companies/abans-financial-services-ltd,20261120T025642-ea723f,{}
+R58,Aditya Birla Capital Ltd,aditya birla capital,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/aditya-birla-capital-ltd,20261120T025642-ea723f,{}
+R58,2Coms Consulting Services Pvt Ltd,2coms consulting services,,,10,,,,https://jobportal.riseflake.com/companies/2coms-consulting-services-pvt-ltd,20261120T025642-ea723f,{}
+R58,Ekagra Finserv Pvt. Ltd.,ekagra finserv,,,10,,,,https://jobportal.riseflake.com/companies/ekagra-finserv-pvt-ltd,20261120T025642-ea723f,{}
+R58,Tech Trove Soft,tech trove soft,,,7,,,,https://jobportal.riseflake.com/companies/tech-trove-soft,20261120T025642-ea723f,{}
+R58,EY India,ey,,,4,,,,https://jobportal.riseflake.com/companies/ey-india,20261120T025642-ea723f,{}
+R58,Roxiler Systems,roxiler systems,,,Software & IT,,,,https://jobportal.riseflake.com/companies/roxiler-systems,20261120T025642-ea723f,{}
+R58,ARDEM Data Services Pvt Ltd,ardem data services,,,2,,,,https://jobportal.riseflake.com/companies/ardem-data-services-pvt-ltd,20261120T025642-ea723f,{}
+R58,Mindlance,mindlance,,,2,,,,https://jobportal.riseflake.com/companies/mindlance,20261120T025642-ea723f,{}
+R58,PayGlocal,payglocal,,,2,,,,https://jobportal.riseflake.com/companies/payglocal,20261120T025642-ea723f,{}
+R58,Xtranet India,xtranet,,,2,,,,https://jobportal.riseflake.com/companies/xtranet-india,20261120T025642-ea723f,{}
+R58,Greamio,greamio,,,1,,,,https://jobportal.riseflake.com/companies/greamio,20261120T025642-ea723f,{}
+R58,Lykora,lykora,,,1,,,,https://jobportal.riseflake.com/companies/lykora,20261120T025642-ea723f,{}
+R58,MAV Wealth Assets Pvt. Ltd.,mav wealth assets,,,1,,,,https://jobportal.riseflake.com/companies/mav-wealth-assets-pvt-ltd,20261120T025642-ea723f,{}
+R58,Smartworld Developers,smartworld developers,,,1,,,,https://jobportal.riseflake.com/companies/smartworld-developers,20261120T025642-ea723f,{}
+R58,SourceInsol,sourceinsol,,,1,,,,https://jobportal.riseflake.com/companies/sourceinsol,20261120T025642-ea723f,{}
+R58,Ultra Corpotech Pvt Ltd.,ultra corpotech,,,1,,,,https://jobportal.riseflake.com/companies/ultra-corpotech-pvt-ltd,20261120T025642-ea723f,{}
+R58,Wipro Ltd,wipro,,,Software & IT,,,,https://jobportal.riseflake.com/companies/wipro-ltd,20261120T025642-ea723f,{}
+R58,IBM,ibm,,,Software & IT,,,,https://jobportal.riseflake.com/companies/ibm,20261120T025642-ea723f,{}
+R58,MetrixIT,metrixit,,,8,,,,https://jobportal.riseflake.com/companies/metrixit,20261120T025642-ea723f,{}
+R58,Calsoft,calsoft,,,6,,,,https://jobportal.riseflake.com/companies/calsoft,20261120T025642-ea723f,{}
+R58,Value Tech,value tech,,,6,,,,https://jobportal.riseflake.com/companies/value-tech,20261120T025642-ea723f,{}
+R58,eBizneeds,ebizneeds,,,6,,,,https://jobportal.riseflake.com/companies/ebizneeds,20261120T025642-ea723f,{}
+R58,Avendata Group,avendata group,,,Other,,,,https://jobportal.riseflake.com/companies/avendata-group,20261120T025642-ea723f,{}
+R58,Digital Janet,digital janet,,,5,,,,https://jobportal.riseflake.com/companies/digital-janet,20261120T025642-ea723f,{}
+R58,EPAM,epam,,,Software & IT,,,,https://jobportal.riseflake.com/companies/epam,20261120T025642-ea723f,{}
+R58,Peoplefy,peoplefy,,,4,,,,https://jobportal.riseflake.com/companies/peoplefy,20261120T025642-ea723f,{}
+R58,AP,ap,,,Apexon,,,,https://jobportal.riseflake.com/companies/apexon,20261120T025642-ea723f,{}
+R58,Birlasoft Ltd,birlasoft,,,Software & IT,,,,https://jobportal.riseflake.com/companies/birlasoft-ltd,20261120T025642-ea723f,{}
+R58,IWTPL,iwtpl,,,3,,,,https://jobportal.riseflake.com/companies/iwtpl,20261120T025642-ea723f,{}
+R58,LTM,ltm,,,3,,,,https://jobportal.riseflake.com/companies/ltm,20261120T025642-ea723f,{}
+R58,Nice Software Solutions,nice software solutions,,,Software & IT,,,,https://jobportal.riseflake.com/companies/nice-software-solutions,20261120T025642-ea723f,{}
+R58,Novotree Minds,novotree minds,,,3,,,,https://jobportal.riseflake.com/companies/novotree-minds,20261120T025642-ea723f,{}
+R58,TEKsystems,teksystems,,,3,,,,https://jobportal.riseflake.com/companies/teksystems,20261120T025642-ea723f,{}
+R58,Accenture in India,accenture in,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/accenture-in-india,20261120T025642-ea723f,{}
+R58,Avance Services,avance services,,,2,,,,https://jobportal.riseflake.com/companies/avance-services,20261120T025642-ea723f,{}
+R58,Coforge Ltd,coforge,,,Software & IT,,,,https://jobportal.riseflake.com/companies/coforge-ltd,20261120T025642-ea723f,{}
+R58,EXL Service,exl service,,,Software & IT,,,,https://jobportal.riseflake.com/companies/exl-service,20261120T025642-ea723f,{}
+R58,Elevati Infotech,elevati infotech,,,2,,,,https://jobportal.riseflake.com/companies/elevati-infotech,20261120T025642-ea723f,{}
+R58,Evontech,evontech,,,2,,,,https://jobportal.riseflake.com/companies/evontech,20261120T025642-ea723f,{}
+R58,Quess Corp Ltd,quess corp,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/quess-corp-ltd,20261120T025642-ea723f,{}
+R58,4labsinc,4labsinc,,,1,,,,https://jobportal.riseflake.com/companies/4labsinc,20261120T025642-ea723f,{}
+R58,Addaptech,addaptech,,,1,,,,https://jobportal.riseflake.com/companies/addaptech,20261120T025642-ea723f,{}
+R58,CoffeeBeans Consulting,coffeebeans consulting,,,1,,,,https://jobportal.riseflake.com/companies/coffeebeans-consulting,20261120T025642-ea723f,{}
+R58,Optum (part of UnitedHealth Group),optum part of unitedhealth group,,,1,,,,https://jobportal.riseflake.com/companies/optum-part-of-unitedhealth-group,20261120T025642-ea723f,{}
+R58,Sigmoid Analytics,sigmoid analytics,,,1,,,,https://jobportal.riseflake.com/companies/sigmoid-analytics,20261120T025642-ea723f,{}
+R58,Straive,straive,,,1,,,,https://jobportal.riseflake.com/companies/straive,20261120T025642-ea723f,{}
+R58,UsefulBI Corporation,usefulbi corporation,,,1,,,,https://jobportal.riseflake.com/companies/usefulbi-corporation,20261120T025642-ea723f,{}
+R58,BlueRose Technologies,bluerose technologies,,,1,,,,https://jobportal.riseflake.com/companies/bluerose-technologies,20261120T025642-ea723f,{}
+R58,KritiLabs Technologies,kritilabs technologies,,,1,,,,https://jobportal.riseflake.com/companies/kritilabs-technologies,20261120T025642-ea723f,{}
+R58,Stitch Financial Technologies,stitch financial technologies,,,1,,,,https://jobportal.riseflake.com/companies/stitch-financial-technologies,20261120T025642-ea723f,{}
+R58,AiLogic Neural Network Pvt. Ltd.,ailogic neural network,,,1,,,,https://jobportal.riseflake.com/companies/ailogic-neural-network-pvt-ltd,20261120T025642-ea723f,{}
+R58,Albireo Recruiters,albireo recruiters,,,Other,,,,https://jobportal.riseflake.com/companies/albireo-recruiters,20261120T025642-ea723f,{}
+R58,Clientservertech,clientservertech,,,1,,,,https://jobportal.riseflake.com/companies/clientservertech,20261120T025642-ea723f,{}
+R58,Hexaware Technologies Ltd,hexaware technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/hexaware-technologies-ltd,20261120T025642-ea723f,{}
+R58,Amla Commerce,amla commerce,,,1,,,,https://jobportal.riseflake.com/companies/amla-commerce,20261120T025642-ea723f,{}
+R58,Entytle,entytle,,,1,,,,https://jobportal.riseflake.com/companies/entytle,20261120T025642-ea723f,{}
+R58,FlytBase,flytbase,,,1,,,,https://jobportal.riseflake.com/companies/flytbase,20261120T025642-ea723f,{}
+R58,Futran Solutions,futran solutions,,,1,,,,https://jobportal.riseflake.com/companies/futran-solutions,20261120T025642-ea723f,{}
+R58,GK HR Consulting India Pvt. Ltd.,gk hr consulting,,,1,,,,https://jobportal.riseflake.com/companies/gk-hr-consulting-india-pvt-ltd,20261120T025642-ea723f,{}
+R58,Goldeneagle,goldeneagle,,,1,,,,https://jobportal.riseflake.com/companies/goldeneagle,20261120T025642-ea723f,{}
+R58,Neilsoft,neilsoft,,,1,,,,https://jobportal.riseflake.com/companies/neilsoft,20261120T025642-ea723f,{}
+R58,Nvidia,nvidia,,,Software & IT,,,,https://jobportal.riseflake.com/companies/nvidia,20261120T025642-ea723f,{}
+R58,PDB Tech Solutions,pdb tech solutions,,,1,,,,https://jobportal.riseflake.com/companies/pdb-tech-solutions,20261120T025642-ea723f,{}
+R58,SSP Technology,ssp technology,,,1,,,,https://jobportal.riseflake.com/companies/ssp-technology,20261120T025642-ea723f,{}
+R58,Sciffer,sciffer,,,1,,,,https://jobportal.riseflake.com/companies/sciffer,20261120T025642-ea723f,{}
+R58,Dexian,dexian,,,Software & IT,,,,https://jobportal.riseflake.com/companies/dexian,20261120T025642-ea723f,{}
+R58,Moon Technolabs,moon technolabs,,,10,,,,https://jobportal.riseflake.com/companies/moon-technolabs,20261120T025642-ea723f,{}
+R58,American Chase,american chase,,,Other,,,,https://jobportal.riseflake.com/companies/american-chase,20261120T025642-ea723f,{}
+R58,Holistic Partners,holistic partners,,,6,,,,https://jobportal.riseflake.com/companies/holistic-partners,20261120T025642-ea723f,{}
+R58,Coditas,coditas,,,5,,,,https://jobportal.riseflake.com/companies/coditas,20261120T025642-ea723f,{}
+R58,Reveille Technologies,reveille technologies,,,5,,,,https://jobportal.riseflake.com/companies/reveille-technologies,20261120T025642-ea723f,{}
+R58,Nagarro,nagarro,,,4,,,,https://jobportal.riseflake.com/companies/nagarro,20261120T025642-ea723f,{}
+R58,PineQ Lab Technology,pineq lab technology,,,4,,,,https://jobportal.riseflake.com/companies/pineq-lab-technology,20261120T025642-ea723f,{}
+R58,SK,sk,,,Skillventory,,,,https://jobportal.riseflake.com/companies/skillventory,20261120T025642-ea723f,{}
+R58,Taggd,taggd,,,4,,,,https://jobportal.riseflake.com/companies/taggd,20261120T025642-ea723f,{}
+R58,Tekcog,tekcog,,,4,,,,https://jobportal.riseflake.com/companies/tekcog,20261120T025642-ea723f,{}
+R58,The Veritas Healthcare,veritas healthcare,,,4,,,,https://jobportal.riseflake.com/companies/the-veritas-healthcare,20261120T025642-ea723f,{}
+R58,Catalyst Infotechs,catalyst infotechs,,,3,,,,https://jobportal.riseflake.com/companies/catalyst-infotechs,20261120T025642-ea723f,{}
+R58,Den Mark Pharmaceuticals Pvt Ltd,den mark pharmaceuticals,,,3,,,,https://jobportal.riseflake.com/companies/den-mark-pharmaceuticals-pvt-ltd,20261120T025642-ea723f,{}
+R58,Lemma,lemma,,,3,,,,https://jobportal.riseflake.com/companies/lemma,20261120T025642-ea723f,{}
+R58,Parseq,parseq,,,3,,,,https://jobportal.riseflake.com/companies/parseq,20261120T025642-ea723f,{}
+R58,Teclogos Automation,teclogos automation,,,Software & IT,,,,https://jobportal.riseflake.com/companies/teclogos-automation,20261120T025642-ea723f,{}
+R58,iapp Technologies LLP,iapp technologies,,,3,,,,https://jobportal.riseflake.com/companies/iapp-technologies-llp,20261120T025642-ea723f,{}
+R58,ACL Digital,acl digital,,,Software & IT,,,,https://jobportal.riseflake.com/companies/acl-digital,20261120T025642-ea723f,{}
+R58,Zenitus Technologies,zenitus technologies,,,2,,,,https://jobportal.riseflake.com/companies/zenitus-technologies,20261120T025642-ea723f,{}
+R58,The JB Associates,jb associates,,,1,,,,https://jobportal.riseflake.com/companies/the-jb-associates,20261120T025642-ea723f,{}
+R58,Lattice Manpower,lattice manpower,,,2,,,,https://jobportal.riseflake.com/companies/lattice-manpower,20261120T025642-ea723f,{}
+R58,DR,dr,,,Dr. Morepen Home,,,,https://jobportal.riseflake.com/companies/dr-morepen-home,20261120T025642-ea723f,{}
+R58,TWSOL,twsol,,,1,,,,https://jobportal.riseflake.com/companies/twsol,20261120T025642-ea723f,{}
+R58,Xelium Technologies,xelium technologies,,,1,,,,https://jobportal.riseflake.com/companies/xelium-technologies,20261120T025642-ea723f,{}
+R58,Choiceindia,choiceindia,,,1,,,,https://jobportal.riseflake.com/companies/choiceindia,20261120T025642-ea723f,{}
+R58,Goldmedal India,goldmedal,,,1,,,,https://jobportal.riseflake.com/companies/goldmedal-india,20261120T025642-ea723f,{}
+R58,PE,pe,,,PEP Technologies,,,,https://jobportal.riseflake.com/companies/pep-technologies,20261120T025642-ea723f,{}
+R58,Scaleneworks,scaleneworks,,,1,,,,https://jobportal.riseflake.com/companies/scaleneworks,20261120T025642-ea723f,{}
+R58,UN,un,,,UnifyApps,,,,https://jobportal.riseflake.com/companies/unifyapps,20261120T025642-ea723f,{}
+R58,Demandify Media,demandify media,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/demandify-media,20261120T025642-ea723f,{}
+R58,Flipkart,flipkart,,,Other,,,,https://jobportal.riseflake.com/companies/flipkart,20261120T025642-ea723f,{}
+R58,Genesis Tech Engineers,genesis tech engineers,,,2,,,,https://jobportal.riseflake.com/companies/genesis-tech-engineers,20261120T025642-ea723f,{}
+R58,Muks Robotics,muks robotics,,,Other,,,,https://jobportal.riseflake.com/companies/muks-robotics,20261120T025642-ea723f,{}
+R58,SPHEREGEN TECHNOLOGIES Pvt Ltd,spheregen technologies,,,2,,,,https://jobportal.riseflake.com/companies/spheregen-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Synechron,synechron,,,2,,,,https://jobportal.riseflake.com/companies/synechron,20261120T025642-ea723f,{}
+R58,Bajajamc,bajajamc,,,1,,,,https://jobportal.riseflake.com/companies/bajajamc,20261120T025642-ea723f,{}
+R58,CandorWorks,candorworks,,,1,,,,https://jobportal.riseflake.com/companies/candorworks,20261120T025642-ea723f,{}
+R58,JISA Softech Pvt. Ltd.,jisa softech,,,1,,,,https://jobportal.riseflake.com/companies/jisa-softech-pvt-ltd,20261120T025642-ea723f,{}
+R58,Market Research Future,market research future,,,1,,,,https://jobportal.riseflake.com/companies/market-research-future,20261120T025642-ea723f,{}
+R58,PatSeer Technologies Pvt. Ltd.,patseer technologies,,,1,,,,https://jobportal.riseflake.com/companies/patseer-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Pristine Market Insights,pristine market insights,,,1,,,,https://jobportal.riseflake.com/companies/pristine-market-insights,20261120T025642-ea723f,{}
+R58,TalenttSnow Private Limited,talenttsnow,,,1,,,,https://jobportal.riseflake.com/companies/talenttsnow-private-limited,20261120T025642-ea723f,{}
+R58,WNS,wns,,,Software & IT,,,,https://jobportal.riseflake.com/companies/wns,20261120T025642-ea723f,{}
+R58,Fortune Cloud Technologies Pvt. Ltd.,fortune cloud technologies,,,6,,,,https://jobportal.riseflake.com/companies/fortune-cloud-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Sunstone,sunstone,,,5,,,,https://jobportal.riseflake.com/companies/sunstone,20261120T025642-ea723f,{}
+R58,TG,tg,,,TGW Group,,,,https://jobportal.riseflake.com/companies/tgw-group,20261120T025642-ea723f,{}
+R58,Technology Next,technology next,,,4,,,,https://jobportal.riseflake.com/companies/technology-next,20261120T025642-ea723f,{}
+R58,GR,gr,,,Greateway Software Pvt . Ltd,,,,https://jobportal.riseflake.com/companies/greateway-software-pvt-ltd,20261120T025642-ea723f,{}
+R58,IN,in,,,Infobeans,,,,https://jobportal.riseflake.com/companies/infobeans-1792390806040,20261120T025642-ea723f,{}
+R58,OnPoint Insights,onpoint insights,,,3,,,,https://jobportal.riseflake.com/companies/onpoint-insights,20261120T025642-ea723f,{}
+R58,Chirok Health,chirok health,,,2,,,,https://jobportal.riseflake.com/companies/chirok-health,20261120T025642-ea723f,{}
+R58,PW,pw,,,PwC India,,,,https://jobportal.riseflake.com/companies/pwc-india,20261120T025642-ea723f,{}
+R58,bjshomedelivery.com,bjshomedelivery com,,,2,,,,https://jobportal.riseflake.com/companies/bjshomedeliverycom,20261120T025642-ea723f,{}
+R58,AppSquadz,appsquadz,,,1,,,,https://jobportal.riseflake.com/companies/appsquadz,20261120T025642-ea723f,{}
+R58,Assetsoft,assetsoft,,,1,,,,https://jobportal.riseflake.com/companies/assetsoft,20261120T025642-ea723f,{}
+R58,CarWale,carwale,,,1,,,,https://jobportal.riseflake.com/companies/carwale,20261120T025642-ea723f,{}
+R58,CitiusTech,citiustech,,,Other,,,,https://jobportal.riseflake.com/companies/citiustech,20261120T025642-ea723f,{}
+R58,Cpmindia,cpmindia,,,1,,,,https://jobportal.riseflake.com/companies/cpmindia,20261120T025642-ea723f,{}
+R58,Garuda Aerospace,garuda aerospace,,,1,,,,https://jobportal.riseflake.com/companies/garuda-aerospace,20261120T025642-ea723f,{}
+R58,RP,rp,,,RPA INFOTECH PVT,,,,https://jobportal.riseflake.com/companies/rpa-infotech-pvt,20261120T025642-ea723f,{}
+R58,Softbay,softbay,,,1,,,,https://jobportal.riseflake.com/companies/softbay,20261120T025642-ea723f,{}
+R58,TATA 1MG,tata 1mg,,,1,,,,https://jobportal.riseflake.com/companies/tata-1mg,20261120T025642-ea723f,{}
+R58,ICICI Lombard General Insurance Company Ltd,icici lombard general insurance company,,,Insurance,,,,https://jobportal.riseflake.com/companies/icici-lombard-general-insurance-company-ltd,20261120T025642-ea723f,{}
+R58,Intellicus,intellicus,,,Software & IT,,,,https://jobportal.riseflake.com/companies/intellicus,20261120T025642-ea723f,{}
+R58,KY Technologies,ky technologies,,,1,,,,https://jobportal.riseflake.com/companies/ky-technologies,20261120T025642-ea723f,{}
+R58,CR,cr,,,Credence Resource Management,,,,https://jobportal.riseflake.com/companies/credence-resource-management,20261120T025642-ea723f,{}
+R58,FIGmd,figmd,,,1,,,,https://jobportal.riseflake.com/companies/figmd,20261120T025642-ea723f,{}
+R58,Gspann,gspann,,,1,,,,https://jobportal.riseflake.com/companies/gspann,20261120T025642-ea723f,{}
+R58,Hexanika,hexanika,,,1,,,,https://jobportal.riseflake.com/companies/hexanika,20261120T025642-ea723f,{}
+R58,MyVirtualDesks,myvirtualdesks,,,1,,,,https://jobportal.riseflake.com/companies/myvirtualdesks,20261120T025642-ea723f,{}
+R58,YAN IT Solutions,yan it solutions,,,1,,,,https://jobportal.riseflake.com/companies/yan-it-solutions,20261120T025642-ea723f,{}
+R58,HCL Technologies Ltd,hcl technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/hcl-technologies-ltd,20261120T025642-ea723f,{}
+R58,TechnoComp Inc,technocomp,,,5,,,,https://jobportal.riseflake.com/companies/technocomp-inc,20261120T025642-ea723f,{}
+R58,Master Software Solutions,master software solutions,,,4,,,,https://jobportal.riseflake.com/companies/master-software-solutions,20261120T025642-ea723f,{}
+R58,itekpeople.com,itekpeople com,,,4,,,,https://jobportal.riseflake.com/companies/itekpeoplecom,20261120T025642-ea723f,{}
+R58,Brucode Technologies,brucode technologies,,,3,,,,https://jobportal.riseflake.com/companies/brucode-technologies,20261120T025642-ea723f,{}
+R58,Digital Dhara,digital dhara,,,3,,,,https://jobportal.riseflake.com/companies/digital-dhara,20261120T025642-ea723f,{}
+R58,Opcito,opcito,,,3,,,,https://jobportal.riseflake.com/companies/opcito,20261120T025642-ea723f,{}
+R58,Configusa,configusa,,,2,,,,https://jobportal.riseflake.com/companies/configusa,20261120T025642-ea723f,{}
+R58,Magicforce,magicforce,,,2,,,,https://jobportal.riseflake.com/companies/magicforce,20261120T025642-ea723f,{}
+R58,ZE,ze,,,Zecdata,,,,https://jobportal.riseflake.com/companies/zecdata,20261120T025642-ea723f,{}
+R58,eClerx Services Ltd,eclerx services,,,Software & IT,,,,https://jobportal.riseflake.com/companies/eclerx-services-ltd,20261120T025642-ea723f,{}
+R58,Celebal Technologies,celebal technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/celebal-technologies,20261120T025642-ea723f,{}
+R58,IntelliSoftTech,intellisofttech,,,Other,,,,https://jobportal.riseflake.com/companies/intellisofttech,20261120T025642-ea723f,{}
+R58,JO,jo,,,JobDaddy,,,,https://jobportal.riseflake.com/companies/jobdaddy,20261120T025642-ea723f,{}
+R58,Synergytalententerprise,synergytalententerprise,,,1,,,,https://jobportal.riseflake.com/companies/synergytalententerprise,20261120T025642-ea723f,{}
+R58,XO,xo,,,Xoriant,,,,https://jobportal.riseflake.com/companies/xoriant,20261120T025642-ea723f,{}
+R58,MY,my,,,MySkillsversity,,,,https://jobportal.riseflake.com/companies/myskillsversity,20261120T025642-ea723f,{}
+R58,BlueBit Technologies,bluebit technologies,,,3,,,,https://jobportal.riseflake.com/companies/bluebit-technologies,20261120T025642-ea723f,{}
+R58,Absolute Reports,absolute reports,,,2,,,,https://jobportal.riseflake.com/companies/absolute-reports,20261120T025642-ea723f,{}
+R58,Netsolutions,netsolutions,,,2,,,,https://jobportal.riseflake.com/companies/netsolutions,20261120T025642-ea723f,{}
+R58,BeyondWalls,beyondwalls,,,1,,,,https://jobportal.riseflake.com/companies/beyondwalls,20261120T025642-ea723f,{}
+R58,Ethinos,ethinos,,,1,,,,https://jobportal.riseflake.com/companies/ethinos,20261120T025642-ea723f,{}
+R58,EX,ex,,,Exicom Tele-Systems Ltd,,,,https://jobportal.riseflake.com/companies/exicom-tele-systems-ltd,20261120T025642-ea723f,{}
+R58,Figuring Out Media,figuring out media,,,1,,,,https://jobportal.riseflake.com/companies/figuring-out-media,20261120T025642-ea723f,{}
+R58,HZY Fashion Private Limited,hzy fashion,,,1,,,,https://jobportal.riseflake.com/companies/hzy-fashion-private-limited,20261120T025642-ea723f,{}
+R58,Nexority Infotech,nexority infotech,,,1,,,,https://jobportal.riseflake.com/companies/nexority-infotech,20261120T025642-ea723f,{}
+R58,TechCentrica,techcentrica,,,1,,,,https://jobportal.riseflake.com/companies/techcentrica,20261120T025642-ea723f,{}
+R58,Kimshuka Technologies Pvt Ltd,kimshuka technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/kimshuka-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Staxinfo,staxinfo,,,2,,,,https://jobportal.riseflake.com/companies/staxinfo,20261120T025642-ea723f,{}
+R58,H2H Solutions,h2h solutions,,,1,,,,https://jobportal.riseflake.com/companies/h2h-solutions,20261120T025642-ea723f,{}
+R58,Paralok,paralok,,,1,,,,https://jobportal.riseflake.com/companies/paralok,20261120T025642-ea723f,{}
+R58,Finney-Taylor,finney taylor,,,2,,,,https://jobportal.riseflake.com/companies/finney-taylor,20261120T025642-ea723f,{}
+R58,AdvancedRiskAnalytics,advancedriskanalytics,,,1,,,,https://jobportal.riseflake.com/companies/advancedriskanalytics,20261120T025642-ea723f,{}
+R58,Alpha Analytics Services,alpha analytics services,,,1,,,,https://jobportal.riseflake.com/companies/alpha-analytics-services,20261120T025642-ea723f,{}
+R58,Bluestock Fintech,bluestock fintech,,,Fintech,,,,https://jobportal.riseflake.com/companies/bluestock-fintech,20261120T025642-ea723f,{}
+R58,Boang Technologies Pvt. Ltd. (OPPO),boang technologies oppo,,,1,,,,https://jobportal.riseflake.com/companies/boang-technologies-pvt-ltd-oppo,20261120T025642-ea723f,{}
+R58,CO,co,,,Cognoid,,,,https://jobportal.riseflake.com/companies/cognoid,20261120T025642-ea723f,{}
+R58,SA,sa,,,Saanvi Technology,,,,https://jobportal.riseflake.com/companies/saanvi-technology,20261120T025642-ea723f,{}
+R58,CU,cu,,,Cut Analytics,,,,https://jobportal.riseflake.com/companies/cut-analytics,20261120T025642-ea723f,{}
+R58,NI,ni,,,Niti Technologies India Software,,,,https://jobportal.riseflake.com/companies/niti-technologies-india-software,20261120T025642-ea723f,{}
+R58,Kforce Inc,kforce,,,5,,,,https://jobportal.riseflake.com/companies/kforce-inc,20261120T025642-ea723f,{}
+R58,Solaztek Inc,solaztek,,,4,,,,https://jobportal.riseflake.com/companies/solaztek-inc,20261120T025642-ea723f,{}
+R58,Persistent Systems Ltd,persistent systems,,,Software & IT,,,,https://jobportal.riseflake.com/companies/persistent-systems-ltd,20261120T025642-ea723f,{}
+R58,Tekgence,tekgence,,,3,,,,https://jobportal.riseflake.com/companies/tekgence,20261120T025642-ea723f,{}
+R58,Alike Thoughts InfoSystems,alike thoughts infosystems,,,2,,,,https://jobportal.riseflake.com/companies/alike-thoughts-infosystems,20261120T025642-ea723f,{}
+R58,Citta Solutions,citta solutions,,,2,,,,https://jobportal.riseflake.com/companies/citta-solutions,20261120T025642-ea723f,{}
+R58,Diverselynx,diverselynx,,,2,,,,https://jobportal.riseflake.com/companies/diverselynx,20261120T025642-ea723f,{}
+R58,Data Collection Infotech,data collection infotech,,,1,,,,https://jobportal.riseflake.com/companies/data-collection-infotech,20261120T025642-ea723f,{}
+R58,Techigai,techigai,,,1,,,,https://jobportal.riseflake.com/companies/techigai,20261120T025642-ea723f,{}
+R58,ID,id,,,IdealCrew,,,,https://jobportal.riseflake.com/companies/idealcrew,20261120T025642-ea723f,{}
+R58,Miba,miba,,,1,,,,https://jobportal.riseflake.com/companies/miba,20261120T025642-ea723f,{}
+R58,Rapidera Technologies,rapidera technologies,,,1,,,,https://jobportal.riseflake.com/companies/rapidera-technologies,20261120T025642-ea723f,{}
+R58,Scry Analytics,scry analytics,,,1,,,,https://jobportal.riseflake.com/companies/scry-analytics,20261120T025642-ea723f,{}
+R58,SI,si,,,Siemens DISW,,,,https://jobportal.riseflake.com/companies/siemens-disw,20261120T025642-ea723f,{}
+R58,Tanisha Systems,tanisha systems,,,2,,,,https://jobportal.riseflake.com/companies/tanisha-systems,20261120T025642-ea723f,{}
+R58,Jaas Technologies,jaas technologies,,,1,,,,https://jobportal.riseflake.com/companies/jaas-technologies,20261120T025642-ea723f,{}
+R58,Pursuit Future Technologies,pursuit future technologies,,,1,,,,https://jobportal.riseflake.com/companies/pursuit-future-technologies,20261120T025642-ea723f,{}
+R58,Qualis1inc,qualis1inc,,,1,,,,https://jobportal.riseflake.com/companies/qualis1inc,20261120T025642-ea723f,{}
+R58,Spinos Life Science and Research Private Limited,spinos life science and research,,,1,,,,https://jobportal.riseflake.com/companies/spinos-life-science-and-research-private-limited,20261120T025642-ea723f,{}
+R58,Staffingcomrade,staffingcomrade,,,Software & IT,,,,https://jobportal.riseflake.com/companies/staffingcomrade,20261120T025642-ea723f,{}
+R58,SU,su,,,Sumeru Industries Ltd,,,,https://jobportal.riseflake.com/companies/sumeru-industries-ltd,20261120T025642-ea723f,{}
+R58,Syneos Health,syneos health,,,1,,,,https://jobportal.riseflake.com/companies/syneos-health,20261120T025642-ea723f,{}
+R58,Codinix Technologies Inc.,codinix technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/codinix-technologies-inc,20261120T025642-ea723f,{}
+R58,Realizer Techonlogies,realizer techonlogies,,,2,,,,https://jobportal.riseflake.com/companies/realizer-techonlogies,20261120T025642-ea723f,{}
+R58,Agno Talents,agno talents,,,1,,,,https://jobportal.riseflake.com/companies/agno-talents,20261120T025642-ea723f,{}
+R58,EA,ea,,,EAMbrace,,,,https://jobportal.riseflake.com/companies/eambrace,20261120T025642-ea723f,{}
+R58,FA,fa,,,Facile Info-Serv Private Limited,,,,https://jobportal.riseflake.com/companies/facile-info-serv-private-limited,20261120T025642-ea723f,{}
+R58,Flipkoins,flipkoins,,,1,,,,https://jobportal.riseflake.com/companies/flipkoins,20261120T025642-ea723f,{}
+R58,IT,it,,,ITLPro Solutions,,,,https://jobportal.riseflake.com/companies/itlpro-solutions,20261120T025642-ea723f,{}
+R58,KJ Systems India,kj systems,,,1,,,,https://jobportal.riseflake.com/companies/kj-systems-india,20261120T025642-ea723f,{}
+R58,Key Management Group,key management group,,,1,,,,https://jobportal.riseflake.com/companies/key-management-group,20261120T025642-ea723f,{}
+R58,Meraki Konsulting,meraki konsulting,,,1,,,,https://jobportal.riseflake.com/companies/meraki-konsulting,20261120T025642-ea723f,{}
+R58,SBSC,sbsc,,,1,,,,https://jobportal.riseflake.com/companies/sbsc,20261120T025642-ea723f,{}
+R58,Shasta Tek Solutions,shasta tek solutions,,,1,,,,https://jobportal.riseflake.com/companies/shasta-tek-solutions,20261120T025642-ea723f,{}
+R58,Aziro,aziro,,,5,,,,https://jobportal.riseflake.com/companies/aziro,20261120T025642-ea723f,{}
+R58,GVR Infotek,gvr infotek,,,3,,,,https://jobportal.riseflake.com/companies/gvr-infotek,20261120T025642-ea723f,{}
+R58,nCircle Tech,ncircle tech,,,2,,,,https://jobportal.riseflake.com/companies/ncircle-tech,20261120T025642-ea723f,{}
+R58,AgileSquadInc,agilesquadinc,,,1,,,,https://jobportal.riseflake.com/companies/agilesquadinc,20261120T025642-ea723f,{}
+R58,Eduplexconsultancy,eduplexconsultancy,,,1,,,,https://jobportal.riseflake.com/companies/eduplexconsultancy,20261120T025642-ea723f,{}
+R58,Jigya Software Services,jigya software services,,,1,,,,https://jobportal.riseflake.com/companies/jigya-software-services,20261120T025642-ea723f,{}
+R58,Karini AI LLP,karini ai,,,1,,,,https://jobportal.riseflake.com/companies/karini-ai-llp,20261120T025642-ea723f,{}
+R58,NTT DATA,ntt data,,,1,,,,https://jobportal.riseflake.com/companies/ntt-data,20261120T025642-ea723f,{}
+R58,PeerLogic Systems,peerlogic systems,,,1,,,,https://jobportal.riseflake.com/companies/peerlogic-systems,20261120T025642-ea723f,{}
+R58,YASH Technologies,yash technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/yash-technologies,20261120T025642-ea723f,{}
+R58,Zentrumhub,zentrumhub,,,1,,,,https://jobportal.riseflake.com/companies/zentrumhub,20261120T025642-ea723f,{}
+R58,Arna Softech,arna softech,,,Software & IT,,,,https://jobportal.riseflake.com/companies/arna-softech,20261120T025642-ea723f,{}
+R58,Blue Mile Digital,blue mile digital,,,2,,,,https://jobportal.riseflake.com/companies/blue-mile-digital,20261120T025642-ea723f,{}
+R58,Leading Edge Info Solutions,leading edge info solutions,,,2,,,,https://jobportal.riseflake.com/companies/leading-edge-info-solutions,20261120T025642-ea723f,{}
+R58,Bold Care,bold care,,,1,,,,https://jobportal.riseflake.com/companies/bold-care,20261120T025642-ea723f,{}
+R58,Ethiqual,ethiqual,,,Other,,,,https://jobportal.riseflake.com/companies/ethiqual,20261120T025642-ea723f,{}
+R58,FU,fu,,,Futurism Technologies,,,,https://jobportal.riseflake.com/companies/futurism-technologies,20261120T025642-ea723f,{}
+R58,LDT Technology Pvt. Ltd.,ldt technology,,,1,,,,https://jobportal.riseflake.com/companies/ldt-technology-pvt-ltd,20261120T025642-ea723f,{}
+R58,MA,ma,,,Malikarjuna Ready Foods Limited,,,,https://jobportal.riseflake.com/companies/malikarjuna-ready-foods-limited,20261120T025642-ea723f,{}
+R58,Metapercept Technology Services LLP,metapercept technology services,,,1,,,,https://jobportal.riseflake.com/companies/metapercept-technology-services-llp,20261120T025642-ea723f,{}
+R58,Primesoft Inc.,primesoft,,,1,,,,https://jobportal.riseflake.com/companies/primesoft-inc,20261120T025642-ea723f,{}
+R58,WebGuruz Technologies Pvt Ltd,webguruz technologies,,,1,,,,https://jobportal.riseflake.com/companies/webguruz-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,i-Next Web Technologies,i next web technologies,,,1,,,,https://jobportal.riseflake.com/companies/i-next-web-technologies,20261120T025642-ea723f,{}
+R58,Amazesystemsinc,amazesystemsinc,,,1,,,,https://jobportal.riseflake.com/companies/amazesystemsinc,20261120T025642-ea723f,{}
+R58,Kernex Microsystems (India) Ltd,kernex microsystems,,,Software & IT,,,,https://jobportal.riseflake.com/companies/kernex-microsystems-india-ltd,20261120T025642-ea723f,{}
+R58,PMECH CONSULTANT PVT. LTD.,pmech consultant,,,1,,,,https://jobportal.riseflake.com/companies/pmech-consultant-pvt-ltd,20261120T025642-ea723f,{}
+R58,Rolls-Royce,rolls royce,,,1,,,,https://jobportal.riseflake.com/companies/rolls-royce,20261120T025642-ea723f,{}
+R58,hocon-techindia.com,hocon techindia com,,,1,,,,https://jobportal.riseflake.com/companies/hocon-techindiacom,20261120T025642-ea723f,{}
+R58,spal,spal,,,1,,,,https://jobportal.riseflake.com/companies/spal,20261120T025642-ea723f,{}
+R58,Reliance Industries Ltd,reliance industries,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/reliance-industries-ltd,20261120T025642-ea723f,{}
+R58,Harvintek,harvintek,,,4,,,,https://jobportal.riseflake.com/companies/harvintek,20261120T025642-ea723f,{}
+R58,Fiorano,fiorano,,,1,,,,https://jobportal.riseflake.com/companies/fiorano,20261120T025642-ea723f,{}
+R58,L&T Technology Services Ltd,l and t technology services,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/lt-technology-services-ltd,20261120T025642-ea723f,{}
+R58,Growels Oftech,growels oftech,,,2,,,,https://jobportal.riseflake.com/companies/growels-oftech,20261120T025642-ea723f,{}
+R58,Photon,photon,,,2,,,,https://jobportal.riseflake.com/companies/photon,20261120T025642-ea723f,{}
+R58,Agiliad,agiliad,,,2,,,,https://jobportal.riseflake.com/companies/agiliad,20261120T025642-ea723f,{}
+R58,Capgemini India,capgemini,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/capgemini-india,20261120T025642-ea723f,{}
+R58,Intelizign,intelizign,,,2,,,,https://jobportal.riseflake.com/companies/intelizign,20261120T025642-ea723f,{}
+R58,Sayhire,sayhire,,,2,,,,https://jobportal.riseflake.com/companies/sayhire,20261120T025642-ea723f,{}
+R58,SgurrEnergy,sgurrenergy,,,2,,,,https://jobportal.riseflake.com/companies/sgurrenergy,20261120T025642-ea723f,{}
+R58,Amcbridge,amcbridge,,,1,,,,https://jobportal.riseflake.com/companies/amcbridge,20261120T025642-ea723f,{}
+R58,Cybage Software Pvt. Ltd,cybage software,,,Software & IT,,,,https://jobportal.riseflake.com/companies/cybage-software-pvt-ltd,20261120T025642-ea723f,{}
+R58,Geminus Tech,geminus tech,,,1,,,,https://jobportal.riseflake.com/companies/geminus-tech,20261120T025642-ea723f,{}
+R58,LinkedLoops,linkedloops,,,1,,,,https://jobportal.riseflake.com/companies/linkedloops,20261120T025642-ea723f,{}
+R58,PLM Nordic,plm nordic,,,Other,,,,https://jobportal.riseflake.com/companies/plm-nordic,20261120T025642-ea723f,{}
+R58,Squareline Solution,squareline solution,,,1,,,,https://jobportal.riseflake.com/companies/squareline-solution,20261120T025642-ea723f,{}
+R58,NLB Services,nlb services,,,6,,,,https://jobportal.riseflake.com/companies/nlb-services,20261120T025642-ea723f,{}
+R58,Scale Healthcare,scale healthcare,,,2,,,,https://jobportal.riseflake.com/companies/scale-healthcare,20261120T025642-ea723f,{}
+R58,Crowe Advisory Services (India) LLP,crowe advisory services,,,1,,,,https://jobportal.riseflake.com/companies/crowe-advisory-services-india-llp,20261120T025642-ea723f,{}
+R58,Tramo Technolab Private limited,tramo technolab,,,1,,,,https://jobportal.riseflake.com/companies/tramo-technolab-private-limited,20261120T025642-ea723f,{}
+R58,Trioptus,trioptus,,,1,,,,https://jobportal.riseflake.com/companies/trioptus,20261120T025642-ea723f,{}
+R58,UPL Ltd,upl,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/upl-ltd,20261120T025642-ea723f,{}
+R58,One2Infinite Recruitment Solutions,one2infinite recruitment solutions,,,2,,,,https://jobportal.riseflake.com/companies/one2infinite-recruitment-solutions,20261120T025642-ea723f,{}
+R58,Bajaj Capital Ltd,bajaj capital,,,1,,,,https://jobportal.riseflake.com/companies/bajaj-capital-ltd,20261120T025642-ea723f,{}
+R58,ASJ Transglobal LLP,asj transglobal,,,6,,,,https://jobportal.riseflake.com/companies/asj-transglobal-llp,20261120T025642-ea723f,{}
+R58,Code1,code1,,,2,,,,https://jobportal.riseflake.com/companies/code1,20261120T025642-ea723f,{}
+R58,Iris Software Inc.,iris software,,,2,,,,https://jobportal.riseflake.com/companies/iris-software-inc,20261120T025642-ea723f,{}
+R58,Svatantra Aditya Birla,svatantra aditya birla,,,2,,,,https://jobportal.riseflake.com/companies/svatantra-aditya-birla,20261120T025642-ea723f,{}
+R58,QU,qu,,,Quest Hiring,,,,https://jobportal.riseflake.com/companies/quest-hiring,20261120T025642-ea723f,{}
+R58,KPIT Technologies Ltd,kpit technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/kpit-technologies-ltd,20261120T025642-ea723f,{}
+R58,Connectiqo,connectiqo,,,1,,,,https://jobportal.riseflake.com/companies/connectiqo,20261120T025642-ea723f,{}
+R58,FITTR,fittr,,,1,,,,https://jobportal.riseflake.com/companies/fittr,20261120T025642-ea723f,{}
+R58,Neuvosoft Solutions,neuvosoft solutions,,,Software & IT,,,,https://jobportal.riseflake.com/companies/neuvosoft-solutions,20261120T025642-ea723f,{}
+R58,Quest-global,quest global,,,1,,,,https://jobportal.riseflake.com/companies/quest-global,20261120T025642-ea723f,{}
+R58,WE,we,,,WEX Technology,,,,https://jobportal.riseflake.com/companies/wex-technology,20261120T025642-ea723f,{}
+R58,ContinuumWorkforce,continuumworkforce,,,1,,,,https://jobportal.riseflake.com/companies/continuumworkforce,20261120T025642-ea723f,{}
+R58,Artech L.L.C.,artech l l c,,,3,,,,https://jobportal.riseflake.com/companies/artech-llc,20261120T025642-ea723f,{}
+R58,Compunnel Inc.,compunnel,,,3,,,,https://jobportal.riseflake.com/companies/compunnel-inc,20261120T025642-ea723f,{}
+R58,Lalbaba Group,lalbaba group,,,3,,,,https://jobportal.riseflake.com/companies/lalbaba-group,20261120T025642-ea723f,{}
+R58,Osam Dairy,osam dairy,,,3,,,,https://jobportal.riseflake.com/companies/osam-dairy,20261120T025642-ea723f,{}
+R58,BlueBerry Agro Products Pvt. Ltd.,blueberry agro products,,,2,,,,https://jobportal.riseflake.com/companies/blueberry-agro-products-pvt-ltd,20261120T025642-ea723f,{}
+R58,Discreet Solutions Pvt Ltd,discreet solutions,,,2,,,,https://jobportal.riseflake.com/companies/discreet-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,EchoIT Sol,echoit sol,,,2,,,,https://jobportal.riseflake.com/companies/echoit-sol,20261120T025642-ea723f,{}
+R58,Bhartiya International Ltd,bhartiya international,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/bhartiya-international-ltd,20261120T025642-ea723f,{}
+R58,Infosys Ltd,infosys,,,Software & IT,,,,https://jobportal.riseflake.com/companies/infosys-ltd,20261120T025642-ea723f,{}
+R58,NewSpace Research & Technologies,newspace research and technologies,,,1,,,,https://jobportal.riseflake.com/companies/newspace-research-technologies,20261120T025642-ea723f,{}
+R58,Sumadhura Infracon,sumadhura infracon,,,1,,,,https://jobportal.riseflake.com/companies/sumadhura-infracon,20261120T025642-ea723f,{}
+R58,Tata Power Company Ltd,tata power company,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/tata-power-company-ltd,20261120T025642-ea723f,{}
+R58,Rupee112,rupee112,,,1,,,,https://jobportal.riseflake.com/companies/rupee112,20261120T025642-ea723f,{}
+R58,Secure Meters,secure meters,,,1,,,,https://jobportal.riseflake.com/companies/secure-meters,20261120T025642-ea723f,{}
+R58,V-Bazaar Retail Pvt. Ltd.,v bazaar retail,,,1,,,,https://jobportal.riseflake.com/companies/v-bazaar-retail-pvt-ltd,20261120T025642-ea723f,{}
+R58,VCL Group,vcl group,,,1,,,,https://jobportal.riseflake.com/companies/vcl-group,20261120T025642-ea723f,{}
+R58,TE,te,,,Teleperformce,,,,https://jobportal.riseflake.com/companies/teleperformce-1,20261120T025642-ea723f,{}
+R58,iTech US,itech us,,,2,,,,https://jobportal.riseflake.com/companies/itech-us,20261120T025642-ea723f,{}
+R58,DPR Solutions Inc,dpr solutions,,,1,,,,https://jobportal.riseflake.com/companies/dpr-solutions-inc,20261120T025642-ea723f,{}
+R58,Everest Fleet Pvt. Ltd.,everest fleet,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/everest-fleet-pvt-ltd,20261120T025642-ea723f,{}
+R58,MeanSquare AI,meansquare ai,,,1,,,,https://jobportal.riseflake.com/companies/meansquare-ai,20261120T025642-ea723f,{}
+R58,Orcapod,orcapod,,,1,,,,https://jobportal.riseflake.com/companies/orcapod,20261120T025642-ea723f,{}
+R58,Sarian Solutions,sarian solutions,,,1,,,,https://jobportal.riseflake.com/companies/sarian-solutions,20261120T025642-ea723f,{}
+R58,TH,th,,,Thinklusive,,,,https://jobportal.riseflake.com/companies/thinklusive,20261120T025642-ea723f,{}
+R58,USTech Solutions Inc.,ustech solutions,,,1,,,,https://jobportal.riseflake.com/companies/ustech-solutions-inc,20261120T025642-ea723f,{}
+R58,HA,ha,,,Halcer,,,,https://jobportal.riseflake.com/companies/halcer,20261120T025642-ea723f,{}
+R58,Pushp Masale,pushp masale,,,1,,,,https://jobportal.riseflake.com/companies/pushp-masale,20261120T025642-ea723f,{}
+R58,CH,ch,,,Chemtex Speciality Limited,,,,https://jobportal.riseflake.com/companies/chemtex-speciality-limited,20261120T025642-ea723f,{}
+R58,RashmiGroup,rashmigroup,,,1,,,,https://jobportal.riseflake.com/companies/rashmigroup,20261120T025642-ea723f,{}
+R58,SH,sh,,,Shippin,,,,https://jobportal.riseflake.com/companies/shippin,20261120T025642-ea723f,{}
+R58,Super Smelters Limited,super smelters,,,1,,,,https://jobportal.riseflake.com/companies/super-smelters-limited,20261120T025642-ea723f,{}
+R58,AaravGlobal,aaravglobal,,,1,,,,https://jobportal.riseflake.com/companies/aaravglobal,20261120T025642-ea723f,{}
+R58,Lodestar UM,lodestar um,,,1,,,,https://jobportal.riseflake.com/companies/lodestar-um,20261120T025642-ea723f,{}
+R58,NUPI,nupi,,,1,,,,https://jobportal.riseflake.com/companies/nupi,20261120T025642-ea723f,{}
+R58,Nativeworld,nativeworld,,,1,,,,https://jobportal.riseflake.com/companies/nativeworld,20261120T025642-ea723f,{}
+R58,Nielsen,nielsen,,,1,,,,https://jobportal.riseflake.com/companies/nielsen,20261120T025642-ea723f,{}
+R58,Surelock Pvt. Ltd.,surelock,,,1,,,,https://jobportal.riseflake.com/companies/surelock-pvt-ltd,20261120T025642-ea723f,{}
+R58,Peopleintegra,peopleintegra,,,2,,,,https://jobportal.riseflake.com/companies/peopleintegra,20261120T025642-ea723f,{}
+R58,Vyze Inc.,vyze,,,2,,,,https://jobportal.riseflake.com/companies/vyze-inc,20261120T025642-ea723f,{}
+R58,E-Solutions,e solutions,,,1,,,,https://jobportal.riseflake.com/companies/e-solutions,20261120T025642-ea723f,{}
+R58,HAYS,hays,,,Software & IT,,,,https://jobportal.riseflake.com/companies/hays,20261120T025642-ea723f,{}
+R58,Med Ninjas,med ninjas,,,1,,,,https://jobportal.riseflake.com/companies/med-ninjas,20261120T025642-ea723f,{}
+R58,Siriinfoinc,siriinfoinc,,,1,,,,https://jobportal.riseflake.com/companies/siriinfoinc,20261120T025642-ea723f,{}
+R58,The Judge Group,judge group,,,1,,,,https://jobportal.riseflake.com/companies/the-judge-group,20261120T025642-ea723f,{}
+R58,Vision Infotech Inc.,vision infotech,,,1,,,,https://jobportal.riseflake.com/companies/vision-infotech-inc,20261120T025642-ea723f,{}
+R58,iEnergizer,ienergizer,,,1,,,,https://jobportal.riseflake.com/companies/ienergizer,20261120T025642-ea723f,{}
+R58,xziant.com,xziant com,,,1,,,,https://jobportal.riseflake.com/companies/xziantcom,20261120T025642-ea723f,{}
+R58,Asia Tech Center,asia tech center,,,1,,,,https://jobportal.riseflake.com/companies/asia-tech-center,20261120T025642-ea723f,{}
+R58,DA,da,,,DAZBOG POWER,,,,https://jobportal.riseflake.com/companies/dazbog-power,20261120T025642-ea723f,{}
+R58,Ideas To Impacts,ideas to impacts,,,1,,,,https://jobportal.riseflake.com/companies/ideas-to-impacts,20261120T025642-ea723f,{}
+R58,Integrated Active Monitoring Pvt. Ltd.,integrated active monitoring,,,1,,,,https://jobportal.riseflake.com/companies/integrated-active-monitoring-pvt-ltd,20261120T025642-ea723f,{}
+R58,Nutrifresh Farms,nutrifresh farms,,,1,,,,https://jobportal.riseflake.com/companies/nutrifresh-farms,20261120T025642-ea723f,{}
+R58,Vacis Automation Pvt. Ltd.,vacis automation,,,1,,,,https://jobportal.riseflake.com/companies/vacis-automation-pvt-ltd,20261120T025642-ea723f,{}
+R58,Zensar Technologies Ltd,zensar technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/zensar-technologies-ltd,20261120T025642-ea723f,{}
+R58,Zproo EV Pvt. Ltd.,zproo ev,,,1,,,,https://jobportal.riseflake.com/companies/zproo-ev-pvt-ltd,20261120T025642-ea723f,{}
+R58,ME,me,,,Metastring Foundation,,,,https://jobportal.riseflake.com/companies/metastring-foundation,20261120T025642-ea723f,{}
+R58,Clover Infotech,clover infotech,,,1,,,,https://jobportal.riseflake.com/companies/clover-infotech,20261120T025642-ea723f,{}
+R58,Ideas2IT Technologies,ideas2it technologies,,,1,,,,https://jobportal.riseflake.com/companies/ideas2it-technologies,20261120T025642-ea723f,{}
+R58,Mediant Labs,mediant labs,,,1,,,,https://jobportal.riseflake.com/companies/mediant-labs,20261120T025642-ea723f,{}
+R58,Ahom Technologies,ahom technologies,,,1,,,,https://jobportal.riseflake.com/companies/ahom-technologies,20261120T025642-ea723f,{}
+R58,MyRealData,myrealdata,,,1,,,,https://jobportal.riseflake.com/companies/myrealdata,20261120T025642-ea723f,{}
+R58,Peoplestaff,peoplestaff,,,1,,,,https://jobportal.riseflake.com/companies/peoplestaff,20261120T025642-ea723f,{}
+R58,Virtusa,virtusa,,,1,,,,https://jobportal.riseflake.com/companies/virtusa,20261120T025642-ea723f,{}
+R58,Bureau Veritas,bureau veritas,,,1,,,,https://jobportal.riseflake.com/companies/bureau-veritas,20261120T025642-ea723f,{}
+R58,Kinsfolk Technology Private Limited,kinsfolk technology,,,1,,,,https://jobportal.riseflake.com/companies/kinsfolk-technology-private-limited,20261120T025642-ea723f,{}
+R58,NE,ne,,,Neosoft Technologies,,,,https://jobportal.riseflake.com/companies/neosoft-technologies,20261120T025642-ea723f,{}
+R58,Togglehead,togglehead,,,1,,,,https://jobportal.riseflake.com/companies/togglehead,20261120T025642-ea723f,{}
+R58,cloudiops.com,cloudiops com,,,1,,,,https://jobportal.riseflake.com/companies/cloudiopscom,20261120T025642-ea723f,{}
+R58,ITC Infotech,itc infotech,,,3,,,,https://jobportal.riseflake.com/companies/itc-infotech,20261120T025642-ea723f,{}
+R58,Thinkitive Inc. Technologies,thinkitive technologies,,,3,,,,https://jobportal.riseflake.com/companies/thinkitive-inc-technologies,20261120T025642-ea723f,{}
+R58,Sattix AI,sattix ai,,,4,,,,https://jobportal.riseflake.com/companies/sattix-ai,20261120T025642-ea723f,{}
+R58,ProPlus Data,proplus data,,,1,,,,https://jobportal.riseflake.com/companies/proplus-data,20261120T025642-ea723f,{}
+R58,Itechstack,itechstack,,,2,,,,https://jobportal.riseflake.com/companies/itechstack,20261120T025642-ea723f,{}
+R58,PA,pa,,,Patil Automation Ltd,,,,https://jobportal.riseflake.com/companies/patil-automation-ltd,20261120T025642-ea723f,{}
+R58,Rockman Industries Limited,rockman industries,,,2,,,,https://jobportal.riseflake.com/companies/rockman-industries-limited,20261120T025642-ea723f,{}
+R58,Talteam,talteam,,,2,,,,https://jobportal.riseflake.com/companies/talteam,20261120T025642-ea723f,{}
+R58,Caresoft Global Technologies,caresoft global technologies,,,1,,,,https://jobportal.riseflake.com/companies/caresoft-global-technologies,20261120T025642-ea723f,{}
+R58,Muenzer,muenzer,,,1,,,,https://jobportal.riseflake.com/companies/muenzer,20261120T025642-ea723f,{}
+R58,fusiongts,fusiongts,,,1,,,,https://jobportal.riseflake.com/companies/fusiongts,20261120T025642-ea723f,{}
+R58,CyberMeru Technologies,cybermeru technologies,,,2,,,,https://jobportal.riseflake.com/companies/cybermeru-technologies,20261120T025642-ea723f,{}
+R58,Econosoftinc,econosoftinc,,,2,,,,https://jobportal.riseflake.com/companies/econosoftinc,20261120T025642-ea723f,{}
+R58,Quantabase,quantabase,,,1,,,,https://jobportal.riseflake.com/companies/quantabase,20261120T025642-ea723f,{}
+R58,Transcom India,transcom,,,1,,,,https://jobportal.riseflake.com/companies/transcom-india,20261120T025642-ea723f,{}
+R58,iomconstruction,iomconstruction,,,1,,,,https://jobportal.riseflake.com/companies/iomconstruction,20261120T025642-ea723f,{}
+R58,Acme Services,acme services,,,2,,,,https://jobportal.riseflake.com/companies/acme-services,20261120T025642-ea723f,{}
+R58,Frido,frido,,,Other,,,,https://jobportal.riseflake.com/companies/frido,20261120T025642-ea723f,{}
+R58,SKH Group,skh group,,,1,,,,https://jobportal.riseflake.com/companies/skh-group,20261120T025642-ea723f,{}
+R58,Logicon Facility Management,logicon facility management,,,1,,,,https://jobportal.riseflake.com/companies/logicon-facility-management,20261120T025642-ea723f,{}
+R58,Abhinav Bindra Foundation Trust,abhinav bindra foundation trust,,,1,,,,https://jobportal.riseflake.com/companies/abhinav-bindra-foundation-trust,20261120T025642-ea723f,{}
+R58,AI,ai,,,Aishwi Technologies,,,,https://jobportal.riseflake.com/companies/aishwi-technologies,20261120T025642-ea723f,{}
+R58,Alltake,alltake,,,Other,,,,https://jobportal.riseflake.com/companies/alltake,20261120T025642-ea723f,{}
+R58,Amaha Health,amaha health,,,1,,,,https://jobportal.riseflake.com/companies/amaha-health,20261120T025642-ea723f,{}
+R58,AN,an,,,Anson Chits India Pvt. Ltd.,,,,https://jobportal.riseflake.com/companies/anson-chits-india-pvt-ltd,20261120T025642-ea723f,{}
+R58,Apollo Hospitals Enterprise Ltd,apollo hospitals enterprise,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/apollo-hospitals-enterprise-ltd,20261120T025642-ea723f,{}
+R58,Berar Finance Limited,berar finance,,,1,,,,https://jobportal.riseflake.com/companies/berar-finance-limited,20261120T025642-ea723f,{}
+R58,BigBasket,bigbasket,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/bigbasket,20261120T025642-ea723f,{}
+R58,Bitontree,bitontree,,,1,,,,https://jobportal.riseflake.com/companies/bitontree,20261120T025642-ea723f,{}
+R58,Cyberidenity Solutions,cyberidenity solutions,,,1,,,,https://jobportal.riseflake.com/companies/cyberidenity-solutions,20261120T025642-ea723f,{}
+R58,Delhi Press,delhi press,,,1,,,,https://jobportal.riseflake.com/companies/delhi-press,20261120T025642-ea723f,{}
+R58,Delhivery Ltd,delhivery,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/delhivery-ltd,20261120T025642-ea723f,{}
+R58,Holiday Inn Express & Suites Jaipur,holiday inn express and suites jaipur,,,1,,,,https://jobportal.riseflake.com/companies/holiday-inn-express-suites-jaipur,20261120T025642-ea723f,{}
+R58,Ditinus Technology,ditinus technology,,,2,,,,https://jobportal.riseflake.com/companies/ditinus-technology,20261120T025642-ea723f,{}
+R58,SolutionIT,solutionit,,,2,,,,https://jobportal.riseflake.com/companies/solutionit,20261120T025642-ea723f,{}
+R58,FundEnable,fundenable,,,1,,,,https://jobportal.riseflake.com/companies/fundenable,20261120T025642-ea723f,{}
+R58,LH,lh,,,LHB Clinical,,,,https://jobportal.riseflake.com/companies/lhb-clinical,20261120T025642-ea723f,{}
+R58,Suryalogix Pvt. Ltd.,suryalogix,,,1,,,,https://jobportal.riseflake.com/companies/suryalogix-pvt-ltd,20261120T025642-ea723f,{}
+R58,Thinking Forks,thinking forks,,,1,,,,https://jobportal.riseflake.com/companies/thinking-forks,20261120T025642-ea723f,{}
+R58,Two Brothers Organic Farms,two brothers organic farms,,,1,,,,https://jobportal.riseflake.com/companies/two-brothers-organic-farms,20261120T025642-ea723f,{}
+R58,Veramed,veramed,,,1,,,,https://jobportal.riseflake.com/companies/veramed,20261120T025642-ea723f,{}
+R58,Vanced Solutions Pvt. Ltd.,vanced solutions,,,3,,,,https://jobportal.riseflake.com/companies/vanced-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,SevenMentor Pvt. Ltd.,sevenmentor,,,2,,,,https://jobportal.riseflake.com/companies/sevenmentor-pvt-ltd,20261120T025642-ea723f,{}
+R58,1P,1p,,,1Paymint,,,,https://jobportal.riseflake.com/companies/1paymint,20261120T025642-ea723f,{}
+R58,DHL Global Forwarding,dhl global forwarding,,,1,,,,https://jobportal.riseflake.com/companies/dhl-global-forwarding,20261120T025642-ea723f,{}
+R58,Debut Infotech,debut infotech,,,1,,,,https://jobportal.riseflake.com/companies/debut-infotech,20261120T025642-ea723f,{}
+R58,Dyneton,dyneton,,,1,,,,https://jobportal.riseflake.com/companies/dyneton,20261120T025642-ea723f,{}
+R58,ELENO Energy LLP,eleno energy,,,1,,,,https://jobportal.riseflake.com/companies/eleno-energy-llp,20261120T025642-ea723f,{}
+R58,ITFMS,itfms,,,1,,,,https://jobportal.riseflake.com/companies/itfms,20261120T025642-ea723f,{}
+R58,Sight Spectrum,sight spectrum,,,2,,,,https://jobportal.riseflake.com/companies/sight-spectrum,20261120T025642-ea723f,{}
+R58,Digivance Sol,digivance sol,,,1,,,,https://jobportal.riseflake.com/companies/digivance-sol,20261120T025642-ea723f,{}
+R58,Netsol IT Solutions Pvt. Ltd.,netsol it solutions,,,6,,,,https://jobportal.riseflake.com/companies/netsol-it-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,Ferns N Petals,ferns n petals,,,1,,,,https://jobportal.riseflake.com/companies/ferns-n-petals,20261120T025642-ea723f,{}
+R58,Openskale,openskale,,,1,,,,https://jobportal.riseflake.com/companies/openskale,20261120T025642-ea723f,{}
+R58,Pixelstat eSolutions Development,pixelstat esolutions development,,,1,,,,https://jobportal.riseflake.com/companies/pixelstat-esolutions-development,20261120T025642-ea723f,{}
+R58,Harjai Technologies,harjai technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/harjai-technologies,20261120T025642-ea723f,{}
+R58,e.Soft Technologies,e soft technologies,,,1,,,,https://jobportal.riseflake.com/companies/esoft-technologies,20261120T025642-ea723f,{}
+R58,42works,42works,,,1,,,,https://jobportal.riseflake.com/companies/42works,20261120T025642-ea723f,{}
+R58,Asahi India Glass Ltd,asahi glass,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/asahi-india-glass-ltd,20261120T025642-ea723f,{}
+R58,EV91 Technologies Pvt. Ltd,ev91 technologies,,,1,,,,https://jobportal.riseflake.com/companies/ev91-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Shyam Metalics & Energy Ltd,shyam metalics and energy,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/shyam-metalics-energy-ltd,20261120T025642-ea723f,{}
+R58,UGC Supply Chain Solutions Pvt. Ltd.,ugc supply chain solutions,,,1,,,,https://jobportal.riseflake.com/companies/ugc-supply-chain-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,Capabiliq INC,capabiliq,,,1,,,,https://jobportal.riseflake.com/companies/capabiliq-inc,20261120T025642-ea723f,{}
+R58,Adagrad AI,adagrad ai,,,1,,,,https://jobportal.riseflake.com/companies/adagrad-ai,20261120T025642-ea723f,{}
+R58,Appristine Technologies,appristine technologies,,,1,,,,https://jobportal.riseflake.com/companies/appristine-technologies,20261120T025642-ea723f,{}
+R58,Bajaj Technologies,bajaj technologies,,,1,,,,https://jobportal.riseflake.com/companies/bajaj-technologies,20261120T025642-ea723f,{}
+R58,CityIT Solutions,cityit solutions,,,1,,,,https://jobportal.riseflake.com/companies/cityit-solutions,20261120T025642-ea723f,{}
+R58,Digitalize The Globe (DTG),digitalize globe dtg,,,1,,,,https://jobportal.riseflake.com/companies/digitalize-the-globe-dtg,20261120T025642-ea723f,{}
+R58,Excellonsoft,excellonsoft,,,1,,,,https://jobportal.riseflake.com/companies/excellonsoft,20261120T025642-ea723f,{}
+R58,IT Shastra,it shastra,,,1,,,,https://jobportal.riseflake.com/companies/it-shastra,20261120T025642-ea723f,{}
+R58,PraataH Business Services,praatah business services,,,1,,,,https://jobportal.riseflake.com/companies/praatah-business-services,20261120T025642-ea723f,{}
+R58,Redxcel Solutions,redxcel solutions,,,1,,,,https://jobportal.riseflake.com/companies/redxcel-solutions,20261120T025642-ea723f,{}
+R58,RI,ri,,,Ride Softech Solutions,,,,https://jobportal.riseflake.com/companies/ride-softech-solutions,20261120T025642-ea723f,{}
+R58,Semantic Technologies & Agritech Services Pvt ltd,semantic technologies and agritech services,,,1,,,,https://jobportal.riseflake.com/companies/semantic-technologies-agritech-services-pvt-ltd,20261120T025642-ea723f,{}
+R58,Kataria Automobiles,kataria automobiles,,,Other,,,,https://jobportal.riseflake.com/companies/kataria-automobiles,20261120T025642-ea723f,{}
+R58,bigitjobs.com,bigitjobs com,,,1,,,,https://jobportal.riseflake.com/companies/bigitjobscom,20261120T025642-ea723f,{}
+R58,Quantipeak,quantipeak,,,1,,,,https://jobportal.riseflake.com/companies/quantipeak,20261120T025642-ea723f,{}
+R58,Rareprob Solutions Pvt. Ltd.,rareprob solutions,,,2,,,,https://jobportal.riseflake.com/companies/rareprob-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,LA,la,,,lambagroup.com,,,,https://jobportal.riseflake.com/companies/lambagroupcom,20261120T025642-ea723f,{}
+R58,Servosys,servosys,,,1,,,,https://jobportal.riseflake.com/companies/servosys,20261120T025642-ea723f,{}
+R58,nnhire,nnhire,,,1,,,,https://jobportal.riseflake.com/companies/nnhire,20261120T025642-ea723f,{}
+R58,Futuresoftindia,futuresoftindia,,,1,,,,https://jobportal.riseflake.com/companies/futuresoftindia,20261120T025642-ea723f,{}
+R58,SY,sy,,,Systango Technologies Ltd,,,,https://jobportal.riseflake.com/companies/systango-technologies-ltd,20261120T025642-ea723f,{}
+R58,Tech Rudraum Pvt. Ltd.,tech rudraum,,,1,,,,https://jobportal.riseflake.com/companies/tech-rudraum-pvt-ltd,20261120T025642-ea723f,{}
+R58,Webiwork,webiwork,,,1,,,,https://jobportal.riseflake.com/companies/webiwork,20261120T025642-ea723f,{}
+R58,ZIVENTRA AI Ventures,ziventra ai ventures,,,1,,,,https://jobportal.riseflake.com/companies/ziventra-ai-ventures,20261120T025642-ea723f,{}
+R58,Human Before Resource Pvt Ltd,human before resource,,,1,,,,https://jobportal.riseflake.com/companies/human-before-resource-pvt-ltd,20261120T025642-ea723f,{}
+R58,Linc Ltd,linc,,,Other,,,,https://jobportal.riseflake.com/companies/linc-ltd,20261120T025642-ea723f,{}
+R58,Deliverables Agency,deliverables agency,,,1,,,,https://jobportal.riseflake.com/companies/deliverables-agency,20261120T025642-ea723f,{}
+R58,Muthoot Group,muthoot group,,,1,,,,https://jobportal.riseflake.com/companies/muthoot-group,20261120T025642-ea723f,{}
+R58,V5 Global,v5 global,,,1,,,,https://jobportal.riseflake.com/companies/v5-global,20261120T025642-ea723f,{}
+R58,Cumail,cumail,,,1,,,,https://jobportal.riseflake.com/companies/cumail,20261120T025642-ea723f,{}
+R58,RichestSoft,richestsoft,,,1,,,,https://jobportal.riseflake.com/companies/richestsoft,20261120T025642-ea723f,{}
+R58,Abaculus Consultancy Corporation,abaculus consultancy corporation,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/abaculus-consultancy-corporation,20261120T025642-ea723f,{}
+R58,Aditi Consulting,aditi consulting,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/aditi-consulting,20261120T025642-ea723f,{}
+R58,Bodhtree Consulting Ltd,bodhtree consulting,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/bodhtree-consulting-ltd,20261120T025642-ea723f,{}
+R58,BR,br,,,Brainsoft Consultancy Services,,,,https://jobportal.riseflake.com/companies/brainsoft-consultancy-services,20261120T025642-ea723f,{}
+R58,CGI,cgi,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/cgi,20261120T025642-ea723f,{}
+R58,Computer Age Management Services Ltd,computer age management services,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/computer-age-management-services-ltd,20261120T025642-ea723f,{}
+R58,CredenTek Software & Consultancy Pvt Ltd,credentek software and consultancy,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/credentek-software-consultancy-pvt-ltd,20261120T025642-ea723f,{}
+R58,DH,dh,,,Dhasha Consulting Services,,,,https://jobportal.riseflake.com/companies/dhasha-consulting-services,20261120T025642-ea723f,{}
+R58,Dhruv Consultancy Services Ltd,dhruv consultancy services,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/dhruv-consultancy-services-ltd,20261120T025642-ea723f,{}
+R58,DiversityNexus,diversitynexus,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/diversitynexus,20261120T025642-ea723f,{}
+R58,Exo Talent,exo talent,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/exo-talent,20261120T025642-ea723f,{}
+R58,FO,fo,,,Forage,,,,https://jobportal.riseflake.com/companies/forage,20261120T025642-ea723f,{}
+R58,Fuld,fuld,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/fuld,20261120T025642-ea723f,{}
+R58,Gallagher,gallagher,,,Consulting & Services,,,,https://jobportal.riseflake.com/companies/gallagher,20261120T025642-ea723f,{}
+R58,GE,ge,,,Genius Consultant Ptv Ltd,,,,https://jobportal.riseflake.com/companies/genius-consultant-ptv-ltd,20261120T025642-ea723f,{}
+R58,Ameritek Global Inc,ameritek global,,,Other,,,,https://jobportal.riseflake.com/companies/ameritek-global-inc,20261120T025642-ea723f,{}
+R58,CV,cv,,,CV CORP,,,,https://jobportal.riseflake.com/companies/cv-corp,20261120T025642-ea723f,{}
+R58,Gujarat State Financial Corporation,gujarat state financial corporation,,,Banking & Finance,,,,https://jobportal.riseflake.com/companies/gujarat-state-financial-corporation,20261120T025642-ea723f,{}
+R58,ON,on,,,Onix Networking Corp,,,,https://jobportal.riseflake.com/companies/onix-networking-corp,20261120T025642-ea723f,{}
+R58,SB,sb,,,SBL Corp,,,,https://jobportal.riseflake.com/companies/sbl-corp,20261120T025642-ea723f,{}
+R58,TA,ta,,,Target Corporation,,,,https://jobportal.riseflake.com/companies/target-corporation,20261120T025642-ea723f,{}
+R58,UB,ub,,,Uber Technologies Inc.,,,,https://jobportal.riseflake.com/companies/uber-technologies-inc,20261120T025642-ea723f,{}
+R58,Writer Corporation,writer corporation,,,Other,,,,https://jobportal.riseflake.com/companies/writer-corporation,20261120T025642-ea723f,{}
+R58,eGain Corporation,egain corporation,,,Other,,,,https://jobportal.riseflake.com/companies/egain-corporation,20261120T025642-ea723f,{}
+R58,Avenue Supermarts Ltd,avenue supermarts,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/avenue-supermarts-ltd,20261120T025642-ea723f,{}
+R58,AYM Syntex Ltd,aym syntex,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/aym-syntex-ltd,20261120T025642-ea723f,{}
+R58,Aditya Birla Fashion & Retail Ltd,aditya birla fashion and retail,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/aditya-birla-fashion-retail-ltd,20261120T025642-ea723f,{}
+R58,Amarjothi Spinning Mills Ltd,amarjothi spinning mills,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/amarjothi-spinning-mills-ltd,20261120T025642-ea723f,{}
+R58,Amazon,amazon,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/amazon-1,20261120T025642-ea723f,{}
+R58,Archies Ltd,archies,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/archies-ltd,20261120T025642-ea723f,{}
+R58,Bannari Amman Spinning Mills Ltd,bannari amman spinning mills,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/bannari-amman-spinning-mills-ltd,20261120T025642-ea723f,{}
+R58,Banswara Syntex Ltd,banswara syntex,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/banswara-syntex-ltd,20261120T025642-ea723f,{}
+R58,Bata India Ltd,bata,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/bata-india-ltd,20261120T025642-ea723f,{}
+R58,BE,be,,,Bella Casa Fashion & Retail Ltd,,,,https://jobportal.riseflake.com/companies/bella-casa-fashion-retail-ltd,20261120T025642-ea723f,{}
+R58,Bhandari Hosiery Exports Ltd,bhandari hosiery exports,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/bhandari-hosiery-exports-ltd,20261120T025642-ea723f,{}
+R58,BH,bh,,,Bhatia Communications & Retail (India) Ltd,,,,https://jobportal.riseflake.com/companies/bhatia-communications-retail-india-ltd,20261120T025642-ea723f,{}
+R58,BL,bl,,,Bluestone Jewellery & Lifestyle Ltd,,,,https://jobportal.riseflake.com/companies/bluestone-jewellery-lifestyle-ltd,20261120T025642-ea723f,{}
+R58,Cantabil Retail India Ltd,cantabil retail,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/cantabil-retail-india-ltd,20261120T025642-ea723f,{}
+R58,Celebrity Fashions Ltd,celebrity fashions,,,E-commerce & Retail,,,,https://jobportal.riseflake.com/companies/celebrity-fashions-ltd,20261120T025642-ea723f,{}
+R58,AW,aw,,,AWS Academy,,,,https://jobportal.riseflake.com/companies/aws-academy,20261120T025642-ea723f,{}
+R58,AL,al,,,Almabetter,,,,https://jobportal.riseflake.com/companies/almabetter,20261120T025642-ea723f,{}
+R58,Aptech Ltd,aptech,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/aptech-ltd,20261120T025642-ea723f,{}
+R58,Break Into VC,break into vc,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/break-into-vc,20261120T025642-ea723f,{}
+R58,CISCO Networking Academy,cisco networking academy,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/cisco-networking-academy,20261120T025642-ea723f,{}
+R58,CL Educate Ltd,cl educate,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/cl-educate-ltd,20261120T025642-ea723f,{}
+R58,Coders Brain,coders brain,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/coders-brain,20261120T025642-ea723f,{}
+R58,DSJ Keep Learning Ltd,dsj keep learning,,,Education & Edtech,,,,https://jobportal.riseflake.com/companies/dsj-keep-learning-ltd,20261120T025642-ea723f,{}
+R58,Libas Consumer Products Ltd,libas consumer products,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/libas-consumer-products-ltd,20261120T025642-ea723f,{}
+R58,WA,wa,,,Warner Electronics India Pvt. Ltd,,,,https://jobportal.riseflake.com/companies/warner-electronics-india-pvt-ltd,20261120T025642-ea723f,{}
+R58,20 Microns Ltd,20 microns,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/20-microns-ltd,20261120T025642-ea723f,{}
+R58,A B M International Ltd,a b m international,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/a-b-m-international-ltd,20261120T025642-ea723f,{}
+R58,AB Cotspin India Ltd,ab cotspin,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/ab-cotspin-india-ltd,20261120T025642-ea723f,{}
+R58,AI Champdany Industries Ltd,ai champdany industries,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/ai-champdany-industries-ltd,20261120T025642-ea723f,{}
+R58,AIA Engineering Ltd,aia engineering,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/aia-engineering-ltd,20261120T025642-ea723f,{}
+R58,AKG Exim Ltd,akg exim,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/akg-exim-ltd,20261120T025642-ea723f,{}
+R58,AMD Industries Ltd,amd industries,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/amd-industries-ltd,20261120T025642-ea723f,{}
+R58,APL Apollo Tubes Ltd,apl apollo tubes,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/apl-apollo-tubes-ltd,20261120T025642-ea723f,{}
+R58,ASL Industries Ltd,asl industries,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/asl-industries-ltd,20261120T025642-ea723f,{}
+R58,Delphi World Money Ltd,delphi world money,,,Fintech,,,,https://jobportal.riseflake.com/companies/delphi-world-money-ltd,20261120T025642-ea723f,{}
+R58,Fi.money,fi money,,,Fintech,,,,https://jobportal.riseflake.com/companies/fimoney,20261120T025642-ea723f,{}
+R58,FI,fi,,,Finqy,,,,https://jobportal.riseflake.com/companies/finqy,20261120T025642-ea723f,{}
+R58,PB Fintech Ltd,pb fintech,,,Fintech,,,,https://jobportal.riseflake.com/companies/pb-fintech-ltd,20261120T025642-ea723f,{}
+R58,PO,po,,,Polo Queen Industrial and Fintech Ltd,,,,https://jobportal.riseflake.com/companies/polo-queen-industrial-and-fintech-ltd,20261120T025642-ea723f,{}
+R58,TR,tr,,,Trust Fintech Ltd,,,,https://jobportal.riseflake.com/companies/trust-fintech-ltd,20261120T025642-ea723f,{}
+R58,WS,ws,,,WSFX Global Pay Ltd,,,,https://jobportal.riseflake.com/companies/wsfx-global-pay-ltd,20261120T025642-ea723f,{}
+R58,Akzo Nobel India Ltd,akzo nobel,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/akzo-nobel-india-ltd,20261120T025642-ea723f,{}
+R58,Asian Paints Ltd,asian paints,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/asian-paints-ltd,20261120T025642-ea723f,{}
+R58,Bajaj Consumer Care Ltd,bajaj consumer care,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/bajaj-consumer-care-ltd,20261120T025642-ea723f,{}
+R58,Berger Paints India Ltd,berger paints,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/berger-paints-india-ltd,20261120T025642-ea723f,{}
+R58,Campus Activewear Ltd,campus activewear,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/campus-activewear-ltd,20261120T025642-ea723f,{}
+R58,Castrol India Ltd,castrol,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/castrol-india-ltd,20261120T025642-ea723f,{}
+R58,CE,ce,,,Cello World Ltd,,,,https://jobportal.riseflake.com/companies/cello-world-ltd,20261120T025642-ea723f,{}
+R58,Colgate-Palmolive (India) Ltd,colgate palmolive,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/colgate-palmolive-india-ltd,20261120T025642-ea723f,{}
+R58,Dabur India Ltd,dabur,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/dabur-india-ltd,20261120T025642-ea723f,{}
+R58,DU,du,,,Ducol Organics & Colours Ltd,,,,https://jobportal.riseflake.com/companies/ducol-organics-colours-ltd,20261120T025642-ea723f,{}
+R58,Emami Ltd,emami,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/emami-ltd,20261120T025642-ea723f,{}
+R58,Emami Paper Mills Ltd,emami paper mills,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/emami-paper-mills-ltd,20261120T025642-ea723f,{}
+R58,Emami Realty Ltd,emami realty,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/emami-realty-ltd,20261120T025642-ea723f,{}
+R58,EU,eu,,,Eureka Forbes Ltd,,,,https://jobportal.riseflake.com/companies/eureka-forbes-ltd,20261120T025642-ea723f,{}
+R58,Foseco India Ltd,foseco,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/foseco-india-ltd,20261120T025642-ea723f,{}
+R58,Gillette India Ltd,gillette,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/gillette-india-ltd,20261120T025642-ea723f,{}
+R58,Godfrey Phillips India Ltd,godfrey phillips,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/godfrey-phillips-india-ltd,20261120T025642-ea723f,{}
+R58,Godrej Consumer Products Ltd,godrej consumer products,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/godrej-consumer-products-ltd,20261120T025642-ea723f,{}
+R58,Golden Tobacco Ltd,golden tobacco,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/golden-tobacco-ltd,20261120T025642-ea723f,{}
+R58,GO,go,,,Gopal Snacks Ltd,,,,https://jobportal.riseflake.com/companies/gopal-snacks-ltd,20261120T025642-ea723f,{}
+R58,Hindustan Unilever Ltd,hindustan unilever,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/hindustan-unilever-ltd,20261120T025642-ea723f,{}
+R58,HO,ho,,,Honasa Consumer Ltd,,,,https://jobportal.riseflake.com/companies/honasa-consumer-ltd,20261120T025642-ea723f,{}
+R58,ITC Ltd,itc,,,FMCG & Consumer Goods,,,,https://jobportal.riseflake.com/companies/itc-ltd,20261120T025642-ea723f,{}
+R58,BEML Ltd,beml,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/beml-ltd,20261120T025642-ea723f,{}
+R58,CD,cd,,,CDAC,,,,https://jobportal.riseflake.com/companies/cdac,20261120T025642-ea723f,{}
+R58,CDAC SMVITA,cdac smvita,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/cdac-smvita,20261120T025642-ea723f,{}
+R58,CIDCO,cidco,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/cidco,20261120T025642-ea723f,{}
+R58,Coal India Ltd,coal,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/coal-india-ltd,20261120T025642-ea723f,{}
+R58,Container Corporation Of India Ltd,container corporation of,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/container-corporation-of-india-ltd,20261120T025642-ea723f,{}
+R58,Defence Research & Development Organization,defence research and development organization,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/defence-research-development-organization,20261120T025642-ea723f,{}
+R58,Dredging Corporation of India Ltd,dredging corporation of,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/dredging-corporation-of-india-ltd,20261120T025642-ea723f,{}
+R58,GAIL (India) Ltd,gail,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/gail-india-ltd,20261120T025642-ea723f,{}
+R58,IA,ia,,,IACSD CDAC Pune,,,,https://jobportal.riseflake.com/companies/iacsd-cdac-pune,20261120T025642-ea723f,{}
+R58,MMTC Ltd,mmtc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/mmtc-ltd,20261120T025642-ea723f,{}
+R58,MSTC Ltd,mstc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/mstc-ltd,20261120T025642-ea723f,{}
+R58,NA,na,,,NASSCOM,,,,https://jobportal.riseflake.com/companies/nasscom,20261120T025642-ea723f,{}
+R58,NBCC (India) Ltd,nbcc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/nbcc-india-ltd,20261120T025642-ea723f,{}
+R58,NHPC Ltd,nhpc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/nhpc-ltd,20261120T025642-ea723f,{}
+R58,NLC India Ltd,nlc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/nlc-india-ltd,20261120T025642-ea723f,{}
+R58,NMDC Ltd,nmdc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/nmdc-ltd,20261120T025642-ea723f,{}
+R58,NM,nm,,,NMDC Steel Ltd,,,,https://jobportal.riseflake.com/companies/nmdc-steel-ltd,20261120T025642-ea723f,{}
+R58,NT,nt,,,NTPC Green Energy Ltd,,,,https://jobportal.riseflake.com/companies/ntpc-green-energy-ltd,20261120T025642-ea723f,{}
+R58,NTPC Ltd,ntpc,,,Government & PSU,,,,https://jobportal.riseflake.com/companies/ntpc-ltd,20261120T025642-ea723f,{}
+R58,Aarey Drugs & Pharmaceuticals Ltd,aarey drugs and pharmaceuticals,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/aarey-drugs-pharmaceuticals-ltd,20261120T025642-ea723f,{}
+R58,Aarti Drugs Ltd,aarti drugs,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/aarti-drugs-ltd,20261120T025642-ea723f,{}
+R58,Abbott India Ltd,abbott,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/abbott-india-ltd,20261120T025642-ea723f,{}
+R58,Ajanta Pharma Ltd,ajanta pharma,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/ajanta-pharma-ltd,20261120T025642-ea723f,{}
+R58,Ajooni Biotech Ltd,ajooni biotech,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/ajooni-biotech-ltd,20261120T025642-ea723f,{}
+R58,Alembic Ltd,alembic,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/alembic-ltd,20261120T025642-ea723f,{}
+R58,Alembic Pharmaceuticals Ltd,alembic pharmaceuticals,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/alembic-pharmaceuticals-ltd,20261120T025642-ea723f,{}
+R58,Alkem Laboratories Ltd,alkem laboratories,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/alkem-laboratories-ltd,20261120T025642-ea723f,{}
+R58,Alpa Laboratories Ltd,alpa laboratories,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/alpa-laboratories-ltd,20261120T025642-ea723f,{}
+R58,Indian Hotels Co Ltd,indian hotels co,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/indian-hotels-co-ltd,20261120T025642-ea723f,{}
+R58,Sodexo,sodexo,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/sodexo,20261120T025642-ea723f,{}
+R58,Advani Hotels & Resorts (India) Ltd,advani hotels and resorts,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/advani-hotels-resorts-india-ltd,20261120T025642-ea723f,{}
+R58,AG,ag,,,Agribio Spirits Ltd,,,,https://jobportal.riseflake.com/companies/agribio-spirits-ltd,20261120T025642-ea723f,{}
+R58,Apollo Sindoori Hotels Ltd,apollo sindoori hotels,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/apollo-sindoori-hotels-ltd,20261120T025642-ea723f,{}
+R58,Aruna Hotels Ltd,aruna hotels,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/aruna-hotels-ltd,20261120T025642-ea723f,{}
+R58,Asian Hotels (East) Ltd,asian hotels east,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/asian-hotels-east-ltd,20261120T025642-ea723f,{}
+R58,Asian Hotels (North) Ltd,asian hotels north,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/asian-hotels-north-ltd,20261120T025642-ea723f,{}
+R58,Associated Alcohols & Breweries Ltd,associated alcohols and breweries,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/associated-alcohols-breweries-ltd,20261120T025642-ea723f,{}
+R58,Aurangabad Distillery Ltd,aurangabad distillery,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/aurangabad-distillery-ltd,20261120T025642-ea723f,{}
+R58,Blue Coast Hotels Ltd,blue coast hotels,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/blue-coast-hotels-ltd,20261120T025642-ea723f,{}
+R58,"CJM Hampton Court,Mussoorie",cjm hampton court mussoorie,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/cjm-hampton-courtmussoorie,20261120T025642-ea723f,{}
+R58,Chalet Hotels Ltd,chalet hotels,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/chalet-hotels-ltd,20261120T025642-ea723f,{}
+R58,Country Club Hospitality & Holidays Ltd,country club hospitality and holidays,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/country-club-hospitality-holidays-ltd,20261120T025642-ea723f,{}
+R58,Delta Corp Ltd,delta corp,,,Hospitality & Travel,,,,https://jobportal.riseflake.com/companies/delta-corp-ltd,20261120T025642-ea723f,{}
+R58,General Insurance Corporation of India,general insurance corporation of,,,Insurance,,,,https://jobportal.riseflake.com/companies/general-insurance-corporation-of-india,20261120T025642-ea723f,{}
+R58,HDFC ERGO General Insurance,hdfc ergo general insurance,,,Insurance,,,,https://jobportal.riseflake.com/companies/hdfc-ergo-general-insurance,20261120T025642-ea723f,{}
+R58,HDFC Life Insurance Company Ltd,hdfc life insurance company,,,Insurance,,,,https://jobportal.riseflake.com/companies/hdfc-life-insurance-company-ltd,20261120T025642-ea723f,{}
+R58,ICICI Prudential Life Insurance Company Ltd,icici prudential life insurance company,,,Insurance,,,,https://jobportal.riseflake.com/companies/icici-prudential-life-insurance-company-ltd,20261120T025642-ea723f,{}
+R58,LIC Housing Finance Ltd,lic housing finance,,,Insurance,,,,https://jobportal.riseflake.com/companies/lic-housing-finance-ltd,20261120T025642-ea723f,{}
+R58,Life Insurance Corporation of India,life insurance corporation of,,,Insurance,,,,https://jobportal.riseflake.com/companies/life-insurance-corporation-of-india,20261120T025642-ea723f,{}
+R58,Renegade Insurance,renegade insurance,,,Insurance,,,,https://jobportal.riseflake.com/companies/renegade-insurance,20261120T025642-ea723f,{}
+R58,SBI Life Insurance Company Ltd,sbi life insurance company,,,Insurance,,,,https://jobportal.riseflake.com/companies/sbi-life-insurance-company-ltd,20261120T025642-ea723f,{}
+R58,Star Health and Allied Insurance Co. Ltd,star health and allied insurance co,,,Insurance,,,,https://jobportal.riseflake.com/companies/star-health-and-allied-insurance-co-ltd,20261120T025642-ea723f,{}
+R58,Dignizant Technologies LLP,dignizant technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/dignizant-technologies-llp,20261120T025642-ea723f,{}
+R58,Nexios Technologies LLP,nexios technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/nexios-technologies-llp,20261120T025642-ea723f,{}
+R58,SO,so,,,Sofzenix IT Solutions LLP,,,,https://jobportal.riseflake.com/companies/sofzenix-it-solutions-llp,20261120T025642-ea723f,{}
+R58,TechBizMedia LLP,techbizmedia,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/techbizmedia-llp,20261120T025642-ea723f,{}
+R58,softential solution llp,softential solution,,,Software & IT,,,,https://jobportal.riseflake.com/companies/softential-solution-llp,20261120T025642-ea723f,{}
+R58,Antony Waste Handling Cell Ltd,antony waste handling cell,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/antony-waste-handling-cell-ltd,20261120T025642-ea723f,{}
+R58,Droneacharya Aerial Innovations Ltd,droneacharya aerial innovations,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/droneacharya-aerial-innovations-ltd,20261120T025642-ea723f,{}
+R58,AVG Logistics Ltd,avg logistics,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/avg-logistics-ltd,20261120T025642-ea723f,{}
+R58,Accuracy Shipping Ltd,accuracy shipping,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/accuracy-shipping-ltd,20261120T025642-ea723f,{}
+R58,Allcargo Logistics Ltd,allcargo logistics,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/allcargo-logistics-ltd,20261120T025642-ea723f,{}
+R58,Arshiya Ltd,arshiya,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/arshiya-ltd,20261120T025642-ea723f,{}
+R58,Blue Dart Express Ltd,blue dart express,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/blue-dart-express-ltd,20261120T025642-ea723f,{}
+R58,Bombay Metrics Supply Chain Ltd,bombay metrics supply chain,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/bombay-metrics-supply-chain-ltd,20261120T025642-ea723f,{}
+R58,DJ,dj,,,DJ Mediaprint & Logistics Ltd,,,,https://jobportal.riseflake.com/companies/dj-mediaprint-logistics-ltd,20261120T025642-ea723f,{}
+R58,Destiny Logistics & Infra Ltd,destiny logistics and infra,,,Logistics & Supply Chain,,,,https://jobportal.riseflake.com/companies/destiny-logistics-infra-ltd,20261120T025642-ea723f,{}
+R58,S2,s2,,,S2W Media,,,,https://jobportal.riseflake.com/companies/s2w-media,20261120T025642-ea723f,{}
+R58,52,52,,,52 Weeks Entertainment Ltd,,,,https://jobportal.riseflake.com/companies/52-weeks-entertainment-ltd,20261120T025642-ea723f,{}
+R58,Aeroplay Entertainment,aeroplay entertainment,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/aeroplay-entertainment,20261120T025642-ea723f,{}
+R58,Andhra Paper Ltd,andhra paper,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/andhra-paper-ltd,20261120T025642-ea723f,{}
+R58,Astron Paper & Board Mill Ltd,astron paper and board mill,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/astron-paper-board-mill-ltd,20261120T025642-ea723f,{}
+R58,B A G Films & Media Ltd,b a g films and media,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/b-a-g-films-media-ltd,20261120T025642-ea723f,{}
+R58,Balkrishna Paper Mills Ltd,balkrishna paper mills,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/balkrishna-paper-mills-ltd,20261120T025642-ea723f,{}
+R58,Bodhi Tree Multimedia Ltd,bodhi tree multimedia,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/bodhi-tree-multimedia-ltd,20261120T025642-ea723f,{}
+R58,Bright Outdoor Media Ltd,bright outdoor media,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/bright-outdoor-media-ltd,20261120T025642-ea723f,{}
+R58,Cineline India Ltd,cineline,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/cineline-india-ltd,20261120T025642-ea723f,{}
+R58,Cinevista Ltd,cinevista,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/cinevista-ltd,20261120T025642-ea723f,{}
+R58,CL,cl,,,Climbax Entertainment Pvt. Ltd.,,,,https://jobportal.riseflake.com/companies/climbax-entertainment-pvt-ltd,20261120T025642-ea723f,{}
+R58,Control Print Ltd,control print,,,Media & Entertainment,,,,https://jobportal.riseflake.com/companies/control-print-ltd,20261120T025642-ea723f,{}
+R58,Aakash Exploration Services Ltd,aakash exploration services,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/aakash-exploration-services-ltd,20261120T025642-ea723f,{}
+R58,Aban Offshore Ltd,aban offshore,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/aban-offshore-ltd,20261120T025642-ea723f,{}
+R58,Adani Energy Solutions Ltd,adani energy solutions,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/adani-energy-solutions-ltd,20261120T025642-ea723f,{}
+R58,Adani Green Energy Ltd,adani green energy,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/adani-green-energy-ltd,20261120T025642-ea723f,{}
+R58,Adani Power Ltd,adani power,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/adani-power-ltd,20261120T025642-ea723f,{}
+R58,Adani Total Gas Ltd,adani total gas,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/adani-total-gas-ltd,20261120T025642-ea723f,{}
+R58,AE,ae,,,Aegis Vopak Terminals Ltd,,,,https://jobportal.riseflake.com/companies/aegis-vopak-terminals-ltd,20261120T025642-ea723f,{}
+R58,Agni Green Power Ltd.,agni green power,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/agni-green-power-ltd,20261120T025642-ea723f,{}
+R58,Alphageo (India) Ltd,alphageo,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/alphageo-india-ltd,20261120T025642-ea723f,{}
+R58,Ankit Metal & Power Ltd,ankit metal and power,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/ankit-metal-power-ltd,20261120T025642-ea723f,{}
+R58,Asian Energy Services Ltd,asian energy services,,,"Oil, Gas & Energy",,,,https://jobportal.riseflake.com/companies/asian-energy-services-ltd,20261120T025642-ea723f,{}
+R58,AT,at,,,Ather Energy Ltd,,,,https://jobportal.riseflake.com/companies/ather-energy-ltd,20261120T025642-ea723f,{}
+R58,Ruzann,ruzann,,,Other,,,,https://jobportal.riseflake.com/companies/ruzann,20261120T025642-ea723f,{}
+R58,1G,1g,,,1GEN Private Limited,,,,https://jobportal.riseflake.com/companies/1gen-private-limited,20261120T025642-ea723f,{}
+R58,31west,31west,,,Other,,,,https://jobportal.riseflake.com/companies/31west,20261120T025642-ea723f,{}
+R58,3B,3b,,,3B Blackbio DX Ltd,,,,https://jobportal.riseflake.com/companies/3b-blackbio-dx-ltd,20261120T025642-ea723f,{}
+R58,3M India Ltd,3m,,,Other,,,,https://jobportal.riseflake.com/companies/3m-india-ltd,20261120T025642-ea723f,{}
+R58,3I,3i,,,3itechglobal,,,,https://jobportal.riseflake.com/companies/3itechglobal,20261120T025642-ea723f,{}
+R58,Acciojob Pvt Ltd,acciojob,,,Engineering & Manufacturing,,,,https://jobportal.riseflake.com/companies/acciojob-pvt-ltd,20261120T025642-ea723f,{}
+R58,Analytx4t Lab Pvt Ltd,analytx4t lab,,,Healthcare & Pharma,,,,https://jobportal.riseflake.com/companies/analytx4t-lab-pvt-ltd,20261120T025642-ea723f,{}
+R58,Atticbits Solutions Pvt Ltd,atticbits solutions,,,Software & IT,,,,https://jobportal.riseflake.com/companies/atticbits-solutions-pvt-ltd,20261120T025642-ea723f,{}
+R58,AutoFlow Technologies Pvt Ltd,autoflow technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/autoflow-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Bixware Technologies Pvt Ltd,bixware technologies,,,Software & IT,,,,https://jobportal.riseflake.com/companies/bixware-technologies-pvt-ltd,20261120T025642-ea723f,{}
+R58,Bold India Platforms Pvt Ltd,bold platforms,,,Other,,,,https://jobportal.riseflake.com/companies/bold-india-platforms-pvt-ltd-1,20261120T025642-ea723f,{}
+R58,Saurashtra Cement Ltd,saurashtra cement,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/saurashtra-cement-ltd,20261120T025642-ea723f,{}
+R58,A B Infrabuild Ltd,a b infrabuild,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/a-b-infrabuild-ltd,20261120T025642-ea723f,{}
+R58,A2Z Infra Engineering Ltd,a2z infra engineering,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/a2z-infra-engineering-ltd,20261120T025642-ea723f,{}
+R58,ABB India Ltd,abb,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/abb-india-ltd,20261120T025642-ea723f,{}
+R58,ATV Projects India Ltd,atv projects,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/atv-projects-india-ltd,20261120T025642-ea723f,{}
+R58,Action Construction Equipment Ltd,action construction equipment,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/action-construction-equipment-ltd,20261120T025642-ea723f,{}
+R58,AF,af,,,Afcons Infrastructure Ltd,,,,https://jobportal.riseflake.com/companies/afcons-infrastructure-ltd,20261120T025642-ea723f,{}
+R58,Ahluwalia Contracts (India) Ltd,ahluwalia contracts,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/ahluwalia-contracts-india-ltd,20261120T025642-ea723f,{}
+R58,Ajmera Realty & Infra India Ltd,ajmera realty and infra,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/ajmera-realty-infra-india-ltd,20261120T025642-ea723f,{}
+R58,Akash Infraprojects Ltd,akash infraprojects,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/akash-infraprojects-ltd,20261120T025642-ea723f,{}
+R58,Anjani Portland Cement Ltd,anjani portland cement,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/anjani-portland-cement-ltd,20261120T025642-ea723f,{}
+R58,Ansal Housing Ltd,ansal housing,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/ansal-housing-ltd,20261120T025642-ea723f,{}
+R58,Ansal Properties & Infrastructure Ltd,ansal properties and infrastructure,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/ansal-properties-infrastructure-ltd,20261120T025642-ea723f,{}
+R58,Arihant Foundations & Housing Ltd,arihant foundations and housing,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/arihant-foundations-housing-ltd,20261120T025642-ea723f,{}
+R58,Aro Granite Industries Ltd,aro granite industries,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/aro-granite-industries-ltd,20261120T025642-ea723f,{}
+R58,Art Nirman Ltd,art nirman,,,Real Estate & Infrastructure,,,,https://jobportal.riseflake.com/companies/art-nirman-ltd,20261120T025642-ea723f,{}
+R58,Ascendion,ascendion,,,Software & IT,,,,https://jobportal.riseflake.com/companies/ascendion,20261120T025642-ea723f,{}
+R58,Aksh Optifibre Ltd,aksh optifibre,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/aksh-optifibre-ltd,20261120T025642-ea723f,{}
+R58,Bharat Road Network Ltd,bharat road network,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/bharat-road-network-ltd,20261120T025642-ea723f,{}
+R58,Bharti Airtel Ltd,bharti airtel,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/bharti-airtel-ltd,20261120T025642-ea723f,{}
+R58,Den Networks Ltd,den networks,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/den-networks-ltd,20261120T025642-ea723f,{}
+R58,E2E Networks Ltd,e2e networks,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/e2e-networks-ltd,20261120T025642-ea723f,{}
+R58,Entertainment Network (India) Ltd,entertainment network,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/entertainment-network-india-ltd,20261120T025642-ea723f,{}
+R58,FR,fr,,,Frog Cellsat Ltd,,,,https://jobportal.riseflake.com/companies/frog-cellsat-ltd,20261120T025642-ea723f,{}
+R58,Future Market Networks Ltd,future market networks,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/future-market-networks-ltd,20261120T025642-ea723f,{}
+R58,GTL Infrastructure Ltd,gtl infrastructure,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/gtl-infrastructure-ltd,20261120T025642-ea723f,{}
+R58,GTL Ltd,gtl,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/gtl-ltd,20261120T025642-ea723f,{}
+R58,GTPL Hathway Ltd,gtpl hathway,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/gtpl-hathway-ltd,20261120T025642-ea723f,{}
+R58,HFCL Ltd,hfcl,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/hfcl-ltd,20261120T025642-ea723f,{}
+R58,HP,hp,,,HP Telecom India Ltd,,,,https://jobportal.riseflake.com/companies/hp-telecom-india-ltd,20261120T025642-ea723f,{}
+R58,Hathway Cable & Datacom Ltd,hathway cable and datacom,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/hathway-cable-datacom-ltd,20261120T025642-ea723f,{}
+R58,IL&FS Transportation Networks Ltd,il and fs transportation networks,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/ilfs-transportation-networks-ltd,20261120T025642-ea723f,{}
+R58,Jio Platforms Ltd,jio platforms,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/jio-platforms-ltd,20261120T025642-ea723f,{}
+R58,KA,ka,,,Kavveri Defence & Wireless Technologies Ltd,,,,https://jobportal.riseflake.com/companies/kavveri-defence-wireless-technologies-ltd,20261120T025642-ea723f,{}
+R58,Mahanagar Telephone Nigam Ltd,mahanagar telephone nigam,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/mahanagar-telephone-nigam-ltd,20261120T025642-ea723f,{}
+R58,Network People Services Technologies Ltd,network people services technologies,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/network-people-services-technologies-ltd,20261120T025642-ea723f,{}
+R58,Optiemus Infracom Ltd,optiemus infracom,,,Telecom & Networks,,,,https://jobportal.riseflake.com/companies/optiemus-infracom-ltd,20261120T025642-ea723f,{}
+R58,RA,ra,,,Radiowalla Network Ltd,,,,https://jobportal.riseflake.com/companies/radiowalla-network-ltd,20261120T025642-ea723f,{}
