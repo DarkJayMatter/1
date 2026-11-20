@@ -1,0 +1,19 @@
+gptw indias-best-companies-to-work-for: 100 rows, 0 new
+gptw indias-best-workplaces-in-manufacturing: 80 rows, 0 new
+gptw indias-great-mid-size-workplaces: 100 rows, 0 new
+gptw indias-best-workplaces-in-bfsi: 75 rows, 0 new
+gptw indias-best-workplaces-in-it-it-bpm: no page
+gptw indias-best-workplaces-in-health-wellness: 50 rows, 0 new
+gptw indias-best-workplaces-in-retail: 19 rows, 0 new
+gptw indias-best-workplaces-in-pharmaceuticals-healthcare-biotech: no page
+gptw indias-best-employers-among-nation-builders: 0 rows, 0 new
+gptw indias-best-workplaces-in-it-and-it-bpm: no page
+gptw indias-best-workplaces-in-it-it-bpm-2025: no page
+gptw indias-best-workplaces-in-it: no page
+gptw indias-best-workplaces-in-pharmaceuticals-healthcare-and-biotech: no page
+gptw indias-best-workplaces-in-pharma-healthcare-biotech: no page
+gptw indias-best-workplaces-in-pharmaceuticals: no page
+gptw: 0 new
+rbi: https://rbidocs.rbi.org.in/rdocs/content/DOCs/List_of_NBFCs_and_ARCs_registered_with_the_RBI.XLSX -> HTTP 200, 49324 bytes
+rbi: content-type text/html, first bytes b'<!DOCTYPE html>\r\n<html><head>\r\n<meta http-equiv="Pragma" content="no-cache"/>\r\n<meta http-equiv="Expires" content="-1"/>'
+rbi: not an xlsx zip; saved to out/probe/rbi_nbfc_file.bin for inspection
