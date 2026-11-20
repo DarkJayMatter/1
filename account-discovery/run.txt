@@ -1,1 +1,1 @@
-careerscan --csv out --delay 1 --max-pages 2
+bankzop,sebi --csv out --delay 1.5
