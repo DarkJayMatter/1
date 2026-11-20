@@ -1,1 +1,1 @@
-probe --csv out
+ingrid,riseflake,wikidata --csv out

@@ -594,9 +594,97 @@ def run_sebi(sink, args):
     print(f"SEBI: {sink.added} new rows")
 
 
+def run_ingrid(sink, args):
+    base = "https://ingrid.fyi"
+    r = get(base + "/explore", args.delay)
+    if r is None:
+        print("ingrid: no response"); return
+    soup = BeautifulSoup(r.text, "html.parser")
+    pages = sorted({a["href"].split("#")[0] for a in soup.find_all("a", href=re.compile(r"^/industries/"))})
+    print(f"ingrid: {len(pages)} industry pages")
+    for path in pages:
+        r = get(base + path, args.delay)
+        if r is None:
+            print(f"{path}: no response"); continue
+        sp = BeautifulSoup(r.text, "html.parser")
+        ind = path.rsplit("/", 1)[-1].replace("-", " ")
+        n = new = 0
+        for a in sp.select('a.chip[href^="/companies/"]'):
+            spans = a.find_all("span")
+            name = spans[-1].get_text(strip=True) if spans else a.get_text(strip=True)
+            if name:
+                n += 1
+                new += sink.add(name, industry=ind, profile_url=base + a["href"])
+        print(f"{path}: {n} companies, {new} new")
+
+
+def run_riseflake(sink, args):
+    base = "https://jobportal.riseflake.com"
+    r = get(base + "/companies/browse", args.delay)
+    if r is None:
+        print("riseflake: no response"); return
+    soup = BeautifulSoup(r.text, "html.parser")
+    pages = sorted({a["href"].split("?")[0] for a in soup.find_all("a", href=re.compile(r"^/companies/browse/"))})
+    print(f"riseflake: {len(pages)} browse pages")
+    for path in pages:
+        r = get(base + path, args.delay)
+        if r is None:
+            print(f"{path}: no response"); continue
+        sp = BeautifulSoup(r.text, "html.parser")
+        n = new = 0
+        for a in sp.find_all("a", href=re.compile(r"^/companies/(?!browse)[^/?]+")):
+            strings = list(a.stripped_strings)
+            if not strings:
+                continue
+            n += 1
+            new += sink.add(strings[0], industry=strings[1] if len(strings) > 1 else None,
+                            profile_url=base + a["href"].split("?")[0])
+        print(f"{path}: {n} companies, {new} new")
+
+
+WD_QUERY = """
+SELECT ?item ?itemLabel ?website ?emp ?hqLabel WHERE {
+  VALUES ?cls { wd:Q4830453 wd:Q891723 wd:Q783794 }
+  ?item wdt:P31 ?cls ; wdt:P17 wd:Q668 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P1128 ?emp }
+  OPTIONAL { ?item wdt:P159 ?hq }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} LIMIT %d OFFSET %d
+"""
+
+
+def run_wikidata(sink, args):
+    """Companies (business / public company / company) located in India, via the public SPARQL endpoint."""
+    step, offset = 2000, 0
+    while offset < 60000:
+        try:
+            r = SESSION.get("https://query.wikidata.org/sparql",
+                            params={"query": WD_QUERY % (step, offset), "format": "json"}, timeout=120)
+            rows = r.json()["results"]["bindings"]
+        except Exception as e:
+            print(f"offset {offset}: failed ({e}); stopping"); return
+        new = 0
+        for b in rows:
+            name = b["itemLabel"]["value"]
+            if re.fullmatch(r"Q\d+", name):
+                continue
+            emp = b.get("emp", {}).get("value")
+            new += sink.add(name, city=b.get("hqLabel", {}).get("value"), size_band=f"{emp} employees" if emp else None,
+                            profile_url=b["item"]["value"], raw={"website": b.get("website", {}).get("value")})
+        print(f"offset {offset}: {len(rows)} rows, {new} new")
+        if len(rows) < step:
+            break
+        offset += step
+        time.sleep(max(args.delay, 2))
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "ingrid": ("R59", run_ingrid),
+        "riseflake": ("R58", run_riseflake),
+        "wikidata": ("R26", run_wikidata),
         "sebi": ("R47", run_sebi),
         "careerjet": ("R61", run_careerjet),
         "nextknock": ("R54", run_nextknock),
