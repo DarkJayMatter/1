@@ -31,11 +31,15 @@ def classify(row):
             label, score = "IT/ITES unit (STPI)", 5
     return label, score, srcs
 
-def size_score(band, srcs):
+def size_score(band, srcs, note=""):
     m = re.search(r"([\d,]+)\s*employees", band or "")
     if m:
         n = int(m.group(1).replace(",", ""))
         return (5 if n >= 1200 else 4 if n >= 500 else 3 if n >= 200 else 2 if n >= 50 else 1), f"{n} employees"
+    if "layer Upper" in (note or ""):
+        return 5, "RBI Upper-layer NBFC (assumed large)"
+    if "layer Middle" in (note or ""):
+        return 4, "RBI Middle-layer NBFC (assumed mid-large)"
     if srcs & {"R63", "R25"}:
         return 4, "large parent (assumed)"
     return 2, "size unknown"
@@ -58,7 +62,7 @@ for r in rows:
     fams = int(ev["india_role_families"]) if ev else 0
     team = 1 if (srcs & TECH_TEAM_SRC) or biz == 5 or fams > 0 else 0
     breadth = min(5, fams + (1 if team and fams == 0 else 0)) if ev else 0
-    size, size_note = size_score(r["Headcount band"], srcs)
+    size, size_note = size_score(r["Headcount band"], srcs, r["Sector / note"])
     hire, njl = hiring_score(srcs)
     india = 1
     total = (biz/5*weights["business_type"] + team*weights["tech_team"] + breadth/5*weights["tech_role_breadth"]
