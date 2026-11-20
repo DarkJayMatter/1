@@ -1,1 +1,1 @@
-bankzop,sebi --csv out --delay 1.5
+probe --csv out --delay 2
