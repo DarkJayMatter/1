@@ -1,0 +1,6 @@
+  GET https://careerscan.in/companies?page=1 -> HTTP 403
+  GET https://careerscan.in/companies?page=1 -> HTTP 403
+  GET https://careerscan.in/companies?page=1 -> HTTP 403
+  GET https://careerscan.in/companies?page=1 -> HTTP 403
+page 1: no response, stopping (resume with --start-page 1)
+CareerScan: 0 new rows (last page 1)
