@@ -115,6 +115,7 @@ def get(url: str, delay: float, retries: int = 4):
             if r.status_code == 200:
                 time.sleep(delay)
                 return r
+            print(f"  GET {url} -> HTTP {r.status_code}")
             if r.status_code in (403, 429):
                 time.sleep(30 * (attempt + 1))  # back off hard; do not hammer
                 continue

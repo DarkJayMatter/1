@@ -1,1 +1,1 @@
-careerscan --csv out --delay 1
+careerscan --csv out --delay 1 --max-pages 2
