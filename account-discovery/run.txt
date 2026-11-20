@@ -1,1 +1,1 @@
-sebi --csv out --max-pages 100
+probe --csv out
