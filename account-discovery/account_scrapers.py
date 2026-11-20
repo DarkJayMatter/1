@@ -422,12 +422,7 @@ def run_edgar(sink, args):
     print(f"EDGAR: {sink.added} new rows")
 
 
-PROBES = {
-    "p_cs_robots": "https://careerscan.in/robots.txt",
-    "p_cs_sitemap": "https://careerscan.in/sitemap.xml",
-    "p_cs_sitemap_index": "https://careerscan.in/sitemap_index.xml",
-    "p_cs_companies": "https://careerscan.in/companies",
-}
+PROBES = {f"p_cs_sm{i}": f"https://careerscan.in/sitemap/{i}" for i in (0, 1, 8, 16)}
 
 
 def run_probe(sink, args):
