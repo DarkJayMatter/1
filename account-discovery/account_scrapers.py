@@ -422,10 +422,8 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "ingrid": "https://ingrid.fyi/explore",
-    "foundit": "https://www.foundit.in/search/jobs-by-company",
-    "riseflake": "https://jobportal.riseflake.com/companies/browse",
-    "quickcompany": "https://www.quickcompany.in/",
+    "ingrid_ind": "https://ingrid.fyi/industries/cloud-developer-tools",
+    "rise_ind": "https://jobportal.riseflake.com/companies/browse/software-it-companies",
 }
 
 
