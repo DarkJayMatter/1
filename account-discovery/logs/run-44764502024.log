@@ -1,0 +1,5 @@
+usage: account_scrapers.py [-h] [--db DB] [--csv CSV] [--delay DELAY]
+                           [--start-page START_PAGE] [--max-pages MAX_PAGES]
+                           [--only ONLY] [--debug]
+                           source
+account_scrapers.py: error: give --db and/or --csv
