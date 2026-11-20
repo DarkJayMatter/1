@@ -1,0 +1,5 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id,extra
+R21,YourStory,yourstory,,,Named in funding/growth news,,,,,20261120T190622-78e85c,"{""headline"": ""YourStory launches voice AI hackathon with Rs 8 lakh prize pool in collaboration with Google Cloud India"", ""feed"": ""https://yourstory.com/feed""}"
+R21,Urban Company,urban company,,,Named in funding/growth news,,,,,20261120T190622-78e85c,"{""headline"": ""Urban Company raises Rs 2,500 Cr through QIP"", ""feed"": ""https://yourstory.com/feed""}"
+R21,Paytm,paytm,,,Named in funding/growth news,,,,,20261120T190622-78e85c,"{""headline"": ""Paytm to invest up to Rs 200 crore in Singapore fintech partnership, deepens overseas push]]>"", ""feed"": ""https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570561.cms""}"
+R21,Anthropic IPO,anthropic ipo,,,Named in funding/growth news,,,,,20261120T190622-78e85c,"{""headline"": ""Anthropic IPO raises $81 billion at $1.75 trillion valuation: Numbers that explain the record listing"", ""feed"": ""https://www.livemint.com/rss/companies""}"
