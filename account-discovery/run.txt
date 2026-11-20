@@ -1,1 +1,1 @@
-gptw,rbi --csv out --delay 2
+careerscan --csv out --delay 1
