@@ -1,0 +1,406 @@
+<!DOCTYPE html><html lang="en-IN"> <head><!-- Stamped first, synchronously, before any stylesheet is applied. Every
+         effect that hides content until a script reveals it is gated on .js, so
+         if scripting is off or a script fails, the content is simply visible
+         rather than permanently at opacity 0. --><script>document.documentElement.classList.add('js');</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Methodology: how this dataset is built</title><meta name="description" content="Sources, licences, what DPIIT recognition means, how precise our coordinates are, and an explicit list of what we do not know."><link rel="canonical" href="https://indianstartupmap.com/methodology"><meta name="robots" content="index, follow"><meta property="og:type" content="website"><meta property="og:site_name" content="Indian Startup Map"><meta property="og:title" content="Methodology: how this dataset is built"><meta property="og:description" content="Sources, licences, what DPIIT recognition means, how precise our coordinates are, and an explicit list of what we do not know."><meta property="og:url" content="https://indianstartupmap.com/methodology"><meta property="og:image" content="https://indianstartupmap.com/og/methodology.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_IN"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Methodology: how this dataset is built"><meta name="twitter:description" content="Sources, licences, what DPIIT recognition means, how precise our coordinates are, and an explicit list of what we do not know."><meta name="twitter:image" content="https://indianstartupmap.com/og/methodology.png"><meta name="theme-color" content="#FAFAF7"><!-- All six shipped icon files are linked. Two of them were reachable only
+     through the browser's implicit /favicon.ico probe or not at all, and
+     icon-192/icon-512 existed for a manifest that did not exist. --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="alternate icon" href="/favicon.ico" sizes="32x32"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Indian Startup Map","url":"https://indianstartupmap.com","publisher":{"@type":"Organization","name":"Apexlayer Technologies"},"disambiguatingDescription":"Indian Startup Map is an independent publication by Apexlayer Technologies. We are not DPIIT, not Startup India, and not affiliated with the Government of India. A page on this site is a listing, not an endorsement."}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Indian Startup Map","url":"https://indianstartupmap.com","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://indianstartupmap.com/search?q={q}"},"query-input":"required name=q"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://indianstartupmap.com/"},{"@type":"ListItem","position":2,"name":"Methodology","item":"https://indianstartupmap.com/methodology"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How Indian Startup Map is built","description":"Sources, licences, precision tiers, and what we do not know.","author":{"@type":"Organization","name":"Apexlayer Technologies"},"dateModified":"2026-09-23T12:58:14.935Z"}</script><script defer src="https://analytics.apexlayer.in/script.js" data-website-id="450784d9-78ff-4671-8905-cfd040889a5c"></script><script>(function(){const GA_BY_HOST = {"indianstartupmap.com":"G-6SER8LF9N8","www.indianstartupmap.com":"G-6SER8LF9N8","startupmapindia.com":"G-82D0QJR3D7","www.startupmapindia.com":"G-82D0QJR3D7"};
+const GA_FALLBACK = "G-6SER8LF9N8";
+
+      (function () {
+        var id = GA_BY_HOST[location.hostname] || GA_FALLBACK;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+        gtag('js', new Date());
+        gtag('config', id);
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+        document.head.appendChild(s);
+      })();
+    })();</script><script>(function(){const CLARITY_ID = "y4rmabumca";
+
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', CLARITY_ID);
+    })();</script><link rel="stylesheet" href="/_astro/about.Ag6FTig9.css"></head> <body class="min-h-screen"> <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-xl focus:bg-surface focus:px-4 focus:py-2 focus:shadow-card">Skip to content</a> <div id="header-sentinel" aria-hidden="true"></div>  <header id="site-header" class="sticky top-0 z-40 border-border-hair transition-colors duration-200" data-astro-cid-qlfjksao> <div class="container-page flex h-16 items-center justify-between gap-4" data-astro-cid-qlfjksao> <a href="/" class="flex shrink-0 items-center gap-2.5" aria-label="Indian Startup Map, home" data-astro-cid-qlfjksao> <svg class="h-7 w-7" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Indian Startup Map">  <g> <path d="M2 3.5 L12 2 L11.5 11 L2.5 12 Z" fill="#DAD5CB"></path> <path d="M12 2 L21.5 3.2 L21 11.5 L11.5 11 Z" fill="#E9E5DC"></path> <path d="M21.5 3.2 L30 2.5 L29.5 12 L21 11.5 Z" fill="#DAD5CB"></path> <path d="M2.5 12 L11.5 11 L12 20.5 L3 21.5 Z" fill="#E9E5DC"></path> <path d="M11.5 11 L21 11.5 L21.5 20.5 L12 20.5 Z" fill="#DC2626"></path> <path d="M21 11.5 L29.5 12 L29 21 L21.5 20.5 Z" fill="#A79E8F"></path> <path d="M3 21.5 L12 20.5 L12.5 30 L3.5 29 Z" fill="#DAD5CB"></path> <path d="M12 20.5 L21.5 20.5 L21 29.5 L12.5 30 Z" fill="#E9E5DC"></path> <path d="M21.5 20.5 L29 21 L28.5 29.5 L21 29.5 Z" fill="#DAD5CB"></path> </g> </svg> <!-- The full name is 18 characters of display serif. On a 360px phone it
+           and the two controls do not fit, so the short mark carries below sm
+           and the full name appears the moment there is room for it. --> <span class="font-display text-[17px] font-semibold tracking-tight" data-astro-cid-qlfjksao> <span class="hidden sm:inline" data-astro-cid-qlfjksao>Indian Startup Map</span> <span class="sm:hidden" data-astro-cid-qlfjksao>Startup Map</span> </span> </a> <nav class="hidden items-center gap-1 lg:flex" aria-label="Main" data-astro-cid-qlfjksao> <a href="/map" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Map</a><a href="/near-me" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Near me</a><a href="/cities" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Cities</a><a href="/industries" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Industries</a><a href="/seed-fund" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Seed Fund</a><a href="/data" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Data</a><a href="/methodology" aria-current="page" class="rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 bg-primary-50 font-semibold text-primary-700" data-astro-cid-qlfjksao>Method</a>  <div class="research-nav relative" data-astro-cid-qlfjksao> <a href="/research" class="flex items-center gap-1 rounded-xl px-3 py-2 text-[14px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>
+Research
+<svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true" data-astro-cid-qlfjksao> <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-qlfjksao></path> </svg> </a> <div class="research-panel invisible absolute right-0 top-11 z-50 w-[19rem] origin-top-right rounded-2xl border border-border-hair bg-surface p-2 opacity-0 shadow-panel" data-astro-cid-qlfjksao> <a href="/research" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 transition-colors duration-200 hover:bg-surface-2" data-astro-cid-qlfjksao> <span class="block text-[14.5px] font-medium text-ink" data-astro-cid-qlfjksao>The research desk</span> <span class="block text-[12.5px] text-ink-3" data-astro-cid-qlfjksao>What it is, and who it is for</span> </a><a href="/reports" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 transition-colors duration-200 hover:bg-surface-2" data-astro-cid-qlfjksao> <span class="block text-[14.5px] font-medium text-ink" data-astro-cid-qlfjksao>All reports</span> <span class="block text-[12.5px] text-ink-3" data-astro-cid-qlfjksao>138 districts, states and industries</span> </a><a href="/pricing" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 transition-colors duration-200 hover:bg-surface-2" data-astro-cid-qlfjksao> <span class="block text-[14.5px] font-medium text-ink" data-astro-cid-qlfjksao>Pricing</span> <span class="block text-[12.5px] text-ink-3" data-astro-cid-qlfjksao>One report, the library, or Pro</span> </a><a href="https://research.indianstartupmap.com" rel="noopener" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 transition-colors duration-200 hover:bg-surface-2" data-astro-cid-qlfjksao> <span class="block text-[14.5px] font-medium text-ink" data-astro-cid-qlfjksao>The portal</span> <span class="block text-[12.5px] text-ink-3" data-astro-cid-qlfjksao>Explore, the feed and the backers</span> </a> </div> </div> </nav> <div class="flex shrink-0 items-center gap-2" data-astro-cid-qlfjksao> <a href="/search" aria-label="Search the register" class="flex h-10 items-center gap-2 rounded-xl border border-border-line px-3 text-[14px] text-ink-2 transition-colors duration-200 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao> <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true" data-astro-cid-qlfjksao> <circle cx="7" cy="7" r="4.6" stroke="currentColor" stroke-width="1.6" data-astro-cid-qlfjksao></circle> <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" data-astro-cid-qlfjksao></path> </svg> <span class="hidden md:inline" data-astro-cid-qlfjksao>Search</span> </a> <!-- Mobile menu.
+           <details> and not a JS drawer: it is keyboard and screen-reader
+           correct with no script, and it cannot get stuck open if a script
+           fails. What it does NOT do for free is close on navigation, close on
+           Escape, or close when you tap outside, all of which are handled below
+           in 20 lines. Origin-aware scale from the top-right corner, per the
+           house motion rule that a menu should appear to come out of the control
+           that opened it. --> <details id="mobile-menu" class="relative lg:hidden" data-astro-cid-qlfjksao> <summary class="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-xl border border-border-line transition-colors duration-200 hover:bg-surface-2" aria-label="Open menu" aria-haspopup="menu" data-astro-cid-qlfjksao> <svg class="menu-open" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" data-astro-cid-qlfjksao> <path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" data-astro-cid-qlfjksao></path> </svg> <svg class="menu-close hidden" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" data-astro-cid-qlfjksao> <path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" data-astro-cid-qlfjksao></path> </svg> </summary> <div class="menu-panel absolute right-0 top-12 z-50 w-[min(72vw,15rem)] origin-top-right rounded-2xl border border-border-hair bg-surface p-2 shadow-panel" data-astro-cid-qlfjksao> <a href="/map" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Map</a><a href="/near-me" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Near me</a><a href="/cities" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Cities</a><a href="/industries" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Industries</a><a href="/seed-fund" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Seed Fund</a><a href="/data" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Data</a><a href="/methodology" aria-current="page" class="block rounded-xl px-3 py-2.5 text-[15px] transition-colors duration-200 bg-primary-50 font-semibold text-primary-700" data-astro-cid-qlfjksao>Method</a> <div class="my-1.5 border-t border-border-hair" data-astro-cid-qlfjksao></div> <a href="/research" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>The research desk</a><a href="/reports" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>All reports</a><a href="/pricing" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Pricing</a><a href="https://research.indianstartupmap.com" rel="noopener" data-umami-event="nav-research" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>The portal</a> <div class="my-1.5 border-t border-border-hair" data-astro-cid-qlfjksao></div> <a href="/states" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>States</a> <a href="/organisations" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>Incubators</a> <a href="/about" class="block rounded-xl px-3 py-2.5 text-[15px] text-ink-2 hover:bg-surface-2 hover:text-ink" data-astro-cid-qlfjksao>About</a> </div> </details> </div> </div> </header>  <script data-chrome>
+  (function () {
+    var d = document.getElementById('mobile-menu');
+    if (!d) return;
+    var summary = d.querySelector('summary');
+
+    function close() {
+      if (d.open) { d.open = false; summary.setAttribute('aria-expanded', 'false'); }
+    }
+    summary.setAttribute('aria-expanded', 'false');
+    d.addEventListener('toggle', function () {
+      summary.setAttribute('aria-expanded', d.open ? 'true' : 'false');
+    });
+
+    // Escape closes and returns focus to the control that opened it, which is
+    // what a keyboard user expects and what <details> does not do on its own.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && d.open) { close(); summary.focus(); }
+    });
+    // Tapping outside closes. Without this the panel stays open behind the next
+    // thing you touch, which on a phone reads as a stuck UI.
+    document.addEventListener('click', function (e) {
+      if (d.open && !d.contains(e.target)) close();
+    });
+    // Astro ships no client router here, so a link navigates and the panel is
+    // gone anyway. This only matters for same-page anchors, where an open menu
+    // covering the target is the whole problem.
+    d.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', close);
+    });
+  })();
+</script> <main id="main"> <article class="container-page max-w-[68ch] py-16"> <nav aria-label="Breadcrumb" class="mb-8"> <ol class="flex flex-wrap items-center gap-x-1.5 gap-y-1 font-mono text-[12px] text-ink-3"> <li class="flex items-center gap-1.5">  <a class="transition-colors duration-200 hover:text-ink" href="/">Home</a> </li><li class="flex items-center gap-1.5"> <span aria-hidden="true" class="text-ink-4">/</span> <span class="text-ink-2" aria-current="page">Methodology</span> </li> </ol> </nav> <h1 class="font-display" style="font-size:clamp(34px,5vw,60px);line-height:1.03">Methodology</h1> <p class="mt-6 text-[19px] leading-relaxed text-ink-2">
+Snapshot <span class="font-mono">2026-08</span>, generated
+<span class="font-mono">2026-09-23</span>.
+      Every figure on this page is rendered from the dataset it describes, so it
+      cannot drift away from what we actually hold.
+</p> <h2 class="mt-14 font-display text-[28px]">In one paragraph</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+We publish an entity map of the Indian startup ecosystem assembled from
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="/sources">Indian government open data</a>:
+      the Startup India (DPIIT) register, iStart Rajasthan, Kerala Startup
+      Mission and the Startup India Seed Fund Scheme. Startups are normalised into
+      one schema, deduplicated by CIN then website hostname then normalised name
+      plus city, geocoded, and republished with attribution.
+ 4,53,192 companies.
+</p> <h2 class="mt-14 font-display text-[28px]">What this is not</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">Indian Startup Map is an independent publication by Apexlayer Technologies. We are not DPIIT, not Startup India, and not affiliated with the Government of India. A page on this site is a listing, not an endorsement.</p> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+A page on this site is not a certificate, an endorsement or a verification,
+      and nothing here should be used for due diligence.
+</p> <h2 class="mt-14 font-display text-[28px]">"Registered" is not "operating"</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+This is the most important paragraph on the site. A registration on Startup
+      India is a form somebody filled in. A large share of these entities are
+      dormant, never traded, or have been wound up. We have <strong>no liveness
+      signal at all</strong>: no filings feed, no revenue, no check that the
+      website still resolves. If a page here says a company exists, it means a
+<em>startup</em> exists.
+</p> <p class="mt-4 text-[17px] leading-relaxed text-ink-2"> 2,31,835 of 4,53,192 startups are DPIIT recognised.
+      Recognition confers eligibility for tax benefits, self-certification and IPR
+      support. It is not a vetting of the business, not proof of trading, and not
+      a financial assessment. We display the status and the DIPP number as the
+      portal publishes them. We never assert it ourselves.
+</p> <h2 class="mt-14 font-display text-[28px]">Two different dates</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+A startup can carry two years and they mean different things.
+<strong>Registered on Startup India</strong> is when someone created the
+      profile. <strong>Incorporated</strong> comes from Ministry of Corporate
+      Affairs startups via a CIN lookup and is the real founding date. We label
+      them separately everywhere, and we never emit the portal date as a founding
+      date in structured data.
+</p> <h2 class="mt-14 font-display text-[28px]">How precise the locations are</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2"> 61% of our coordinates are
+      district centroids. That is a label on a map, not an address.
+</p> <div class="mt-8 not-prose"> <div class="card overflow-hidden"> <div class="p-6 pb-5"> <p class="eyebrow">Location precision</p> <p class="mt-3 max-w-2xl text-[15px] leading-relaxed text-ink-2">
+Bar widths are the real proportions. Only the
+ <strong class="font-semibold text-ink">1,64,879</strong>  startups with a street-level coordinate are ever drawn as
+        a pin. Everything else is drawn as an area, because that is what we
+        actually know.
+</p>   </div> <!-- The bar itself. Minimum width of 2px so a tier that exists is never
+       invisible, but never rounded up enough to overstate it. --> <div class="flex h-2.5 w-full" role="img" aria-label="Location precision: street 1,64,879, locality 12,141, district 2,75,359, unplaced 813"> <span class="h-full bg-data-700" style="width:max(2px, 36.38171018023266%)"></span><span class="h-full bg-data-400" style="width:max(2px, 2.678996981411852%)"></span><span class="h-full bg-data-200" style="width:max(2px, 60.75989867429257%)"></span><span class="h-full bg-surface-3" style="width:max(2px, 0.17939416406291372%)"></span> </div> <dl class="grid grid-cols-2 sm:grid-cols-4"> <div class="border-border-hair p-5"> <dt class="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wide text-ink-3"> <span class="inline-block h-2.5 w-2.5 rounded-[2px] bg-data-700" aria-hidden="true"></span> street </dt> <dd class="mt-2.5 font-mono text-[19px] font-medium text-ink">1,64,879</dd> <dd class="mt-1 font-mono text-[11px] text-ink-3"> 36%
+</dd> <dd class="mt-2.5 text-[12px] leading-snug text-ink-2">We know a street-level coordinate.</dd> </div><div class="border-border-hair p-5 border-l"> <dt class="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wide text-ink-3"> <span class="inline-block h-2.5 w-2.5 rounded-[2px] bg-data-400" aria-hidden="true"></span> locality </dt> <dd class="mt-2.5 font-mono text-[19px] font-medium text-ink">12,141</dd> <dd class="mt-1 font-mono text-[11px] text-ink-3"> 3%
+</dd> <dd class="mt-2.5 text-[12px] leading-snug text-ink-2">We know the area, not the address.</dd> </div><div class="border-border-hair p-5 border-t sm:border-t-0 sm:border-l"> <dt class="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wide text-ink-3"> <span class="inline-block h-2.5 w-2.5 rounded-[2px] bg-data-200" aria-hidden="true"></span> district </dt> <dd class="mt-2.5 font-mono text-[19px] font-medium text-ink">2,75,359</dd> <dd class="mt-1 font-mono text-[11px] text-ink-3"> 61%
+</dd> <dd class="mt-2.5 text-[12px] leading-snug text-ink-2">We know the district only.</dd> </div><div class="border-border-hair p-5 border-l border-t sm:border-t-0"> <dt class="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wide text-ink-3"> <span class="inline-block h-2.5 w-2.5 rounded-[2px] bg-surface-3" aria-hidden="true"></span> unplaced </dt> <dd class="mt-2.5 font-mono text-[19px] font-medium text-ink">813</dd> <dd class="mt-1 font-mono text-[11px] text-ink-3"> 0.2%
+</dd> <dd class="mt-2.5 text-[12px] leading-snug text-ink-2">We could not place these at all.</dd> </div> </dl> </div> </div> <p class="mt-6 text-[17px] leading-relaxed text-ink-2">
+Only the 1,64,879 startups with a high-confidence
+      street-level coordinate are ever drawn as a pin, or given coordinates in
+      structured data. Everything else is drawn as an area, which is what the
+      circles on  <a class="font-medium text-primary-600 underline underline-offset-4" href="/map">the map</a> 
+are. This is enforced in the export, in the map's own filter and by a build
+      gate, because a rule that lives only in prose does not survive contact with
+      a redesign.
+</p> <h2 class="mt-14 font-display text-[28px]">Address privacy</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+Registered offices in company-registry records are frequently
+<strong>founders' home addresses</strong>. We print the registered office
+      as filed with the MCA, trimmed of contact details; it never appears in a
+      report or an export, and a request from the company removes it within two
+      working days. A build gate greps the entire site output for internal
+      address fields, PAN-shaped strings and bare mobile numbers, and fails the
+      build on any hit.
+</p> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+We also do not publish director names taken from company-registry mirrors.
+      Those lists routinely include spouses and parents added to satisfy the
+      two-director requirement, who never worked at the company.
+</p> <h2 class="mt-14 font-display text-[28px]">Funding, and how little we know</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+We keep three separate classes of evidence and never merge them into one
+      "funded" flag, because they are not equally strong:
+</p> <ul class="mt-5 space-y-3 text-[17px] leading-relaxed text-ink-2"> <li><strong>Self-declared</strong>: a checkbox on a government form, unverified.</li> <li><strong>State-reported</strong>: a figure given to a state startup scheme.</li> <li><strong>Portfolio listing</strong>: named on an incubator's or investor's own public portfolio.</li> </ul> <p class="mt-5 text-[17px] leading-relaxed text-ink-2"> <strong>47,696 of 4,53,192</strong> startups
+      carry at least one of those signals. Not one of them carries a rupee amount
+      on this site, and that is deliberate: the government form records that
+      money was raised far more often than how much, and a self-declared figure
+      with no round, no date and no source is not a funding fact. So there are no
+      round sizes, no valuations and no cap tables here either.
+</p> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+The only hard money on this site is the Startup India Seed Fund Scheme:
+      Rs 755.3 crore approved and Rs 526.4 crore disbursed
+      across 175 incubators in 26 states, published
+      incubator by incubator in
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="/seed-fund">the Seed Fund ledger</a>.
+      Those totals cover the incubators the scheme publishes an approved amount
+      for. A further 18 appear in its own file with
+      Rs 12.7 crore disbursed against no approved figure at
+      all, which is a hole in the source rather than something we can quietly
+      fill in, so they sit outside every total above.
+</p> <h2 class="mt-14 font-display text-[28px]">Checking our own homework</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+The government computes facet counts over the entire register on every
+      search response. That gives us an independent number to reconcile against
+      rather than a restatement of our own. Nationally the register holds
+ 4,59,033 startups
+      by stage: Prototype 1,71,058, Validation 1,33,607, Early traction 1,04,330, Scaling 50,038.
+      The state-by-state reconciliation, including every place we differ, is
+      printed in full on
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="/data">the data page</a> 
+and again on each of the
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="/states">36 state pages</a>.
+      Publishing the arithmetic that could embarrass us is the point.
+</p> <h2 class="mt-14 font-display text-[28px]">What we do not know</h2> <ul class="mt-5 space-y-3 text-[17px] leading-relaxed text-ink-2"> <li>Whether a company is trading.</li> <li>Revenue, headcount or any financial position.</li> <li>Funding rounds, investors on the cap table, or valuations.</li> <li>Whether the website on file still resolves.</li> <li>Whether the entity still exists.</li> </ul> <p class="mt-6 text-[17px] leading-relaxed text-ink-2">
+And the uncomfortable one:
+<strong> 50% of these
+        startups carry no distinguishing content beyond a name, a district, an
+        industry and a stage.
+</strong> 
+We publish those as registry records, mark them so search engines do not
+      index them, and tell you here that we have done so. The same goes for most
+      of the rest: a company page is offered to search engines only when it
+      carries something the register alone does not, a named third party behind
+      the company (an incubator portfolio, a state scheme, an accelerator or a
+      venture fund). A description copied from the register is on many other
+      sites already, so on its own it does not qualify. Every company page stays
+      readable here either way.
+</p> <h2 class="mt-14 font-display text-[28px]">Corrections</h2> <p class="mt-4 text-[17px] leading-relaxed text-ink-2">
+Everything here derives from public government records. The authoritative
+      place to correct a fact is the source portal, and we pick corrections up on
+      the next monthly snapshot. To flag an error on our side, write to
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="mailto:trust@indianstartupmap.com">trust@indianstartupmap.com</a>.
+      Where a source is wrong, we annotate rather than silently overwrite: the
+      page will say what the portal says and what we believe. If you want to
+      reuse any of this, the terms are on
+ <a class="font-medium text-primary-600 underline underline-offset-4" href="/data-licence">the licence page</a>.
+</p> </article> <section class="container-page mt-12"><div class="card p-8"><p class="eyebrow">Want the whole thing</p><h2 class="mt-2.5 font-display" style="font-size:clamp(20px,2.2vw,26px)">
+The full register, older snapshots, or a feed.
+</h2><p class="mt-4 max-w-2xl text-[15px] leading-relaxed text-ink-2">
+A report is one place or one industry, and Explore is capped by plan. If you
+        need every row in one file, the months before this snapshot, a monthly
+        delivery, or a cut built to your own definition, that is a different
+        arrangement and it is priced by conversation. Tell us what you need and what
+        you will do with it, and we will tell you the price.
+</p><p class="mt-6"><a class="btn-secondary" href="mailto:trust@indianstartupmap.com?subject=Data%20licence%20(methodology)" data-umami-event="licence-mailto">Talk to us</a><span class="ml-4 font-mono text-[13px] text-ink-3">trust@indianstartupmap.com</span></p></div></section> </main> <footer class="mt-section border-t border-border-hair bg-dark text-ink-on-dark"> <div class="container-page py-16"> <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-5"> <div class="sm:col-span-2 lg:col-span-1"> <p class="font-display text-lg font-semibold">Indian Startup Map</p> <p class="mt-3 max-w-xs text-[14px] leading-relaxed text-white/60"> Every startup on the Indian government register, mapped as honestly as the data allows. </p> <p class="mt-5 font-mono text-[12px] text-white/45"> 4,53,192 startups &middot; snapshot 2026-08 </p> </div> <nav aria-label="Cities"> <p class="eyebrow text-white/45">Cities</p> <ul class="mt-4 space-y-1.5"> <li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/delhi">Delhi</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/mumbai">Mumbai</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/bengaluru">Bengaluru</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/hyderabad">Hyderabad</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/pune">Pune</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/chennai">Chennai</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/ahmedabad">Ahmedabad</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/kolkata">Kolkata</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/noida">Noida</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/gurugram">Gurugram</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/jaipur">Jaipur</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/lucknow">Lucknow</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/ghaziabad">Ghaziabad</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/surat">Surat</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/indore">Indore</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/cities/kochi">Kochi</a> </li> <li><a class="text-[14px] font-medium text-primary-300 hover:text-primary-200" href="/cities">All cities &rarr;</a></li> </ul> </nav> <nav aria-label="States"> <p class="eyebrow text-white/45">States</p> <ul class="mt-4 space-y-1.5"> <li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/maharashtra">Maharashtra</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/uttar-pradesh">Uttar Pradesh</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/delhi">Delhi</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/karnataka">Karnataka</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/gujarat">Gujarat</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/tamil-nadu">Tamil Nadu</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/telangana">Telangana</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/haryana">Haryana</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/rajasthan">Rajasthan</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/west-bengal">West Bengal</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/madhya-pradesh">Madhya Pradesh</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/states/kerala">Kerala</a> </li> <li><a class="text-[14px] font-medium text-primary-300 hover:text-primary-200" href="/states">All states &rarr;</a></li> </ul> </nav> <nav aria-label="Research"> <p class="eyebrow text-white/45">Research</p> <ul class="mt-4 space-y-1.5"> <li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/research">The research desk</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/reports">Reports</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/pricing">Pricing</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="https://research.indianstartupmap.com" rel="noopener" data-umami-event="footer-explore">Research portal</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="https://research.indianstartupmap.com/explore?source=ism_footer" rel="noopener" data-umami-event="footer-explore">Explore the rows</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/refund">Refund policy</a> </li><li> <a class="text-[14px] text-white/70 transition-colors duration-200 hover:text-white" href="/contact">Contact</a> </li> </ul> <p class="mt-4 max-w-[26ch] text-[12px] leading-relaxed text-white/45">
+Reports on the register, and the rows behind them. The Lucknow report is open in full.
+</p> </nav> <div> <p class="eyebrow text-white/45">The project</p> <ul class="mt-4 space-y-1.5"> <li><a class="text-[14px] text-white/70 hover:text-white" href="/methodology">Methodology</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/sources">Sources and licences</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/pincodes">Browse by pincode</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/near-me">Startups near me</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/funded">Funded startups</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/data">Data and rankings</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/faq">Questions</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/cite">Cite this data</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/press">Press</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/about">About</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/privacy">Privacy</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/terms">Terms</a></li>  <li><a class="text-[14px] text-white/70 hover:text-white" href="/disclaimer">Disclaimer</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="/data-licence">Data licence</a></li> <li><a class="text-[14px] text-white/70 hover:text-white" href="mailto:trust@indianstartupmap.com">Report an error</a></li> </ul> <p class="eyebrow mt-8 text-white/45">Free tools by our team</p> <ul class="mt-4 space-y-1.5"> <li><a class="text-[14px] text-white/70 hover:text-white" href="https://quickcommercemap.com" rel="noopener">Quick Commerce Map</a></li><li><a class="text-[14px] text-white/70 hover:text-white" href="https://cngradar.in" rel="noopener">CNGRadar</a></li><li><a class="text-[14px] text-white/70 hover:text-white" href="https://pincodedetails.in" rel="noopener">PincodeDetails</a></li><li><a class="text-[14px] text-white/70 hover:text-white" href="https://ifscdetails.in" rel="noopener">IFSCDetails</a></li><li><a class="text-[14px] text-white/70 hover:text-white" href="https://vehicledetails.in" rel="noopener">VehicleDetails</a></li><li><a class="text-[14px] text-white/70 hover:text-white" href="https://metrofares.in" rel="noopener">MetroFares</a></li> </ul> </div> </div> <div class="mt-12 border-t border-white/10 pt-8"> <p class="max-w-3xl text-[13px] leading-relaxed text-white/55">Indian Startup Map is an independent publication by Apexlayer Technologies. We are not DPIIT, not Startup India, and not affiliated with the Government of India. A page on this site is a listing, not an endorsement.</p> <p class="mt-3 max-w-3xl text-[13px] leading-relaxed text-white/50">
+Startup data is published by the Government of India through the Startup
+        India portal and state startup portals, and is reproduced here with
+        attribution. Company names and logos are the property of their respective
+        owners.
+</p>  <p class="mt-5 font-mono text-[12px] text-white/50">
+&copy; 2026 Apexlayer Technologies Private Limited &middot; CIN U58201HR2025PTC135312
+&middot; <a class="hover:text-white" href="/contact">Contact</a> </p> </div> </div> </footer> <template id="ism-depth-prompt-tpl"><div id="ism-depth-prompt" class="fixed bottom-4 right-4 z-50 w-[min(92vw,21rem)] rounded-2xl border border-border-hair bg-surface p-5 shadow-panel" hidden><p class="eyebrow text-primary-600">Indian Startup Map Research</p><p class="mt-2.5 font-display text-[17px] leading-snug text-ink">
+You have read a few of these. There is a report behind them.
+</p><p class="mt-2 text-[13.5px] leading-relaxed text-ink-2">138 reports on the register: 153 districts, 36 states
+      and 51 industries. One is â¹249; all of them are
+ â¹749/yr.
+</p><div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2"><a class="btn-primary btn-sm" href="https://research.indianstartupmap.com/upgrade?sku=library_12m&source=ism_home" rel="noopener" data-umami-event="depth-prompt-cta">Every report, â¹749/yr</a><a class="text-[13px] underline underline-offset-4 hover:text-ink-2" href="https://research.indianstartupmap.com/report/lucknow?source=ism_home" rel="noopener" data-umami-event="depth-prompt-sample">Read Lucknow, free</a></div><button id="ism-depth-prompt-dismiss" type="button" aria-label="Dismiss" class="absolute right-2 top-2 rounded p-1.5 text-ink-4 transition-colors duration-200 hover:text-ink-2"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button></div></template><script>
+  (() => {
+    const KEY = 'ism_depth_prompt_dismissed_until';
+    const SEEN = 'ism_depth_prompt_shown';
+    const PAGES = 'ism_sess_pages';
+    const AFTER = 3;
+    const DAYS = 30;
+    const tpl = document.getElementById('ism-depth-prompt-tpl');
+    if (!tpl) return;
+    const path = location.pathname;
+    if (path.startsWith('/reports') || path.startsWith('/pricing') || path.startsWith('/research') || path.startsWith('/refund')) return;
+
+    let pages = 1;
+    try {
+      pages = parseInt(sessionStorage.getItem(PAGES) || '0', 10) + 1;
+      sessionStorage.setItem(PAGES, String(pages));
+      if (sessionStorage.getItem(SEEN)) return;
+      const until = parseInt(localStorage.getItem(KEY) || '0', 10);
+      if (until > Date.now()) return;
+    } catch {
+      // Storage blocked: without a counter there is no way to know this is a
+      // third page, and showing it on the first is the thing being avoided.
+      return;
+    }
+    if (pages < AFTER) return;
+
+    // A frame late on purpose: this must never be in the way of the content
+    // somebody came for, and appearing mid-scroll reads as a reward rather than
+    // an interruption.
+    window.setTimeout(() => {
+      document.body.appendChild(tpl.content.cloneNode(true));
+      const el = document.getElementById('ism-depth-prompt');
+      if (!el) return;
+      el.hidden = false;
+      try { sessionStorage.setItem(SEEN, '1'); } catch { /* best effort */ }
+      document.getElementById('ism-depth-prompt-dismiss')?.addEventListener('click', () => {
+        el.hidden = true;
+        try { localStorage.setItem(KEY, String(Date.now() + DAYS * 86400000)); } catch { /* best effort */ }
+      });
+    }, 1200);
+  })();
+</script> <!-- Mounted once, sitewide. Copy and share controls call window.ismToast,
+         and without a host they fail silently, which reads as the button not
+         working. is:inline, so it costs no hydration on any page. --> <div id="ism-toast-host" class="pointer-events-none fixed bottom-6 left-4 right-4 z-[80] flex flex-col items-center gap-2 md:left-auto md:right-6 md:items-end" aria-live="polite" aria-atomic="true"></div> <script data-chrome>
+  (function () {
+    // Second mount, or a stray copy in a page: do nothing rather than double up.
+    if (window.ismToast) return;
+    var host = document.getElementById('ism-toast-host');
+    if (!host) return;
+
+    var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+    var BORDER = { success: '#059669', error: '#DC2626', info: '#525252' };
+    var MAX_VISIBLE = 3;
+    var LIFETIME = 2800;
+    var TRAVEL = 12;
+
+    function render(message, variant) {
+      // An empty toast is an invisible bug: a caller passed nothing and the user
+      // sees a blank white card. Drop it instead.
+      if (!message) return;
+
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var el = document.createElement('div');
+      el.className =
+        'pointer-events-auto w-full max-w-[20rem] rounded-xl bg-surface px-4 py-3 ' +
+        'text-[13px] leading-snug text-ink shadow-card-hover';
+      el.style.borderLeft = '3px solid ' + (BORDER[variant] || BORDER.info);
+      el.style.opacity = '0';
+      el.style.transform = reduce ? 'none' : 'translateY(' + TRAVEL + 'px)';
+      el.style.transition = reduce
+        ? 'opacity 120ms linear'
+        : 'transform 200ms ' + EASE + ', opacity 200ms ' + EASE;
+      el.textContent = String(message);
+      host.appendChild(el);
+
+      while (host.children.length > MAX_VISIBLE) {
+        host.removeChild(host.firstElementChild);
+      }
+
+      requestAnimationFrame(function () {
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      });
+
+      setTimeout(function () {
+        el.style.opacity = '0';
+        if (!reduce) el.style.transform = 'translateY(' + TRAVEL + 'px)';
+        // Removal is on a timer rather than transitionend: an element evicted by
+        // the cap above is already detached and will never fire the event, and a
+        // node that never gets removed is a leak on a long session.
+        setTimeout(function () {
+          el.remove();
+        }, 220);
+      }, LIFETIME);
+    }
+
+    window.ismToast = function (message, variant) {
+      render(message == null ? '' : String(message), variant || 'info');
+    };
+
+    // Event form, for code that must not hold a reference to the page, such as
+    // an island or a worker-rendered fragment.
+    window.addEventListener('ism:toast', function (ev) {
+      var detail = (ev && ev.detail) || {};
+      render(String(detail.message || ''), detail.variant || 'info');
+    });
+  })();
+</script> <script data-chrome>
+      // One shared observer drives both scroll reveals and number count-ups.
+      // Separate observers per element is the usual way this gets written and it
+      // is what makes a long page stutter on a mid-range Android.
+      (function () {
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var nf = new Intl.NumberFormat('en-IN');
+
+        function countUp(el) {
+          var target = parseFloat(el.getAttribute('data-countup') || '0');
+          if (reduce || !target) {
+            el.textContent = nf.format(target);
+            return;
+          }
+          var start = performance.now();
+          var dur = 1500;
+          function tick(now) {
+            var t = Math.min(1, (now - start) / dur);
+            // Ease-out cubic: fast start, settled finish. A linear counter reads
+            // as a loading spinner rather than a value arriving.
+            var v = target * (1 - Math.pow(1 - t, 3));
+            el.textContent = nf.format(Math.round(v));
+            if (t < 1) requestAnimationFrame(tick);
+          }
+          requestAnimationFrame(tick);
+        }
+
+        /**
+         * Seed to 0 so the final number never flashes before animating, but
+         * ONLY for elements that are actually below the fold.
+         *
+         * Seeding unconditionally is what put a row of zeros on the home page.
+         * The census bar sits right at the fold, so it was seeded to 0, and the
+         * observer (threshold 0.12, bottom margin -10%) then correctly declined
+         * to fire on an element that was only just peeking. The visitor saw
+         * "0 companies, 0 DPIIT recognised" until they scrolled.
+         *
+         * The general form of the mistake: the server already rendered the
+         * right answer, and the enhancement replaced it with a wrong one before
+         * establishing that it could put it back. So an element already in view
+         * is left alone, and anything still unanimated after 4s is filled in
+         * regardless. A number is the content here; the count is decoration.
+         */
+        var pending = [];
+        document.querySelectorAll('[data-countup]').forEach(function (el) {
+          if (reduce) return;
+          var r = el.getBoundingClientRect();
+          if (r.top < window.innerHeight * 0.9) return;   // visible now: leave it
+          el.textContent = '0';
+          pending.push(el);
+        });
+        setTimeout(function () {
+          pending.forEach(function (el) {
+            if (el.textContent === '0') {
+              el.textContent = nf.format(parseFloat(el.getAttribute('data-countup') || '0'));
+            }
+          });
+        }, 4000);
+
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (!e.isIntersecting) return;
+              var el = e.target;
+              if (el.hasAttribute('data-countup')) countUp(el);
+              else el.classList.add('is-visible');
+              io.unobserve(el);
+            });
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -10% 0px' }
+        );
+        document.querySelectorAll('[data-reveal], [data-countup]').forEach(function (el) {
+          io.observe(el);
+        });
+
+        // Frost the header once the page has actually scrolled. A sentinel is
+        // cheaper and smoother than a scroll listener.
+        var sentinel = document.getElementById('header-sentinel');
+        var header = document.getElementById('site-header');
+        if (sentinel && header) {
+          new IntersectionObserver(function (es) {
+            header.classList.toggle('frost-header', !es[0].isIntersecting);
+            header.classList.toggle('border-b', !es[0].isIntersecting);
+          }).observe(sentinel);
+        }
+      })();
+    </script> </body> </html>
