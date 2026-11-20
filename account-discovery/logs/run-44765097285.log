@@ -1,0 +1,34 @@
+gptw indias-best-companies-to-work-for: 100 rows, 100 new
+gptw indias-best-workplaces-in-manufacturing: 80 rows, 72 new
+gptw indias-great-mid-size-workplaces: 100 rows, 84 new
+gptw indias-best-workplaces-in-bfsi: 75 rows, 46 new
+gptw indias-best-workplaces-in-it-it-bpm: no page
+gptw indias-best-workplaces-in-health-wellness: 50 rows, 16 new
+gptw indias-best-workplaces-in-retail: 19 rows, 12 new
+gptw indias-best-workplaces-in-pharmaceuticals-healthcare-biotech: no page
+gptw indias-best-employers-among-nation-builders: 0 rows, 0 new
+gptw: 330 new
+wiki: 121 rows, 81 new
+rbi: https://rbidocs.rbi.org.in/rdocs/content/DOCs/List_of_NBFCs_and_ARCs_registered_with_the_RBI.XLSX -> HTTP 200, 48697 bytes
+Traceback (most recent call last):
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 916, in <module>
+    main()
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 910, in main
+    fn(sink, args)
+  File "/home/runner/work/1/1/account-discovery/account_scrapers.py", line 845, in run_rbi
+    wb = openpyxl.load_workbook(io.BytesIO(x.content), read_only=True, data_only=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/zipfile/__init__.py", line 1396, in __init__
+    self._RealGetContents()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/zipfile/__init__.py", line 1463, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
