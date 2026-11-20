@@ -1,1 +1,1 @@
-probe --delay 2
+probe --csv out --delay 2
