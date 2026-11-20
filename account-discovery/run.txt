@@ -1,1 +1,1 @@
-probe --csv out --delay 2
+gptw,wiki,rbi --csv out --delay 2

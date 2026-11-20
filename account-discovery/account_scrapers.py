@@ -782,9 +782,96 @@ def run_enrich(sink, args):
     print(f"enrich: {n} companies fetched -> {path}")
 
 
+GPTW_BASE = "https://www.greatplacetowork.in/"
+GPTW_PAGES = ["indias-best-companies-to-work-for", "indias-best-workplaces-in-manufacturing",
+              "indias-great-mid-size-workplaces", "indias-best-workplaces-in-bfsi", "indias-best-workplaces-in-it-it-bpm",
+              "indias-best-workplaces-in-health-wellness", "indias-best-workplaces-in-retail",
+              "indias-best-workplaces-in-pharmaceuticals-healthcare-biotech",
+              "indias-best-employers-among-nation-builders"]
+
+
+def run_gptw(sink, args):
+    """R87: Great Place To Work India list pages. Tables carry name, location, employee count, industry."""
+    total = 0
+    for slug in GPTW_PAGES:
+        r = get(GPTW_BASE + slug, args.delay)
+        if r is None:
+            print(f"gptw {slug}: no page"); continue
+        rows = parse_tables(r.text)
+        new = 0
+        for x in rows:
+            raw = x["raw"]
+            emp = raw.get("employee strength") or raw.get("employee count")
+            ind = raw.get("industry") or x.get("industry")
+            new += sink.add(x["name"], city=x["city"], industry=ind, size_band=emp, profile_url=x["profile_url"],
+                            raw={**raw, "list": slug})
+        total += new
+        print(f"gptw {slug}: {len(rows)} rows, {new} new")
+    print(f"gptw: {total} new")
+
+
+def run_wiki(sink, args):
+    """R86: Wikipedia list of largest companies in India (Forbes 2000 table + largest by revenue table)."""
+    r = get("https://en.wikipedia.org/wiki/List_of_largest_companies_in_India", args.delay)
+    if r is None:
+        print("wiki: no response"); return
+    rows = parse_tables(r.text)
+    new = 0
+    for x in rows:
+        raw = x["raw"]
+        new += sink.add(x["name"], city=raw.get("headquarters"), industry=raw.get("industry"), raw=raw)
+    print(f"wiki: {len(rows)} rows, {new} new")
+
+
+def run_rbi(sink, args):
+    """R43: RBI list of NBFCs and ARCs (xlsx linked from the NBFC list page)."""
+    import io
+    import openpyxl
+    page = "https://www.rbi.org.in/Scripts/BS_NBFCList.aspx"
+    r = get(page, args.delay)
+    if r is None:
+        print("rbi: page unavailable"); return
+    links = [a["href"] for a in BeautifulSoup(r.text, "html.parser").find_all("a", href=True)
+             if a["href"].lower().endswith(".xlsx") and "registered" in a["href"].lower() and "cancel" not in a["href"].lower()]
+    if not links:
+        print("rbi: no xlsx link found"); return
+    url = links[0]
+    if not allowed(url):
+        print(f"rbi: robots.txt disallows {url}"); return
+    x = SESSION.get(url, timeout=120)
+    print(f"rbi: {url} -> HTTP {x.status_code}, {len(x.content)} bytes")
+    if x.status_code != 200:
+        return
+    wb = openpyxl.load_workbook(io.BytesIO(x.content), read_only=True, data_only=True)
+    new = total = 0
+    for ws in wb.worksheets:
+        head = None
+        for row in ws.iter_rows(values_only=True):
+            cells = [("" if c is None else str(c).strip()) for c in row]
+            if head is None:
+                if any("name" in c.lower() for c in cells):
+                    head = [c.lower() for c in cells]
+                    print(f"rbi sheet {ws.title!r}: headers {head}")
+                continue
+            d = dict(zip(head, cells))
+            nm = next((v for k, v in d.items() if "name" in k and v), "")
+            if not nm:
+                continue
+            total += 1
+            st = next((v for k, v in d.items() if "state" in k and v), None)
+            ct = next((v for k, v in d.items() if "city" in k and v), None)
+            cat = next((v for k, v in d.items() if "category" in k or "type" in k), None)
+            new += sink.add(nm, city=ct, state=st, industry=cat, raw=d)
+    print(f"rbi: {total} rows, {new} new")
+
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "gptw": ("R87", run_gptw),
+        "wiki": ("R86", run_wiki),
+        "rbi": ("R43", run_rbi),
         "enrich": ("ENRICH", run_enrich),
         "ingrid": ("R59", run_ingrid),
         "riseflake": ("R58", run_riseflake),

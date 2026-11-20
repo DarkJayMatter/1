@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4 "psycopg[binary]"
+      - run: pip install requests beautifulsoup4 openpyxl "psycopg[binary]"
       - name: Run scraper
         working-directory: account-discovery
         env:
