@@ -505,10 +505,8 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "p_ism_funded": "https://indianstartupmap.com/sitemap-funded.xml",
-    "p_ism_orgs": "https://indianstartupmap.com/sitemap-orgs.xml",
-    "p_ism_companies0": "https://indianstartupmap.com/sitemap-companies-0.xml",
-    "p_ism_methodology": "https://indianstartupmap.com/methodology",
+    "p_ism_funded_blr": "https://indianstartupmap.com/funded/bengaluru",
+    "p_ism_funded_pune": "https://indianstartupmap.com/funded/pune",
 }
 
 
