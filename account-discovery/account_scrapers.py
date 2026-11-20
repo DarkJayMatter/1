@@ -422,8 +422,12 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "ingrid_ind": "https://ingrid.fyi/industries/cloud-developer-tools",
-    "rise_ind": "https://jobportal.riseflake.com/companies/browse/software-it-companies",
+    "p_hirehire": "https://hirehire.in/company/skillsoft.html",
+    "p_nextknock": "https://www.nextknock.in/companies/symbionic",
+    "p_ingrid": "https://ingrid.fyi/companies/moody-s-corp",
+    "p_riseflake": "https://jobportal.riseflake.com/companies/eclerx-services-ltd",
+    "p_erekrut": "https://www.erekrut.com/company/kapu-gems-llp",
+    "p_careerjet": "https://www.careerjet.co.in/company/RSM-International/jobs",
 }
 
 
