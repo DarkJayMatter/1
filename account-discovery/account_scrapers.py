@@ -724,7 +724,7 @@ def _extract(source_id, html):
         txt = soup.get_text(" ", strip=True)
         m = re.search(r"Industry\s+(.+?)\s+Functional Area\s+(.+?)\s+Company Overview", txt)
         industry = " / ".join(m.groups()) if m else ""
-        titles = [h.get_text(" ", strip=True) for h in soup.select("h5")
+        titles = [h.get_text(" ", strip=True) for h in soup.select("h5")[1:]
                   if h.get_text(strip=True) not in ("Location", "Industry", "Functional Area", "Website", "Skills Hiring/Hired For", "Locations Hiring/Hired For")][:25]
         sk = re.search(r"Skills Hiring/Hired For\s+(.+?)\s+(Locations Hiring|Website|Pipe)", txt)
         if sk:
@@ -734,7 +734,7 @@ def _extract(source_id, html):
         industry = m.group(1).strip() if m else ""
     elif source_id == "R59":    # ingrid: breadcrumb industry path
         txt = soup.get_text(" ", strip=True)
-        m = re.search(r"ingrid\.fyi\s+(.+?)\s+What they build", txt)
+        m = re.search(r"Sign out\s+(.+?)\s+What they build", txt)
         industry = m.group(1).strip() if m else ""
     return titles, industry
 

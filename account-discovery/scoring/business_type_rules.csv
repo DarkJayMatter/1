@@ -1,0 +1,42 @@
+order,business_type,score_0_to_5,regex
+1,Trust / society / NGO / association,0,\btrust\b|gratuity|provident fund|pension|\bsociety\b|samiti|sangh\b|mandal\b|welfare|charitable|\bassociation\b|chamber of
+2,Cooperative,0,co-?operative|sahakari|\bcredit society\b
+3,Fund / REIT / InvIT / AIF entity,0,\bmutual fund\b|\breit\b|\binvit\b|infrastructure investment trust|real estate investment trust|alternative investment|\baif\b|venture capital fund|\bfpi\b|private equity fund
+4,Holding shell / proprietorship,0,\bholdings?\b|proprietor|\bhuf\b
+5,Portfolio manager / debenture trustee (SEBI),2,portfolio manager|debenture trustee|research analyst|investment adviser
+6,Credit rating / custodian / RTA / KYC / ESG (SEBI),3,credit rating agency|custodian|share transfer|rta /|kyc registration|esg rating|merchant banker
+7,Software product / SaaS / IT services,5,software|\bsaas\b|infotech|infosystems|info ?systems|information technolog|\bit services\b|\bit/ites\b|\bites\b|\bbpm\b|semiconductor|silicon|microelectronic|embedded|firmware|\bcloud\b|cyber|infosec|analytics|artificial intelligence|machine learning|\bai\b|\bdata\b|datasystems|gaming|\bgames\b|fintech|payments?\b|saas|robotics|\berp\b|digital engineering|ai/ml|\bcrm\b|devops|\bapi\b|blockchain
+8,Tech-named company (generic),4,technolog|\btech\b|systems|digital|networks?\b|solutions|\blabs?\b|computing|computers?|infosys|infra ?tech|\binfo\b|\binternet\b|\bonline\b|e-?commerce|\bapp\b|\bapps\b|platform|\bsmart\b
+9,Bank,4,\bbank\b|bancorp|banking|bank of
+10,Insurance,4,insurance|assurance|reinsur
+11,Telecom operator / ISP,4,telecom|telecommunication|broadband|\bisp\b|wireless|mobile network|communications?\b|isp \(trai\)
+12,Pharma / biotech / life sciences,4,pharma|pharmaceutical|biotech|biosciences?|life ?sciences?|therapeutics|biologics|biopharma|\bdrugs?\b
+13,Healthtech / medical devices,4,healthtech|health tech|medtech|medical devices?|digital health
+14,Automotive / auto components,4,automotive|auto ?components?|\bmotors?\b|automobile|vehicles?|\bev\b|tyres?|\bautos?\b
+15,Aerospace / defence,4,aerospace|aviation|\baero|defen[cs]e|avionics|\bspace\b|aircraft
+16,Edtech,4,edtech|e-?learning|online (education|learning)|learning platform
+17,Media / OTT,4,\bott\b|streaming
+18,Management / Big-4 consulting,4,deloitte|kpmg|pwc|price ?waterhouse|ernst|\bey\b|accenture|mckinsey|boston consulting|\bbain\b|management consult
+19,NBFC / finance company,3,nbfc|non-?banking|finance|finserv|financial services?|housing finance|microfinance|capital\b|credit\b|leasing|lending|loans?\b
+20,Stock broking / securities,3,securities|broking|brokers?\b|stock
+21,Healthcare providers / diagnostics,2,hospital|clinic|healthcare|health care|nursing|medical college|diagnostic|pathology|laborator|\bhealth\b|ayurved|dental
+22,Energy / power / oil & gas,3,energy|power\b|solar|\boil\b|\bgas\b|petro|electric power|utilities|renewable|wind\b|hydro
+23,Retail / consumer brand,3,retail|supermarket|\bmart\b|shopping|\bstores?\b|fashion|jewel|lifestyle
+24,FMCG / food / consumer goods,3,fmcg|consumer|foods?\b|beverage|dairy|biscuit|snack|spice|confection|agro foods
+25,BPO / KPO / shared services,3,\bbpo\b|\bkpo\b|business process|outsourc|contact cent|call cent|customer (care|support)|shared services|global business services|\bgbs\b
+26,Staffing / recruitment,3,staffing|recruit|manpower|\bhr services\b|human resource|placement|talent
+27,Manufacturing (industrial / electronics / engineering),3,manufactur|engineering|engineers\b|machin|\btools?\b|forge|forging|casting|electricals?|electronics?|\bcables?\b|pumps?|valves?|instrument|automation|industries|industrial|fabricat|components?|precision|turbines?|\bgears?\b
+28,Metals / mining / chemicals / cement,3,steel|alloy|metals?\b|mining|minerals?|cement|chemicals?|fertili[sz]|paints?|rubber|plastics?|polymer|ceramics?|glass|paper\b|packag
+29,Real estate / infrastructure,3,realty|real estate|developers?|properties|\binfra\b|infrastructure|township|estates?\b
+30,Logistics / transport / shipping,2,logistics|transport|freight|cargo|courier|shipping|cabs?\b|warehous|carriers?\b|supply chain
+31,Construction / civil,2,construction|builders?|contractors?|\bcivil\b|housing\b
+32,Agriculture / agri,2,\bagri|agro\b|\bfarms?\b|seeds?\b|plantation|horticulture|fisher|poultry
+33,Legal / accounting / tax,2,legal|advocate|chartered accountant|audit|\btax\b|law (firm|associates)
+34,Marketing / advertising / events,2,advertis|marketing|\bevents?\b|branding|\bpr\b|creative|media\b|entertainment|studios?|films?|pictures
+35,Publishing / printing,2,publish|printing|printers|\bpress\b|books
+36,Wholesale / distribution,2,distribut|wholesale|agenc(y|ies)|suppliers?|dealers?
+37,Consulting / advisory (small),3,consult|advisory|advisors?
+38,Textiles / apparel,2,textiles?|garments?|apparel|fabrics?|\bmills?\b|spinning|weaving|hosiery|denim
+39,School / college / university,1,school|college|universit|institute|academy|education|coaching|vidyalaya|vidya|\blearning\b|tutorial|training
+40,Hotels / restaurants / travel,1,hotel|resort|restaurant|cafe|catering|hospitality|bakery|travel|tours?\b|holiday|trekking
+41,Trading / enterprises / exports,1,traders?|trading|enterprises?|impex|exports?|imports?|merchants?|\bcorporation\b

@@ -1,0 +1,5 @@
+tier,min_total,extra_condition
+A,75,tech_team=1 and business_type>=4
+B,60,business_type>=3
+C,40,
+D,0,

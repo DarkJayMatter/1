@@ -1,0 +1,7 @@
+parameter,weight,note
+business_type,30,score 0-5 from business_type_rules.csv
+tech_team,30,0 or 1
+tech_role_breadth,10,0-5 role families seen in India-based roles (stage 2)
+size,20,0-5 from headcount; unknown = 2
+india_presence,5,0 or 1
+hiring_signal,5,0-5 from number of job-list sources
