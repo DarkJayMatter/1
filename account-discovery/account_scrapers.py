@@ -504,7 +504,21 @@ def run_edgar(sink, args):
     print(f"EDGAR: {sink.added} new rows")
 
 
-PROBES = {f"p_cs_sm{i}": f"https://careerscan.in/sitemap/{i}" for i in (0, 1, 8, 16)}
+PROBES = {
+    "p_inc42_feed": "https://inc42.com/feed/",
+    "p_yourstory_feed": "https://yourstory.com/feed",
+    "p_entrackr_feed": "https://entrackr.com/feed",
+    "p_et_startups": "https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570561.cms",
+    "p_mint_companies": "https://www.livemint.com/rss/companies",
+    "p_qc_robots": "https://www.quickcompany.in/robots.txt",
+    "p_qc_companies": "https://www.quickcompany.in/companies",
+    "p_ism_robots": "https://indianstartupmap.com/robots.txt",
+    "p_ism_sitemap": "https://indianstartupmap.com/sitemap.xml",
+    "p_cii_members": "https://www.cii.in/Members.aspx",
+    "p_ficci_members": "https://ficci.in/members.asp",
+    "p_nasscom_gcc": "https://nasscom.in/knowledge-center/publications/india-gcc-landscape",
+    "p_cc_index": "https://index.commoncrawl.org/collinfo.json",
+}
 
 
 def run_probe(sink, args):
