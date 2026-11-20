@@ -335,6 +335,63 @@ def run_csmap(sink, args):
     print(f"CareerScan sitemap: {len(slugs)} slugs, {len(res)} confident employers")
 
 
+# --- R80: Indian Startup Map, free "funded" city pages ----------------------------
+def _clean_corp(n):
+    n = re.sub(r"\s+", " ", n or "").strip()
+    n = re.sub(r"\s*\b(private limited|pvt\.? ltd\.?|limited|ltd\.?|llp|opc private limited)\s*$", "", n, flags=re.I).strip()
+    return n.title() if n.isupper() else n
+
+
+def run_ism(sink, args):
+    """Free pages only: each funded-city page shows its top ~36 companies. Paid full lists are not touched."""
+    r = get("https://indianstartupmap.com/sitemap-funded.xml", args.delay)
+    if r is None:
+        print("ism: sitemap not reachable"); return
+    urls = re.findall(r"<loc>(https://indianstartupmap.com/funded/[^<]+)</loc>", r.text)
+    print(f"ism: {len(urls)} funded city pages")
+    for u in urls:
+        pr = get(u, args.delay)
+        if pr is None:
+            continue
+        city = u.rsplit("/", 1)[-1].replace("-", " ").title()
+        rows = re.findall(r'href="(/company/[^"]+)"[^>]*>([^<]{2,100})<', pr.text)
+        seen, new = set(), 0
+        for href, nm in rows:
+            if href in seen:
+                continue
+            seen.add(href)
+            new += sink.add(_clean_corp(nm), city=city, industry="Funded startup (Startup Map, free page)",
+                            profile_url="https://indianstartupmap.com" + href)
+        print(f"{city}: {len(seen)} companies, {new} new")
+
+
+# --- R21: funding / growth news RSS -----------------------------------------------
+RSS_FEEDS = ["https://inc42.com/feed/", "https://yourstory.com/feed",
+             "https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570561.cms",
+             "https://www.livemint.com/rss/companies"]
+_RSS_VERB = r"(raises|bags|secures|lands|closes|picks up|acquires|acquired by|invests in|partners with|opens|expands|launches|appoints|hires|files for IPO|to acquire|to invest)"
+_RSS_BAD = {"startup", "india", "indian", "govt", "government", "the", "how", "why", "what", "this", "company", "firm", "bank", "sebi", "rbi", "centre", "court", "supreme", "ai", "new", "its", "these", "top"}
+
+
+def run_rss(sink, args):
+    for feed in RSS_FEEDS:
+        r = get(feed, args.delay)
+        if r is None:
+            print(f"rss: {feed} unreachable"); continue
+        titles = re.findall(r"<item>.*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", r.text, flags=re.S)
+        new = 0
+        for t in titles:
+            t = re.sub(r"&#?\w+;", "'", t).strip()
+            m = re.match(r"^([A-Z][\w&.\-]*(?:\s+[A-Z0-9][\w&.\-]*){0,3})\s+" + _RSS_VERB + r"\b", t)
+            if not m:
+                continue
+            nm = m.group(1).strip()
+            if nm.split()[0].lower() in _RSS_BAD or len(nm) < 3:
+                continue
+            new += sink.add(nm, industry="Named in funding/growth news", raw={"headline": t[:160], "feed": feed})
+        print(f"{feed}: {len(titles)} items, {new} new names")
+
+
 # --- R55: Erekrut ------------------------------------------------------------
 def parse_erekrut(html):
     """Cards are <a href=/company/slug><h5>Name</h5></a> followed by a location span."""
@@ -950,7 +1007,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),
