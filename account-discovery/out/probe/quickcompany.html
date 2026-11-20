@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="turbo-visit-control" content="reload">
+
+    <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-955246062">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-955246062');
+      </script>
+
+
+    
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="l0xiI-jkPda2QUmPhiawmsm-Uv4Dp1D6JEQV_28rpta6iX1hG8svwvbaDza1XSKOPnlFdy_EgGbCAt3AS4jxbA" />
+    
+    <link rel="stylesheet" href="/assets/bootstrap-8c5cb93c8a1ae55323cd5b3b133ebb3865192b6fb4f432a124538d0f09aabb68.css" data-turbo-track="reload" />
+    <script src="/assets/bootstrap5-6cc28e8f4db4eab8693f0a7fda9c48d01ef8c7b768938eadae31a7feff5f0ff5.js" data-turbo-track="reload" defer="defer"></script>
+    <style>
+      .calendar-heading {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100 bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background: #FFC400; font-weight: 500;">
+    <div class="container justify-content-start">
+      <div class="d-flex" id="navbar-fixed">
+        <div class="p-0 flex-grow-1">
+          <button class="navbar-toggler" style="padding: 3px 8px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-none" href="/"><img style="height: 39px; padding-left: 6px" src="/assets/quickcompany-logo-yellow-9e1eaa995984b8e85d827279b82c2efe167b7ed9746d03b97e9fd0d29cca83be.png" /></a>
+        </div>
+        <div class="p-0 flex-shrink-1 d-lg-none">
+            <a class="btn btn-primary me-0" href="https://www.quickcompany.in/users/sign_in">Login</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7" id="navbar-search">
+        <div data-controller="searchbox" data-highlight-toggle-class="d-none">
+        </div>
+      </div>
+      <div class="d-none d-lg-block col-lg-2 text-end" style="border: solid 0px #cc3300">
+          <a class="btn btn-primary me-1" href="https://www.quickcompany.in/users/sign_in">Login</a>
+          <a class="btn btn-outline-dark" href="https://www.quickcompany.in/users/sign_up">SignUp</a>
+      </div>
+    </div>
+  </nav>
+    <turbo-frame id="modal"></turbo-frame>
+    <div id="flash">
+    </div>
+    	<div class="content">
+		<link rel="stylesheet" href="/assets/supericons/supericons-f91c867a93f50f7fff2730fdd769fec2d0d4c2bf431d2c3835bca0aa3d65d2de.css" />
+<div class="container-fluid theme-hero min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="text-center">
+      <div class="fw-bold pb-0 mb-0 pt-4 mt-4" style="letter-spacing: -1px;">
+        <a class="navbar-brand" href="/"><img style="height: 64px;" src="/assets/logo-2025-1b209543f8c35d2cfc58754bc2a0c8d91c1247a84b3cd9e633adb97177b05d11.webp" /> </a>
+      </div>
+      <div class="row mb-4 pb-4 pt-4" >
+        <div class="col-md-12">
+          <div class="row pb-4 mb-3">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+              <div class="mt-2">
+
+                <form data-turbo="false" action="/search" accept-charset="UTF-8" method="get">
+                  <div class="input-group input-group-lg mb-2">
+                    <input type="text" name="q" id="q" class="form-control border-secondary" placeholder="Company / Director / Trademark / Patent" required="required" />
+                    <button name="button" type="submit" class="btn btn-primary" data-turbo-submits-with=""><i class='fa fa-search'></i></button>
+                  </div>
+</form>              </div>
+            </div>
+          </div>
+          <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 px-4">
+            <div class="row mb-4 pb-4" style="font-size: 0.9em">
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/company">
+                  <i class="si si-black-company si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Companies
+</a>              </div>
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/directors">
+                  <i class="si si-black-director si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Directors
+</a>              </div>
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/trademarks">
+                  <i class="si si-black-trademark si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Trademarks
+</a>              </div>
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/patents">
+                  <i class="si si-black-patent si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Patents
+</a>              </div>
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/designs">
+                  <i class="si si-black-design si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Designs
+</a>              </div>
+
+              <div class="col-4 col-sm-2 text-center hvr-float p-0 pb-4">
+                <a class="text-dark" href="/designs">
+                  <i class="si si-black-copyright si-disc" style="font-size: 24px; margin-bottom: 6px;"></i>
+                  <br>
+                  Copyrights
+</a>              </div>
+
+            <div class="row">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <button class="btn btn-xs btn-dark mb-1" type="button">Tool</button>
+                    Check Availability to <a class="text-decoration-underline" data-turbo-frame="stage" data-turbo-action="advance" href="/trademarks/registration">Register a Trademark</a>
+                  </div>
+                  <div class="carousel-item">
+                    <button class="btn btn-xs btn-dark mb-1" type="button">Tool</button>
+                    Class Finder <a class="text-decoration-underline" data-turbo-frame="stage" data-turbo-action="advance" href="/trademarks/classes">Trademark Classes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+	</div>
+
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5d429ee7b5228cb',t:'MTc5NTE0MzIwMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d429ee7b5228cb',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
