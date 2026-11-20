@@ -1,7 +1,8 @@
+import re
 """Merge every out/R*.csv (plus the 35 STPI rows already in the sheet) into ONE deduped file."""
 import csv, glob, json, os, re, sys
 
-ORDER = ["R63", "R62", "R25", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R44", "R47", "R48"]
+ORDER = ["R87", "R86", "R63", "R62", "R25", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R44", "R47", "R48"]
 GCC = {"R63", "R62", "R25"}
 URLS = {"R63": "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/",
         "R62": "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/",
@@ -17,8 +18,14 @@ def add(name, city, sid, url, note, domain="", band="", date="", status="New"):
     k = key(name)
     if not k:
         return
+    m = re.search(r"(\d[\d,]*)", band or "")
+    if m and "employee" not in (band or "").lower():
+        band = f"{m.group(1).replace(',', '')} employees"
     if k in seen:
-        also.setdefault(k, set()).add(sid); return
+        also.setdefault(k, set()).add(sid)
+        if band and not rows[seen[k]][6]:
+            rows[seen[k]][6] = band
+        return
     seen[k] = len(rows)
     rows.append([name, city or "", sid, url or "", date, domain, band, status + (" (GCC)" if sid in GCC else ""), note or "", k])
 
