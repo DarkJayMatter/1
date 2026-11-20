@@ -422,9 +422,10 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "sebi_9": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=9",
-    "sebi_13": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=13",
-    "sebi_23": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=23",
+    "ingrid": "https://ingrid.fyi/explore",
+    "foundit": "https://www.foundit.in/search/jobs-by-company",
+    "riseflake": "https://jobportal.riseflake.com/companies/browse",
+    "quickcompany": "https://www.quickcompany.in/",
 }
 
 
