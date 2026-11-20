@@ -683,9 +683,106 @@ def run_wikidata(sink, args):
         time.sleep(max(args.delay, 2))
 
 
+# ---- Stage 2: one company at a time -> role/industry evidence --------------------------------
+ROLE_FAMILIES = {
+    "software": r"software|developer|\bsde\b|backend|back-end|frontend|front-end|full[- ]?stack|\bjava\b|python|\.net|android|\bios\b|react|node\.?js|programmer|web developer|mobile (app )?developer|golang|php developer",
+    "data": r"data (scientist|engineer|analyst|analytics)|\bbi\b|business intelligence|analytics|machine learning|\bml\b|\bai\b|\betl\b|database|\bdba\b|power ?bi|tableau|data warehouse",
+    "devops_cloud": r"devops|\bsre\b|site reliability|\bcloud\b|infrastructure engineer|platform engineer|kubernetes|\baws\b|azure|sysadmin|system administrator|linux admin",
+    "qa": r"\bqa\b|quality assurance|test engineer|\bsdet\b|automation test|\btester\b|software test",
+    "security_network": r"security (engineer|analyst|architect)|cyber|\bsoc\b|network (engineer|administrator|security)|firewall|infosec|penetration",
+    "it_support_erp": r"it support|help ?desk|service desk|technical support|\bsap\b|\berp\b|oracle (apps|fusion|ebs)|salesforce|servicenow|workday|\bit (administrator|analyst|engineer|executive)|desktop support|l[123] support",
+    "embedded_hw": r"embedded|firmware|\bvlsi\b|\brtl\b|\bfpga\b|\basic\b|hardware engineer|design verification|physical design",
+    "quasi_tech": r"business analyst|product (manager|owner)|technical (writer|program|project|lead|consultant)|solutions? (architect|engineer|consultant)|scrum|implementation (engineer|consultant)|technical account",
+}
+_RF = {k: re.compile(v, re.I) for k, v in ROLE_FAMILIES.items()}
+
+
+def _families(titles):
+    fams = {}
+    for t in titles:
+        for k, rx in _RF.items():
+            if rx.search(t):
+                fams.setdefault(k, []).append(t)
+    return fams
+
+
+def _extract(source_id, html):
+    """Return (titles of India roles, industry text). One page = one company."""
+    soup = BeautifulSoup(html, "html.parser")
+    titles, industry = [], ""
+    if source_id == "R57":      # HireHire: .cp-job-t title, .cp-job-m "India - City · when"
+        for j in soup.select("a.cp-job"):
+            t = j.select_one(".cp-job-t"); m = j.select_one(".cp-job-m")
+            if t and (not m or "india" in m.get_text().lower()):
+                titles.append(t.get_text(" ", strip=True))
+        m = re.search(r"works in ([^.]+)\.", soup.get_text(" ", strip=True))
+        industry = m.group(1).strip() if m else ""
+    elif source_id == "R54":    # NextKnock: every listed job is an India role
+        for li in soup.select('li a[href^="/jobs/"] span.font-semibold'):
+            titles.append(li.get_text(" ", strip=True))
+    elif source_id == "R55":    # Erekrut: Industry / Functional Area labels + recent job titles
+        txt = soup.get_text(" ", strip=True)
+        m = re.search(r"Industry\s+(.+?)\s+Functional Area\s+(.+?)\s+Company Overview", txt)
+        industry = " / ".join(m.groups()) if m else ""
+        titles = [h.get_text(" ", strip=True) for h in soup.select("h5")
+                  if h.get_text(strip=True) not in ("Location", "Industry", "Functional Area", "Website", "Skills Hiring/Hired For", "Locations Hiring/Hired For")][:25]
+        sk = re.search(r"Skills Hiring/Hired For\s+(.+?)\s+(Locations Hiring|Website|Pipe)", txt)
+        if sk:
+            titles.append(sk.group(1))
+    elif source_id == "R58":    # Riseflake: Industry type
+        m = re.search(r"Industry type\s+(.+?)\s+About", soup.get_text(" ", strip=True))
+        industry = m.group(1).strip() if m else ""
+    elif source_id == "R59":    # ingrid: breadcrumb industry path
+        txt = soup.get_text(" ", strip=True)
+        m = re.search(r"ingrid\.fyi\s+(.+?)\s+What they build", txt)
+        industry = m.group(1).strip() if m else ""
+    return titles, industry
+
+
+def run_enrich(sink, args):
+    """Reads scoring/enrich_input.csv; fetches each company's own profile page (one at a time) and writes
+    out/enrich_<only>.csv. Resumable; skips pages that show a bot check."""
+    only = set((args.only or "R54,R57,R55,R58,R59").split(","))
+    inp = [r for r in csv.DictReader(open("scoring/enrich_input.csv", encoding="utf-8")) if r["source_id"] in only]
+    inp = inp[args.start_page - 1:]
+    if args.max_pages < len(inp):
+        inp = inp[:args.max_pages]
+    path = f"out/enrich_{'_'.join(sorted(only))}.csv"
+    os.makedirs("out", exist_ok=True)
+    done = set()
+    if os.path.exists(path):
+        done = {r["account_name_key"] for r in csv.DictReader(open(path, encoding="utf-8"))}
+    f = open(path, "a", newline="", encoding="utf-8")
+    w = csv.writer(f)
+    if not done:
+        w.writerow(["account_name_key", "name", "source_id", "status", "india_roles_seen", "india_role_families",
+                    "families", "sample_roles", "industry_text", "url"])
+    n = 0
+    for r in inp:
+        if r["account_name_key"] in done:
+            continue
+        resp = get(r["url"], args.delay)
+        n += 1
+        if resp is None:
+            w.writerow([r["account_name_key"], r["name"], r["source_id"], "no_response", 0, 0, "", "", "", r["url"]])
+        elif re.search(r"verification required|unusual traffic|captcha", resp.text[:3000], re.I):
+            w.writerow([r["account_name_key"], r["name"], r["source_id"], "bot_check", 0, 0, "", "", "", r["url"]])
+        else:
+            titles, industry = _extract(r["source_id"], resp.text)
+            fams = _families(titles)
+            w.writerow([r["account_name_key"], r["name"], r["source_id"], "ok", len(titles), len(fams),
+                        ",".join(fams), " | ".join(titles[:5]), industry, r["url"]])
+        f.flush()
+        if n % 50 == 0:
+            print(f"{n} companies fetched")
+    f.close()
+    print(f"enrich: {n} companies fetched -> {path}")
+
+
 JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
+        "enrich": ("ENRICH", run_enrich),
         "ingrid": ("R59", run_ingrid),
         "riseflake": ("R58", run_riseflake),
         "wikidata": ("R26", run_wikidata),
@@ -707,6 +804,7 @@ def main():
     p.add_argument("--delay", type=float, default=1.5, help="Seconds between requests")
     p.add_argument("--start-page", type=int, default=1)
     p.add_argument("--max-pages", type=int, default=3000)
+    p.add_argument("--only", help="enrich: comma-separated source ids, e.g. R57,R54")
     p.add_argument("--debug", action="store_true", help="Fetch one page, save HTML, print 3 parsed rows")
     args = p.parse_args()
     if not args.db and not args.csv and not args.debug:
