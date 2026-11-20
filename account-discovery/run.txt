@@ -1,1 +1,1 @@
-enrich --csv out --only R55 --delay 1.5 --max-pages 100000
+probe --delay 2

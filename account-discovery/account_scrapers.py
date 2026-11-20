@@ -422,12 +422,15 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "p_hirehire": "https://hirehire.in/company/skillsoft.html",
-    "p_nextknock": "https://www.nextknock.in/companies/symbionic",
-    "p_ingrid": "https://ingrid.fyi/companies/moody-s-corp",
-    "p_riseflake": "https://jobportal.riseflake.com/companies/eclerx-services-ltd",
-    "p_erekrut": "https://www.erekrut.com/company/kapu-gems-llp",
-    "p_careerjet": "https://www.careerjet.co.in/company/RSM-International/jobs",
+    "p_gptw_best": "https://www.greatplacetowork.in/indias-best-companies-to-work-for",
+    "p_gptw_mfg": "https://www.greatplacetowork.in/indias-best-workplaces-in-manufacturing",
+    "p_wiki_largest": "https://en.wikipedia.org/wiki/List_of_largest_companies_in_India",
+    "p_cutshort_1": "https://cutshort.io/company?page=1",
+    "p_cutshort_2": "https://cutshort.io/company?page=2",
+    "p_bs1000": "https://www.business-standard.com/companies/bs-1000",
+    "p_startupmap_blr": "https://indianstartupmap.com/cities/bengaluru",
+    "p_rbi_nbfc": "https://www.rbi.org.in/Scripts/BS_NBFCList.aspx",
+    "p_bse_scrips": "https://www.bseindia.com/corporates/List_Scrips.html",
 }
 
 

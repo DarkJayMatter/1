@@ -29,11 +29,12 @@ jobs:
           CAREERJET_KEY: ${{ secrets.CAREERJET_KEY }}
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
         run: |
+          mkdir -p logs
           # run.txt starting with "jobsearch" runs the job-board evidence script; anything else the scraper
           if [ "$(cut -d' ' -f1 run.txt)" = "jobsearch" ]; then
-            python jobsearch.py $(cut -d' ' -f2- run.txt) 2>&1 | tee run.log
+            python jobsearch.py $(cut -d' ' -f2- run.txt) 2>&1 | tee "logs/run-${{ github.run_id }}.log"
           else
-            python account_scrapers.py $(cat run.txt) 2>&1 | tee run.log
+            python account_scrapers.py $(cat run.txt) 2>&1 | tee "logs/run-${{ github.run_id }}.log"
           fi
       - name: Commit output
         if: always()
