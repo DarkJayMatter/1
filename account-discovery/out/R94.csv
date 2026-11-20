@@ -1,0 +1,936 @@
+source_id,name,name_norm,city,state,industry,size_band,isin,listing_date,profile_url,run_id,extra
+R94,A.T. Kearney,a t kearney,Pune,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aavid Thermalloy,aavid thermalloy,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ABB,abb,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Abbott,abbott,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Absolutdata,absolutdata,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Accenture Technology Labs,accenture technology labs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Acellere GmbH,acellere gmbh,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ACI Worldwide,aci worldwide,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Actavis Plc,actavis plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Actiance Inc,actiance inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Actifio,actifio,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Adap.TV,adap tv,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Adeptia,adeptia,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,adidas,adidas,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Admiral Group plc,admiral group plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AdNear,adnear,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Adobe Systems Incorporated,adobe systems incorporated,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ADP,adp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Advantedge Technologies,advantedge technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Agilent Technologies,agilent technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Agility,agility,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AGNITY,agnity,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Air Liquide S.A,air liquide s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Airbus,airbus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Airbus Defence and Space,airbus defence and space,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AIRCOM,aircom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AirTight Networks,airtight networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Airvana,airvana,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AirWatch,airwatch,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Akamai,akamai,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aker Solutions,aker solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Akzo Nobel,akzo nobel,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Albany Molecular Research Inc.,albany molecular research inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alcatel Lucent,alcatel lucent,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alcon,alcon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alent plc,alent plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alepo,alepo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alexion Pharmaceuticals,alexion pharmaceuticals,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alfa Laval,alfa laval,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Allegion Plc,allegion plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Allergan,allergan,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Allianz Cornhill Information Services,allianz cornhill information services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Allscripts Healthcare Solutions,allscripts healthcare solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Allstate,allstate,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alphion,alphion,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alsbridge,alsbridge,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Alstom,alstom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Altair Engineering,altair engineering,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Altera Corporation,altera corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amada Co,amada co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amadeus,amadeus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amazon.com,amazon com,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amber road,amber road,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Applied Micro Circuits Corporation,applied micro circuits corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AMD,amd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amdocs,amdocs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,American Axle & Manufacturing,american axle and manufacturing,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,American Express,american express,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,American Megatrends,american megatrends,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ameriprise Financial,ameriprise financial,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AMETEK,ametek,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amgen,amgen,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amneal Pharmaceuticals,amneal pharmaceuticals,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Amphenol Interconnect India,amphenol interconnect india,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Analog Devices,analog devices,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ANDRITZ,andritz,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Anritsu,anritsu,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ansaldo STS,ansaldo sts,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Ansys, Inc",ansys inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ANZ,anz,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AOL Inc.,aol inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aon Hewitt,aon hewitt,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Apache Design Solutions,apache design solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Apigee,apigee,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AppDynamics,appdynamics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Applied Materials,applied materials,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Applied Research Works,applied research works,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aptean Corporation,aptean corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Apttris,apttris,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Arada Systems,arada systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aranca Inc,aranca inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,arasan,arasan,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AREVA,areva,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARIBA,ariba,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,@ris global,ris global,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARISTA,arista,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARISTOCRAT,aristocrat,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,arkieva,arkieva,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARM,arm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARRIS,arris,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Arrow Electronics,arrow electronics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ARS Traffic & Transport Technology,ars traffic and transport technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aruba Networks,aruba networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Arvin Meritor,arvin meritor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ashland Inc.,ashland inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aspect Software,aspect software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AstraZeneca plc,astrazeneca plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AT&T,at and t,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ATC Labs,atc labs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,athenahealth,athenahealth,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Atherio,atherio,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Atlas Copco,atlas copco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Atmel Corporation,atmel corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Atrenta,atrenta,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Audience,audience,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aurea,aurea,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Aurigo Software,aurigo software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Autodesk,autodesk,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Autoliv,autoliv,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Avalara,avalara,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Avaya Inc,avaya inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Avery Dennison Corporation,avery dennison corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AVEVA Group plc,aveva group plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AVL,avl,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Avnet, Inc",avnet inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AwareBase,awarebase,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,AXA,axa,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Axionet,axionet,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Azul Systems, Inc.",azul systems inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Azuqua, Inc",azuqua inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bain & Company India,bain and company india,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bally Technologies,bally technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Banca Sella,banca sella,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bank of America,bank of america,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bank of New York Mellon,bank of new york mellon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Barclays,barclays,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Barco N.V.,barco n v,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Barracuda Networks,barracuda networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Barry-Wehmiller International Resources,barry wehmiller international resources,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BASF SE,basf se,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BASF Schweiz AG,basf schweiz ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BASH Gaming,bash gaming,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bastian Solutions,bastian solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Basware Corporation,basware corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Baumer,baumer,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Baxter International Inc,baxter international inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bayer,bayer,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,B/E Aerospace,b e aerospace,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bechtel Corporation,bechtel corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Beckman Coulter,beckman coulter,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Becton, Dickinson and Company",becton dickinson and company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bekaert,bekaert,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bentley Systems,bentley systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bernhard Schulte Shipmanagement,bernhard schulte shipmanagement,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BISIL,bisil,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BiTMICRO Networks,bitmicro networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BlackRock,blackrock,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bloom Energy,bloom energy,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Blue Coat Systems Inc,blue coat systems inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BMC Software,bmc software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BNP Paribas,bnp paribas,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,The Boeing Company,the boeing company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bombardier,bombardier,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BooleanTree Technologies,booleantree technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BorgWarner Inc,borgwarner inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Borland Software Corporation,borland software corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Borqs,borqs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Robert Bosch,robert bosch,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Boston Analytics,boston analytics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Boston Consulting Group,boston consulting group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BP,bp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bristol-Myers Squibb,bristol myers squibb,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,British Council,british council,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BT Group,bt group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Broadcom Corporation,broadcom corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Broadridge Financial Solutions,broadridge financial solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BroadSoft,broadsoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Brocade Communication Systems,brocade communication systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Brose Fahrzeugteile,brose fahrzeugteile,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,BroVis Wireless Networks,brovis wireless networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Bunge Limited,bunge limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CA Technologies,ca technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cadence Design Systems,cadence design systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CADS,cads,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CAE,cae,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CallidusCloud,calliduscloud,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Calypso,calypso,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Calypto Design Systems,calypto design systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cambium Networks,cambium networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cameron International,cameron international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CAMO Software India Pvt Ltd,camo software india pvt ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Canon,canon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Caparo,caparo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Capco,capco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Capgemini Business Services,capgemini business services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,S&P Capital IQ,s and p capital iq,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Capital One,capital one,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CareFusion,carefusion,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cargill,cargill,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Carl Zeiss,carl zeiss,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Carraro Group,carraro group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Carrier,carrier,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Case New Holland Construction Equipment,case new holland construction equipment,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CAST,cast,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Caterpillar,caterpillar,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Causeway Technologies,causeway technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cavium Networks,cavium networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CEB,ceb,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cegedim,cegedim,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cellworks Group,cellworks group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"CenturyLink, Inc.",centurylink inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cerillion,cerillion,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cerner Corporation,cerner corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Chain-Sys Corporation,chain sys corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Checkpoint Systems,checkpoint systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Chelsio Communications,chelsio communications,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ciena Corporation,ciena corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CIGNEX Datamatics,cignex datamatics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cigniti Inc.,cigniti inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CipherCloud,ciphercloud,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cisco Systems,cisco systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Citibank,citibank,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Citius IT Solutions Private Limited,citius it solutions private limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CitiXsys Americas Inc.,citixsys americas inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Citrix System,citrix system,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Claas,claas,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Clariant,clariant,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ClickSoftware Technologies,clicksoftware technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CloudByte Inc.,cloudbyte inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CMA CGM,cma cgm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,The Coca-Cola Company,the coca cola company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,The Colgate-Palmolive Company,the colgate palmolive company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CollabNet,collabnet,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,COLT Technology Services,colt technology services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CommVault Systems,commvault systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Comodo Group,comodo group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Comverse Technology,comverse technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Conax AS,conax as,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Concur Technologies,concur technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Concurrent Technologies,concurrent technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Condeco,condeco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Conexant Systems,conexant systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Continental,continental,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Control Components Inc.,control components inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Copal Amba,copal amba,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cornet Technology Inc.,cornet technology inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Corning Inc.,corning inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cortera,cortera,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cortina Systems,cortina systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Courion Corporation,courion corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Covidien,covidien,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,COWI A/S,cowi a s,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CPA Global,cpa global,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CR2,cr2,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cradle Technologies,cradle technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Craft Silicon,craft silicon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Credit Suisse,credit suisse,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CrimsonLogic Pte,crimsonlogic pte,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cross-Tab,cross tab,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,C-Sam,c sam,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CSG International,csg international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CSR,csr,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cubic Transportation Systems,cubic transportation systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cummins,cummins,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cumulus Systems,cumulus systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cvent,cvent,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,CVM Solutions,cvm solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cyberoam Technologies,cyberoam technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Cypress Semiconductor,cypress semiconductor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Daiichi Sankyo,daiichi sankyo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Daimler,daimler,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dana Holding Corporation,dana holding corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Danfoss,danfoss,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Danske Bank,danske bank,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dassault Systèmes,dassault syst mes,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dataworld,dataworld,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dattus,dattus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,D. E. Shaw & Co,d e shaw and co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Deem,deem,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Delcam,delcam,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dell,dell,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Deloitte Touche Tohmatsu Limited,deloitte touche tohmatsu limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Delphi Automotive PLC,delphi automotive plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Delta Electronics,delta electronics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Denso,denso,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,DenuoSource,denuosource,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Deutsche Bank,deutsche bank,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dialogic,dialogic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Diebold,diebold,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Digi International,digi international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Digital Juice,digital juice,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Digite,digite,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Diyotta,diyotta,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Doosan Babcock,doosan babcock,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dover Corporation,dover corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dow Chemical,dow chemical,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dresser-Rand Group,dresser rand group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dun & Bradstreet,dun and bradstreet,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Dun & Bradstreet Tangram,dun and bradstreet tangram,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,dunnhumby,dunnhumby,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,DuPont,dupont,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,DVTEL,dvtel,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,DXCorr Design Inc.,dxcorr design inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EagleBurgmann,eagleburgmann,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EASi,easi,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Eaton Corporation Plc,eaton corporation plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,eBay Inc.,ebay inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Ebix, Inc.",ebix inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ECI Telecom,eci telecom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,eClinicalWorks,eclinicalworks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Edifecs, Inc.",edifecs inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Electronics For Imaging, Inc.",electronics for imaging inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EFKON India Pvt. Ltd.,efkon india pvt ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,eGain Corporation,egain corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,eInfochips,einfochips,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"EiQ Networks, Inc.",eiq networks inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Eisai,eisai,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ELANTAS Beck,elantas beck,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Electronic Arts, Inc.",electronic arts inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Eli Lilly and Company,eli lilly and company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ellucian Company L.P.,ellucian company l p,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EMC Corporation,emc corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Emerson Electric,emerson electric,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EMIS Group,emis group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Emulex Corporation,emulex corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EnSilica,ensilica,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Entercoms, Inc.",entercoms inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EnterpriseDB,enterprisedb,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Entrust Datacard Corporation,entrust datacard corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Equifax Inc.,equifax inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,eRevMax Inc.,erevmax inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ericsson,ericsson,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,E-ring Software Solutions,e ring software solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ernst & Young Global Limited,ernst and young global limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ERP and ERP corp,erp and erp corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Esko-Graphics,esko graphics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ESPN,espn,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Esterline Souriau Technologies,esterline souriau technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ETAS Automotive India Pvt Ltd,etas automotive india pvt ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Etisalat,etisalat,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Euronet Worldwide,euronet worldwide,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Evalueserve,evalueserve,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Everest Software,everest software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EvolveWare,evolveware,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Evolving Systems,evolving systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Evonik Degussa Corporation,evonik degussa corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Excelacom,excelacom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,exëvo,ex vo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,EXFO,exfo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Exor,exor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Expedia, Inc.",expedia inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Experian plc,experian plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Expertus,expertus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Extreme Networks,extreme networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Exxon Mobil Corp.,exxon mobil corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Facebook,facebook,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FactSet Research Systems Inc,factset research systems inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fairchild Semiconductor International Inc,fairchild semiconductor international inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FANUC INDIA Private Limited,fanuc india private limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fareportal Inc,fareportal inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FastVDO,fastvdo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Faurecia,faurecia,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Federal-Mogul Corporation,federal mogul corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FEV,fev,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fiat Chrysler Automobiles,fiat chrysler automobiles,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fiberlink Communications,fiberlink communications,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fair Isaac Corporation,fair isaac corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fidelity Investments,fidelity investments,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Finisar Corporation,finisar corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fiorano Software,fiorano software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FireEye Inc.,fireeye inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Firetide,firetide,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Firmenich,firmenich,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,First American Financial Corporation,first american financial corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,First Insight Corporation,first insight corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FirstRain,firstrain,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Fiserv, Inc.",fiserv inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Flextronics International,flextronics international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Flowserve Corporation,flowserve corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FLSmidth & Co. A/S,flsmidth and co a s,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fluor Corporation,fluor corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FMC,fmc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FMC Technologies,fmc technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,The Ford Motor Company,the ford motor company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Forrester Research,forrester research,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Foxconn Technology Group,foxconn technology group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Foxfire Technologies,foxfire technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,FranConnect,franconnect,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Franklin Templeton Investments,franklin templeton investments,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Freescale Semiconductor,freescale semiconductor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fresenius Kabi,fresenius kabi,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fresenius Medical Care,fresenius medical care,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Frost & Sullivan,frost and sullivan,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fujitsu,fujitsu,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fulcrum Worldwide,fulcrum worldwide,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Fundtech India Ltd,fundtech india ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Galata Chemicals,galata chemicals,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Gamesa Corporación Tecnológica,gamesa corporaci n tecnol gica,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"The Gap, Inc.",the gap inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Gartner, Inc.",gartner inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,General Electric,general electric,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Gemalto,gemalto,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Genband,genband,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,General Mills Inc,general mills inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,General Motors Company,general motors company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Genesys International Corporation,genesys international corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Genzyme Corporation,genzyme corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Gerson Lehrman Group,gerson lehrman group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Giesecke & Devrient,giesecke and devrient,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Gilbarco Veeder-Root,gilbarco veeder root,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GKN plc,gkn plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Glassbeam, Inc.",glassbeam inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GlaxoSmithKline Pharmaceuticals,glaxosmithkline pharmaceuticals,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Global Analytics,global analytics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Global Automation, Inc.",global automation inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GEP (Global eProcure),gep global eprocure,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Global Graphics SA,global graphics sa,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Global Wireless Technologies,global wireless technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GlobalScholar,globalscholar,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"The Goldman Sachs Group, Inc.",the goldman sachs group inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Google,google,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Grant Thornton LLP,grant thornton llp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"GrapeCity, inc.",grapecity inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Groupe SII,groupe sii,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Groupon,groupon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Grundfos,grundfos,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Grupo Antolin,grupo antolin,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Game Show Network,game show network,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GT Nexus,gt nexus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Guavus,guavus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Gunnebo,gunnebo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,GXS,gxs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Haier Group,haier group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Halliburton Company,halliburton company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Harman International Industries,harman international industries,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Harsco Corporation,harsco corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hatch,hatch,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"hCentive, Inc.",hcentive inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Heidrick & Struggles International Incorporated,heidrick and struggles international incorporated,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,HELLA KGaA Hueck & Co.,hella kgaa hueck and co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Henkel AG & Company,henkel ag and company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hexagon,hexagon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Hibu, Inc.",hibu inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hitachi,hitachi,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hoerbiger Holding AG,hoerbiger holding ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Honda Motor Co.,honda motor co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Honeywell International, Inc.",honeywell international inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Hospira, Inc.",hospira inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,HostAnalytics,hostanalytics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hewlett-Packard,hewlett packard,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,HSBC Holdings plc,hsbc holdings plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Huawei Technologies Co.,huawei technologies co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Huntsman Corporation,huntsman corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Husco International,husco international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hydro Building Systems,hydro building systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hysitron,hysitron,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hyundai Motor Company,hyundai motor company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IBM,ibm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Icertis,icertis,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IDeaS,ideas,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Identiv, Inc.",identiv inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IDrive Inc.,idrive inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,iFlect Technologies,iflect technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IG Infotech,ig infotech,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IHG IT Services,ihg it services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IHS Inc.,ihs inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Ikanos Communications, Incorporated",ikanos communications incorporated,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Imagination Technologies Group plc,imagination technologies group plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Imergy Power Systems,imergy power systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Impelsys,impelsys,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Impiger Technologies,impiger technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Indra Networks,indra networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Infineon Technologies,infineon technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Infinera Corp,infinera corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Infiniti Research,infiniti research,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Infogrid Pacific,infogrid pacific,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,InfoPro India Pvt Ltd,infopro india pvt ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Infor,infor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Informatica Corporation,informatica corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Information Services Group,information services group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,InfoStretch Corporation,infostretch corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ingersoll-Rand Inc.,ingersoll rand inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ingram Micro,ingram micro,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,InMage,inmage,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Innovative Interfaces,innovative interfaces,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,InsideView,insideview,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Instancy,instancy,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,InSync Software,insync software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,INSZoom,inszoom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Intacct Corporation,intacct corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Integral Development Corp.,integral development corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Integrated Device Technology,integrated device technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Integreon,integreon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Intel Corporation,intel corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,"Intellect SEEC, Inc",intellect seec inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IDC (International Data Corporation),idc international data corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Interra Systems,interra systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Intersil Corporation,intersil corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Intertec Systems,intertec systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Inteva Products (LLC),inteva products llc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Intuit,intuit,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Invesco,invesco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IPsoft,ipsoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ip.access,ip access,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ipass,ipass,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,IRDETO,irdeto,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Iron Mountain,iron mountain,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ISG Nova Soft Technologies Ltd,isg nova soft technologies ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Isoft,isoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ITT Corporation,itt corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ITW,itw,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ixia,ixia,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jabil,jabil,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jacobs Engineering Group,jacobs engineering group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jardine Lloyd Thompson,jardine lloyd thompson,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,JCB,jcb,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,JDA Software,jda software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,JDS Uniphase,jds uniphase,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jean Martin,jean martin,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jigsee,jigsee,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jivox,jivox,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,John Deere,john deere,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Johnson & Johnson,johnson and johnson,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Johnson Controls Inc,johnson controls inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Jouve,jouve,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,JP Morgan Chase,jp morgan chase,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Juniper Networks,juniper networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kaseya,kaseya,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kennametal,kennametal,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kensium,kensium,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Key Point Technologies,key point technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Keysight Technologies,keysight technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,KeytoneTechnologies,keytonetechnologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kirusa,kirusa,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,KLA-Tencor,kla tencor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Knorr-Bremse,knorr bremse,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kodiak Networks,kodiak networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kofax,kofax,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Komatsu,komatsu,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Konecranes,konecranes,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Konica Minolta,konica minolta,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kony Labs,kony labs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,KPMG,kpmg,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kronos,kronos,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kuka Systems,kuka systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Kuoni Travel Group,kuoni travel group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,L-1 Identity Solutions,l 1 identity solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,L1 Technologies,l1 technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,L-3 Communications,l 3 communications,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Labvantage,labvantage,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lafarge,lafarge,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Laird,laird,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lam Research,lam research,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Landis+Gyr,landis gyr,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Landmark Group,landmark group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lantiq,lantiq,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lanxess,lanxess,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Latens Systems,latens systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lear,lear,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Legrand,legrand,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Leica Microsystems,leica microsystems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lennox International Inc.,lennox international inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lexmark,lexmark,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LG,lg,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LGL,lgl,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Librato,librato,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Life Technologies,life technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LBrands,lbrands,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LinkedIn,linkedin,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lloyds Bank,lloyds bank,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lockheed Martin,lockheed martin,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LogiTech,logitech,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lombardini,lombardini,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Longcheer,longcheer,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LOréal,lor al,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lowe's,lowe s,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,LSI Logic,lsi logic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Lubrizol,lubrizol,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,M&S,m and s,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,M*Modal,m modal,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Macom Technology Solutions,macom technology solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Macquarie Group,macquarie group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Maersk,maersk,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Magic Software,magic software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Magna Steyr,magna steyr,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mahle Behr GmbH & Co,mahle behr gmbh and co,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Makhteshim-Agan,makhteshim agan,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Makino,makino,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MangoApps,mangoapps,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Manhattan Associates,manhattan associates,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mann+Hummel,mann hummel,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mara-Ison,mara ison,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Markem-Imaje,markem imaje,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Marvell,marvell,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mastercard,mastercard,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MathWorks,mathworks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mavenir Systems,mavenir systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Maxim India Integrated Circuit Design,maxim india integrated circuit design,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Maxlinear,maxlinear,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,McAfee,mcafee,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,McKinsey Knowledge Centre,mckinsey knowledge centre,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mediaocean,mediaocean,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MediaTek,mediatek,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Medline,medline,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Medtronic,medtronic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MegaChips,megachips,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Meinhardt Group,meinhardt group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mentor Graphics,mentor graphics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mercer,mercer,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Merck Millipore,merck millipore,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Meridium,meridium,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Meru Networks,meru networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Methode Electronics,methode electronics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Metlife,metlife,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MetricStream,metricstream,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MetrixLab,metrixlab,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Metro Global Business Services,metro global business services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Metso,metso,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mformation,mformation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,mGage,mgage,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Micro Focus International,micro focus international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Microchip Technology,microchip technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Micron Technology,micron technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MICROS Systems,micros systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Microsemi Corporation,microsemi corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Microsoft,microsoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Midas,midas,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mindcrest,mindcrest,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Misys,misys,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mitsubishi Chemical,mitsubishi chemical,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mitsubishi Electric,mitsubishi electric,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mitsubishi Hitachi Power Systems,mitsubishi hitachi power systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mitsui O.S.K. Lines,mitsui o s k lines,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,m-ize,m ize,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MobileComm Technologies,mobilecomm technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mobileum,mobileum,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mobily,mobily,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Hyundai Mobis,hyundai mobis,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mobius 365 Knowledge Services,mobius 365 knowledge services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Molex,molex,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Momentive,momentive,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mondelez International,mondelez international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Monotype Imaging,monotype imaging,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Monsanto,monsanto,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Moody's Shared Services India,moody s shared services india,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Moog,moog,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Morgan Stanley,morgan stanley,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Motorola Mobility,motorola mobility,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Movius Intercative Corporation,movius intercative corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mportal,mportal,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MSC Software,msc software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,MSCI,msci,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Mylan,mylan,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nalco,nalco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Napier Healthcare,napier healthcare,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Narus,narus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nasdaq OMX,nasdaq omx,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,National Instruments,national instruments,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Navionics,navionics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Navis,navis,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Navisite,navisite,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NBC Universal,nbc universal,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NCR,ncr,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NEC,nec,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nektar Therapeutics,nektar therapeutics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Neo Group,neo group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Neomagic,neomagic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Neptune Software Plc,neptune software plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nestle,nestle,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NetApp,netapp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Netgear,netgear,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NetScout Systems,netscout systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nextbrick,nextbrick,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nielsen,nielsen,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nike,nike,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Niksun,niksun,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nimbuzz,nimbuzz,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nissan Motor,nissan motor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nokia Networks (Erstwhile Nokia Solutions and Networks),nokia networks erstwhile nokia solutions and networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nomura,nomura,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nordson Corp,nordson corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Northern Trust,northern trust,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Novartis,novartis,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Novel IP,novel ip,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Novo Nordisk,novo nordisk,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Novozymes,novozymes,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NTT Communications,ntt communications,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NTT Data,ntt data,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NTT Data FA Insurance Systems,ntt data fa insurance systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NUMECA,numeca,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nutanix,nutanix,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Nvidia,nvidia,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,NXP,nxp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,o9 Solutions,o9 solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ocwen Financial,ocwen financial,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Odessa Technologies,odessa technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Olam International,olam international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Omnicell,omnicell,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,On Semiconductor,on semiconductor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OneAccess,oneaccess,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OneOcean Corporation,oneocean corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OPAL-RT Technologies,opal rt technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Open-Silicon,open silicon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OpenText,opentext,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Opera Solutions,opera solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OpSource,opsource,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Oracle,oracle,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Orbees,orbees,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Oriflame,oriflame,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OSI Systems,osi systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,OSRAM Licht AG,osram licht ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Owler,owler,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pace Plc,pace plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PacketVideo Corporation,packetvideo corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Palantir Solutions,palantir solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pall Corporation,pall corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Panamax Inc.,panamax inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Panasonic,panasonic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pangea3,pangea3,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PanTerra Networks,panterra networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PTC,ptc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Parasoft Corporation,parasoft corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Parker Hannifin,parker hannifin,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Payoda,payoda,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PayPal,paypal,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pegasystems,pegasystems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pentair,pentair,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PeopleFluent,peoplefluent,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Perfomix Technologies Intl Pvt Ltd,perfomix technologies intl pvt ltd,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Performix Solutions,performix solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Perpetuuiti TechnoSoft,perpetuuiti technosoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Perrigo Company plc,perrigo company plc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Perstorp,perstorp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Petrofac,petrofac,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pfizer,pfizer,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Phaeros,phaeros,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PharmaSecure,pharmasecure,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Philips,philips,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PHYTEC,phytec,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Piaggio & C. SpA,piaggio and c spa,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pitney Bowes Software,pitney bowes software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PMC-Sierra,pmc sierra,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PointCross,pointcross,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Polycom,polycom,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Portescap,portescap,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Praxair,praxair,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Preactor International,preactor international,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PRGX Global,prgx global,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Principal Financial Group,principal financial group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Procter & Gamble,procter and gamble,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Progress Software Corporation,progress software corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pronto Networks,pronto networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Proxim Wireless,proxim wireless,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Prudential Financial,prudential financial,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Prysm Inc.,prysm inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Publicis Groupe,publicis groupe,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Puratos,puratos,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,PwC,pwc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Pyramid Technology Solutions,pyramid technology solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,QAD,qad,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,QL2,ql2,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Qlogic Corporation,qlogic corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,QSI Healthcare,qsi healthcare,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Qualcomm,qualcomm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Quantum Corporation,quantum corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Quark Software,quark software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,QuickLogic Corporation,quicklogic corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,QuinStreet,quinstreet,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Qvantel,qvantel,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RR Donnelley & Sons,rr donnelley and sons,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Radisys Corporation,radisys corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Radware,radware,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rakuten,rakuten,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ramboll Group A/S,ramboll group a s,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rambus,rambus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Razorsight,razorsight,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Royal Bank of Scotland,royal bank of scotland,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Read-Ink Corporation,read ink corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Real Soft Inc.,real soft inc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RealPage,realpage,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Reckitt Benckiser,reckitt benckiser,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Red Hat,red hat,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Redknee Solutions,redknee solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RedMart,redmart,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Redpine Signals,redpine signals,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Reed Elsevier,reed elsevier,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Relgo,relgo,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Renault S.A.,renault s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Renault-Nissan Alliance,renault nissan alliance,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Renesas Electronics Corporation,renesas electronics corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Replicon,replicon,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ricoh,ricoh,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rio Tinto Group,rio tinto group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Riverbed Technology,riverbed technology,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Riversand Technologies,riversand technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RM Education,rm education,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RMSI,rmsi,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Roche Diagnostics,roche diagnostics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,RockeTalk,rocketalk,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rockwell Automation,rockwell automation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rockwell Collins,rockwell collins,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ROHM Semiconductor,rohm semiconductor,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rolls-Royce Limited,rolls royce limited,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rovi Corporation,rovi corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Royal DSM,royal dsm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Ruckus Wireless,ruckus wireless,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Rusada,rusada,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Saab AB,saab ab,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Saama Technologies,saama technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Saba,saba,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SABIC,sabic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sabre Corporation,sabre corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SafeNet Infotech,safenet infotech,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Safran S.A.,safran s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Saggezza,saggezza,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sagitec,sagitec,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Saint-Gobain S.A.,saint gobain s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Salesforce.com,salesforce com,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Samsung,samsung,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SanDisk Corporation,sandisk corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sandvik,sandvik,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sandvine,sandvine,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sanmina Corporation,sanmina corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sanofi S.A.,sanofi s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SAP Labs,sap labs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sartorius AG,sartorius ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SAS Institute,sas institute,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Satmetrix,satmetrix,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SCA Technologies,sca technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ScaleArc,scalearc,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Schaeffler Group,schaeffler group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Schindler Group,schindler group,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Schlumberger,schlumberger,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Schneider Electric SE,schneider electric se,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Scholastic,scholastic,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sconce Solutions,sconce solutions,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SeaChange,seachange,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sears Holdings India,sears holdings india,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SeatonCorp U.S.A.,seatoncorp u s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Seco Tools,seco tools,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Serus,serus,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ServiceMax,servicemax,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sharp Corporation,sharp corporation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Royal Dutch Shell,royal dutch shell,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ShoreTel,shoretel,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Siemens AG,siemens ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Siemens PLM,siemens plm,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sigma-Aldrich,sigma aldrich,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SignalChem,signalchem,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Silicon Image,silicon image,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SILVER ATENA,silver atena,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SKF,skf,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SkillSoft,skillsoft,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sling Media,sling media,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SmartAnalyst,smartanalyst,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Smartesting,smartesting,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SmartStream Technologies,smartstream technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Snap One,snap one,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Snecma S.A.,snecma s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Akana (Erstwhile SOA Systems),akana erstwhile soa systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SOBIS Software,sobis software,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Société Générale,soci t g n rale,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Software AG,software ag,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Solix Technologies,solix technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Solvay,solvay,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sonim Tech,sonim tech,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sonus networks,sonus networks,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sony,sony,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Spacelabs Healthcare,spacelabs healthcare,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Spraying Systems,spraying systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,STMicroelectronics,stmicroelectronics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Stabilix,stabilix,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Stadco Automotive,stadco automotive,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Standard Chartered,standard chartered,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Starhome Mach,starhome mach,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,State Street,state street,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,sTec,stec,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Steria,steria,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Stoke,stoke,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Stryker,stryker,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Süd-Chemie,s d chemie,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SumTotal Systems,sumtotal systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SunEdison,sunedison,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sun Life Financial,sun life financial,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Sun West Mortgage Company,sun west mortgage company,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,SunGard,sungard,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,support.com,support com,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Suzuki,suzuki,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Swiss Re Shared Services,swiss re shared services,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Symantec,symantec,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Synaptics,synaptics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Synaptris,synaptris,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Syncfusion,syncfusion,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Synchronoss Technologies,synchronoss technologies,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Syngenta,syngenta,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Syniverse,syniverse,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Synopsys,synopsys,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Synygy,synygy,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Syrolution ABS,syrolution abs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,System Consultant Information,system consultant information,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Target,target,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Time Inc. India,time inc india,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,TE Connectivity,te connectivity,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,TeamF1,teamf1,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Technicolor S.A.,technicolor s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Technip S.A.,technip s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tecnotree,tecnotree,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tecra Systems,tecra systems,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tekla,tekla,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tektronix,tektronix,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Telenity,telenity,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tellabs,tellabs,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Temenos,temenos,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tenneco,tenneco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,TEOCO,teoco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Teradata,teradata,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Terex,terex,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Terumo Penpol,terumo penpol,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tesco,tesco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Teva Pharmaceutical,teva pharmaceutical,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Texas Instruments,texas instruments,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Textron,textron,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Thales,thales,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,The Smart Cube,the smart cube,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Theatro,theatro,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Thermo Fisher Scientific,thermo fisher scientific,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,ThinkAnalytics,thinkanalytics,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Thomson Reuters,thomson reuters,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tibco,tibco,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Timken,timken,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,TNS,tns,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tomax,tomax,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tomtom NV,tomtom nv,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Toshiba,toshiba,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Total S.A.,total s a,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Towers Watson,towers watson,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Toyo Corp,toyo corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Toyota,toyota,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Transera Communications,transera communications,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Transparent Value,transparent value,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,TranSwitch Corp,transwitch corp,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Travelex,travelex,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Trelleborg AB,trelleborg ab,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Tribal Fusion,tribal fusion,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}
+R94,Trimble Navigation,trimble navigation,,,"GIC list (older Scribd list, pages 1-20 of 49)",,,,https://www.scribd.com/,20261120T000000-r94,{}

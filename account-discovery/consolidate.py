@@ -2,9 +2,10 @@ import re
 """Merge every out/R*.csv (plus the 35 STPI rows already in the sheet) into ONE deduped file."""
 import csv, glob, json, os, re, sys
 
-ORDER = ["R87", "R86", "R63", "R62", "R25", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R43", "R44", "R47", "R48"]
-GCC = {"R63", "R62", "R25"}
-URLS = {"R63": "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/",
+ORDER = ["R87", "R86", "R63", "R62", "R25", "R94", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R43", "R44", "R47", "R48"]
+GCC = {"R63", "R62", "R25", "R94"}
+URLS = {"R94": "https://www.scribd.com/",
+        "R63": "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/",
         "R62": "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/",
         "R54": "https://www.nextknock.in/companies", "R57": "https://hirehire.in/companies.html",
         "R55": "https://www.erekrut.com/all-companies/", "R44": "https://bankzop.com/nbfc-directory/", "R43": "https://www.rbi.org.in/Scripts/BS_NBFCList.aspx",

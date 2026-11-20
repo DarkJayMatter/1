@@ -1,0 +1,935 @@
+A.T. Kearney
+Aavid Thermalloy
+ABB
+Abbott
+Absolutdata
+Accenture Technology Labs
+Acellere GmbH
+ACI Worldwide
+Actavis Plc
+Actiance Inc
+Actifio
+Adap.TV
+Adeptia
+adidas
+Admiral Group plc
+AdNear
+Adobe Systems Incorporated
+ADP
+Advantedge Technologies
+Agilent Technologies
+Agility
+AGNITY
+Air Liquide S.A
+Airbus
+Airbus Defence and Space
+AIRCOM
+AirTight Networks
+Airvana
+AirWatch
+Akamai
+Aker Solutions
+Akzo Nobel
+Albany Molecular Research Inc.
+Alcatel Lucent
+Alcon
+Alent plc
+Alepo
+Alexion Pharmaceuticals
+Alfa Laval
+Allegion Plc
+Allergan
+Allianz Cornhill Information Services
+Allscripts Healthcare Solutions
+Allstate
+Alphion
+Alsbridge
+Alstom
+Altair Engineering
+Altera Corporation
+Amada Co
+Amadeus
+Amazon.com
+Amber road
+Applied Micro Circuits Corporation
+AMD
+Amdocs
+American Axle & Manufacturing
+American Express
+American Megatrends
+Ameriprise Financial
+AMETEK
+Amgen
+Amneal Pharmaceuticals
+Amphenol Interconnect India
+Analog Devices
+ANDRITZ
+Anritsu
+Ansaldo STS
+Ansys, Inc
+ANZ
+AOL Inc.
+Aon Hewitt
+Apache Design Solutions
+Apigee
+AppDynamics
+Applied Materials
+Applied Research Works
+Aptean Corporation
+Apttris
+Arada Systems
+Aranca Inc
+arasan
+AREVA
+ARIBA
+@ris global
+ARISTA
+ARISTOCRAT
+arkieva
+ARM
+ARRIS
+Arrow Electronics
+ARS Traffic & Transport Technology
+Aruba Networks
+Arvin Meritor
+Ashland Inc.
+Aspect Software
+AstraZeneca plc
+AT&T
+ATC Labs
+athenahealth
+Atherio
+Atlas Copco
+Atmel Corporation
+Atrenta
+Audience
+Aurea
+Aurigo Software
+Autodesk
+Autoliv
+Avalara
+Avaya Inc
+Avery Dennison Corporation
+AVEVA Group plc
+AVL
+Avnet, Inc
+AwareBase
+AXA
+Axionet
+Azul Systems, Inc.
+Azuqua, Inc
+Bain & Company India
+Bally Technologies
+Banca Sella
+Bank of America
+Bank of New York Mellon
+Barclays
+Barco N.V.
+Barracuda Networks
+Barry-Wehmiller International Resources
+BASF SE
+BASF Schweiz AG
+BASH Gaming
+Bastian Solutions
+Basware Corporation
+Baumer
+Baxter International Inc
+Bayer
+B/E Aerospace
+Bechtel Corporation
+Beckman Coulter
+Becton, Dickinson and Company
+Bekaert
+Bentley Systems
+Bernhard Schulte Shipmanagement
+BISIL
+BiTMICRO Networks
+BlackRock
+Bloom Energy
+Blue Coat Systems Inc
+BMC Software
+BNP Paribas
+The Boeing Company
+Bombardier
+BooleanTree Technologies
+BorgWarner Inc
+Borland Software Corporation
+Borqs
+Robert Bosch
+Boston Analytics
+Boston Consulting Group
+BP
+Bristol-Myers Squibb
+British Council
+BT Group
+Broadcom Corporation
+Broadridge Financial Solutions
+BroadSoft
+Brocade Communication Systems
+Brose Fahrzeugteile
+BroVis Wireless Networks
+Bunge Limited
+CA Technologies
+Cadence Design Systems
+CADS
+CAE
+CallidusCloud
+Calypso
+Calypto Design Systems
+Cambium Networks
+Cameron International
+CAMO Software India Pvt Ltd
+Canon
+Caparo
+Capco
+Capgemini Business Services
+S&P Capital IQ
+Capital One
+CareFusion
+Cargill
+Carl Zeiss
+Carraro Group
+Carrier
+Case New Holland Construction Equipment
+CAST
+Caterpillar
+Causeway Technologies
+Cavium Networks
+CEB
+Cegedim
+Cellworks Group
+CenturyLink, Inc.
+Cerillion
+Cerner Corporation
+Chain-Sys Corporation
+Checkpoint Systems
+Chelsio Communications
+Ciena Corporation
+CIGNEX Datamatics
+Cigniti Inc.
+CipherCloud
+Cisco Systems
+Citibank
+Citius IT Solutions Private Limited
+CitiXsys Americas Inc.
+Citrix System
+Claas
+Clariant
+ClickSoftware Technologies
+CloudByte Inc.
+CMA CGM
+The Coca-Cola Company
+The Colgate-Palmolive Company
+CollabNet
+COLT Technology Services
+CommVault Systems
+Comodo Group
+Comverse Technology
+Conax AS
+Concur Technologies
+Concurrent Technologies
+Condeco
+Conexant Systems
+Continental
+Control Components Inc.
+Copal Amba
+Cornet Technology Inc.
+Corning Inc.
+Cortera
+Cortina Systems
+Courion Corporation
+Covidien
+COWI A/S
+CPA Global
+CR2
+Cradle Technologies
+Craft Silicon
+Credit Suisse
+CrimsonLogic Pte
+Cross-Tab
+C-Sam
+CSG International
+CSR
+Cubic Transportation Systems
+Cummins
+Cumulus Systems
+Cvent
+CVM Solutions
+Cyberoam Technologies
+Cypress Semiconductor
+Daiichi Sankyo
+Daimler
+Dana Holding Corporation
+Danfoss
+Danske Bank
+Dassault Systèmes
+Dataworld
+Dattus
+D. E. Shaw & Co
+Deem
+Delcam
+Dell
+Deloitte Touche Tohmatsu Limited
+Delphi Automotive PLC
+Delta Electronics
+Denso
+DenuoSource
+Deutsche Bank
+Dialogic
+Diebold
+Digi International
+Digital Juice
+Digite
+Diyotta
+Doosan Babcock
+Dover Corporation
+Dow Chemical
+Dresser-Rand Group
+Dun & Bradstreet
+Dun & Bradstreet Tangram
+dunnhumby
+DuPont
+DVTEL
+DXCorr Design Inc.
+EagleBurgmann
+EASi
+Eaton Corporation Plc
+eBay Inc.
+Ebix, Inc.
+ECI Telecom
+eClinicalWorks
+Edifecs, Inc.
+Electronics For Imaging, Inc.
+EFKON India Pvt. Ltd.
+eGain Corporation
+eInfochips
+EiQ Networks, Inc.
+Eisai
+ELANTAS Beck
+Electronic Arts, Inc.
+Eli Lilly and Company
+Ellucian Company L.P.
+EMC Corporation
+Emerson Electric
+EMIS Group
+Emulex Corporation
+EnSilica
+Entercoms, Inc.
+EnterpriseDB
+Entrust Datacard Corporation
+Equifax Inc.
+eRevMax Inc.
+Ericsson
+E-ring Software Solutions
+Ernst & Young Global Limited
+ERP and ERP corp
+Esko-Graphics
+ESPN
+Esterline Souriau Technologies
+ETAS Automotive India Pvt Ltd
+Etisalat
+Euronet Worldwide
+Evalueserve
+Everest Software
+EvolveWare
+Evolving Systems
+Evonik Degussa Corporation
+Excelacom
+exëvo
+EXFO
+Exor
+Expedia, Inc.
+Experian plc
+Expertus
+Extreme Networks
+Exxon Mobil Corp.
+Facebook
+FactSet Research Systems Inc
+Fairchild Semiconductor International Inc
+FANUC INDIA Private Limited
+Fareportal Inc
+FastVDO
+Faurecia
+Federal-Mogul Corporation
+FEV
+Fiat Chrysler Automobiles
+Fiberlink Communications
+Fair Isaac Corporation
+Fidelity Investments
+Finisar Corporation
+Fiorano Software
+FireEye Inc.
+Firetide
+Firmenich
+First American Financial Corporation
+First Insight Corporation
+FirstRain
+Fiserv, Inc.
+Flextronics International
+Flowserve Corporation
+FLSmidth & Co. A/S
+Fluor Corporation
+FMC
+FMC Technologies
+The Ford Motor Company
+Forrester Research
+Foxconn Technology Group
+Foxfire Technologies
+FranConnect
+Franklin Templeton Investments
+Freescale Semiconductor
+Fresenius Kabi
+Fresenius Medical Care
+Frost & Sullivan
+Fujitsu
+Fulcrum Worldwide
+Fundtech India Ltd
+Galata Chemicals
+Gamesa Corporación Tecnológica
+The Gap, Inc.
+Gartner, Inc.
+General Electric
+Gemalto
+Genband
+General Mills Inc
+General Motors Company
+Genesys International Corporation
+Genzyme Corporation
+Gerson Lehrman Group
+Giesecke & Devrient
+Gilbarco Veeder-Root
+GKN plc
+Glassbeam, Inc.
+GlaxoSmithKline Pharmaceuticals
+Global Analytics
+Global Automation, Inc.
+GEP (Global eProcure)
+Global Graphics SA
+Global Wireless Technologies
+GlobalScholar
+The Goldman Sachs Group, Inc.
+Google
+Grant Thornton LLP
+GrapeCity, inc.
+Groupe SII
+Groupon
+Grundfos
+Grupo Antolin
+Game Show Network
+GT Nexus
+Guavus
+Gunnebo
+GXS
+Haier Group
+Halliburton Company
+Harman International Industries
+Harsco Corporation
+Hatch
+hCentive, Inc.
+Heidrick & Struggles International Incorporated
+HELLA KGaA Hueck & Co.
+Henkel AG & Company
+Hexagon
+Hibu, Inc.
+Hitachi
+Hoerbiger Holding AG
+Honda Motor Co.
+Honeywell International, Inc.
+Hospira, Inc.
+HostAnalytics
+Hewlett-Packard
+HSBC Holdings plc
+Huawei Technologies Co.
+Huntsman Corporation
+Husco International
+Hydro Building Systems
+Hysitron
+Hyundai Motor Company
+IBM
+Icertis
+IDeaS
+Identiv, Inc.
+IDrive Inc.
+iFlect Technologies
+IG Infotech
+IHG IT Services
+IHS Inc.
+Ikanos Communications, Incorporated
+Imagination Technologies Group plc
+Imergy Power Systems
+Impelsys
+Impiger Technologies
+Indra Networks
+Infineon Technologies
+Infinera Corp
+Infiniti Research
+Infogrid Pacific
+InfoPro India Pvt Ltd
+Infor
+Informatica Corporation
+Information Services Group
+InfoStretch Corporation
+Ingersoll-Rand Inc.
+Ingram Micro
+InMage
+Innovative Interfaces
+InsideView
+Instancy
+InSync Software
+INSZoom
+Intacct Corporation
+Integral Development Corp.
+Integrated Device Technology
+Integreon
+Intel Corporation
+Intellect SEEC, Inc
+IDC (International Data Corporation)
+Interra Systems
+Intersil Corporation
+Intertec Systems
+Inteva Products (LLC)
+Intuit
+Invesco
+IPsoft
+ip.access
+Ipass
+IRDETO
+Iron Mountain
+ISG Nova Soft Technologies Ltd
+Isoft
+ITT Corporation
+ITW
+Ixia
+Jabil
+Jacobs Engineering Group
+Jardine Lloyd Thompson
+JCB
+JDA Software
+JDS Uniphase
+Jean Martin
+Jigsee
+Jivox
+John Deere
+Johnson & Johnson
+Johnson Controls Inc
+Jouve
+JP Morgan Chase
+Juniper Networks
+Kaseya
+Kennametal
+Kensium
+Key Point Technologies
+Keysight Technologies
+KeytoneTechnologies
+Kirusa
+KLA-Tencor
+Knorr-Bremse
+Kodiak Networks
+Kofax
+Komatsu
+Konecranes
+Konica Minolta
+Kony Labs
+KPMG
+Kronos
+Kuka Systems
+Kuoni Travel Group
+L-1 Identity Solutions
+L1 Technologies
+L-3 Communications
+Labvantage
+Lafarge
+Laird
+Lam Research
+Landis+Gyr
+Landmark Group
+Lantiq
+Lanxess
+Latens Systems
+Lear
+Legrand
+Leica Microsystems
+Lennox International Inc.
+Lexmark
+LG
+LGL
+Librato
+Life Technologies
+LBrands
+LinkedIn
+Lloyds Bank
+Lockheed Martin
+LogiTech
+Lombardini
+Longcheer
+LOréal
+Lowe's
+LSI Logic
+Lubrizol
+M&S
+M*Modal
+Macom Technology Solutions
+Macquarie Group
+Maersk
+Magic Software
+Magna Steyr
+Mahle Behr GmbH & Co
+Makhteshim-Agan
+Makino
+MangoApps
+Manhattan Associates
+Mann+Hummel
+Mara-Ison
+Markem-Imaje
+Marvell
+Mastercard
+MathWorks
+Mavenir Systems
+Maxim India Integrated Circuit Design
+Maxlinear
+McAfee
+McKinsey Knowledge Centre
+Mediaocean
+MediaTek
+Medline
+Medtronic
+MegaChips
+Meinhardt Group
+Mentor Graphics
+Mercer
+Merck Millipore
+Meridium
+Meru Networks
+Methode Electronics
+Metlife
+MetricStream
+MetrixLab
+Metro Global Business Services
+Metso
+Mformation
+mGage
+Micro Focus International
+Microchip Technology
+Micron Technology
+MICROS Systems
+Microsemi Corporation
+Microsoft
+Midas
+Mindcrest
+Misys
+Mitsubishi Chemical
+Mitsubishi Electric
+Mitsubishi Hitachi Power Systems
+Mitsui O.S.K. Lines
+m-ize
+MobileComm Technologies
+Mobileum
+Mobily
+Hyundai Mobis
+Mobius 365 Knowledge Services
+Molex
+Momentive
+Mondelez International
+Monotype Imaging
+Monsanto
+Moody's Shared Services India
+Moog
+Morgan Stanley
+Motorola Mobility
+Movius Intercative Corporation
+Mportal
+MSC Software
+MSCI
+Mylan
+Nalco
+Napier Healthcare
+Narus
+Nasdaq OMX
+National Instruments
+Navionics
+Navis
+Navisite
+NBC Universal
+NCR
+NEC
+Nektar Therapeutics
+Neo Group
+Neomagic
+Neptune Software Plc
+Nestle
+NetApp
+Netgear
+NetScout Systems
+Nextbrick
+Nielsen
+Nike
+Niksun
+Nimbuzz
+Nissan Motor
+Nokia Networks (Erstwhile Nokia Solutions and Networks)
+Nomura
+Nordson Corp
+Northern Trust
+Novartis
+Novel IP
+Novo Nordisk
+Novozymes
+NTT Communications
+NTT Data
+NTT Data FA Insurance Systems
+NUMECA
+Nutanix
+Nvidia
+NXP
+o9 Solutions
+Ocwen Financial
+Odessa Technologies
+Olam International
+Omnicell
+On Semiconductor
+OneAccess
+OneOcean Corporation
+OPAL-RT Technologies
+Open-Silicon
+OpenText
+Opera Solutions
+OpSource
+Oracle
+Orbees
+Oriflame
+OSI Systems
+OSRAM Licht AG
+Owler
+Pace Plc
+PacketVideo Corporation
+Palantir Solutions
+Pall Corporation
+Panamax Inc.
+Panasonic
+Pangea3
+PanTerra Networks
+PTC
+Parasoft Corporation
+Parker Hannifin
+Payoda
+PayPal
+Pegasystems
+Pentair
+PeopleFluent
+Perfomix Technologies Intl Pvt Ltd
+Performix Solutions
+Perpetuuiti TechnoSoft
+Perrigo Company plc
+Perstorp
+Petrofac
+Pfizer
+Phaeros
+PharmaSecure
+Philips
+PHYTEC
+Piaggio & C. SpA
+Pitney Bowes Software
+PMC-Sierra
+PointCross
+Polycom
+Portescap
+Praxair
+Preactor International
+PRGX Global
+Principal Financial Group
+Procter & Gamble
+Progress Software Corporation
+Pronto Networks
+Proxim Wireless
+Prudential Financial
+Prysm Inc.
+Publicis Groupe
+Puratos
+PwC
+Pyramid Technology Solutions
+QAD
+QL2
+Qlogic Corporation
+QSI Healthcare
+Qualcomm
+Quantum Corporation
+Quark Software
+QuickLogic Corporation
+QuinStreet
+Qvantel
+RR Donnelley & Sons
+Radisys Corporation
+Radware
+Rakuten
+Ramboll Group A/S
+Rambus
+Razorsight
+Royal Bank of Scotland
+Read-Ink Corporation
+Real Soft Inc.
+RealPage
+Reckitt Benckiser
+Red Hat
+Redknee Solutions
+RedMart
+Redpine Signals
+Reed Elsevier
+Relgo
+Renault S.A.
+Renault-Nissan Alliance
+Renesas Electronics Corporation
+Replicon
+Ricoh
+Rio Tinto Group
+Riverbed Technology
+Riversand Technologies
+RM Education
+RMSI
+Roche Diagnostics
+RockeTalk
+Rockwell Automation
+Rockwell Collins
+ROHM Semiconductor
+Rolls-Royce Limited
+Rovi Corporation
+Royal DSM
+Ruckus Wireless
+Rusada
+Saab AB
+Saama Technologies
+Saba
+SABIC
+Sabre Corporation
+SafeNet Infotech
+Safran S.A.
+Saggezza
+Sagitec
+Saint-Gobain S.A.
+Salesforce.com
+Samsung
+SanDisk Corporation
+Sandvik
+Sandvine
+Sanmina Corporation
+Sanofi S.A.
+SAP Labs
+Sartorius AG
+SAS Institute
+Satmetrix
+SCA Technologies
+ScaleArc
+Schaeffler Group
+Schindler Group
+Schlumberger
+Schneider Electric SE
+Scholastic
+Sconce Solutions
+SeaChange
+Sears Holdings India
+SeatonCorp U.S.A.
+Seco Tools
+Serus
+ServiceMax
+Sharp Corporation
+Royal Dutch Shell
+ShoreTel
+Siemens AG
+Siemens PLM
+Sigma-Aldrich
+SignalChem
+Silicon Image
+SILVER ATENA
+SKF
+SkillSoft
+Sling Media
+SmartAnalyst
+Smartesting
+SmartStream Technologies
+Snap One
+Snecma S.A.
+Akana (Erstwhile SOA Systems)
+SOBIS Software
+Société Générale
+Software AG
+Solix Technologies
+Solvay
+Sonim Tech
+Sonus networks
+Sony
+Spacelabs Healthcare
+Spraying Systems
+STMicroelectronics
+Stabilix
+Stadco Automotive
+Standard Chartered
+Starhome Mach
+State Street
+sTec
+Steria
+Stoke
+Stryker
+Süd-Chemie
+SumTotal Systems
+SunEdison
+Sun Life Financial
+Sun West Mortgage Company
+SunGard
+support.com
+Suzuki
+Swiss Re Shared Services
+Symantec
+Synaptics
+Synaptris
+Syncfusion
+Synchronoss Technologies
+Syngenta
+Syniverse
+Synopsys
+Synygy
+Syrolution ABS
+System Consultant Information
+Target
+Time Inc. India
+TE Connectivity
+TeamF1
+Technicolor S.A.
+Technip S.A.
+Tecnotree
+Tecra Systems
+Tekla
+Tektronix
+Telenity
+Tellabs
+Temenos
+Tenneco
+TEOCO
+Teradata
+Terex
+Terumo Penpol
+Tesco
+Teva Pharmaceutical
+Texas Instruments
+Textron
+Thales
+The Smart Cube
+Theatro
+Thermo Fisher Scientific
+ThinkAnalytics
+Thomson Reuters
+Tibco
+Timken
+TNS
+Tomax
+Tomtom NV
+Toshiba
+Total S.A.
+Towers Watson
+Toyo Corp
+Toyota
+Transera Communications
+Transparent Value
+TranSwitch Corp
+Travelex
+Trelleborg AB
+Tribal Fusion
+Trimble Navigation
