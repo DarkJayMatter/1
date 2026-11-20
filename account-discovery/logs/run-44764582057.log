@@ -1,0 +1,9 @@
+p_gptw_best: HTTP 200, 379568 bytes
+p_gptw_mfg: HTTP 200, 370235 bytes
+p_wiki_largest: HTTP 200, 187844 bytes
+p_cutshort_1: failed HTTPSConnectionPool(host='cutshort.io', port=443): Read timed out. (read timeout=45)
+p_cutshort_2: failed HTTPSConnectionPool(host='cutshort.io', port=443): Read timed out. (read timeout=45)
+p_bs1000: HTTP 403, 408 bytes
+p_startupmap_blr: HTTP 200, 219013 bytes
+p_rbi_nbfc: HTTP 200, 64229 bytes
+p_bse_scrips: HTTP 403, 409 bytes
