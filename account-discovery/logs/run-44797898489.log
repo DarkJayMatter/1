@@ -1,0 +1,13 @@
+p_inc42_feed: HTTP 200, 265123 bytes
+p_yourstory_feed: HTTP 200, 206179 bytes
+p_entrackr_feed: HTTP 404, 127637 bytes
+p_et_startups: HTTP 200, 48804 bytes
+p_mint_companies: HTTP 200, 37689 bytes
+p_qc_robots: HTTP 200, 281 bytes
+p_qc_companies: HTTP 404, 16172 bytes
+p_ism_robots: HTTP 200, 532 bytes
+p_ism_sitemap: HTTP 200, 974 bytes
+p_cii_members: HTTP 404, 3329 bytes
+p_ficci_members: HTTP 404, 6609 bytes
+p_nasscom_gcc: HTTP 404, 54570 bytes
+p_cc_index: robots.txt disallows
