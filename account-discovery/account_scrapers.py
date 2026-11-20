@@ -23,7 +23,7 @@ The CareerScan and Erekrut selectors are best guesses from rendered text.
 Run with --debug first, check the printed sample rows, and adjust the SELECTORS
 block below if fields come out empty.
 """
-import argparse
+import argparse, collections
 import csv
 import io
 import json
@@ -251,6 +251,88 @@ def run_careerscan(sink, args):
             break
         page += 1
     print(f"CareerScan: {sink.added} new rows (last page {page})")
+
+
+# --- R53 (via sitemap): employers inferred from CareerScan job-URL slugs ---------
+_CS_SUFFIX = {"pvt", "ltd", "limited", "private", "llp", "inc", "corp", "corporation", "co", "india", "technologies", "tech"}
+_CS_SUFFIX_FRAG = ("priv", "limi", "pvt")
+_CS_FRAG_EXACT = {"p", "pr", "li", "lim", "l", "ltd", "lt"}
+_CS_STOP = set("""engineer engineers manager managers senior junior intern interns developer analyst specialist lead executive associate
+consultant consultants architect designer representative director head officer administrator coordinator assistant trainee fresher freshers
+remote hybrid onsite work home wfh full time part contract permanent opening openings hiring job jobs vacancy career careers apply now urgent
+grades grade all genders male female solutions services group global systems consulting sales operations management engineering ii iii i
+infotech advisors advisory computers software solut digital labs greece medchal malkajgiri telangana karnataka maharashtra bengaluru bangalore mumbai pune hyderabad chennai delhi gurgaon gurugram noida kolkata ahmedabad jaipur kochi coimbatore india usa uk""".split())
+
+
+def _cs_clean(slug):
+    t = slug.split("-")
+    for i, x in enumerate(t):
+        if i >= 2 and re.fullmatch(r"mu[a-z0-9]{6}", x):
+            t = t[:i]
+            break
+    else:
+        if t and re.fullmatch(r"[0-9a-f]{6}", t[-1]) and re.search(r"\d", t[-1]):
+            t = t[:-1]
+    while len(t) > 1 and (t[-1] in _CS_SUFFIX or t[-1].startswith(_CS_SUFFIX_FRAG) or t[-1] in _CS_FRAG_EXACT or (len(t[-1]) <= 2 and t[-2] in _CS_SUFFIX)):
+        t = t[:-1]
+    return t
+
+
+def infer_employers(slugs):
+    """Employer = the trailing word group that recurs across many job slugs and almost never sits mid-slug."""
+    toks = [_cs_clean(s) for s in slugs]
+    cnt, anyc = collections.Counter(), collections.Counter()
+    for t in toks:
+        seen = set()
+        for n in range(1, 7):
+            for i in range(len(t) - n + 1):
+                seen.add(tuple(t[i:i + n]))
+            if len(t) > n:
+                cnt[tuple(t[-n:])] += 1
+        for g in seen:
+            anyc[g] += 1
+    emp = collections.Counter()
+    for t in toks:
+        best = None
+        for n in range(1, 7):
+            if len(t) <= n:
+                break
+            g = tuple(t[-n:])
+            if cnt[g] >= 3 and (n == 1 or cnt[g] >= 0.8 * cnt[tuple(t[-(n - 1):])]):
+                best = g
+            elif n > 1:
+                break
+        if best:
+            emp[best] += 1
+    out = []
+    for g, c in emp.items():
+        while len(g) > 1 and g[0] in _CS_STOP:
+            g = g[1:]
+        g = tuple(re.sub(r"\d+$", "", w) or w for w in g)
+        name = "".join(g)
+        if re.match(r"^[a-z]\d", name) or name.startswith("jobs") or "pvtltd" in name:
+            continue
+        ratio = c / max(anyc[g], 1)
+        if len(name) < 4 or not re.search(r"[a-z]", name) or any(w in _CS_STOP for w in g) or ratio < 0.9 or c < 5:
+            continue
+        out.append((" ".join(w.capitalize() for w in g).strip(), c, round(ratio, 2)))
+    return out
+
+
+def run_csmap(sink, args):
+    """Read CareerScan's published sitemaps (robots.txt points to them); never touches the blocked /companies pages."""
+    slugs = []
+    for i in range(1, 40):
+        r = get(f"https://careerscan.in/sitemap/{i}", args.delay)
+        if r is None:
+            break
+        found = re.findall(r"<loc>https://careerscan.in/jobs/([^<]+)</loc>", r.text)
+        print(f"sitemap {i}: {len(found)} job urls")
+        slugs += found
+    res = infer_employers(slugs)
+    for name, c, ratio in sorted(res, key=lambda x: -x[1]):
+        sink.add(name, industry="CareerScan job-slug employer (confident)", raw={"open_jobs_in_sitemap": c, "slug_exclusivity": ratio, "name_from_slug": True})
+    print(f"CareerScan sitemap: {len(slugs)} slugs, {len(res)} confident employers")
 
 
 # --- R55: Erekrut ------------------------------------------------------------
@@ -865,7 +947,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),

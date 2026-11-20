@@ -6,7 +6,7 @@ import csv, re, sys, os, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GCC_SRC = {"R63", "R62", "R25", "R94"}          # GCC / captive lists
-JOBLIST_SRC = {"R54", "R57", "R61", "R59", "R58", "R55"}
+JOBLIST_SRC = {"R53", "R54", "R57", "R61", "R59", "R58", "R55"}
 TECH_TEAM_SRC = GCC_SRC | {"R8", "R59"}  # GCC, STPI unit, ingrid (product cos hiring software engineers)
 key = lambda n: re.sub(r"[^a-z0-9]", "", (n or "").lower())
 
