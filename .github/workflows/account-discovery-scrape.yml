@@ -26,8 +26,7 @@ jobs:
       - name: Run scraper
         working-directory: account-discovery
         env:
-          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          CAREERJET_KEY: ${{ secrets.CAREERJET_KEY }}
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
         run: |
           # run.txt starting with "jobsearch" runs the job-board evidence script; anything else the scraper

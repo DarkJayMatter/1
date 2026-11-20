@@ -4,7 +4,7 @@ Usage (run from account-discovery/):
   python jobsearch.py --input scoring/search_input.csv --out out/jobsearch.csv [--max 300] [--delay 1.2] [--tiers A,B,C]
 
 Providers (each skipped if its key is not set):
-  ADZUNA_APP_ID + ADZUNA_APP_KEY   Adzuna India, filtered by company name
+  CAREERJET_KEY                    Careerjet v4 publisher API (en_IN), keyword = company name
   JOOBLE_KEY                       Jooble, keyword = company name, location India
   (no key)                         Greenhouse / Lever public boards, guessed slug, India-located jobs only
 
@@ -51,19 +51,19 @@ def _get(url, **kw):
     return r
 
 
-def adzuna(name):
-    aid, akey = os.environ.get("ADZUNA_APP_ID"), os.environ.get("ADZUNA_APP_KEY")
-    if not (aid and akey):
+def careerjet(name):
+    key = os.environ.get("CAREERJET_KEY")
+    if not key:
         return None
-    r = _get("https://api.adzuna.com/v1/api/jobs/in/search/1", params={
-        "app_id": aid, "app_key": akey, "results_per_page": 50, "company": name, "content-type": "application/json"})
+    r = requests.get("https://search.api.careerjet.net/v4/query", auth=(key, ""), timeout=30, params={
+        "locale_code": "en_IN", "keywords": name, "page_size": 50,
+        "user_ip": os.environ.get("CAREERJET_USER_IP", "127.0.0.1"), "user_agent": UA["User-Agent"]})
+    if r.status_code in (429, 402):
+        raise Quota(f"careerjet -> {r.status_code}")
     if r.status_code != 200:
+        print(f"careerjet HTTP {r.status_code} for {name!r}: {r.text[:120]}")
         return []
-    out = []
-    for j in r.json().get("results", []):
-        if name_match(name, (j.get("company") or {}).get("display_name", "")):
-            out.append(j.get("title", ""))
-    return out
+    return [j.get("title", "") for j in r.json().get("jobs", []) if name_match(name, j.get("company", "") or "")]
 
 
 def jooble(name):
@@ -99,7 +99,7 @@ def ats(name):
     return out
 
 
-PROVIDERS = [("adzuna", adzuna), ("jooble", jooble), ("ats", ats)]
+PROVIDERS = [("careerjet", careerjet), ("jooble", jooble), ("ats", ats)]
 COLS = ["account_name_key", "name", "tier", "status", "india_roles_seen", "india_role_families", "families",
         "sample_roles", "providers_hit", "providers_tried"]
 
@@ -122,7 +122,7 @@ def main():
     w = csv.writer(f)
     if not done:
         w.writerow(COLS)
-    print("providers: ats" + (", adzuna" if os.environ.get("ADZUNA_APP_KEY") else "") + (", jooble" if os.environ.get("JOOBLE_KEY") else ""))
+    print("providers: ats" + (", careerjet" if os.environ.get("CAREERJET_KEY") else "") + (", jooble" if os.environ.get("JOOBLE_KEY") else ""))
     n = 0
     try:
         for r in rows:
