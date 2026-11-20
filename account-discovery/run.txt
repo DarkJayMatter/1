@@ -1,1 +1,1 @@
-enrich --csv out --only R57 --max-pages 30
+enrich --csv out --only R57 --max-pages 30 --delay 1.5
