@@ -1,0 +1,45 @@
+name: account-discovery-llm
+# Manual only: pushes never spend API money. Uses the ANTHROPIC_API_KEY repository secret.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max names to classify (0 = all)"
+        default: "100"
+      max_usd:
+        description: "Hard spend cap in USD"
+        default: "1"
+      include_low:
+        description: "Also re-check low-confidence keyword tags"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Classify names (key comes from the secret, never echoed)
+        working-directory: account-discovery
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python tagging/llm_batch.py out/tagged_v10.csv --limit "${{ inputs.limit }}" --max-usd "${{ inputs.max_usd }}" \
+            $([ "${{ inputs.include_low }}" = "true" ] && echo --include-low)
+      - name: Commit lookup and audit log
+        if: always()
+        run: |
+          git config user.name "account-discovery-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f account-discovery/tagging/llm_lookup.csv account-discovery/out/llm_audit.jsonl
+          git commit -m "account-discovery: LLM lookup + audit log" || echo "nothing to commit"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -42,7 +42,7 @@ def main(src, out):
         if key in over:
             o = over[key]; vert, src_tag, rule, conf = o["vertical"], "override", "override", "high"
             arche.update(a for a in o["archetype"].split(";") if a)
-        elif key in llm:
+        elif key in llm and llm[key]["vertical"] not in ("", "unknown"):
             o = llm[key]; vert, src_tag, rule, conf = o["vertical"], "llm_lookup", "llm", o["confidence"] or "medium"
             arche.update(a for a in o["archetype"].split(";") if a)
         else:
