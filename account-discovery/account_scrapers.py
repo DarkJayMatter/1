@@ -659,6 +659,101 @@ def run_probe(sink, args):
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 
 
+def _pdf_text(content: bytes) -> str:
+    import subprocess, tempfile
+    with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+        f.write(content); f.flush()
+        return subprocess.run(["pdftotext", "-layout", f.name, "-"], capture_output=True, text=True).stdout
+
+
+def parse_mib(text):
+    """Left-hand 'S.No. Company' column of the MIB/TRAI broadcaster PDFs."""
+    out = []
+    for ln in text.splitlines():
+        m = re.match(r"^ {0,6}(\d{1,4}) {2,}([A-Za-z0-9][^\n]*?)(?: {3,}.*)?$", ln)
+        if m and re.search(r"[A-Za-z]{3}", m.group(2)):
+            out.append(m.group(2).strip(" ,"))
+    return out
+
+
+def run_mib(sink, args):
+    """R115: private satellite TV broadcasters permitted by MIB (pay list and FTA list PDFs)."""
+    urls = {"pay": "https://trai.gov.in/sites/default/files/2026-07/MIB_23072026.pdf",
+            "fta": "https://www.trai.gov.in/sites/default/files/2026-07/FTA_23072026.pdf"}
+    for kind, url in urls.items():
+        r = get(url, args.delay)
+        if r is None:
+            print(f"mib {kind}: no response"); continue
+        names = parse_mib(_pdf_text(r.content))
+        new = sum(sink.add(n, industry=f"TV broadcaster (MIB {kind} list)", profile_url=url, raw={"list": kind}) for n in names)
+        print(f"mib {kind}: {len(names)} names, {new} new")
+
+
+_STATES = ["Andhra Pradesh", "Arunachal Pradesh", "Himachal Pradesh", "Madhya Pradesh", "Uttar Pradesh", "Tamil Nadu", "West Bengal",
+           "Jammu & Kashmir", "Jammu and Kashmir", "Andaman & Nicobar", "Dadra & Nagar Haveli", "Daman & Diu",
+           "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Delhi", "Goa", "Gujarat", "Haryana", "Jharkhand", "Karnataka", "Kerala",
+           "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Orissa", "Punjab", "Rajasthan", "Sikkim",
+           "Telangana", "Tripura", "Uttarakhand", "Puducherry", "Ladakh"]
+
+
+def parse_apeda_fas(text):
+    out = []
+    sts = sorted(_STATES, key=len, reverse=True)
+    for ln in text.splitlines():
+        if not re.match(r"^\s*\d{1,4}\s+\S", ln):
+            continue
+        best = None
+        for st in sts:
+            m = re.match(r"^\s*\d{1,4}\s+(.+?)\s+(?:(\d{3,6})\s+)?" + re.escape(st) + r"(?:\s+(\S.*?))?(?:\s{2,}|$)", ln)
+            if m and (best is None or len(m.group(1)) < len(best[0].group(1))):
+                best = (m, st)
+        if not best:
+            continue
+        m, st = best
+        name = m.group(1).strip(" ,")
+        if len(name) < 3 or name.lower().startswith("others"):
+            continue
+        out.append((name, m.group(2), st, (m.group(3) or "").strip() or None))
+    return out
+
+
+def run_apedafas(sink, args):
+    """R146: APEDA exporters assisted under the Quality Development component, 2021-25."""
+    url = "https://apeda.gov.in/sites/default/files/documents/2025-11/Quality_Development_2021_to_2025.pdf"
+    r = get(url, args.delay)
+    if r is None:
+        print("apedafas: no response"); return
+    rows = parse_apeda_fas(_pdf_text(r.content))
+    new = sum(sink.add(n, city=c, state=st, industry="Agri / food exporter (APEDA)", profile_url=url, raw={"rcmc": rc}) for n, rc, st, c in rows)
+    print(f"apedafas: {len(rows)} rows, {new} new")
+
+
+def parse_inc42_list(html):
+    soup = BeautifulSoup(html, "html.parser")
+    names = []
+    for h in soup.find_all(["h2", "h3", "h4"]):
+        m = re.match(r"^\s*\d{1,3}\.[\s\xa0]*(.{2,60})$", h.get_text(" ", strip=True))
+        if m:
+            names.append(m.group(1).strip())
+    return names
+
+
+def run_inc42d2c(sink, args):
+    """R139: Inc42 numbered D2C brand lists (122 brands; 49 F&B brands)."""
+    pages = {"https://inc42.com/features/d2c-brands-that-are-disrupting-indias-consumer-market/amp/": "D2C brand (Inc42 122 list)",
+             "https://inc42.com/features/fb-d2c-brands-in-india": "D2C food and beverage brand (Inc42 list)"}
+    for url, ind in pages.items():
+        if not allowed(url):
+            print(f"inc42d2c: robots disallows {url}"); continue
+        r = get(url, args.delay)
+        if r is None:
+            print(f"inc42d2c: no response {url}"); continue
+        names = parse_inc42_list(r.text)
+        new = sum(sink.add(n, industry=ind, profile_url=url) for n in names)
+        print(f"inc42d2c: {len(names)} names, {new} new from {url}")
+
+
+
 def run_nextknock(sink, args):
     """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
     r = get("https://www.nextknock.in/companies", args.delay)
@@ -1084,7 +1179,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),

@@ -1,1 +1,1 @@
-probe --csv out --delay 1
+mib --csv out --delay 1
