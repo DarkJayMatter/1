@@ -149,7 +149,7 @@ def est_tokens(items):
 
 
 def build_params(items, a):
-    return {"model": a.model, "max_tokens": 24 * len(items) + 80,
+    return {"model": a.model, "max_tokens": 24 * len(items) + 80, "thinking": {"type": "disabled"},
             "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
             "messages": [{"role": "user", "content": json.dumps(
                 [{"id": i["id"], "name": i["name"], "loc": i["loc"]} for i in items], ensure_ascii=False)}]}
@@ -199,12 +199,15 @@ def call(items, a, lim, bud, audit, headers, stop):
             bud.settle(est_cost, c)
             text = "".join(b.get("text", "") for b in j.get("content", []) if b.get("type") == "text")
             res = parse(text, items)
-            audit.log(event="call", request_id=rid, model=a.model, prefix=PREFIX_SHA, n=len(items), parsed=len(res),
+            sample = redact(text[:160].replace("\n", " ")) if len(res) < len(items) // 2 else None
+            audit.log(event="call", sample=sample, stop=j.get("stop_reason"), request_id=rid, model=a.model, prefix=PREFIX_SHA, n=len(items), parsed=len(res),
                       ids_hash=hashlib.sha256(",".join(i["key"] for i in items).encode()).hexdigest()[:12],
                       in_tok=u.get("input_tokens"), out_tok=u.get("output_tokens"),
                       cache_write=u.get("cache_creation_input_tokens"), cache_read=u.get("cache_read_input_tokens"),
                       cost_usd=round(c, 5), ms=ms, attempt=attempt)
-            return {i["key"]: res.get(i["id"], ("unknown", "", "low")) for i in items}
+            if not res:
+                return None  # unparseable output: count as a failure, store nothing, do not mark names as unknown
+            return {i["key"]: res.get(i["id"], ("unknown", "", "low")) for i in items if i["id"] in res or len(res) >= len(items) // 2}
         audit.log(event="http_error", status=r.status_code, request_id=rid, attempt=attempt, body=redact(r.text[:200]))
         if r.status_code in (400, 401, 403, 404, 413):
             bud.settle(est_cost, 0); stop.set(); raise SystemExit(f"fatal HTTP {r.status_code}: see audit log")
