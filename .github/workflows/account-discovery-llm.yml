@@ -1,6 +1,10 @@
 name: account-discovery-llm
-# Manual only: pushes never spend API money. Uses the ANTHROPIC_API_KEY repository secret.
+# Runs only when account-discovery/llm_run.txt changes (args for llm_batch.py) or when dispatched by hand.
+# Other pushes never spend API money. Uses the ANTHROPIC_API_KEY repository secret.
 on:
+  push:
+    paths:
+      - "account-discovery/llm_run.txt"
   workflow_dispatch:
     inputs:
       limit:
@@ -32,8 +36,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          python tagging/llm_batch.py out/tagged_v10.csv --limit "${{ inputs.limit }}" --max-usd "${{ inputs.max_usd }}" \
-            $([ "${{ inputs.include_low }}" = "true" ] && echo --include-low)
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python tagging/llm_batch.py out/tagged_v10.csv $(cat llm_run.txt)
+          else
+            python tagging/llm_batch.py out/tagged_v10.csv --limit "${{ inputs.limit }}" --max-usd "${{ inputs.max_usd }}" \
+              $([ "${{ inputs.include_low }}" = "true" ] && echo --include-low)
+          fi
       - name: Commit lookup and audit log
         if: always()
         run: |
