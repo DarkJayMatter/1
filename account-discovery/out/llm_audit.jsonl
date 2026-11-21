@@ -2,3 +2,8 @@
 {"event": "quarantined", "key": "e4a1224c8132", "ts": "2026-11-21T11:34:17+00:00"}
 {"event": "http_error", "status": 400, "request_id": "req_011ChG15dnoa1jDENigHcyAh", "attempt": 1, "body": "{\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011ChG15dnoa1jDENigHcyAh\"}", "ts": "2026-11-21T11:34:18+00:00"}
 {"event": "http_error", "status": 400, "request_id": "req_011ChG15dn4qGU1LjTWF8mpk", "attempt": 1, "body": "{\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"`temperature` is deprecated for this model.\"},\"request_id\":\"req_011ChG15dn4qGU1LjTWF8mpk\"}", "ts": "2026-11-21T11:34:18+00:00"}
+{"event": "quarantined", "key": "dafb5c03cfcf", "ts": "2026-11-21T11:34:54+00:00"}
+{"event": "quarantined", "key": "e4a1224c8132", "ts": "2026-11-21T11:34:54+00:00"}
+{"event": "call", "request_id": "req_011ChG18LvdsxBb9jdVxJ5YU", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 0, "ids_hash": "2c9b9ae278b5", "in_tok": 1747, "out_tok": 1280, "cache_write": 1008, "cache_read": 0, "cost_usd": 0.00941, "ms": 6190, "attempt": 1, "ts": "2026-11-21T11:35:01+00:00"}
+{"event": "call", "request_id": "req_011ChG18M3LCQekbSseZhmQt", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 0, "ids_hash": "5433f44e9636", "in_tok": 1886, "out_tok": 1280, "cache_write": 1008, "cache_read": 0, "cost_usd": 0.00955, "ms": 6657, "attempt": 1, "ts": "2026-11-21T11:35:01+00:00"}
+{"event": "run_end", "spent": 0.019, "names_done": 102, "stopped_early": false, "ts": "2026-11-21T11:35:01+00:00"}
