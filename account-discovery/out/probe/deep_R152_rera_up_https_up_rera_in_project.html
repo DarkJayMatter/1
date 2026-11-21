@@ -1,0 +1,2063 @@
+
+
+<!DOCTYPE html>
+<html>
+<head id="ctl00_Head1"><link rel="shortcut icon" href="img/rera_logo.png" type="image/x-icon" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style>
+        .wt {
+            margin-bottom: 2%;
+            background-color: #fcfcfc;
+            padding: 20px;
+            border-radius: 25px 5px 25px 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .GridViewAlternateNew {
+            background-color: #e8e8e8;
+            font-family: Sans-Serif;
+            color: Black;
+            clear: both;
+            font-size: 12px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        .modal1 {
+            position: fixed;
+            z-index: 999;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            background-color: Black;
+            filter: alpha(opacity=20);
+            opacity: 0.6;
+            -moz-opacity: 0.8;
+        }
+
+        .center {
+            z-index: 1000;
+            margin: 300px auto;
+            padding: 10px;
+            width: 130px;
+            /*background-color: White;*/
+            border-radius: 80%;
+            filter: alpha(opacity=50);
+            opacity: 1;
+            -moz-opacity: 1;
+        }
+
+            .center img {
+                height: 200%;
+                width: 200%;
+            }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+    </style>
+  <script type="text/javascript">
+      function AllowAlphabet(e) {
+          isIE = document.all ? 1 : 0
+          keyEntry = !isIE ? e.which : event.keyCode;
+          if (((keyEntry >= '65') && (keyEntry <= '90')) || ((keyEntry >= '97') && (keyEntry <= '122')) || (keyEntry == '46') || (keyEntry == '32') || keyEntry == '45' || keyEntry == '8' || keyEntry == '0')
+              return true;
+          else {
+              return false;
+          }
+      }
+
+      function isNumber(evt) {
+          evt = (evt) ? evt : window.event;
+          var charCode = (evt.which) ? evt.which : evt.keyCode;
+          if (charCode > 31 && charCode != 46 && (charCode < 48 || charCode > 57)) {
+              return false;
+          }
+          return true;
+      }
+
+      function isSpecial(evt) {
+          evt = (evt) ? evt : window.event;
+          var charCode = (evt.which) ? evt.which : evt.keyCode;
+          if (charCode != 64 && charCode != 33 && charCode != 35 && charCode != 42 && charCode != 36 && charCode != 58 && charCode != 37 && charCode != 94 && charCode != 38 && charCode != 124 && charCode != 39 && charCode != 63 && charCode != 60 && charCode != 62 && charCode != 96 && charCode != 126) {
+              return true;
+          }
+          return false;
+      }
+
+      function Validate1() {
+          var regexp = new RegExp("^http(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]*)?$");
+          var url = $('#ctl00_ContentPlaceHolder1_txtwebsitepromoter').val();
+            if (!regexp.test(url)) {
+                alert("Not valid Url!");
+                $('#ctl00_ContentPlaceHolder1_txtwebsitepromoter').val(null);
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+        function GetFileNameimage(fileUp) {
+            var filename = $(fileUp).val().split('\\').pop();
+            var extension = filename.substring(filename.lastIndexOf('.') + 1);
+            if (extension !== "jpg" && extension !== "jpeg" && extension !== "png" && extension !== "pdf" && extension !== "JPG" && extension !== "JPEG" && extension !== "PNG" && extension !== "PDF") {
+                $(fileUp).val(null);
+                alert("Only JPG,PNG and PDF files allowed");
+            }
+            if (fileUp.files[0].size > 100000) {
+                $(fileUp).val(null);
+                alert("Files maximum size of 100 kb allowed");
+            }
+            else {
+            }
+        }
+
+        function GetFileName(fileUp) {
+            var filename = $(fileUp).val().split('\\').pop();
+            var extension = filename.substring(filename.lastIndexOf('.') + 1);
+            if (extension !== "pdf" && extension !== "PDF") {
+                $(fileUp).val(null);
+                alert("Only  PDF files allowed");
+            }
+            if (fileUp.files[0].size > 2097152) {
+                $(fileUp).val(null);
+                alert("Files maximum size of 2 MB allowed");
+            }
+            else { }
+        }
+
+        function mobileNumber() {
+            var Number = $('#ctl00_ContentPlaceHolder1_txt_mob_sms').val();
+        var IndNum = /^[0]?[6789]\d{9}$/;
+        if (IndNum.test(Number)) {
+            //return true;
+        }
+        else {
+            alert('please enter valid mobile number');
+            $('#ctl00_ContentPlaceHolder1_txt_mob_sms').val(null);
+        return false;
+    }
+}
+
+function isNumbernotpoint(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+function ShowProgress() {
+    setTimeout(function () {
+        var modal = $('<div />');
+        modal.addClass("modal");
+        $('body').append(modal);
+        var loading = $(".loading");
+        loading.show();
+        var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+        var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+        loading.css({ top: top, left: left });
+    }, 200);
+}
+
+//$('form').live("submit", function () {
+//    ShowProgress();
+//});
+
+function enable_disable() {
+    if (document.getElementById('ctl00_ContentPlaceHolder1_chk_declarationn').checked) {
+        document.getElementById('ctl00_ContentPlaceHolder1_project_submit').disabled = false;
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_project_submit').disabled = true;
+        alert('Please check for verification.');
+    }
+}
+
+function lnk_otp_clientclick() {
+    var mobileno = $('#ctl00_ContentPlaceHolder1_txt_mob_sms').val();
+    $.ajax
+        ({
+            type: "POST",
+            url: "WebService1.asmx/checkMobileno",
+            data: "{mobileno: '" + mobileno + "'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+                //loadApartment();
+                var value = r.d;
+                alert(value);
+                if (value == "1") {
+                    alert("Mobile Number Must Be Unique for Each Project.")
+                    return false;
+                }
+            }
+        });
+}
+
+function checkcinoraadhar(e) {
+    var promoter_type = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+        if (promoter_type == '1') {
+            return isNumber(e);
+        }
+        else {
+            return isSpecial(e);
+        }
+    }
+    //$("form").submit(function () {
+    //    ShowProgress();
+    //});
+    //$('#ctl00_ContentPlaceHolder1_txt_mob_sms').on("change", function () {
+      //var Number = $('#ctl00_ContentPlaceHolder1_txt_mob_sms').val();
+      //var IndNum = /^[0]?[6789]\d{9}$/;
+      //if (IndNum.test(Number)) {
+      //return true;
+      //}
+      //else {
+      //alert('please enter valid mobile number');
+      //$('#ctl00_ContentPlaceHolder1_txt_mob_sms').val('');
+      //alert('please enter valid mobile number');
+
+      //return false;
+      //}
+      //});
+
+      $(document).ready(function () {
+          $("form").on("submit", "form", function () {
+              ShowProgress();
+          });
+
+
+          //document.addEventListener("DOMContentLoaded", function (event)
+          //{
+
+
+          document.getElementById('ctl00_ContentPlaceHolder1_project_submit').disabled = true;
+            $('#ctl00_ContentPlaceHolder1_Password').bind('change', function () {
+                var myLength = $('#ctl00_ContentPlaceHolder1_Password').val().length;
+                if (myLength < 6) {
+                    alert("password must be at least 6 characters long and not more than 10 characters ");
+                    $('#ctl00_ContentPlaceHolder1_Password').val(null);
+            }
+                if (myLength > 10) {
+                    alert("password must be at least 6 characters long and not more than 10 characters ");
+                    $('#ctl00_ContentPlaceHolder1_Password').val(null);
+            }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_promoter_aadhaar').bind('change', function () {
+                var txt = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+                var myLength = $('#ctl00_ContentPlaceHolder1_promoter_aadhaar').val().length;
+                if (txt == "1") {
+                    if (myLength != 12) {
+                        alert("Enter valid Aadhaar Number. ");
+                        $('#ctl00_ContentPlaceHolder1_promoter_aadhaar').val(null);
+                }
+            }
+            else {
+                if (myLength == 21 || myLength == 10) {
+                }
+                else {
+                    alert("Enter valid CIN/TAN Number. ");
+                    $('#ctl00_ContentPlaceHolder1_promoter_aadhaar').val(null);
+                    }
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_promoter_pan').bind('change', function () {
+                var myLength = $('#ctl00_ContentPlaceHolder1_promoter_pan').val().length;
+                if (myLength != 10) {
+                    alert("Enter valid PAN Number. ");
+                    $('#ctl00_ContentPlaceHolder1_promoter_pan').val(null);
+            }
+            else {
+            }
+            });
+
+            //$('#ctl00_ContentPlaceHolder1_Password').bind('change', function () 
+            //{
+            //if ($('#ctl00_ContentPlaceHolder1_Password').filter(function () 
+            //{
+            //    return this.value.match(/^(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{6,}$/);
+            //}))
+            //{
+            //    alert("password must be at least 8 characters long and include at least one Special Character, one Number, and one Capital letter");
+            //$('#ctl00_ContentPlaceHolder1_Password').val(null);
+            //    } 
+            //    else 
+            //    {
+            //        alert("fail");
+            //    }
+            //});
+            //$(this).css('border', this.value.match(/^(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{6,}$/) ? '2px solid green' : '2px solid red');
+            //});
+
+            $('#ctl00_ContentPlaceHolder1_promoter_photo').bind('change', function () {
+                var promoter_type = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+                if (promoter_type == '1') {
+                    OnChange = GetFileNameimage(this);
+                }
+                else {
+                    OnChange = GetFileName(this);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_promoter_pan_copy').bind('change', function () {
+                if (this.files[0].size / 1024 > 100) {
+                    $('#ctl00_ContentPlaceHolder1_promoter_pan_copy').val(null);
+                    alert("Only jpg,png and pdf files of maximum size of 100kb allowed.");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_promoter_pan_copy');
+                    fileValidation_pdf(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_registration_certificate').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_registration_certificate').val(null);
+                    alert("Only jpg,png and pdf files of maximum size of 2mb allowed.");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_registration_certificate');
+                    fileValidation_pdf(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_promoter_aadhaar_copy').bind('change', function () {
+                if (this.files[0].size / 1024 > 100) {
+                    $('#ctl00_ContentPlaceHolder1_promoter_aadhaar_copy').val(null);
+                    alert("Only jpg,png and pdf files of maximum size of 100kb allowed.");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_promoter_aadhaar_copy');
+                    fileValidation_pdf(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_Income_Tax_rt1').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_Income_Tax_rt1').val(null);
+                    alert("Income Tax return file size must 2mb or below ");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_Income_Tax_rt1');
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_Income_Tax_rt2').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_Income_Tax_rt2').val(null);
+                    alert("Income Tax return file size must 2mb or below ");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_Income_Tax_rt2');
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_Income_Tax_rt3').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_Income_Tax_rt3').val(null);
+                    alert("Income Tax return file size must 2mb or below ");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_Income_Tax_rt3');
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_FileUploadauditorbalancesheet').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_FileUploadauditorbalancesheet').val(null);
+                    alert("Only pdf files of maximum size of 2mb allowed");
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_FileUploadauditorbalancesheet');
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument').bind('change', function () {
+                if (this.files[0].size > 2097152) {
+                    $('#ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument').val(null);
+                    alert("Only jpg,png and pdf files of maximum size of 2mb allowed.");
+                    return false;
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument');
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_photo_chairman').bind('change', function () {
+                if (this.files[0].size / 1024 > 100) {
+                    $('#ctl00_ContentPlaceHolder1_photo_chairman').val(null);
+                    alert("Only jpg and png files of maximum size of 100kb allowed.");
+                    return false;
+                }
+                else {
+                    var fileInput = document.getElementById('ctl00_ContentPlaceHolder1_photo_chairman');
+                    fileValidation(fileInput);
+                }
+            });
+
+            $('#FileUploadMultiPhoto').bind('change', function () {
+                if (this.files[0].size / 1024 > 100) {
+                    $('#FileUploadMultiPhoto').val(null);
+                    alert("Only jpg and png files of maximum size of 100kb allowed.");
+                    return false;
+                }
+                else {
+                    var fileInput = $('#FileUploadMultiPhoto').get(0);
+                    fileValidation(fileInput);
+                }
+            });
+
+
+
+            // Change utkarsh
+
+            $('#fileaddressproof').bind('change', function () {
+                debugger;
+                if (this.files[0].size > 2097152) {
+                    $('#fileaddressproof').val(null);
+                    alert("Only jpg,png and pdf files of maximum size of 2mb allowed.");
+                }
+                else {
+                    var fileInput = $('#fileaddressproof').get(0);
+                    fileValidation_pdfOnly(fileInput);
+                }
+            });
+          /// changes endthis.value == '9'
+
+
+
+
+
+
+
+
+            $('#ctl00_ContentPlaceHolder1_promoter_type').on('change', function () {
+                debugger;
+                if (this.value == '0') {
+                    alert("Please Select Applicant Type");
+                }
+                if (this.value == "7" || this.value == "6") {
+                    //$("#promoternamelbl").html("Name of Authority <span style='color:red;'>*</span>");
+                    $("#divpromoterregno").show();
+                    $("#div_father").hide();
+                    $("#div_occupation").hide();
+                    $("#divBlank").hide();
+                    $("#ctl00_ContentPlaceHolder1_lblpromoter_regno").show();
+                $("#ctl00_ContentPlaceHolder1_txtpromoter_regno").show();
+                //$("#div_adhar_number").hide();
+                //$("#div_aadhaar_copy").hide();
+                $("#div_registration_certificate").hide();
+                $("#divpromoterregno").hide();
+                $("#divmain_object").show();
+                $("#DivUploadMultiPhoto_Btn").show();
+                if (this.value == '2') {
+                    $("#ChairmanDetails").show();
+                    $("#ChairmanPhoto").show();
+                    $("#divchairmaindetails").show();
+                    $("#divDinNumber").show();
+                    $("#lblNumber").html("DIN Number");
+                    $("#btn_parterners").html("Save Partner/Director");
+                }
+                else {
+                    $("#ChairmanDetails").hide();
+                    $("#ChairmanPhoto").hide();
+                    $("#btn_parterners").html("Save Partner/Director");
+                    if (this.value == '9') {
+                       
+                        $("#divDinNumber").show();
+                        $("#lblNumber").html("DPin");
+                    }
+                    if (this.value == '3' || this.value == '4' || this.value == '5' || this.value == '8') {
+                        $("#divDinNumber").show();
+                        $("#lblNumber").html("Aadhar Number");
+                    }
+                    else {
+
+                        $("#divDinNumber").hide();
+                    }
+                }
+               
+               
+                $("#tbl_Chairman").show();
+                $("#divchairmaindetails").show();
+                $("#dv_savepart").hide();
+                $("#governingbody").show();
+                $("#DivUploadMultiPhoto").show();
+               
+               
+                
+                $("#govermentbody_address").show();
+                $("#incorporation").show();
+
+                // Change utkarsh
+                $("#divadreesproof").show();
+                /// changes end
+
+
+                ////polo////
+
+                $("#divofPotograph").hide();
+                //$("#div_adhar_number").hide();
+                //$("#div_aadhaar_copy").hide();
+                $("#tbl_Chairman").hide();
+                $("#ChairmanDetails").show();
+                if (this.value == "6") {
+                    //alert(this.value)
+                    //$("#ChairmanDetails").show();
+                    $("#lblchairman").html("Name of Housing Commisioner/C.E.O./VC <span style='color:red;'>*</span>")
+                    $("#lbl_Photo_of_Chairman").html("Upload Photo of Housing Commisioner/C.E.O./VC <span style='color:red;'>*</span>")
+                }
+                else {
+                    //$("#ChairmanPhoto").show();
+                    $("#lblchairman").html("Name of M.C./E.O. <span style='color:red;'>*</span>")
+                    $("#lbl_Photo_of_Chairman").html("Upload Photo of MC/EO <span style='color:red;'>*</span>")
+                }
+                $("#ChairmanPhoto").show();
+                $("#dv_savepart").show();
+                $("#incorporation").hide();
+            }
+                if (this.value == '1') {
+                    $("#divofPotograph").show();
+                    $("#div_adhar_number").show();
+                    $("#div_aadhaar_copy").show();
+                    $("#ctl00_ContentPlaceHolder1_lbl_photograph").text("Only jpg and png files of maximum size of 100kb allowed.");
+                $("#div_father").show();
+                $("#div_occupation").show();
+                //$("#div_adhar_number").show();
+                //$("#div_aadhaar_copy").show();
+                $("#div_registration_certificate").hide();
+                $("#divmain_object").hide();
+                $("#ChairmanDetails").hide();
+                $("#ChairmanPhoto").hide();
+                $("#governingbody").hide();
+                $("#DivUploadMultiPhoto").hide();
+                $("#divDinNumber").hide();
+                $("#DivUploadMultiPhoto_Btn").hide();
+                //$("#txtpromoter_regno").hide();
+                $("#govermentbody_address").hide();
+                $("#incorporation").hide();
+                $("#ctl00_ContentPlaceHolder1_lblpromoter_regno").hide();
+                    $("#ctl00_ContentPlaceHolder1_txtpromoter_regno").hide();
+                $("#divBlank").show();
+                $("#incorporation").hide();
+                $("#promoternamelbl").html("Promoter Name <span style='color:red;'>*</span>");
+                $("#lbladharname").html("Aadhaar Number <span style='color:red;'>*</span>");
+                $("#lbladharcopy").html("Aadhaar Copy <span style='color:red;'>*</span>");
+                $("#Div_Potograph").html("<span style='font-weight:bold;'> Photograph </span><span style='color:red;'>*</span>");
+                $("#divpromoterregno").hide();
+                $("#dv_savepart").show();
+                $("#divchairmaindetails").hide();
+                $("#Add_chairman").hide();
+
+                // Change utkarsh
+                $("#divadreesproof").hide();
+                /// changes end
+            }
+            else {
+                $("#lblchairman").html("Name of Chairman <span style='color:red;'>*</span>")
+                $("#lbl_Photo_of_Chairman").html("Upload Photo of Chairman <span style='color:red;'>*</span>")
+                $("#ctl00_ContentPlaceHolder1_lbl_photograph").text("Only  pdf files of maximum size of 2mb allowed.");
+                    $("#divofPotograph").show();
+                    $("#divpromoterregno").show();
+                    $("#div_father").hide();
+                    $("#div_occupation").hide();
+                    $("#divBlank").hide();
+                    $("#ctl00_ContentPlaceHolder1_lblpromoter_regno").show();
+                    $("#ctl00_ContentPlaceHolder1_txtpromoter_regno").show();
+                //$("#div_adhar_number").hide();
+                //$("#div_aadhaar_copy").hide();
+                $("#div_registration_certificate").show();
+                $("#divmain_object").show();
+                $("#DivUploadMultiPhoto_Btn").show();
+                if (this.value == '2') {
+                    $("#ChairmanDetails").show();
+                    $("#ChairmanPhoto").show();
+                    $("#divchairmaindetails").show();
+                    $("#divDinNumber").show();
+                    $("#btn_parterners").html("Save Partner/Director");
+                }
+                else {
+                    $("#ChairmanDetails").hide();
+                    $("#ChairmanPhoto").hide();
+                    if (this.value.trim() == '9') {
+                      
+                        $("#divDinNumber").show();
+                        $("#lblNumber").html("DPin");
+                       
+                    }
+                   else if (this.value == '3' || this.value == '4' || this.value == '5' || this.value == '8') {
+                        $("#divDinNumber").show();
+                        $("#lblNumber").html("Aadhar Number");
+                    }
+                    else {
+                        $("#divDinNumber").hide();
+                    }
+                    $("#btn_parterners").html("Save Partner/Director");
+                }
+               
+                $("#tbl_Chairman").show();
+                $("#divchairmaindetails").show();
+                $("#dv_savepart").hide();
+                $("#governingbody").show();
+                $("#DivUploadMultiPhoto").show();
+               
+                $("#govermentbody_address").show();
+                $("#incorporation").show();
+
+                // Change utkarsh
+                $("#divadreesproof").show();
+                /// changes end
+
+                $("#promoternamelbl").html("Company Name <span style='color:red;'>*</span>");
+                $("#Div_Potograph").html("<span style='font-weight:bold;'> Upload Brief Detail of Enterprise </span><span style='color:red;'>*</span>");
+                $("#lbladharname").html("CIN/TAN Number <span style='color:red;'>*</span>");
+                $("#lbladharcopy").html("CIN/TAN Copy <span style='color:red;'>*</span>");
+            }
+                if (this.value == '1') {
+                    $("#promoternamelbl").html("Promoter Name <span style='color:red;'>*</span>");
+                }
+                else {
+                    var selectedtext = $("#ctl00_ContentPlaceHolder1_promoter_type option:selected").text()
+                $("#promoternamelbl").html(selectedtext + " Name <span style='color:red;'>*</span>");
+            }
+                if (this.value == '6') {
+                    $("#tbl_Chairman").hide();
+                    $("#ChairmanDetails").show();
+                    $("#ChairmanPhoto").show();
+                    $("#dv_savepart").show();
+                    $("#div_registration_certificate").hide();
+                    $("#divpromoterregno").hide();
+                    $("#Div_Potograph").html("Upload Brief Detail of Authority  <span style='color:red;'>*</span>");
+                    $("#lblchairman").html("Name of Housing Commisioner/C.E.O./VC <span style='color:red;'>*</span>");
+                    $("#lbl_Photo_of_Chairman").html("Upload Photo of Housing Commisioner/C.E.O./VC <span style='color:red;'>*</span>")
+                }
+                else if (this.value == '7') {
+                    $("#tbl_Chairman").hide();
+                    $("#ChairmanDetails").show();
+                    $("#ChairmanPhoto").show();
+                    $("#dv_savepart").show();
+                    $("#ChairmanDetails").show();
+                    $("#div_registration_certificate").hide();
+                    $("#divpromoterregno").hide();
+                    $("#ChairmanPhoto").show();
+                    $("#Div_Potograph").html("Upload Brief Detail of Authority  <span style='color:red;'>*</span>");
+                    $("#lblchairman").html("Name of M.C./E.O. <span style='color:red;'>*</span>");
+                    $("#lbl_Photo_of_Chairman").html("Upload Photo of MC/EO <span style='color:red;'>*</span>")
+                }
+            });
+
+            $('#myForm').on('focus', ':input', function () {
+                $(this).attr('autocomplete', 'off');
+            });
+            //$("form").attr('autocomplete', 'off');
+            bindStatePromoter();
+
+            $('#ctl00_ContentPlaceHolder1_radiobuttonpendingcourtcase').on('change', function () {
+                if ($('#ctl00_ContentPlaceHolder1_radiobuttonpendingcourtcase').val() == '1') {
+                    $("#courtcase").show();
+                }
+                else {
+                    $("#courtcase").hide();
+                }
+            });
+
+            $('#prjexp').on('change', function () {
+                if ($('#prjexp').val() == 'Y') {
+                    $("#divprojectexp").show();
+                    $('#ctl00_ContentPlaceHolder1_Panel1').show();
+                }
+                else {
+                    $("#divprojectexp").hide();
+                }
+            });
+
+            $('#ddlstatus').on('change', function () {
+                if ($('#ddlstatus').val() == '2') {
+                    $('#pnlDelay').show();
+                }
+                else {
+                    $('#pnlDelay').hide();
+                    $('#pnlUnderProgress').hide();
+                }
+            });
+
+            $('#ddlUnderprogerssStatus').on('change', function () {
+                if ($('#ddlUnderprogerssStatus').val() == '1') {
+                    $('#pnlUnderProgress').show();
+                }
+                else {
+                    $('#pnlUnderProgress').hide();
+                }
+            });
+
+            $('#ctl00_ContentPlaceHolder1_ddlState').on('change', function () {
+                bindDistrictPromoter();
+            });
+
+            $("#ctl00_ContentPlaceHolder1_lblpromoter_regno").hide();
+            $("#ctl00_ContentPlaceHolder1_txtpromoter_regno").hide();
+            $('.cbox').change(function () {
+                $('#ctl00_ContentPlaceHolder1_project_submit').attr('disabled', $('.cbox:checked').length == 0);
+            });
+            //});
+        });
+
+
+
+        function add() {
+            $('#ctl00_ContentPlaceHolder1_Panel1').show();
+            $('#ctl00_ContentPlaceHolder1_add').hide();
+            $('#ddlstatus').val('0');
+            $('#ctl00_ContentPlaceHolder1_txtnameofproject').val("");
+            $('#ctl00_ContentPlaceHolder1_txtcourtname').val("");
+            $('#ctl00_ContentPlaceHolder1_txtcasename').val("");
+            $('#ctl00_ContentPlaceHolder1_txtcaseNo').val("");
+            $('#ctl00_ContentPlaceHolder1_radiobuttonpendingcourtcase').val('0');
+            $('#ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument').val("");
+            $('#ddlUnderprogerssStatus').val('0');
+            $('#ctl00_ContentPlaceHolder1_txtTimeofdelay').val("");
+            $('#ctl00_ContentPlaceHolder1_txtReasonOfDelay').val("");
+            $('#ctl00_ContentPlaceHolder1_ddlState').val('0');
+            $('#ctl00_ContentPlaceHolder1_ddlDistrict').val("");
+            $('#ctl00_ContentPlaceHolder1_txtTehsil').val("");
+            $('#ctl00_ContentPlaceHolder1_txtPlot_Khasra').val("");
+            $('#ctl00_ContentPlaceHolder1_txtarea').val("");
+            $('#ctl00_ContentPlaceHolder1_txtPaymentPending').val("");
+        }
+
+        function add_chair() {
+            $('#tbl_Chairman').show();
+            $('#div_chairman').hide();
+            $('#txt_name_governingbody').val("");
+            $('#txt_address_govermentbody').val("");
+            $('#FileUploadMultiPhoto').val("");
+            $('#txt_din_govermentbody').val("");
+
+
+            // Change utkarsh
+            $('#fileaddressproof').val("");
+            $('#ddladdresproof').val('0');
+            /// changes end
+
+
+
+            $("#btn_parterners").html("Save Partner/Director");
+        }
+
+        function ValidateAddPromoterPic() {
+            var promoter_type = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+            //var ChairmanName = $("#txt_name_Chairman").val();
+            var directorName = $('#txt_name_governingbody').val();
+            var directorAddress = $('#txt_address_govermentbody').val();
+            var directorDin = $('#txt_din_govermentbody').val();
+            var directorPic = $('#FileUploadMultiPhoto').get(0);
+            if (directorName == '') {
+                alert("Please Fill Name Of Partner/Director etc.");
+                return;
+            }
+            // Change utkarsh
+            var ddladdresproof = $('#ddladdresproof').val();
+            if (ddladdresproof == '' || ddladdresproof == "0" || ddladdresproof == null) {
+                alert("Please Select Address Proof.");
+                return;
+            }
+
+            if ($('#fileaddressproof').val() == '') {
+                alert("Please Upload Address Proof Document.");
+                return;
+            }
+            /// changes end
+
+
+            if (directorAddress == '') {
+                alert("Please Fill Address Of Partner/Director etc.");
+                return;
+            }
+            if (promoter_type == "2") {
+                if (directorDin == '') {
+                    alert("Please Fill DIN Number Of Partner/Director etc.");
+                    return;
+                }
+            }
+            if (promoter_type == "9") {
+                if (directorDin == '') {
+                    alert("Please Fill DPin");
+                    return;
+                }
+            }
+            if ($('#FileUploadMultiPhoto').val() == '') {
+                alert("Please Upload Photograph Of Partner/Director etc.");
+                return;
+            }
+            if ($('#FileUploadMultiPhoto').val() != '') {
+                InsertChairmenDetails();
+            }
+        }
+
+        function bindchairman() {
+            $('#add').show();
+            $('#div_chairman').show();
+            var id = $('#ctl00_ContentPlaceHolder1_Label4').val();
+            $.ajax({
+                type: "POST",
+                url: "WebService1.asmx/getchairman",
+                data: "{id: '" + id + "'}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    $("#divchairmaindetails").html(r.d);
+                    $('#tbl_Chairman').hide();
+                    $("#dv_savepart").show();
+                    $('#div_chairman').show();
+                }
+            });
+            $('#div_chairman').show();
+        }
+
+        function bindStatePromoter() {
+            //var id = $('#ctl00_ContentPlaceHolder1_Label4').val();
+        $.ajax({
+            type: "POST",
+            url: "WebService1.asmx/bindStatePromoter",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+                var res = JSON.parse(r.d);
+                for (var i = 0; i < res.length; i++) {
+                    $('#ctl00_ContentPlaceHolder1_ddlState').append($('<option></option>').attr('value', res[i].ID).text(res[i].StateName));
+                }
+            }
+        });
+    }
+
+    function bindDistrictPromoter() {
+        var id = $('#ctl00_ContentPlaceHolder1_ddlState').val();
+        $.ajax({
+            type: "POST",
+            url: "WebService1.asmx/bindDistrictPromoter",
+            data: "{'id':'" + id + "'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+                $('#ctl00_ContentPlaceHolder1_ddlDistrict').html("");
+                var res = JSON.parse(r.d);
+                for (var i = 0; i < res.length; i++) {
+                    $('#ctl00_ContentPlaceHolder1_ddlDistrict').append($('<option></option>').attr('value', res[i].districtid).text(res[i].districtname));
+                }
+            }
+        });
+    }
+
+    /// change me 
+    function InsertChairmenDetails() {
+        $("#btn_parterners").html("<i class='fa fa-spinner fa-spin'>");
+        var id = $('#ctl00_ContentPlaceHolder1_Label4').val();
+            //var txt_name_Chairman = $('#txt_name_Chairman').val();
+        var txt_name_governingbody = $('#txt_name_governingbody').val();
+        var txt_address_govermentbody = $('#txt_address_govermentbody').val();
+       
+        var txt_din_govermentbody = $('#txt_din_govermentbody').val();
+        var fileUpload = $('#FileUploadMultiPhoto').get(0);
+
+        var fileUpload1 = $('#fileaddressproof').get(0);
+        var ddladdresproof = $('#ddladdresproof option:selected').text();
+
+        var files = fileUpload.files;
+        var files1 = fileUpload1.files;
+        var data = new FormData();
+        for (var i = 0; i < files.length; i++) {
+            data.append(files[i].name, files[i]);
+        }
+
+        for (var i = 0; i < files1.length; i++) {
+            data.append(files1[i].name, files1[i]);
+        }
+
+        data.append("id", id);
+            //data.append("txt_name_Chairman", txt_name_Chairman);
+        data.append("txt_name_governingbody", txt_name_governingbody);
+        data.append("txt_address_govermentbody", txt_address_govermentbody);
+        data.append("txt_din_govermentbody", txt_din_govermentbody);
+        data.append("ddladdresproof", ddladdresproof);
+            //alert(data);
+            //alert('Hii' + data.toString());
+        $.ajax({
+            url: "WebService1.asmx/InsertChairmenDetails",
+            type: "POST",
+            data: data,
+            contentType: false,
+            //contentType: 'application/json; charset=utf-8',
+            //dataType: 'json',
+            processData: false,
+            success: function (result) {
+                bindchairman();
+            },
+            error: function (err) {
+                alert(err.statusText)
+            },
+            failure: function (r) {
+
+            }
+        });
+    }
+    /// change me        /// change me END
+    function fnaddexperience() {
+        var msg = "";
+        var id = $('#ctl00_ContentPlaceHolder1_Label4').val();
+        var txtcourtname = $('#ctl00_ContentPlaceHolder1_txtcourtname').val();
+        var txtcasename = $('#ctl00_ContentPlaceHolder1_txtcasename').val();
+        var txtcaseNo = $('#ctl00_ContentPlaceHolder1_txtcaseNo').val();
+        var ddlstatus = $('#ddlstatus option:selected').text();
+        var txtnameofproject = $('#ctl00_ContentPlaceHolder1_txtnameofproject').val();
+        var txtpendingpayment = $('#ctl00_ContentPlaceHolder1_txtpendingpayment').val();
+        var ddlUnderprogerssStatus = $('#ddlUnderprogerssStatus option:selected').text();
+        var txtTimeofdelay = $('#ctl00_ContentPlaceHolder1_txtTimeofdelay').val();
+        var txtReasonOfDelay = $('#ctl00_ContentPlaceHolder1_txtReasonOfDelay').val();
+        var ddlState = $('#ctl00_ContentPlaceHolder1_ddlState option:selected').text();
+        var ddlDistrict = $('#ctl00_ContentPlaceHolder1_ddlDistrict option:selected').text();
+        var txtTehsil = $('#ctl00_ContentPlaceHolder1_txtTehsil').val();
+        var txtPlot_Khasra = $('#ctl00_ContentPlaceHolder1_txtPlot_Khasra').val();
+        var txtarea = $('#ctl00_ContentPlaceHolder1_txtarea').val();
+        var txtPaymentPending = $('#ctl00_ContentPlaceHolder1_txtPaymentPending').val();
+        var fileUpload = $('#ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument').get(0);
+        var files = fileUpload.files;
+        var data = new FormData();
+        for (var i = 0; i < files.length; i++) {
+            data.append(files[i].name, files[i]);
+        }
+        data.append("id", id);
+        data.append("txtcourtname", txtcourtname);
+        data.append("txtcasename", txtcasename);
+        data.append("txtcaseNo", txtcaseNo);
+        data.append("ddlstatus", ddlstatus);
+        data.append("txtnameofproject", txtnameofproject);
+        data.append("txtpendingpayment", txtpendingpayment);
+        data.append("ddlUnderprogerssStatus", ddlUnderprogerssStatus);
+        data.append("txtTimeofdelay", txtTimeofdelay);
+        data.append("txtReasonOfDelay", txtReasonOfDelay);
+        data.append("ddlState", ddlState);
+        data.append("ddlDistrict", ddlDistrict);
+        data.append("txtTehsil", txtTehsil);
+        data.append("txtPlot_Khasra", txtPlot_Khasra);
+        data.append("txtarea", txtarea);
+        data.append("txtPaymentPending", txtPaymentPending);
+        if (txtnameofproject == "") {
+            //alert("Please Enter Project Name !");
+            msg = msg + "\nPlease Enter Project Name  ";
+            //return false;
+        }
+        if ($('#ddlstatus').val() == '0') {
+            msg = msg + "\nPlease Select Status";
+            //return false;
+        }
+        if ($('#ddlstatus').val() == '2') {
+            if ($('#ddlUnderprogerssStatus').val() == '0') {
+                msg = msg + "\nPlease Select UnderProgerss Status";
+                //return false;
+            }
+            if ($('#ddlUnderprogerssStatus').val() == '1') {
+                if ($('#ctl00_ContentPlaceHolder1_txtTimeofdelay').val() == '') {
+                    msg = msg + "\nPlease Fill Time of delay (in months against original commencement date).";
+                    //return;
+                }
+                if ($('#ctl00_ContentPlaceHolder1_txtReasonOfDelay').val() == '') {
+                    msg = msg + "\nPlease Fill Reason of Delay.";
+                    //return;
+                }
+            }
+        }
+        if ($('#ctl00_ContentPlaceHolder1_ddlState').val() == '0') {
+            msg = msg + "\nPlease Select State";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_ddlDistrict').val() == '') {
+            msg = msg + "\nPlease Select District";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_txtTehsil').val() == '') {
+            msg = msg + "\nPlease Fill Tehsil";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_txtVillage_Sector').val() == '') {
+            msg = msg + "\nPlease Fill Village/Sector";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_txtPlot_Khasra').val() == '') {
+            msg = msg + "\nPlease Fill Plot/Khasra No.";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_txtarea').val() == '') {
+            msg = msg + "\nPlease Fill Area(in sqm)";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_txtPaymentPending').val() == '') {
+            msg = msg + "\nPlease Fill Payment Pending";
+            //return false;
+        }
+
+        if ($('#ctl00_ContentPlaceHolder1_radiobuttonpendingcourtcase').val() == '0') {
+            //alert("Please Select Yes or No in Pending Court Cases");
+            msg = msg + "\nPlease Select Yes or No in Pending Court Cases ! ";
+            //return false;
+        }
+        if ($('#ctl00_ContentPlaceHolder1_FileUploadCourtCaseDocument').val() == '') {
+            msg = msg + "\nPlease Upload Brief Details of Project";
+            //return;
+        }
+        if (msg == "") {
+            //return false;
+        }
+        else {
+            alert(msg);
+            return false;
+        }
+
+
+        $("#btnuploadexperice").html("<i class='fa fa-spinner fa-spin'>");
+        $.ajax({
+            url: "WebService1.asmx/addexperience",
+            type: "POST",
+            data: data,
+            contentType: false,
+            //contentType: 'application/json; charset=utf-8',
+            //dataType: 'json',
+            processData: false,
+            success: function (result) {
+                $('#ctl00_ContentPlaceHolder1_add').show();
+                $('#ctl00_ContentPlaceHolder1_Panel1').hide();
+                get_Experience_of_Promoter();
+                //$('#ctl00_ContentPlaceHolder1_dv_Experience_of_Promoter').show();
+            },
+            error: function (err) {
+                alert(err.statusText)
+            },
+            failure: function (r) {
+
+            }
+        });
+    }
+
+    function get_Experience_of_Promoter() {
+        $("#btnuploadexperice").html("Save Project");
+        var id = $('#ctl00_ContentPlaceHolder1_Label4').val();
+        $.ajax({
+            type: "POST",
+            url: "WebService1.asmx/getExperienceofPromoter",
+            data: "{id: '" + id + "'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+                $("#grd_Experience_promoter").html(r.d);
+            }
+        });
+    }
+
+    function checkemail() {
+        var email = $('#ctl00_ContentPlaceHolder1_promoter_email').val();
+        var IndNum = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (IndNum.test(email)) {
+            $.ajax({
+                type: "POST",
+                url: "WebService1.asmx/chechEmail",
+                data: "{email: '" + email + "'}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (r) {
+                    if (r.d == "Y") {
+                        alert("Email already exist");
+                        $('#ctl00_ContentPlaceHolder1_promoter_email').val("");
+                    }
+                }
+            });
+        }
+        else {
+            alert("Please enter valid Email Address");
+            $('#ctl00_ContentPlaceHolder1_promoter_email').focus();
+            $('#ctl00_ContentPlaceHolder1_promoter_email').val(null);
+            return false;
+        }
+
+    }
+
+    $(document).ready(function () {
+
+    });
+
+    /*================================for .jpeg/.jpg/.png only===========================================*/
+
+    function fileValidation(fileInput) {
+        //var fileInput = document.getElementById('file');
+        var filePath = fileInput.value;
+        var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+        if (!allowedExtensions.exec(filePath)) {
+            alert('Please upload file having extensions .jpeg/.jpg/.png only.');
+            fileInput.value = '';
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    /*=================================.jpeg/.jpg/.png and .pdf only===================================*/
+
+    function fileValidation_pdf(fileInput) {
+        //var fileInput = document.getElementById('file');
+        var filePath = fileInput.value;
+        var allowedExtensions = /(\.jpg|\.png|\.pdf)$/i;
+        if (!allowedExtensions.exec(filePath)) {
+            alert('Please upload file having extensions .jpg/.png and .pdf only.');
+            fileInput.value = '';
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    /*========================================for pdf FILES======================================*/
+
+    function fileValidation_pdfOnly(fileInput) {
+        //var fileInput = document.getElementById('file');
+        var filePath = fileInput.value;
+        var allowedExtensions = /(\.pdf)$/i;
+        if (!allowedExtensions.exec(filePath)) {
+            alert('Please upload file having extensions .pdf only.');
+            fileInput.value = '';
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    function validateMy() {
+        var msg = "";
+        var applicant_type = $('#ctl00_ContentPlaceHolder1_registration_certificate').val();
+        var promoter_type = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+        var txt_name_Chairman = $('#ctl00_ContentPlaceHolder1_txt_name_Chairman').val();
+        var registration_certificate = $('#ctl00_ContentPlaceHolder1_registration_certificate').val();
+        var promoter_pan_copy = $('#ctl00_ContentPlaceHolder1_promoter_pan_copy').val();
+        var promoter_photo = $('#ctl00_ContentPlaceHolder1_promoter_photo').val();
+        var promoter_aadhaar_copy = $('#ctl00_ContentPlaceHolder1_promoter_aadhaar_copy').val();
+        var FileUploadauditorbalancesheet = $('#ctl00_ContentPlaceHolder1_FileUploadauditorbalancesheet').val();
+        var prjexp = $('#prjexp').val();
+        var txt = $('#ctl00_ContentPlaceHolder1_promoter_type').val();
+        var txtpromoter_regno = $('#ctl00_ContentPlaceHolder1_txtpromoter_regno').val();
+        var txt_objectname = $('#ctl00_ContentPlaceHolder1_txt_objectname').val();
+        var photo_chairman = $('#ctl00_ContentPlaceHolder1_photo_chairman').val();
+        var website = $('#ctl00_ContentPlaceHolder1_txtwebsitepromoter').val();
+        var promotername = $('#ctl00_ContentPlaceHolder1_promoter_name').val();
+        var fathername = $('#ctl00_ContentPlaceHolder1_promoter_father').val();
+        var promoter_pan = $('#ctl00_ContentPlaceHolder1_promoter_pan').val();
+        var Password = $('#ctl00_ContentPlaceHolder1_Password').val();
+        var confirm_password = $('#ctl00_ContentPlaceHolder1_confirm_password').val();
+        var promoter_aadhaar = $('#ctl00_ContentPlaceHolder1_promoter_aadhaar').val();
+        var promoter_email = $('#ctl00_ContentPlaceHolder1_promoter_email').val();
+        var promoter_Occupation = $('#ctl00_ContentPlaceHolder1_promoter_Occupation').val();
+        var promoter_address = $('#ctl00_ContentPlaceHolder1_promoter_address').val();
+        var date_of_incorporation = $('#ctl00_ContentPlaceHolder1_date_of_incorporation').val();
+        var tst = $("#lbladharname").html();
+        tst = tst.replace('<span style="color:red;">*</span>', '');
+        if (promoter_type == '0') {
+            var msg = msg + "Please Select Applicant Type";
+        }
+        if (promoter_type == '2' && txt_name_Chairman == "") {
+            msg = msg + "\nPlease Fill Name of chairman";
+
+        }
+        else if (promoter_type == '7' && txt_name_Chairman == "") {
+            msg = msg + "\nPlease Fill Name of M.C./E.O.";
+        }
+        else if (promoter_type == '6' && txt_name_Chairman == "") {
+            msg = msg + "\nPlease Fill Name of Housing Commisioner/C.E.O./VC ";
+        }
+        if (date_of_incorporation == "" && txt != "1") {
+            msg = msg + "\nPlease Fill Date of Incorporation. ";
+        }
+        if (promoter_aadhaar == "") {
+            msg = msg + "\nPlease Fill " + tst + ". ";
+        }
+        if (txt == "1") {
+            if (promoter_aadhaar_copy == "") {
+                msg = msg + "\nPlease Upload Adhaar Copy.";
+            }
+            if (promoter_pan_copy == "") {
+                msg = msg + "\nPlease Upload PAN Copy. ";
+            }
+            if (promoter_photo == "") {
+                msg = msg + "\nPlease Upload Photograph. ";
+            }
+        }
+        else {
+            //alert(promoter_photo, promoter_type);
+            if (promoter_photo == '' && promoter_type == '7') {
+                msg = msg + "\n PLease Upload Brief Detail of Authority. ";
+            }
+            if (promoter_photo == '' && promoter_type == '6') {
+                msg = msg + "\n PLease Upload Brief Detail of Authority. ";
+            }
+            if (registration_certificate == '' && (promoter_type == '2' || promoter_type == '3' || promoter_type == '4' || promoter_type == '5' || promoter_type == '8')) {
+                msg = msg + "\nPlease Upload Registration Certificate. ";
+            }
+            if (promoter_photo == "" && (promoter_type == '2' || promoter_type == '3' || promoter_type == '4' || promoter_type == '5' || promoter_type == '8')) {
+                msg = msg + "\n PLease Upload Brief Detail of Enterprise. ";
+            }
+            if (txtpromoter_regno == '' && (promoter_type == '2' || promoter_type == '3' || promoter_type == '4' || promoter_type == '5' || promoter_type == '8')) {
+                msg = msg + "\n  Please Fill Company Reg. No  ";
+            }
+            if (txt_objectname == '' && promoter_type != '1') {
+                msg = msg + "\nPlease Fill Main Objective  ";
+            }
+            if (promoter_pan_copy == '') {
+                msg = msg + "\nPlease Upload PAN Copy. ";
+            }
+            if (photo_chairman == '' && promoter_type == '2') {
+                msg = msg + "\nPlease Upload Photo of Chairman. ";
+            }
+        }
+        if (photo_chairman == '' && promoter_type == '6') {
+            msg = msg + "\nPlease Upload Photo of Housing Commisioner/C.E.O./VC  ";
+        }
+        if (photo_chairman == '' && promoter_type == '7') {
+            msg = msg + "\nPlease Upload Photo of MC/EO ";
+        }
+        if (promoter_aadhaar_copy == '' && promoter_type != '1') {
+            msg = msg + "\nPlease Upload CIN/TAN Copy.";
+        }
+        if (promoter_type != "1" && promotername == "") {
+            msg = msg + "\nPlease Fill " + $("#ctl00_ContentPlaceHolder1_promoter_type option:selected").text() + " Name";
+        }
+        if (promoter_type == "1" && promotername == "") {
+            msg = msg + "\nPlease Fill Promoter Name";
+        }
+        if (promoter_type == "1" && fathername == "") {
+            msg = msg + "\nPlease Fill Father's Name ";
+        }
+        if (promoter_pan == "") {
+            msg = msg + "\nPlease Fill PAN Number ";
+        }
+        if (Password == "") {
+            msg = msg + "\nPlease Fill Password ";
+        }
+        if (confirm_password == "") {
+            msg = msg + "\nPlease Fill Confirm Password ";
+        }
+        if (promoter_type == "1" && promoter_aadhaar == "") {
+            msg = msg + "\nPlease Fill Aadhaar Number";
+        }
+        if (promoter_email == "") {
+            msg = msg + "\nPlease Fill Email";
+        }
+        if (promoter_type == "1" && promoter_Occupation == "") {
+            msg = msg + "\nPlease Fill Occupation";
+        }
+        if (promoter_address == "") {
+            msg = msg + "\nPlease Fill Address";
+        }
+        if (FileUploadauditorbalancesheet == '') {
+            msg = msg + "\nPlease Upload Audited Balance Sheet Of Preceding year  ";
+        }
+        if (website == "") {
+            msg = msg + "\nPlease Fill Website Of Promoter";
+        }
+        if (prjexp == '0') {
+            msg = msg + "\nPlease Select Number of Projects Launced in Past 5 Years";
+        }
+        var Incometaxrtf1 = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt1').val();
+        var Incometaxrtf2 = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt2').val();
+        var Incometaxrtf3 = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt3').val();
+        if (Incometaxrtf1 == "" || Incometaxrtf2 == "" || Incometaxrtf3 == "") {
+            msg = msg + "\nPlease Upload All IncomeTax Return file.";
+        }
+
+        function myValidator(oSrc, args) {
+            var a = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt1').val();
+            var b = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt2').val();
+            var c = $('#ctl00_ContentPlaceHolder1_Income_Tax_rt3').val();
+            if (a != "" && b != "" && c != "") {
+                args.IsValid = true;
+            }
+            else if (a != "" && b == "" && c == "") {
+                args.IsValid = true;
+            }
+            else if (a == "" && b != "" && c != "") {
+                args.IsValid = true;
+            }
+            else {
+                args.IsValid = false;
+            }
+        }
+        if (msg == "") {
+            //return true;
+        }
+        else {
+            alert(msg);
+            return false;
+        }
+        var confirmsave = confirm("Are you sure to save entries,Kindly check your Entries before saving");
+        if (confirmsave) {
+            //ShowProgress()
+            $("#imagen").show();
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    function hideErrormsg() {
+        $("#divcaptcha").hide();
+    }
+
+  </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="description" content="This is an official website of UP RERA that provides online information about all activities, provisions by UP RERA in Uttar Pradesh." /><meta name="keywords" content="uprera,UP RERA,uttar pradesh rera,rera in uttar pradesh,UPRERA,Official Website of RERA Uttar Pradesh,Website of RERA Uttar Pradesh,Website of RERA,RERA UP WEBSITE,UP RERA WEBSITE, OFFICIAL WEBSITE OF RERA,RERA UP,UPRERA WEBSITE,ONLINE PROPERTY,ONLINE PROJECT REGISTRTION,Promoters Registration" /><title>
+	UP RERA : Uttar Pradesh Real Estate Regulatory Authority
+</title>
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" /><link rel="stylesheet" href="css/bootstrap.css" /><link rel="stylesheet" href="css/themify-icons.css" /><link rel="stylesheet" href="vendors/fontawesome/css/all.min.css" /><link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" /><link rel="stylesheet" href="vendors/animate-css/animate.css" /><link rel="stylesheet" href="css/site.css" /><link href="JqueryCallender/css/jquery-ui.css" rel="stylesheet" /><link href="css/font-awesome.min.css" rel="stylesheet" />
+         
+    <!-- main css -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.min.js"></script>        
+     <script src="js/jquery-2.min.js"></script>
+    <script src="js/validation.js"></script>
+     
+    <link href="multiselect/bootstrap-multiselect.css" rel="stylesheet" /><link href="css/slick.css" rel="stylesheet" /><link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/responsive.css" />
+
+     
+ 
+         
+       <script type="text/javascript">
+           $(document).ready(function () {
+               var counter = 0;
+
+               var originalSize = $('div').css('font-size');
+               var originalSizeAnc = $('a').css('font-size');
+               var originalSizePara = $('p').css('font-size');
+               var originalSizeli = $('li').css('font-size');
+               var originalSizetable = $('table').css('font-size');
+               // reset        
+               $(".resetMe").click(function () {
+                   counter = 0;
+
+                   $('div').css('font-size', originalSize);
+                   $('a').css('font-size', originalSizeAnc);
+                   $('p').css('font-size', originalSizePara);
+                   $('li').css('font-size', originalSizeli);
+                   $('table').css('font-size', originalSizeli);
+               });
+
+               // Increase Font Size          
+               $(".increase").click(function () {
+
+                   if (counter <= 4 && counter >= 0) {
+                       counter = counter + 1
+                   }
+                   else if (counter >= 4) {
+
+                   }
+                   else {
+                       counter = counter + 1;
+                   }
+
+                   var currentSize = $('div').css('font-size');
+
+                   var currentSizeAnc = $('a').css('font-size');
+                   var currentSizepara = $('p').css('font-size');
+                   var currentSizeli = $('li').css('font-size');
+                   var currentSizetable = $('table').css('font-size');
+                   if (counter <= 4) {
+
+                       var currentSize = parseFloat(currentSize) * 1.2;
+
+                       var currentSizeAnc = parseFloat(currentSizeAnc) * 1.2;
+                       var currentSizepara = parseFloat(currentSizepara) * 1.2;
+                       var currentSizeli = parseFloat(currentSizeli) * 1.2;
+                       var currentSizetable = parseFloat(currentSizetable) * 1.2;
+                       $('div').css('font-size', currentSize);
+                       $('a').css('font-size', currentSizeAnc);
+                       $('p').css('font-size', currentSizepara);
+                       $('li').css('font-size', currentSizeli);
+                       $('table').css('font-size', currentSizetable);
+                   }
+
+                   return false;
+               });
+
+               // Decrease Font Size       
+               $(".decrease").click(function () {
+
+                   counter = counter - 1;
+
+
+
+                   var currentFontSize = $('div').css('font-size');
+                   var currentFontSizeAnc = $('a').css('font-size');
+                   var currentFontSizepara = $('p').css('font-size');
+                   var currentFontSizeli = $('li').css('font-size');
+                   var currentFontSizetable = $('table').css('font-size');
+                   var currentSize = $('div').css('font-size');
+                   var currentSizeAnc = $('a').css('font-size');
+                   var currentSizepara = $('p').css('font-size');
+                   var currentSizeli = $('li').css('font-size');
+                   var currentSizetable = $('table').css('font-size');
+
+                   var currentSize = parseFloat(currentSize) * 0.8;
+                   var currentSizeAnc = parseFloat(currentSizeAnc) * 0.8;
+                   var currentSizepara = parseFloat(currentSizeAnc) * 0.8;
+                   var currentSizeli = parseFloat(currentSizeli) * 0.8;
+                   var currentSizetable = parseFloat(currentSizetable) * 0.8;
+
+                   $('div').css('font-size', currentSize);
+                   $('a').css('font-size', currentSizeAnc);
+                   $('p').css('font-size', currentSizepara);
+                   $('li').css('font-size', currentSizeli);
+                   $('table').css('font-size', currentSizetable);
+                   return false;
+               });
+           });
+
+      </script>
+
+ 
+
+    
+
+    
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./project" id="aspnetForm">
+<input type="hidden" name="maxid" id="maxid" value="537027" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=9hSKVupFAlz5rX1VfBgqktJMTypQlhA4CayKFPkY73SkaMnjMtFJYKhIgoJMaysbh9Vcm_sdgF4wmtit3uonkkb58QNc8r-e0usWCn8E9rWQCdPVfnqgw2kYVX_H95_1s5OQQx7e2--IIBu5WuM_yvcP-J2NhS6bxlrH2wOOTYo1&amp;t=2ddfb07d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jDrYmNZ1BfuQTouQ_UV7IBXWXW1cdQHTmtY5CMur73DvuWX3F9zbKJSatVkGJH8D5QlCEr30Ln1LYpkSHGTJMAMQGq3Qjug1o3V1bbfG-porSx-F_NY_aH8Ilc0rGfLoeBK2RoLUILrFmoB9ahemWA2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GNOOf0sY03yLe20hlXw6uYVdn5iqIhPdAnhkgR4M6TD1GiBSW81JlhRDm2gnSv6MfjV2mcY3Bjk4fdnSm4nblzlxt95FGcEdxKlW8DLIvF203R9Dsy4DuFq7pqNdqjorT8pHrmMHTYkaCJOAPzPVXQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qM0CqY2V0m7OAenFqXjg0xMnwJwHdSbHavXLstWXpau4_J-3ghBkSITqaRhg9Xqs5M5cyi0u0oHEGIAuX5vgB37hXnAZM113TEybSu5emGzo1E2Vbpb6rDai8fxjpkpjBaflFYnBJg6iXXsc2oF6kagTttVWOloryFSJKoF1uvc1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=n6rR5qoDB5cEq1PPsdZ42ZyDZ7Srmwcd_zlfFRZPbhmqSqDSetpwprJ89K2yb_AYl9_3_YRX2x5wlV1ZRn_ffqBRhwhO45pdvapE3MISaUvi2P5OoqQpHSSVfXphMkxZns1GX-U83oUMBt-0cFSBzCp4OBtobfAEiiVJNcSGU9k1&amp;t=7f16157c" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9A34F0B5" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="accessibilityDiv">
+                        <ul class="accessibility-icons list-unstyled list-inline font-zoom pull-right">
+                            <li class="language" style="display: inline;"><a style="font-size: 14px;" class="taglib-language-list-text" href="#">
+                                
+                                   <a href="https://facebook.com/upreraofficial" target="_blank" title="Facebook" ><i class="fa fa-facebook"></i></a>	
+                                &nbsp;
+                               <a href="https://twitter.com/UPRERAofficial" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>	
+                                   &nbsp;
+                                <a href="https://www.youtube.com/channel/UCAeF0bOHPpzN-K9QvfA9rSQ" target="_blank" title="Youtube"><i class="fa fa-youtube-play" style="color:red"></i></a>	
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text increase" title="Increase font size"> | +A</a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text resetMe" title="Restore default font size" style="padding: 2px 6px 2px 6px;">| A</a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text decrease" title="Decrease font size" style="">| -A</a>
+                                 &nbsp;
+                                  &nbsp;
+                                <a style="font-size: 14px;" class=" taglib-language-list-text " href="#main" data-toggle="tooltip" title="Skip to main content"><span class="fa fa-arrow-down"></span>   </a>
+                                  &nbsp;
+                                  &nbsp;
+
+                                 <a style="font-size: 14px;" class=" taglib-language-list-text " href="ScreenReader.aspx" data-toggle="tooltip" title="Screen Reader Access"><span class="fa fa-desktop"></span>   </a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a style="font-size: 14px;" class="taglib-language-list-text " href="Sitemap" data-toggle="tooltip" title="Sitemap"> <i class="fa fa-sitemap" aria-hidden="true"></i></a>
+                                         &nbsp;
+                                  &nbsp;
+                                <a style="font-size: 14px;" class="taglib-language-list-text " href="admin" data-toggle="tooltip" title=""> <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                                   
+                                    &nbsp;
+                                  &nbsp;
+                              
+                                <span class="time"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                <script type="text/javascript">
+                                    var d = new Date()
+                                    var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                                    var monthname = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+                                    document.write(weekday[d.getDay()] + ", ")
+                                    document.write(d.getDate() + " ")
+                                    document.write(monthname[d.getMonth()] + ", ")
+                                    document.write(d.getFullYear())
+                                </script>
+                                | <i class="far fa-clock" aria-hidden="true"></i>
+                                <span id="clockDisplay">
+                                    <script type="text/javascript" language="javascript">
+                                        function renderTime() {
+                                            var currentTime = new Date();
+                                            var diem = "AM";
+                                            var h = currentTime.getHours();
+                                            var m = currentTime.getMinutes();
+                                            var s = currentTime.getSeconds();
+                                            setTimeout('renderTime()', 1000);
+                                            if (h == 0) {
+                                                h = 12;
+                                            } else if (h > 12) {
+                                                h = h - 12;
+                                                diem = "PM";
+                                            }
+                                            if (h < 10) {
+                                                h = "0" + h;
+                                            }
+                                            if (m < 10) {
+                                                m = "0" + m;
+                                            }
+                                            if (s < 10) {
+                                                s = "0" + s;
+                                            }
+                                            var myClock = document.getElementById('clockDisplay');
+                                            myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+                                            myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+                                        }
+                                        renderTime();
+                                    </script>
+                                </span></span></a>
+
+
+                            </li>
+                            <li class="language" style="display: inline;"></li>
+                            <li class="language" style="display: inline;"> </li>
+                            <li class="language" style="display: inline;"> </li>
+                            <li class="language" style="display: inline;"> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main_menu m0">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="row" style="width: 100%">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="col-lg-2 col-md-2 col-xs-6">
+                                <a class="navbar-brand logo_h" href="index" style="padding-top: 10px;">
+                                    <img src="img/rera_logo.png" title="UPRERA Logo" alt="UPRERA" class="img-responsive" /></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="float: right;">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="col-lg-9 col-md-9" style="padding-right: 0px; padding-left: 0px;">
+                                <div class="row wname" style="margin-top: 15px;">
+                                    <div class="col-lg-12 col-md-12">
+                                        <h2 id="reraheading" style="color:#dc3838">Uttar Pradesh Real Estate Regulatory Authority</h2>
+                                    </div>
+                                </div>
+                                <div class="row menudiv" style="margin-top: 10px;">
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse main-menu-item" id="navbarNav" style="margin-top: 5px;">
+                                        <a href="#ctl00_menuBar_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=qRV__gASohxYzUYw4RthYnyOyafG05EdEYlf45hh_Zw2aGxOzGSxeQeWS2HRmdgDWkuyRHsu-VXZ_0uBpfGAr6ovsJ7RcJaAXmzR1O-AOcU1&amp;t=639256397503738887" width="0" height="0" border="0" /></a><div id="ctl00_menuBar" style="width: 100%; float: none;">
+	<ul class="level1 nav navbar-nav">
+		<li><a class="level1" href="index.aspx"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li><li><a class="popout level1" href="#">ABOUT RERA</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="about">INTRODUCTION</a></li><li><a class="popout level2" href="#">MEDIA SECTION</a><ul class="level3 dropdown-menu">
+				<li><a class="level3" href="GalleryDashboard">PHOTO GALLERY</a></li><li><a class="level3" href="VideoDashboard">VIDEO GALLERY</a></li><li><a class="level3" href="PressRelease">PRESS RELEASES</a></li><li><a class="level3" href="reranews">IN NEWS</a></li><li><a class="level3" href="frm_interviews.aspx">INTERVIEWS</a></li>
+			</ul></li><li><a class="level2" href="frm_Rera_Anual_Report.aspx">UP-RERA Annual Report</a></li><li><a class="level2" href="pdf/Best_Practices_by_UP-RERA.pdf">E-Book on Best Practices</a></li>
+		</ul></li><li><a class="popout level1" href="#">LEGAL</a><ul class="level2 dropdown-menu">
+			<li><a class="popout level2" href="#">ACTS</a><ul class="level3 dropdown-menu">
+				<li><a class="level3" href="pdf/reraact.pdf">RERA Acts</a></li><li><a class="level3" href="https://awas.upsdc.gov.in/en/page/acts">UP Housing Development Acts </a></li><li><a class="level3" href="https://www.yamunaexpresswayauthority.com/web/acts-regulations/key-acts/">UP Industrial Development Acts </a></li>
+			</ul></li><li><a class="popout level2" href="#">RULES</a><ul class="level3 dropdown-menu">
+				<li><a class="level3" href="pdf/rera.pdf">UP RERA Rules General Rules-2016 </a></li><li><a class="level3" href="pdf/UPRERA_ATS_2018.pdf">UP RERA Rules-2018 (Agreement for Sale and lease) </a></li><li><a class="level3" href="https://awas.upsdc.gov.in/en/page/rules">UP Housing Development Rules </a></li>
+			</ul></li><li><a class="popout level2" href="#">REGULATIONS</a><ul class="level3 dropdown-menu">
+				<li><a class="level3" href="frm_Regulation_View.aspx">UP RERA Regulations</a></li><li><a class="level3" href="https://awas.upsdc.gov.in/en/page/regulations">UP Housing Development Regulations  </a></li><li><a class="level3" href="https://www.stagingupsida.com/ammendment-regulation.aspx">UP Industrial Development Regulations</a></li>
+			</ul></li><li><a class="popout level2" href="#">Bye-Laws</a><ul class="level3 dropdown-menu">
+				<li><a class="level3" href="https://awas.upsdc.gov.in/en/page/bye-laws">UP Housing Development Bye-Laws</a></li><li><a class="level3" href="https://www.stagingupsida.com/laws-upsida.aspx">UP Industrial Development Bye-Laws</a></li>
+			</ul></li><li><a class="level2" href="pdf/rerenotification.pdf">NOTIFICATIONS</a></li><li><a class="level2" href="pdf/RERAAccountDirections11052026.pdf">Project Account Directions, 3rd Revision dt 11.05.2026</a></li>
+		</ul></li><li><a class="popout level1" href="#">REGISTRATIONS</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="project">PROMOTER</a></li><li><a class="level2" href="login">PROJECT</a></li><li><a class="level2" href="NewAgent">AGENT</a></li><li><a class="level2" href="auth_entity_reg">Authorized Entity U/S  8</a></li>
+		</ul></li><li><a class="popout level1" href="#">CONCILIATION FORUM</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="conciliations">CONCILIATION LOGIN</a></li><li><a class="level2" href="ConciliationDetails">CONCILIATION STATUS</a></li>
+		</ul></li><li><a class="popout level1" href="#">COMPLAINTS </a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="SignUp">REGISTER COMPLAINT</a></li><li><a class="level2" href="SignUp">COMPLAINT FOR COMPENSATION</a></li><li><a class="level2" href="getcomplaint">GET COMPLAINT NUMBER</a></li><li><a class="level2" href="register_grievance">Public Grievance</a></li><li><a class="level2" href="frm_sec39_Insert_complaint_details_new.aspx">Request for Rectification of Order U/S 39</a></li><li><a class="level2" href="Frm_All_Complaint_Status_Page.aspx">Complaint Status</a></li><li><a class="level2" href="frm_ecourt_Complaint_Cause_Action_public.aspx?oldid=">2nd complaint for new cause of action</a></li><li><a class="level2" href="frm_view_complaint_cause_action_public.aspx">View 2nd complaint for new cause of action</a></li><li><a class="level2" href="Frm_All_ComplaintAOA_Status_Page.aspx">Complaint AOA Status</a></li>
+		</ul></li><li><a class="popout level1" href="#">REQUEST</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="Requestdoc">Request For Certified Copy of Document</a></li><li><a class="level2" href="frm_OrderExecution.aspx">REQUEST FOR ORDER EXECUTION</a></li><li><a class="level2" href="frm_Rc_Report.aspx">VIEW RC STATUS</a></li><li><a class="level2" href="frm_process_request_fileinspection.aspx">Request For Physical File Inspection</a></li>
+		</ul></li><li><a class="popout level1" href="#">LOGIN</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="login">USER LOGIN</a></li><li><a class="level2" href="InspectionOfficerLogin.aspx">INSPECTION LOGIN</a></li><li><a class="level2" href="SignUp">E-Court Login/Sign Up</a></li><li><a class="level2" href="grievance_login">Grievance Login</a></li><li><a class="level2" href="login_sec8">Authorized Entity U/S 8 Login</a></li>
+		</ul></li><li><a class="popout level1" href="#">DOWNLOADS</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%201%20(Architect%20Certificate).xlsx">Form REG 1 (Architect Certificate)</a></li><li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%202%20(Engineer%20Certificate).xlsx">Form REG 2 (Engineer Certificate)</a></li><li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%203%20(CA%20Certificate).xlsx">Form REG 3 (CA Certificate)</a></li><li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%204%20(Architect%20Certificate).docx">Form REG 4 (Architect Certificate)</a></li><li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%204A%20(Architect%20Certificate).docx">Form REG 4A (Architect Certificate)</a></li><li><a class="level2" href="finalcertificates/finalcertificates/Form%20REG%205%20(CA%20Certificate).doc">Form REG 5 (CA Certificate)</a></li>
+		</ul></li><li><a class="level1" href="applicationform">CAREER</a></li><li><a class="popout level1" href="#">USER MANUALS</a><ul class="level2 dropdown-menu">
+			<li><a class="level2" href="usermanual/usermanual/User%20Manual%20for%20Complaint%20Registration.pdf" target="_blank">User Manual for Complaint Registration</a></li><li><a class="level2" href="usermanual/usermanual/User-Manual-Promoter-Enrollment.pdf" target="_blank">User Manual for Promoter Enrollment</a></li><li><a class="level2" href="usermanual/usermanual/User%20Manual%20for%20Project%20Registration.pdf">User Manual for Project Registration</a></li><li><a class="level2" href="usermanual/usermanual/User%20Manual%20for%20Project%20Extension.pdf">User Manual for Project Extension</a></li><li><a class="level2" href="usermanual/usermanual/User%20Manual%20for%20Agent%20Registration.pdf">User Manual for Agent Registration</a></li>
+		</ul></li><li><a class="level1" href="ContactUs">CONTACT US</a></li>
+	</ul>
+</div><a id="ctl00_menuBar_SkipLink"></a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-md-1 cm" style="padding-right: 0">
+                       
+                              
+                                      <img src="#" alt="Hon'ble CM YOGI ADITYANATH" title="Hon'ble CM YOGI ADITYANATH" class="img-responsive" style="height: 95px; max-width: 100px;display:none" />
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        
+        
+
+        <!--================Header Menu Area =================-->
+        <div style="min-height:400px;" id="main">
+            
+        <noscript>
+        <div style="border: 1px solid purple; padding: 10px">
+            <span style="color: red">JavaScript is not enabled! Please Enabled JavaScript..</span>
+        </div>
+    </noscript>
+    <div id="imagen" class="modal1" style="display: none">
+        <div class="center">
+            <img alt="Progress" src="img/loader.gif" />
+        </div>
+    </div>
+    <section class="breadcrumb blog_bg myclass">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <div class="breadcrumb_iner_item">
+                            <h2>Promoters Registration</h2>
+                            <span>Promoter Registration Section</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-area area-padding" id="contentSection">
+        <div class="container-fluid">
+            <div class="area-heading">
+                <h3 class="">Promoters Registration</h3>
+                <p class="tagline">Register as a Promoter Now </p>
+            </div>
+            <div id="ctl00_ContentPlaceHolder1_appendNewsData" class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-10 col-md-10 col-sm-10 com-xs-12">
+                    <div id="ctl00_ContentPlaceHolder1_div2" class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h3>Verify Your Mobile</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-sm-5">
+                                    <label for="promoter_type" class="control-label">Please Enter Mobile No.</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input name="ctl00$ContentPlaceHolder1$txt_mob_sms" type="text" maxlength="10" id="ctl00_ContentPlaceHolder1_txt_mob_sms" class="form-control" onchange="return mobileNumber()" autocomplete="off" onkeypress="return isNumbernotpoint(event)" />
+                                    
+                                </div>
+                                <div class="col-sm-3">
+                                    <a id="ctl00_ContentPlaceHolder1_lnk_otp" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$lnk_otp&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Send OTP</a>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-sm-5">
+                                    <label for="pro" class="control-label">Enter OTP</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input name="ctl00$ContentPlaceHolder1$txt_otp" type="password" maxlength="6" id="ctl00_ContentPlaceHolder1_txt_otp" required="required" class="form-control" autocomplete="off" />
+                                </div>
+                                <div class="col-sm-3"></div>
+                            </div>
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-sm-5"></div>
+                                <div class="col-sm-3">
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$btn_verify" value="Verify" id="ctl00_ContentPlaceHolder1_btn_verify" class="btn btn-green" />
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 com-xs-12">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="loading" align="center">
+        Saving.... Please wait.<br />
+        <br />
+        <img src="img/loader.gif" alt="" height="40px" width="40px" />
+    </div>
+
+        </div>
+        <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+        <!--================ start footer Area =================-->
+        <footer class="footer-area ">
+
+       
+            <div class="container-fluid">
+                <div class="row">
+                                    
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-footer-widget">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a class="navbar-brand logo_h" href="index">
+                                        <img src="img/rera_logo.png" title="Rera Logo" alt="Rera Logo"  /></a>
+                                    <br />
+                                    <br />
+                                    <p>The Real Estate (Regulation and Development) Act, 2016 is an Act of the Parliament of India which seeks to protect home-buyers as well as help boost investments in the real estate industry. The Act came into force from 1 May 2016.</p>
+                               
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-3">
+                        <div class="single-footer-widget">
+                            <h6>Quick Links</h6>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="footer-nav">
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="index">home</a>
+                                        </li>
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="AboutUs" target="_blank">about </a>
+                                        </li>
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="applicationform" target="_blank">career </a>
+                                        </li>
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="Media" target="_blank">media</a>
+                                        </li>
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="downloads" target="_blank">downloads</a>
+                                        </li>
+                                        <li><i class="ti-angle-right"></i>
+                                            <a href="ContactUs" target="_blank">contact us</a>
+                                        </li>
+                                         <li><i class="ti-angle-right"></i>
+                                            <a href="Web_Information_Manager" target="_blank">Web Information Manager</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3">
+                        <div class="single-footer-widget">
+                            <h6>Social Links</h6>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="footer-nav">
+                                        <li><a href="https://facebook.com/upreraofficial" target="_blank" title="Facebook"><i class="ti-angle-right"></i>Facebook</a>	</li>
+                                     
+                                        <li><a href="https://twitter.com/UPRERAofficial" target="_blank" title="Twitter"><i class="ti-angle-right"></i>Twitter</a>	</li>
+                                         <li style="display:none;"><a href="#" title="Linked In"><i class="ti-angle-right"></i>LinkedIn</a>	</li>
+                                        <li ><a href="https://www.youtube.com/channel/UCAeF0bOHPpzN-K9QvfA9rSQ" target="_blank" title="Youtube"><i class="ti-angle-right"></i>Youtube</a>	</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3">
+                        <div class="single-footer-widget">
+                            <h6>Circulars & Notices </h6>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="footer-nav">
+                                        <li><a href="pdf/UPRERA_ATS_2018.pdf" target="_blank"><i class="ti-angle-right"></i>Agreement for Sale/Lease</a></li>
+                                        <li><a href="pdf/Order for CA,Architect,Engineer Certificate.pdf" target="_blank"><i class="ti-angle-right"></i>Order for CA, Architect, Engineer Certificate</a></li>
+                                        <li><a href="pdf/Portal_Editing_order.pdf" target="_blank"><i class="ti-angle-right"></i>Order For Project Registration & Editing</a></li>
+                                        <li><a href="pdf/SOP.pdf" target="_blank"><i class="ti-angle-right"></i>SOP for Complaint Redressal</a></li>
+                                        <li><a href="notices" target="_blank"><i class="ti-angle-right"></i>Click For More Notices...</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3">
+                        <div class="single-footer-widget">
+                            <h6>Other Links</h6>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <ul class="footer-nav">
+                                         <li><i class="ti-angle-right"></i>
+                                            <a href="DisclaimerandPolicies" target="_blank">Disclaimer and Policies</a>
+                                        </li>
+                                         <li><i class="ti-angle-right"></i>
+                                            <a href="RTIDOC" target="_blank">RTI</a>
+                                        </li>
+                                         <li><i class="ti-angle-right"></i>
+                                            <a href="TermCondition" target="_blank">Terms and Conditions</a>
+                                        </li>
+                                         <li><i class="ti-angle-right"></i>
+                                            <a href="Sitemap" target="_blank">Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                
+            </div>
+        </footer>
+        <div class="container-fluid">
+
+            <div class="row" style="background-color:#6c757d">
+                    <div class="accessibilityDiv">
+                        <ul class="accessibility-icons list-unstyled list-inline font-zoom pull-left">
+                            <li class="language" style="display: inline;"><a style="font-size: 14px;" class="taglib-language-list-text" href="#">
+                                
+                                   <a href="https://facebook.com/upreraofficial" target="_blank" title="Facebook" ><i class="fa fa-facebook"></i></a>	
+                                &nbsp;
+                               <a href="https://twitter.com/UPRERAofficial" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>	
+                                   &nbsp;
+                                <a href="https://www.youtube.com/channel/UCAeF0bOHPpzN-K9QvfA9rSQ" target="_blank" title="Youtube"><i class="fa fa-youtube-play" style="color:red"></i></a>	
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text increase" title="Increase font size"> | +A</a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text resetMe" title="Restore default font size" style="padding: 2px 6px 2px 6px;">| A</a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a href="#" class="taglib-language-list-text decrease" title="Decrease font size" style="">| -A</a>
+                                 &nbsp;
+                                  &nbsp;
+                                
+
+                                 <a style="font-size: 14px;" class=" taglib-language-list-text " href="ScreenReader.aspx" data-toggle="tooltip" title="Screen Reader Access"><span class="fa fa-desktop"></span>   </a>
+                                  &nbsp;
+                                  &nbsp;
+                                <a style="font-size: 14px;" class="taglib-language-list-text " href="Sitemap" data-toggle="tooltip" title="Sitemap"> <i class="fa fa-sitemap" aria-hidden="true"></i></a>
+                                         
+                                    &nbsp;
+                                  &nbsp;
+                             </a>
+
+
+                            </li>
+                       
+                        </ul>
+                    </div>
+                <div class="col-lg-12">
+                    <div class="footer-copy-right">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                  <p>
+   Copyright © 2026 UP-RERA , Concieved by: Uttar Pradesh Real Estate Regulatory Authority , Developed by : UPDESCO(Acme Digitek Solutions Pvt. Ltd)
+
+</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>Last reviewed and updated on <span id="ctl00_lbllastupdated">07 Jul 2026</span></p>
+                            </div>
+                            <div class="col-sm-6">
+                               <p>  Version : 1.9.1 </p>
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <style>
+            .footer-copy-right {
+             padding:10px;
+         }
+         .footer-copyright-area {
+    background: #303030;
+    padding: 20px 0px;
+    text-align: center;
+    margin-left: 200px;
+}
+         .footer-copy-right p {
+    margin: 0px;
+    font-size: 15px;
+    color: #fff;
+    text-align:center;
+}
+         .footer-copy-right a {
+    color: #303030;
+}
+        </style>
+
+
+
+
+        <!--================ End footer Area =================-->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+
+        
+
+<!--=======Header Script Start=====-->
+        <script src="multiselect/jquery.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="tcal.css" />
+    	<script type="text/javascript" src="tcal.js"></script> 
+        <script src="js/jquery-1.min.js"></script> 
+
+
+
+
+
+    <script>
+        // Code For Block Inspect Element in Browser
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+        $(document).keydown(function (e) {
+            if (e.which === 123) {
+                return false;
+            }
+        });
+
+       
+
+
+        //$('body').on("submit", "form", function () {
+        //    if (Page_ClientValidate() == true) {
+        //        ShowProgress();
+        //        return true;
+        //    }
+        //    else {
+        //        return false;
+        //    }
+        //});
+
+        //function ShowProgress() {
+        //    setTimeout(function () {
+        //        var modal = $('<div />');
+        //        modal.addClass("modal");
+        //        $('body').append(modal);
+        //        var loading = $(".loading");
+        //        loading.show();
+        //        var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+        //        var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+        //        loading.css({ top: top, left: left });
+        //    }, 200);
+        //}
+    </script>
+
+
+        
+<!--=======Header Script END=======-->
+
+
+
+
+<script src="js/popper.js"></script>        
+<script src="js/jquery-3.min.js"></script>
+<script src="multiselect/bootstrap.min.js"></script>
+<script src="JqueryCallender/js/jquery-12.js"></script>    
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="js/jquery.bootstrap.newsbox.min.js"></script>
+<script src="vendors/isotope/isotope.pkgd.min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>       
+<script src="css/counter-up/jquery.counterup.js"></script>
+<script src="css/counter-up/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+    
+<script src="js/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min-1.js"></script>
+
+<script src="multiselect/bootstrap-multiselect.js"></script>
+<script src="js/jquery.easy-ticker.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/custom.js"></script>
+     
+
+
+
+    
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'ctl00_menuBar', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {"ValidChars":"1234567890","id":"ctl00_ContentPlaceHolder1_fl_sms_mob"}, null, null, $get("ctl00_ContentPlaceHolder1_txt_mob_sms"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

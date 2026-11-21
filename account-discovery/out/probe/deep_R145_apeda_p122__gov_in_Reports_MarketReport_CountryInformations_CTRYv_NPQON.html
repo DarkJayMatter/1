@@ -1,0 +1,628 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags for Agri Exchange Portal -->
+    <meta name="description" content="Agri Exchange is an online trade portal by APEDA, Govt. of India, offering a global platform for buyers and sellers in Agri business to negotiate and transact deals. Provides up-to-date agricultural statistics and market information.">
+    <meta name="keywords" content="Agri Exchange, APEDA, Agricultural trade, online trading, Agri business, export statistics, global trade, agricultural commodities, SPS measures, MRLs, Country Profile">
+    <meta name="author" content="APEDA, Govt. of India">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Agri Exchange - A Global Agri Business Trade Portal">
+    <meta property="og:description" content="A first-of-its-kind online trade portal by APEDA, offering global trading opportunities and up-to-date agricultural market statistics.">
+    <meta property="og:image" content="https://agrixchange.apeda.in/TemplateGreenYellow/assets/img/llogo.png">
+    <meta property="og:url" content="https://agrixchange.apeda.in/">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Agri Exchange - A Global Agri Business Trade Portal">
+    <meta name="twitter:description" content="Join the Agri Exchange platform for global agricultural trade, supported by UNCTAD and the Ministry of Agriculture, India.">
+    <meta name="twitter:image" content="https://agrixchange.apeda.in/TemplateGreenYellow/assets/img/llogo.png">
+
+    <title>Country Informations </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="/TemplateGreenYellow/assets/img/favicon.png" rel="icon">
+    <link href="/TemplateGreenYellow/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+    <script src="/lib/jquery/jquery-3.7.1.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/TemplateGreenYellow/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/TemplateGreenYellow/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/TemplateGreenYellow/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/TemplateGreenYellow/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/TemplateGreenYellow/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" integrity="sha256-zaSoHBhwFdle0scfGEFUCwggPN7F+ip9XRglo8IWb4w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" integrity="sha256-XLNUEfzPGHBeStES2DbLUURZ3e793BablwzJlYj6W2Q=" crossorigin="anonymous" />
+
+    <style>
+        .select2-container--bootstrap-5 .select2-selection {
+            min-height: 30px !important;
+            margin-top: 25px !important;
+            border-bottom: 1px solid #c4c4c4 !important;
+            border-radius: 5px !important;
+            overflow: none !important;
+            background-color: #fff0 !important;
+            border: 1px solid #ced4da !important;
+            border-left: none !important;
+            border-right: none !important;
+            border-top: none !important;
+            /*    max-height: 40px;  */
+            color: black !important;
+            -moz-user-focus: initial;
+            height: 40px;
+        }
+
+        .select2-selection__rendered {
+            max-height: 34px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .select2 select2-container select2-container--bootstrap-5 select2-container--below select2-container--focus {
+            display: inline-block;
+            padding-left: 8px;
+        }
+
+        .accordion-header {
+            margin-bottom: 0 !important;
+            position: relative !important;
+            display: flex !important;
+            align-items: center !important;
+            width: 100% !important;
+            /* padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x) !important; */
+            font-size: 1rem !important;
+            color: var(--bs-accordion-btn-color) !important;
+            text-align: left !important;
+            background-color: var(--bs-accordion-btn-bg) !important;
+            border: 0 !important;
+            border-radius: 0 !important;
+            /*overflow-anchor: none !important;*/
+            transition: var(--bs-accordion-transition) !important;
+            font-weight: bold !important;
+        }
+    </style>
+
+
+    <link href="/TemplateGreenYellow/assets/css/maininnerpages.css?id=21/11/2026" rel="stylesheet">
+    <style>
+        .accordion-button:not(.collapsed)::after {
+            background-image: url('/TemplateGreenYellow/assets/img/uparrow.png') !important;
+            transform: unset;
+        }
+
+        .accordion-button::after {
+            background-image: url('/TemplateGreenYellow/assets/img/uparrow.png') !important;
+            transform: var(--bs-accordion-btn-icon-transform);
+        }
+
+        .has-error input {
+            border: 1px groove red;
+        }
+
+        .has-error select {
+            border: 1px groove red;
+        }
+
+        .has-error textarea {
+            border: 1px groove red;
+        }
+
+        .validationMessage {
+            color: red;
+        }
+
+    </style>
+
+   
+    <style>
+        /* Initial styles for notification dropdown */
+        #notification-icon {
+            color: inherit;
+        }
+
+        .dropdown-menu a {
+            color: inherit;
+            background-color: inherit;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLR2HQHXK8"></script>
+   
+    <link href="/css/new.css" rel="stylesheet" />
+    <link href="/css/color-switcher.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous" />
+    <script src="/lib/jquery-cookie/jquery.cookie.min.js"></script>
+</head>
+
+<body class="index-page">
+
+    <div b-1bo1zh6di5 class="header" id="myHeader">
+
+        <div b-1bo1zh6di5 class="row mb-2 p-2  w-100 m-0" style="background-color: #edeaea; border-bottom: 1px solid #ccc;padding: 0px !important;">
+            <div b-1bo1zh6di5 class="col-12">
+                <ul b-1bo1zh6di5 class="nav sub-nav1" style="float:right;">
+
+                    <li b-1bo1zh6di5 class="nav-item">
+
+                        <div b-1bo1zh6di5 class="color-change" style="margin-top: 2px;">
+                            <a b-1bo1zh6di5 href="javascript:void(0)" title="Color toggle button" style="position: relative;top: 5px;">
+                                <img src="/images/color-change.svg" alt="Color toggle">
+                            </a>
+                        </div>
+                    </li>
+                    <li b-1bo1zh6di5 class="nav-item dropdown">
+                            <button b-1bo1zh6di5 class="nav-link dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false"
+                                    id="dropdownMenuButton1">
+                                Sign In
+                            </button>
+                        <ul b-1bo1zh6di5 class="dropdown-menu">
+                            <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="/Home/ExporterLogin">Exporters</a></li>
+                            <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="/Home/Login">Importers</a></li>
+                             <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="/Home/EmbassyLogin">Indian Missions Abroad</a></li> 
+                            <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="/cms">APEDA Internal User</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li b-1bo1zh6di5 class="nav-item">
+                        <a b-1bo1zh6di5 class="nav-link" href="/Home/Sitemap">Sitemap</a>
+                    </li>
+                    <li b-1bo1zh6di5 class="nav-item">
+                        <a b-1bo1zh6di5 class="nav-link" href="/Home/Faqs">FAQ</a>
+                    </li>
+                    <li b-1bo1zh6di5 class="nav-item dropdown">
+                        <a b-1bo1zh6di5 class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                           aria-expanded="false" style="padding: 10px;"><i b-1bo1zh6di5 class="fa-brands fa-accessible-icon"></i></a>
+                        <ul b-1bo1zh6di5 class="dropdown-menu bg-dark text-white">
+                            <li b-1bo1zh6di5 class="d-flex justify-content-center align-items-center gap-3 px-3">
+                                <a b-1bo1zh6di5 id="btn-decrease"><span b-1bo1zh6di5>A-</span></a>
+                                <a b-1bo1zh6di5 id="btn-orig"><span b-1bo1zh6di5>A</span></a>
+                                <a b-1bo1zh6di5 id="btn-increase">A+</a>
+                                <a b-1bo1zh6di5 href="#">
+                                    <img src="/images/screenreader.png" title="Screen Reader">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <header b-1bo1zh6di5 id="header" class="header d-flex align-items-center">
+
+
+            <div b-1bo1zh6di5 class="container-fluid align-items-center justify-content-between" style="padding: 0px 20px !important;">
+              <div b-1bo1zh6di5 class="row">
+                    <div b-1bo1zh6di5 class="col-md-4">
+                        <div b-1bo1zh6di5 class="title d-flex">
+                            <a b-1bo1zh6di5 href="/" class="logo">
+                              
+                                <h1 b-1bo1zh6di5 class="sitename"><img b-1bo1zh6di5 class="w-100" src="/TemplateGreenYellow/assets/img/APEDA-Logo.png"></h1>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div b-1bo1zh6di5 class="col-md-5 ps-sm-4 d-none d-sm-block">
+                         
+                    </div>
+
+                    <div b-1bo1zh6di5 class="col-md-3 mt-2 mb-2  d-none d-sm-block">
+                        <div b-1bo1zh6di5 style="position: relative;">
+                            <a b-1bo1zh6di5 href="/" class="logo right-logo">
+                                <h1 b-1bo1zh6di5 class="sitename"><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/llogo.png" style="width: auto;float:right;"></h1>
+                            </a>
+
+
+                            <div b-1bo1zh6di5 class="dropdown" style="float:left; display:none;">
+                                <button b-1bo1zh6di5 class="btn btn-primary dropdown-toggle" type="button" id="lang" data-bs-toggle="dropdown" aria-expanded="false" style="background:none; color: #000; border: 1px solid #bfbbbb;">
+                                    <i b-1bo1zh6di5 class="bi bi-translate"></i> Eng
+                                </button>
+                                <ul b-1bo1zh6di5 class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Exporters</a></li>
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Importers</a></li>
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Indian Missions Abroad</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div b-1bo1zh6di5 class="col-md-5 ps-sm-4 d-block d-sm-none">
+                    </div>
+
+                    <div b-1bo1zh6di5 class="col-md-3 d-block d-sm-none">
+                        <div b-1bo1zh6di5 style="position: relative;" class="mt-2">
+                            <a b-1bo1zh6di5 href="/" class="logo right-logo">
+                                <h1 b-1bo1zh6di5 class="sitename"><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/llogo.png" style="width: auto;float:right;margin-top: 8px;"></h1>
+                            </a>
+
+
+                            <div b-1bo1zh6di5 class="dropdown" style="float:left; display:none;">
+                                <button b-1bo1zh6di5 class="btn btn-primary dropdown-toggle" type="button" id="lang" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="background:none; color: #000; border: 1px solid #bfbbbb;">
+                                    <i b-1bo1zh6di5 class="bi bi-translate"></i> Eng
+                                </button>
+                                <ul b-1bo1zh6di5 class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Exporters</a></li>
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Importers</a></li>
+                                    <li b-1bo1zh6di5><a b-1bo1zh6di5 class="dropdown-item" href="#">Indian Missions Abroad</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+               
+
+            </div>
+
+
+        </header>
+
+        <div b-1bo1zh6di5 class="searchmob">
+
+            <div b-1bo1zh6di5 class="row gy-4" id="marketInteliSearchMob">
+
+              
+            </div>
+        </div>
+
+        <nav b-1bo1zh6di5 id="nav-bar" class="navmenu navbar navbar-expand-lg">
+            <ul b-1bo1zh6di5>
+                <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Home/aboutagriexchange">About Us</a></li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#"><span b-1bo1zh6di5>Indian Export Analytics</span> <i b-1bo1zh6di5 class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul b-1bo1zh6di5>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/India/GenerateAPEDAProductReport/Index">Build your own Report  </a>  </li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/India/generatereport/Index">Build your own Report - (Principal Commodities)</a></li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/IndiaExport/Home/Index">All Export Destinations</a></li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/India/ExportAnalyticalReport/Index">India Export Analytical Report</a></li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/Production/India/Index">India Production</a></li>
+                        <li b-1bo1zh6di5>
+                            <a b-1bo1zh6di5 href="/Production/Indiacat/Index">India Production State Wise</a>
+                        </li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/India/port/Index">Export Statistics-State/Port</a></li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/India/Home/QuickReports">Quick Reports </a></li>
+                    </ul>
+
+                </li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#"><span b-1bo1zh6di5>Global Trade Analytics</span> <i b-1bo1zh6di5 class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul b-1bo1zh6di5>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/international/generateYourReport/Index">Build your own Report</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/International/Home/Index">All Export Destinations</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/International/Home/globalanalytical">India vs Global Peers</a> </li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/production/international/index">International Production</a></li>
+                    </ul>
+                </li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#"><span b-1bo1zh6di5>Market Intelligence</span> <i b-1bo1zh6di5 class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul b-1bo1zh6di5>
+                       
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Reports/Marketreport/Market">Market Report</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Market/spsmeasures/Index">SPS Notifications</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Market/TBTNotification/Index">TBT Notifications</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Market/MarketNews/Index">Market News</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Reports/Marketreport/IR_Standards">Import Regulations</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Reports/Marketreport/ImportTariffs">Import Tariffs</a></li>
+                        <li b-1bo1zh6di5 class="dropdown">
+                            <a b-1bo1zh6di5 href="javascript:void(0);">Country Profile</a>
+                            <ul b-1bo1zh6di5>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NNQNV">
+                                        United Arab Emirates
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NNPRN">
+                                        Saudi Arabia
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NMOQR">
+                                        Malaysia
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NMMOT">
+                                        Bangladesh
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=MRQOP">
+                                        United States
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NMQPT">
+                                        Vietnam
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NNONV">
+                                        Kuwait
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NMNUV">
+                                        Iran
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NPQON">
+                                        United Kingdom
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a href="/Reports/MarketReport/CountryInformations?CTRYv=NMNUT">
+                                        Indonesia
+                                    </a>
+                                </li>
+                                <li b-1bo1zh6di5>
+                                    <a b-1bo1zh6di5 href="/Reports/Marketreport/countrysearch" style="text-align: right;">... View more country profiles</a>
+                                </li>
+                            </ul>
+
+
+                        </li>
+                    </ul>
+                </li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#"><span b-1bo1zh6di5>Trade Leads</span> <i b-1bo1zh6di5 class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul b-1bo1zh6di5>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Seller/SellLead">Sell Leads</a></li>                       
+                            <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/Buyer/BuyLeads">Buy Leads</a></li>
+
+                            <li b-1bo1zh6di5>
+                                <a b-1bo1zh6di5 href="/Home/BuyerRegistration">Register as an Importer</a>
+                            </li>
+                       
+                    </ul>
+                </li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#"><span b-1bo1zh6di5>Directory</span> <i b-1bo1zh6di5 class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul b-1bo1zh6di5>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/AgriDirectory/Exporter/Exporters">Exporters</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/AgriDirectory/SProvider/Index">Packhouses</a></li>
+                        <li b-1bo1zh6di5><a b-1bo1zh6di5 href="/AgriDirectory/SProvider/peanutunit">Peanut Units</a></li>
+                        <li b-1bo1zh6di5> <a b-1bo1zh6di5 href="/AgriDirectory/SProvider/meatunits">Meat Units</a></li>
+                    </ul>
+                </li>
+                <li b-1bo1zh6di5 class="dropdown">
+                    <a b-1bo1zh6di5 href="#" id="notification-icon" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/notification.png" alt="Notifications" style="width: 18px; height: 18px;">
+                    </a>
+                    <ul b-1bo1zh6di5 class="dropdown-menu dropdown-menu-right" id="populate-notification" aria-labelledby="notification-icon" style="right: 0; left: auto;width: 351px; max-height:300px; overflow-y:scroll;">
+                    </ul>
+                </li>
+            </ul>
+            <i b-1bo1zh6di5 class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+    </div>
+   
+    
+    <main b-1bo1zh6di5 class="main" style="min-height:460px;">
+        
+
+
+<style>
+    .card.border-0.p-3 a img {
+        width: 80%;
+    }
+</style>
+
+<form method="post" action="/Reports/Marketreport/CountryInformations">
+    <div class="container my-4">
+
+        <div class="col-sm-12 text-end" style="margin-top: 40px;">
+            <a href="/Reports/Marketreport/countrysearch" class="btn btn-primary"> Back </a>
+        </div>
+
+        <h2 class="text-center text-uppercase">
+           United Kingdom 
+        </h2>
+
+
+
+        <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/InternationalProduction?ctryid=NPQON&amp;menuid=Production of Fresh Produce        &amp;countryMenuId=O">
+                            <img src="/IMAGES_TJ/02_produce.jpg" class="img-fluid border rounded" alt="information" title="Production of Fresh Produce        ">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/ProductsExported?ctryid=NPQON&amp;menuid=Exports to World&amp;countryMenuId=P">
+                            <img src="/IMAGES_TJ/03_export_to_world.jpg" class="img-fluid border rounded" alt="information" title="Exports to World">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/ProductsImported?ctryid=NPQON&amp;menuid=Imports from World&amp;countryMenuId=Q">
+                            <img src="/IMAGES_TJ/04_import_from_world.jpg" class="img-fluid border rounded" alt="information" title="Imports from World">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/IndiaStanding?ctryid=NPQON&amp;menuid=India&#x27;s Trade with&amp;countryMenuId=NM">
+                            <img src="/IMAGES_TJ/07_india_trade.jpg" class="img-fluid border rounded" alt="information" title="India&#x27;s Trade with">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/IR_Standards?ctryid=NPQON&amp;menuid=Import Regulation Standards&amp;countryMenuId=NN">
+                            <img src="/IMAGES_TJ/08_import_regulations.jpg" class="img-fluid border rounded" alt="information" title="Import Regulation Standards">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Market/spsmeasures?ctryid=NPQON&amp;menuid=SPS Measures&amp;countryMenuId=NP">
+                            <img src="/IMAGES_TJ/09_sps_measures.jpg" class="img-fluid border rounded" alt="information" title="SPS Measures">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/ExpFrmIndia?ctryid=NPQON&amp;menuid=Export from India&amp;countryMenuId=NR">
+                            <img src="/IMAGES_TJ/10_export_from_india.jpg" class="img-fluid border rounded" alt="information" title="Export from India">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card border-0 p-3">
+
+                        <a href="/Reports/Marketreport/Market?ctryid=NPQON&amp;menuid=Market Reports&amp;countryMenuId=NT">
+                            <img src="/IMAGES_TJ/11_market_report.jpg" class="img-fluid border rounded" alt="information" title="Market Reports">
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+
+        <!-- Hidden field to trigger the controller method -->
+        <input type="hidden" name="triggerAction" value="true" />
+    </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AAnxtIjJFhKpIhpaMqGGmc-rpNXwXbcyK7DezvObsIKibpr96YTKQ-REy8x7MmySGdq4r_cisxUPHQFn2iG3UlwIAb2ZFgRyg2QHYx9JkDjOQp-I_j_01jVmFs3HD6YzdfNPOCsAdvNQmVI85j2y3E" /></form>
+
+    </main>
+
+    <footer b-1bo1zh6di5 id="footer" class="footer dark-background">
+        <div b-1bo1zh6di5 class="footer-top">
+            <div b-1bo1zh6di5 class="container-fluid">
+                <div b-1bo1zh6di5 class="row gy-4">
+                    <div b-1bo1zh6di5 class="col-lg-4 col-md-6 footer-about">
+
+                        <div b-1bo1zh6di5 class="footer-contact">
+                            <p b-1bo1zh6di5 style="
+    font-size: 32px;
+    color:#ffffff;
+    font-weight: bold;
+">
+                                Agri<span b-1bo1zh6di5 style="
+    color: #9BCA3D;
+">X</span>change
+                            </p>
+                            <p b-1bo1zh6di5 style="
+    font-size: 14px;
+    padding-bottom: 22px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+">Agricultural and Processed Food Products <br b-1bo1zh6di5>Export Development Authority (APEDA)<br b-1bo1zh6di5>Ministry of Commerce &amp; Industry, Govt. of India</p>
+
+
+                        </div>
+                        <div b-1bo1zh6di5>
+                        </div>
+                    </div>
+
+                    <div b-1bo1zh6di5 class="col-lg-4 col-md-6 footer-links" style="padding-top: 0px!important;">
+                        <h4 b-1bo1zh6di5>Follow Us</h4>
+                        <a b-1bo1zh6di5 href="https://x.com/APEDADOC" target="_blank"><i b-1bo1zh6di5><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/x.png"></i></a>
+                        <a b-1bo1zh6di5 href="https://www.facebook.com/apedamoc/" target="_blank"><i b-1bo1zh6di5><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/facebook-fill.png"></i></a>
+                        <a b-1bo1zh6di5 href="https://www.instagram.com/apedamoc/" target="_blank"><i b-1bo1zh6di5><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/instagram-fill.png"></i></a>
+                        <a b-1bo1zh6di5 href="https://www.linkedin.com/in/apedadoc/" target="_blank"><i b-1bo1zh6di5><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/in.png"></i></a>
+                        <a b-1bo1zh6di5 href="https://www.youtube.com/APEDAMOC" target="_blank"><i b-1bo1zh6di5><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/ri-youtube-line.png"></i></a>
+                    </div>
+
+                    <div b-1bo1zh6di5 class="col-lg-4 col-md-4 footer-links footerbgimg" style="padding-top: 0px!important; font-size:14px;">
+                        <h4 b-1bo1zh6di5>Contact Us</h4>
+                        <p b-1bo1zh6di5><i b-1bo1zh6di5 style="padding-right: 6px;"></i>3rd Floor, NCUI Building 3, Siri Institutional Area, <br b-1bo1zh6di5 />August Kranti Marg, (Opp. Asiad Village) New Delhi - 110 016, India</p>
+                        <p b-1bo1zh6di5><i b-1bo1zh6di5 style="padding-right: 6px;"><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/vector.png" style="padding-right: 6px;"></i> 91-11-41486013/ 20863919/ 20867008</p>
+                        <p b-1bo1zh6di5> <i b-1bo1zh6di5 style="padding-right: 6px;"><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/ri-mail-line.png"></i>  agriexchange[AT]apeda[DOT]gov[DOT]in</p>                       
+                        <i b-1bo1zh6di5 style="padding-right: 6px;"><img b-1bo1zh6di5 src="/TemplateGreenYellow/assets/img/report.png"></i> <a b-1bo1zh6di5 href="/Home/ReportanError">Report an error</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div b-1bo1zh6di5 class="copyright text-center">
+            <div b-1bo1zh6di5 class="container-fluid d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+                <div b-1bo1zh6di5 class="d-flex flex-column align-items-center align-items-lg-start">
+                    <div b-1bo1zh6di5>
+                        © 2024 All Rights Reserved
+                    </div>
+
+                </div>
+
+                <div b-1bo1zh6di5 class="social-links order-first order-lg-last mb-3 mb-lg-0">
+                    <a b-1bo1zh6di5 href="/Home/Privacy">Privacy Policy</a>|
+                    <a b-1bo1zh6di5 href="/Home/Disclaimer">Disclaimer</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a b-1bo1zh6di5 href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i b-1bo1zh6di5 class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div b-1bo1zh6di5 id="myHeader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="/TemplateGreenYellow/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/php-email-form/validate.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/aos/aos.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="/TemplateGreenYellow/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" integrity="sha256-9yRP/2EFlblE92vzCA10469Ctd0jT48HnmmMw5rJZrA=" crossorigin="anonymous"></script>
+
+
+    <!-- Main JS File -->
+    <script src="/TemplateGreenYellow/assets/js/main.js"></script>
+
+    <style>
+        .dropdown-toggle::after {
+            display: none;
+        }
+    </style>
+    <script src="/js/color-switcher.js"></script>
+    <script src="/js/layout_header_footer.js"></script>
+
+    <script src="/js/chatbot.js"></script>
+    
+   
+</body>
+
+</html>
+
+
