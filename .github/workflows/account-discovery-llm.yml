@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "account-discovery-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -f account-discovery/tagging/llm_lookup.csv account-discovery/out/llm_audit.jsonl
+          git add -f account-discovery/tagging/llm_lookup.csv; [ -f account-discovery/out/llm_audit.jsonl ] && git add -f account-discovery/out/llm_audit.jsonl || true
           git commit -m "account-discovery: LLM lookup + audit log" || echo "nothing to commit"
           git pull --rebase origin "${GITHUB_REF_NAME}" || true
           git push origin "HEAD:${GITHUB_REF_NAME}"
