@@ -7,3 +7,8 @@
 {"event": "call", "request_id": "req_011ChG18LvdsxBb9jdVxJ5YU", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 0, "ids_hash": "2c9b9ae278b5", "in_tok": 1747, "out_tok": 1280, "cache_write": 1008, "cache_read": 0, "cost_usd": 0.00941, "ms": 6190, "attempt": 1, "ts": "2026-11-21T11:35:01+00:00"}
 {"event": "call", "request_id": "req_011ChG18M3LCQekbSseZhmQt", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 0, "ids_hash": "5433f44e9636", "in_tok": 1886, "out_tok": 1280, "cache_write": 1008, "cache_read": 0, "cost_usd": 0.00955, "ms": 6657, "attempt": 1, "ts": "2026-11-21T11:35:01+00:00"}
 {"event": "run_end", "spent": 0.019, "names_done": 102, "stopped_early": false, "ts": "2026-11-21T11:35:01+00:00"}
+{"event": "quarantined", "key": "dafb5c03cfcf", "ts": "2026-11-21T11:36:09+00:00"}
+{"event": "quarantined", "key": "e4a1224c8132", "ts": "2026-11-21T11:36:09+00:00"}
+{"event": "call", "sample": null, "stop": "end_turn", "request_id": "req_011ChG1Dqj8DuJvQA1CX57Mr", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 50, "ids_hash": "2c9b9ae278b5", "in_tok": 1747, "out_tok": 544, "cache_write": 1007, "cache_read": 0, "cost_usd": 0.00573, "ms": 2189, "attempt": 1, "ts": "2026-11-21T11:36:11+00:00"}
+{"event": "call", "sample": null, "stop": "end_turn", "request_id": "req_011ChG1Dqj8hbeLMW1HJPVqr", "model": "claude-haiku-5-5", "prefix": "55a8cd0942d3", "n": 50, "parsed": 50, "ids_hash": "5433f44e9636", "in_tok": 1886, "out_tok": 549, "cache_write": 1007, "cache_read": 0, "cost_usd": 0.00589, "ms": 2236, "attempt": 1, "ts": "2026-11-21T11:36:11+00:00"}
+{"event": "run_end", "spent": 0.0116, "names_done": 102, "stopped_early": false, "ts": "2026-11-21T11:36:11+00:00"}
