@@ -1,1 +1,1 @@
-growthlist --csv out --delay 1
+apedadir --csv out --delay 1
