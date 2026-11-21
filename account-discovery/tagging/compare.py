@@ -21,8 +21,8 @@ import argparse, collections, csv, difflib, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from clean import clean_name, legal_key, fuzzy_key, good_domain  # noqa: E402
 
-NAME_COLS = ["Name (clean)", "Company name (as listed)", "Company name", "Company", "Name", "name"]
-ID_COLS = ["Account ID", "ID", "id"]
+NAME_COLS = ["Name (clean)", "Account Name", "Company name (as listed)", "Company name", "Company", "Name", "name"]
+ID_COLS = ["Account ID", "Record Id", "ID", "id"]
 CIN_COLS = ["CIN", "cin"]
 DOM_COLS = ["Domain", "Website", "domain"]
 LOC_COLS = ["City / State", "City", "Location", "State"]
@@ -57,8 +57,13 @@ class Table:
         cin = (r.get(self.cin, "") if self.cin else "").strip().upper()
         return {"i": i, "id": (r.get(self.id) if self.id else None) or f"row{i + 1}", "name": nm, "low": nm.lower(),
                 "first": first, "lk": legal_key(nm), "fk": fuzzy_key(nm),
-                "dom": good_domain(r.get(self.dom, "") if self.dom else ""), "loc": loc,
+                "dom": good_domain(host(r.get(self.dom, "") if self.dom else "")), "loc": loc,
                 "cin": cin if len(cin) == 21 else ""}
+
+
+def host(d):
+    d = re.sub(r"^[a-z]+://", "", (d or "").strip().lower())
+    return d.split("/")[0].split("?")[0]
 
 
 def compatible(a, b):
