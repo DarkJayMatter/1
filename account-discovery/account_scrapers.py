@@ -562,24 +562,101 @@ def run_edgar(sink, args):
 
 
 PROBES = {
-    "p_ism_funded_blr": "https://indianstartupmap.com/funded/bengaluru",
-    "p_ism_funded_pune": "https://indianstartupmap.com/funded/pune",
+ "R9_nasscom":"https://nasscom.in/", "R10_ficci_fmcg":"https://ficci.in/sector/fmcg",
+ "R11_startupindia":"https://www.startupindia.gov.in/",
+ "R45_irdai_life":"https://irdai.gov.in/web/guest/list-of-life-insurers1",
+ "R46_irdai_general":"https://irdai.gov.in/web/guest/list-of-general-insurers",
+ "R50_ambitionbox":"https://www.ambitionbox.com/list-of-companies",
+ "R51_abeca":"https://www.ambitionbox.com/abeca-2026/top-rated-large-companies-to-work-2026",
+ "R65_growthlist":"https://growthlist.co/india-startups/",
+ "R67_inc42_datalabs":"https://inc42.com/datalabs/",
+ "R72_datagov":"https://data.gov.in/",
+ "R73_quickcompany":"https://www.quickcompany.in/",
+ "R82_clutch":"https://clutch.co/it-services/india",
+ "R83_fortuneindia":"https://www.fortuneindia.com/",
+ "R85_hurun":"https://www.hurunindia.com/",
+ "R89_wellfound":"https://wellfound.com/startups/location/india",
+ "R90_iesa":"https://iesaonline.org/",
+ "R91_elcina_pdf":"https://elcina.com/assets/pdfs/ELCINA-Directory-Sample.pdf",
+ "R95_rbi_pso":"https://website.rbi.org.in/web/rbi/payment-and-settlements/other-links/information-useful-to-banks-fis/payment-system-operators",
+ "R96_rbi_pa_pdf":"https://website.rbi.org.in/documents/d/rbi/palist16112025-1-",
+ "R98_nhb":"https://nhb.org.in/",
+ "R100_amfi":"https://www.amfiindia.com/",
+ "R101_mfin":"https://mfinindia.org/",
+ "R102_ifsca":"https://ifsca.gov.in/",
+ "R103_cdsco_mfg_pdf":"https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/CLAAmanufacturing.pdf",
+ "R104_tn_md_pdf":"https://drugscontrol.tn.gov.in/tamil/pages/manufacturers_directory/medical_devices.pdf",
+ "R105_cdsco_rc_pdf":"https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/RC_2016.pdf",
+ "R107_nabh":"https://nabh.co/",
+ "R108_nabl":"https://nabl-india.org/",
+ "R109_abdm_hfr":"https://facility.abdm.gov.in/",
+ "R111_birac":"https://birac.nic.in/",
+ "R112_pli_pib":"https://pib.gov.in/PressReleasePage.aspx?PRID=1776843",
+ "R113_ism":"https://ism.gov.in/",
+ "R114_dot":"https://dot.gov.in/",
+ "R115_mib_pdf":"https://trai.gov.in/sites/default/files/2026-07/MIB_23072026.pdf",
+ "R115_fta_pdf":"https://www.trai.gov.in/sites/default/files/2026-07/FTA_23072026.pdf",
+ "R116_rni":"https://rni.nic.in/",
+ "R117_bis_fmcs":"https://www.bis.gov.in/fmcs/licensees",
+ "R117_bis_list":"https://services.bis.gov.in/php/BIS_2.0/fmcs/All_fmcs_list.php",
+ "R118_dsir_pdf":"https://cdnbbsr.s3waas.gov.in/s3d860edd1dd83b36f02ce52bde626c653/uploads/2020/04/2020042422.pdf",
+ "R120_dgca":"https://www.dgca.gov.in/",
+ "R121_sidm":"https://sidm.in/",
+ "R122_sez":"https://sezindia.nic.in/",
+ "R123_mpeda":"https://mpeda.gov.in/",
+ "R123_eepc":"https://www.eepcindia.org/",
+ "R123_fieo":"https://www.fieo.org/",
+ "R125_foscos":"https://foscos.fssai.gov.in/",
+ "R126_cea":"https://cea.nic.in/",
+ "R126_mnre":"https://mnre.gov.in/",
+ "R127_dpe":"https://dpe.gov.in/",
+ "R128_dgshipping":"https://www.dgshipping.gov.in/",
+ "R129_maharera":"https://maharera.maharashtra.gov.in/",
+ "R132_cmmi":"https://cmmiinstitute.com/",
+ "R133_certin":"https://www.cert-in.org.in/",
+ "R133_dsci":"https://www.dsci.in/",
+ "R134_csr":"https://www.csr.gov.in/",
+ "R135_ondc":"https://ondc.org/",
+ "R136_icai":"https://www.icai.org/",
+ "R137_nifty_fmcg_pdf":"https://www.niftyindices.com/Factsheet/ind_nifty_FMCG.pdf",
+ "R139_inc42_d2c":"https://inc42.com/?p=256258",
+ "R139_inc42_122":"https://inc42.com/features/d2c-brands-that-are-disrupting-indias-consumer-market/amp/",
+ "R139_inc42_fnb":"https://inc42.com/features/fb-d2c-brands-in-india",
+ "R145_apeda_dir":"https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page=1",
+ "R146_apeda_pdf":"https://apeda.gov.in/sites/default/files/documents/2025-11/Quality_Development_2021_to_2025.pdf",
+ "R147_inspace_pib":"https://www.globalsecurity.org/space/library/news/2026/space-260812-india-pib01.htm",
+ "R148_idex_pdf":"https://eparlib.sansad.in/bitstream/123456789/1470083/1/AU1428.pdf",
+ "R149_acma_cat":"https://www.acma.in/uploads/otherdocmanager/Exhibitors_Catalogue.pdf",
+ "R150_tourism_hotels":"https://www.india.gov.in/list-approved-heritage-hotels",
+ "R152_credai":"https://credai.org/abouts",
+ "R152_rera_up":"https://up-rera.in/",
 }
 
 
 def run_probe(sink, args):
-    """Save raw HTML of first page of each source so parsers can be written against real markup."""
+    """Probe each URL once: robots allow, HTTP status, content type, size, title. Writes out/probe/summary.csv."""
     os.makedirs("out/probe", exist_ok=True)
+    rows = []
     for k, url in PROBES.items():
+        row = {"key": k, "url": url, "robots": "", "status": "", "ctype": "", "bytes": "", "title": "", "final_url": ""}
         try:
             if not allowed(url):
-                print(f"{k}: robots.txt disallows"); continue
+                row["robots"] = "DISALLOW"; print(f"{k}: robots.txt disallows"); rows.append(row); continue
+            row["robots"] = "ok"
             r = SESSION.get(url, timeout=45)
-            open(f"out/probe/{k}.html", "w", encoding="utf-8").write(r.text)
-            print(f"{k}: HTTP {r.status_code}, {len(r.text)} bytes")
+            row.update(status=r.status_code, ctype=r.headers.get("content-type", "")[:40], bytes=len(r.content), final_url=r.url)
+            m = re.search(r"<title[^>]*>(.*?)</title>", r.text[:20000], re.S | re.I) if "html" in row["ctype"] else None
+            row["title"] = re.sub(r"\s+", " ", m.group(1)).strip()[:90] if m else ""
+            print(f"{k}: HTTP {r.status_code} {row['ctype']} {row['bytes']} bytes | {row['title']}")
+            if r.status_code == 200:
+                ext = "pdf" if "pdf" in row["ctype"] else "html"
+                open(f"out/probe/{k}.{ext}", "wb").write(r.content[:600000])
         except Exception as e:
-            print(f"{k}: failed {e}")
+            row["status"] = "ERR"; row["title"] = str(e)[:90]; print(f"{k}: failed {e}")
+        rows.append(row)
         time.sleep(args.delay)
+    with open("out/probe/summary.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
 
 
 def run_nextknock(sink, args):
