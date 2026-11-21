@@ -1,0 +1,16 @@
+source_id,vertical,archetype,confidence,note
+R43,BFSI,,high,RBI NBFC list
+R44,BFSI,,high,NBFC-linked list
+R47,BFSI,,high,SEBI intermediaries
+R48,Telecom/media/entertainment,,high,TRAI ISPs
+R115,Telecom/media/entertainment,,high,MIB TV broadcasters
+R111,Healthcare & life sciences,funded startup,high,BIRAC biotech
+R145,Agri & food processing,,high,APEDA exporters
+R146,Agri & food processing,,high,APEDA FAS exporters
+R139,Consumer/FMCG/D2C,funded startup,high,Inc42 D2C
+R80,,funded startup,none,Startup Map: archetype only
+R8,IT/ITES/BPM,,high,STPI units
+R62,,GCC,none,GCC list: archetype only
+R63,,GCC,none,GCC list: archetype only
+R25,,GCC;MNC India arm,none,GCC subsidiary list
+R94,,GCC,none,GIC list
