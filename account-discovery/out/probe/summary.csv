@@ -1,70 +1,12 @@
 key,url,robots,status,ctype,bytes,title,final_url
-R9_nasscom,https://nasscom.in/,ok,200,text/html; charset=UTF-8,109987,Nasscom | nasscom,https://nasscom.in/
-R10_ficci_fmcg,https://ficci.in/sector/fmcg,ok,200,text/html; charset=UTF-8,265475,FICCI FMCG Sector,https://ficci.in/sector/fmcg
-R11_startupindia,https://www.startupindia.gov.in/,ok,200,text/html; charset=UTF-8,612076,Startup India,https://www.startupindia.gov.in/
-R45_irdai_life,https://irdai.gov.in/web/guest/list-of-life-insurers1,DISALLOW,,,,,
-R46_irdai_general,https://irdai.gov.in/web/guest/list-of-general-insurers,DISALLOW,,,,,
-R50_ambitionbox,https://www.ambitionbox.com/list-of-companies,ok,403,text/html,398,Access Denied,https://www.ambitionbox.com/list-of-companies
-R51_abeca,https://www.ambitionbox.com/abeca-2026/top-rated-large-companies-to-work-2026,ok,403,text/html,454,Access Denied,https://www.ambitionbox.com/abeca-2026/top-rated-large-companies-to-work-2026
-R65_growthlist,https://growthlist.co/india-startups/,ok,200,text/html; charset=UTF-8,280033,"Startups in India 2026: 3,928+ Funded Companies | Growth List",https://growthlist.co/india-startups/
-R67_inc42_datalabs,https://inc42.com/datalabs/,ok,200,text/html; charset=UTF-8,666326,Inc42 Datalabs: India&#039;s #1 Startup Intelligence Platform,https://inc42.com/datalabs/
-R72_datagov,https://data.gov.in/,ok,ERR,,,"HTTPSConnectionPool(host='data.gov.in', port=443): Max retries exceeded with url: / (Cause",
-R73_quickcompany,https://www.quickcompany.in/,ok,200,text/html; charset=utf-8,8300,,https://www.quickcompany.in/
-R82_clutch,https://clutch.co/it-services/india,ok,403,text/html; charset=UTF-8,5610,Just a moment...,https://clutch.co/it-services/india
-R83_fortuneindia,https://www.fortuneindia.com/,ok,200,text/html; charset=utf-8,1130850,"Fortune India: Business News, Finance, Economy, and Corporate Insights",https://www.fortuneindia.com/
-R85_hurun,https://www.hurunindia.com/,ok,200,text/html; charset=utf-8,80049,Hurun,https://hurunindia.com/
-R89_wellfound,https://wellfound.com/startups/location/india,ok,200,text/html; charset=utf-8,310860,Best Tech Companies and Startups in India 2027 | Wellfound,https://wellfound.com/startups/location/india
-R90_iesa,https://iesaonline.org/,ok,200,text/html; charset=UTF-8,73608,,https://iesaonline.org/
-R91_elcina_pdf,https://elcina.com/assets/pdfs/ELCINA-Directory-Sample.pdf,ok,200,application/pdf,1057088,,https://elcina.com/assets/pdfs/ELCINA-Directory-Sample.pdf
-R95_rbi_pso,https://website.rbi.org.in/web/rbi/payment-and-settlements/other-links/information-useful-to-banks-fis/payment-system-operators,ok,200,text/html; charset=utf-8,152165,Home | Official website of Reserve Bank of India,https://www.rbi.org.in/
-R96_rbi_pa_pdf,https://website.rbi.org.in/documents/d/rbi/palist16112025-1-,ok,200,text/html; charset=utf-8,153724,Home | Official website of Reserve Bank of India,https://www.rbi.org.in/
-R98_nhb,https://nhb.org.in/,ok,403,text/html; charset=UTF-8,5658,Attention Required! | Cloudflare,https://nhb.org.in/
-R100_amfi,https://www.amfiindia.com/,ok,200,text/html; charset=utf-8,248887,,https://www.amfiindia.com/
-R101_mfin,https://mfinindia.org/,ok,200,text/html; charset=UTF-8,86386,MFIN INDIA,https://mfinindia.org/
-R102_ifsca,https://ifsca.gov.in/,ok,200,text/html; charset=utf-8,125399,International Financial Services Centres Authority,https://ifsca.gov.in/
-R103_cdsco_mfg_pdf,https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/CLAAmanufacturing.pdf,ok,ERR,,,"HTTPSConnectionPool(host='cdsco.gov.in', port=443): Max retries exceeded with url: /opencm",
-R104_tn_md_pdf,https://drugscontrol.tn.gov.in/tamil/pages/manufacturers_directory/medical_devices.pdf,ok,ERR,,,"HTTPSConnectionPool(host='drugscontrol.tn.gov.in', port=443): Max retries exceeded with ur",
-R105_cdsco_rc_pdf,https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/RC_2016.pdf,ok,ERR,,,"HTTPSConnectionPool(host='cdsco.gov.in', port=443): Max retries exceeded with url: /opencm",
-R107_nabh,https://nabh.co/,ok,200,text/html; charset=UTF-8,298846,National Accreditation Board for Hospitals &amp; Healthcare Providers,https://nabh.co/
-R108_nabl,https://nabl-india.org/,ok,200,text/html; charset=UTF-8,254555,Home - NABL,https://nabl-india.org/
-R109_abdm_hfr,https://facility.abdm.gov.in/,ok,403,text/html,919,ERROR: The request could not be satisfied,https://facility.abdm.gov.in/
-R111_birac,https://birac.nic.in/,ok,200,text/html; charset=UTF-8,125940,BIRAC-Home,https://birac.nic.in/
-R112_pli_pib,https://pib.gov.in/PressReleasePage.aspx?PRID=1776843,ok,403,text/html,402,Access Denied,https://www.pib.gov.in/PressReleasePage.aspx?PRID=1776843
-R113_ism,https://ism.gov.in/,ok,200,text/html; charset=utf-8,140571,Home | India Semiconductor Mission,https://ism.gov.in/
-R114_dot,https://dot.gov.in/,ok,403,text/html,370,Access Denied,https://www.dot.gov.in/
-R115_mib_pdf,https://trai.gov.in/sites/default/files/2026-07/MIB_23072026.pdf,ok,200,application/pdf,122479,,https://trai.gov.in/sites/default/files/2026-07/MIB_23072026.pdf
-R115_fta_pdf,https://www.trai.gov.in/sites/default/files/2026-07/FTA_23072026.pdf,ok,200,application/pdf,210811,,https://www.trai.gov.in/sites/default/files/2026-07/FTA_23072026.pdf
-R116_rni,https://rni.nic.in/,ok,ERR,,,"HTTPSConnectionPool(host='rni.nic.in', port=443): Max retries exceeded with url: / (Caused",
-R117_bis_fmcs,https://www.bis.gov.in/fmcs/licensees,ok,200,text/html; charset=UTF-8,457817,,https://www.bis.gov.in/fmcs/licensees/?lang=hi
-R117_bis_list,https://services.bis.gov.in/php/BIS_2.0/fmcs/All_fmcs_list.php,ok,200,text/html; charset=UTF-8,2098206,All FMCS list,https://services.bis.gov.in/php/BIS_2.0/fmcs/All_fmcs_list.php
-R118_dsir_pdf,https://cdnbbsr.s3waas.gov.in/s3d860edd1dd83b36f02ce52bde626c653/uploads/2020/04/2020042422.pdf,ok,200,application/pdf,710319,,https://cdnbbsr.s3waas.gov.in/s3d860edd1dd83b36f02ce52bde626c653/uploads/2020/04/2020042422.pdf
-R120_dgca,https://www.dgca.gov.in/,ok,200,text/html;charset=utf-8,220927,Home | Directorate General of Civil Aviation | Government of India,https://www.dgca.gov.in/digigov-portal/
-R121_sidm,https://sidm.in/,ok,200,text/html,212,,https://sidm.in/
-R122_sez,https://sezindia.nic.in/,ok,ERR,,,"HTTPSConnectionPool(host='sezindia.nic.in', port=443): Max retries exceeded with url: / (C",
-R123_mpeda,https://mpeda.gov.in/,ok,200,text/html; charset=UTF-8,275659,MPEDA &#8211; MARINE PRODUCTS EXPORTS DEVELOPMENT AUTHORITY,https://mpeda.gov.in/
-R123_eepc,https://www.eepcindia.org/,ok,200,text/html,1976,EEPC India,https://www.eepcindia.org/
-R123_fieo,https://www.fieo.org/,ok,ERR,,,"HTTPSConnectionPool(host='www.fieo.org', port=443): Max retries exceeded with url: / (Caus",
-R125_foscos,https://foscos.fssai.gov.in/,ok,200,text/html,4181,FoSCoS - FSSAI,https://foscos.fssai.gov.in/
-R126_cea,https://cea.nic.in/,ok,200,text/html;charset=UTF-8,232876,"Central Electricity Authority, Ministry of Power, Government of India",https://cea.nic.in/
-R126_mnre,https://mnre.gov.in/,ok,200,text/html; charset=utf-8,3998,,https://mnre.gov.in/
-R127_dpe,https://dpe.gov.in/,ok,403,text/html,372,Access Denied,https://www.dpe.gov.in/
-R128_dgshipping,https://www.dgshipping.gov.in/,ok,ERR,,,"HTTPSConnectionPool(host='www.dgshipping.gov.in', port=443): Max retries exceeded with url",
-R129_maharera,https://maharera.maharashtra.gov.in/,ok,ERR,,,"HTTPSConnectionPool(host='maharera.maharashtra.gov.in', port=443): Max retries exceeded wi",
-R132_cmmi,https://cmmiinstitute.com/,ok,200,text/html; charset=utf-8,30793,CMMI Institute - Home,https://cmmiinstitute.com/
-R133_certin,https://www.cert-in.org.in/,ok,200,text/html;charset=ISO-8859-1,447,Indian - Computer Emergency Response Team,https://www.cert-in.org.in/
-R133_dsci,https://www.dsci.in/,ok,200,text/html; charset=utf-8,298060,Data Security Council of India (DSCI),https://www.dsci.in/
-R134_csr,https://www.csr.gov.in/,ok,403,text/html,370,Access Denied,https://www.csr.gov.in/
-R135_ondc,https://ondc.org/,ok,200,text/html,2489,Open Network for Digital Commerce (ONDC),https://ondc.org/
-R136_icai,https://www.icai.org/,ok,200,text/html; charset=UTF-8,81286,ICAI - The Institute of Chartered Accountants of India,https://www.icai.org/
-R137_nifty_fmcg_pdf,https://www.niftyindices.com/Factsheet/ind_nifty_FMCG.pdf,ok,ERR,,,"HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=",
-R139_inc42_d2c,https://inc42.com/?p=256258,ok,200,text/html; charset=UTF-8,585994,Indian D2C Tracker: 100+ D2C Brands Database At One Place,https://inc42.com/datalab/indias-d2c-brands-tracker-funding-investors-revenue-and-more/
-R139_inc42_122,https://inc42.com/features/d2c-brands-that-are-disrupting-indias-consumer-market/amp/,ok,200,text/html; charset=UTF-8,820026,122 D2C Brands That Are Disrupting India’s Consumer Market,https://inc42.com/features/d2c-brands-that-are-disrupting-indias-consumer-market/
-R139_inc42_fnb,https://inc42.com/features/fb-d2c-brands-in-india,ok,200,text/html; charset=UTF-8,743198,Here Are 49 F&amp;B D2C Brands Reshaping The Indian Consumer Market,https://inc42.com/features/fb-d2c-brands-in-india/
-R145_apeda_dir,https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page=1,ok,200,text/html; charset=utf-8,64548,List of Registered Exporters,https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page=1
-R146_apeda_pdf,https://apeda.gov.in/sites/default/files/documents/2025-11/Quality_Development_2021_to_2025.pdf,ok,200,application/pdf,504110,,https://apeda.gov.in/sites/default/files/documents/2025-11/Quality_Development_2021_to_2025.pdf
-R147_inspace_pib,https://www.globalsecurity.org/space/library/news/2026/space-260812-india-pib01.htm,ok,402,application/json,694,,https://www.globalsecurity.org/space/library/news/2026/space-260812-india-pib01.htm
-R148_idex_pdf,https://eparlib.sansad.in/bitstream/123456789/1470083/1/AU1428.pdf,ok,ERR,,,"HTTPSConnectionPool(host='eparlib.sansad.in', port=443): Max retries exceeded with url: /b",
-R149_acma_cat,https://www.acma.in/uploads/otherdocmanager/Exhibitors_Catalogue.pdf,ok,200,application/pdf,5869092,,https://www.acma.in/uploads/otherdocmanager/Exhibitors_Catalogue.pdf
-R150_tourism_hotels,https://www.india.gov.in/list-approved-heritage-hotels,ok,403,text/html,415,Access Denied,https://www.india.gov.in/list-approved-heritage-hotels
-R152_credai,https://credai.org/abouts,ok,200,text/html; charset=UTF-8,40029,CREDAI,https://credai.org/abouts/
-R152_rera_up,https://up-rera.in/,ok,200,text/html; charset=utf-8,171775,,https://up-rera.in/
+R90_iesa_dir,https://iesaonline.org/members-directory,ok,200,text/html; charset=UTF-8,60418,,https://iesaonline.org/login
+R101_mfin_members,https://mfinindia.org/members,ok,200,text/html; charset=UTF-8,238049,MFIN INDIA,https://mfinindia.org/members
+R102_ifsca_dir,https://ifsca.gov.in/DirectoryList,ok,200,text/html; charset=utf-8,79276,International Financial Services Centres Authority,https://ifsca.gov.in/DirectoryList
+R133_dsci_dir,https://www.dsci.in/corporate-member/member-directory,ok,200,text/html; charset=utf-8,136696,Corporate Member Directory | Data Security Council of India (DSCI),https://www.dsci.in/corporate-member/member-directory
+R111_birac_pdf,https://birac.nic.in/webcontent/list_of_122_startups.pdf,ok,200,application/pdf,106565,,https://birac.nic.in/webcontent/list_of_122_startups.pdf
+R123_mpeda_plants,https://mpeda.gov.in/?page_id=1100,ok,200,text/html; charset=UTF-8,111828,Approved Processing Plants &#038; Cold Storages &#8211; MPEDA,https://mpeda.gov.in/?page_id=1100
+R123_mpeda_exp,https://e-mpeda.nic.in/registration/Rpt_Region_Wise_Exporters_new.aspx,ok,200,text/html; charset=utf-8,72059,Online Registration System - MPEDA,https://e-mpeda.nic.in/registration/Rpt_Region_Wise_Exporters_new.aspx
+R108_nabl_cabs,https://nabl-india.org/lab-accreditation/,ok,200,text/html; charset=UTF-8,206616,Find an NABL Accredited Laboratory | NABL - QCI,https://nabl-india.org/lab-accreditation/
+R136_icai_dir,https://www.icai.org/post/icai-official-directory,ok,200,text/html; charset=UTF-8,46492,ICAI - The Institute of Chartered Accountants of India,https://www.icai.org/post/icai-official-directory
+R107_nabh_find,https://nabh.co/find-a-healthcare-organisation/,ok,200,text/html; charset=UTF-8,153890,Find an Accredited Healthcare Organisation - National Accreditation Board for Hospitals an,https://nabh.co/find-a-healthcare-organisation/
+R121_sidm_membership,https://sidm.in/membership,ok,200,text/html;charset=UTF-8,60006,Membership,https://www.sidm.in/membership
