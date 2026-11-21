@@ -1,1 +1,1 @@
-probe --csv out --delay 1
+birac --csv out --delay 1

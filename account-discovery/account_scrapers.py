@@ -736,6 +736,59 @@ def run_links(sink, args):
 
 
 
+_DSCI_RE = re.compile(r'"company_name":"((?:[^"\\]|\\.)*)","sector":"((?:[^"\\]|\\.)*)","city":"((?:[^"\\]|\\.)*)"')
+
+
+def _dsci_page(text):
+    return [(json.loads('"%s"' % a), json.loads('"%s"' % b), json.loads('"%s"' % c)) for a, b, c in _DSCI_RE.findall(text)]
+
+
+def run_dsci(sink, args):
+    """R133: DSCI corporate member directory (35 pages of 16; the page embeds each page as JSON)."""
+    base = "https://www.dsci.in/corporate-member/member-directory"
+    r1 = get(base, args.delay)
+    if r1 is None:
+        print("dsci: no response"); return
+    first = _dsci_page(r1.text)
+    tp = re.search(r'"total_page":(\d+)', r1.text)
+    total = int(tp.group(1)) if tp else 1
+    print(f"dsci: page 1 has {len(first)} rows, total_page={total}")
+    def add(rows):
+        return sum(sink.add(n, city=c, industry=f"DSCI member: {sec}", profile_url=base, raw={"sector": sec}) for n, sec, c in rows)
+    new = add(first)
+    # find a paging parameter that changes the page content
+    variants = ["?page={n}", "?p={n}", "?pageNo={n}"]
+    param = None
+    for v in variants:
+        url = base + v.format(n=2)
+        r2 = get(url, args.delay)
+        if r2 is not None:
+            rows2 = _dsci_page(r2.text)
+            if rows2 and rows2[0] != first[0]:
+                param = v; print(f"dsci: paging works with {v}"); new += add(rows2); break
+    if not param:
+        print("dsci: no paging parameter changed the content; only page 1 loaded")
+    else:
+        for n in range(3, total + 1):
+            r = get(base + param.format(n=n), args.delay)
+            if r is None:
+                break
+            new += add(_dsci_page(r.text))
+    print(f"dsci: {new} new rows")
+
+
+def run_birac(sink, args):
+    """R111: BIRAC supported startups list (PDF, 'S. No. Name of the startup')."""
+    url = "https://birac.nic.in/webcontent/list_of_122_startups.pdf"
+    r = get(url, args.delay)
+    if r is None:
+        print("birac: no response"); return
+    names = parse_mib(_pdf_text(r.content))
+    new = sum(sink.add(n, industry="Biotech startup (BIRAC supported)", profile_url=url) for n in names)
+    print(f"birac: {len(names)} names, {new} new")
+
+
+
 def run_nextknock(sink, args):
     """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
     r = get("https://www.nextknock.in/companies", args.delay)
@@ -1161,7 +1214,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"dsci": ("R133", run_dsci), "birac": ("R111", run_birac), "links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),
