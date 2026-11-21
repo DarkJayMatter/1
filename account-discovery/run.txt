@@ -1,1 +1,1 @@
-dsci --csv out --delay 1
+deep --csv out --delay 1

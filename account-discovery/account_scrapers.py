@@ -806,6 +806,63 @@ def run_birac(sink, args):
 
 
 
+DEEP_SITES = {
+ "R65_growthlist":"https://growthlist.co/india-startups/",
+ "R100_amfi":"https://www.amfiindia.com/", "R102_ifsca":"https://ifsca.gov.in/DirectoryList",
+ "R107_nabh":"https://nabh.co/find-a-healthcare-organisation/", "R108_nabl":"https://nabl-india.org/lab-accreditation/",
+ "R120_dgca":"https://www.dgca.gov.in/", "R123_mpeda":"https://mpeda.gov.in/?page_id=1100",
+ "R126_cea":"https://cea.nic.in/", "R132_cmmi":"https://cmmiinstitute.com/", "R136_icai":"https://www.icai.org/post/icai-official-directory",
+ "R141_ficci":"https://ficci.in/sector/fmcg", "R152_credai":"https://credai.org/abouts", "R152_rera_up":"https://up-rera.in/project",
+ "R145_apeda_p2":"https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page=2",
+ "R145_apeda_p122":"https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page=122",
+ "R121_sidm":"https://sidm.in/membership", "R113_ism":"https://ism.gov.in/",
+}
+_DEEP_KW = re.compile(r"amc|fund house|compan|member|director|list of|registered|licen[cs]|accredit|appraised|exporter|promoter|startup|unit|plant|institut|firm", re.I)
+
+
+def run_deep(sink, args):
+    """Fetch each seed page and up to 8 same-site pages whose link text looks like a list; report size, tables, lists."""
+    os.makedirs("out/probe", exist_ok=True)
+    rows = []
+    def rec(k, url):
+        try:
+            if not allowed(url):
+                rows.append((k, url, "DISALLOW", "", 0, 0, 0, "")); return None
+            r = SESSION.get(url, timeout=45)
+            ct = r.headers.get("content-type", "")[:30]
+            soup = BeautifulSoup(r.text, "html.parser") if "html" in ct else None
+            tr = len(soup.find_all("tr")) if soup else 0
+            li = len(soup.find_all("li")) if soup else 0
+            ttl = (soup.title.get_text(strip=True)[:60] if soup and soup.title else "")
+            rows.append((k, url, r.status_code, ct, len(r.content), tr, li, ttl))
+            print(f"{k}: {r.status_code} {len(r.content)}B tr={tr} li={li} {url[:90]}")
+            fn = re.sub(r"[^A-Za-z0-9]+", "_", url)[-60:]
+            if r.status_code == 200:
+                open(f"out/probe/deep_{k}_{fn}.html", "wb").write(r.content[:400000])
+            return soup
+        except Exception as e:
+            rows.append((k, url, "ERR", str(e)[:40], 0, 0, 0, "")); print(f"{k}: err {e}"); return None
+        finally:
+            time.sleep(args.delay)
+    for k, url in DEEP_SITES.items():
+        soup = rec(k, url)
+        if not soup:
+            continue
+        host = re.match(r"https?://[^/]+", url).group(0)
+        seen, n = {url}, 0
+        for a in soup.find_all("a", href=True):
+            h = urljoin(url, a["href"]).split("#")[0]
+            if not h.startswith(host) or h in seen or re.search(r"\.(jpg|png|gif|css|js)(\?|$)", h, re.I):
+                continue
+            if _DEEP_KW.search(a.get_text(" ", strip=True)) or re.search(r"director|member|list", h, re.I):
+                seen.add(h); n += 1; rec(k, h)
+                if n >= 8:
+                    break
+    with open("out/probe/deep.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f); w.writerow(["site", "url", "status", "ctype", "bytes", "tr", "li", "title"]); w.writerows(rows)
+
+
+
 def run_nextknock(sink, args):
     """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
     r = get("https://www.nextknock.in/companies", args.delay)
@@ -1231,7 +1288,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"dsci": ("R133", run_dsci), "birac": ("R111", run_birac), "links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"deep": ("DEEP", run_deep), "dsci": ("R133", run_dsci), "birac": ("R111", run_birac), "links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),
