@@ -149,7 +149,7 @@ def est_tokens(items):
 
 
 def build_params(items, a):
-    return {"model": a.model, "max_tokens": 24 * len(items) + 80, "temperature": 0,
+    return {"model": a.model, "max_tokens": 24 * len(items) + 80,
             "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
             "messages": [{"role": "user", "content": json.dumps(
                 [{"id": i["id"], "name": i["name"], "loc": i["loc"]} for i in items], ensure_ascii=False)}]}
