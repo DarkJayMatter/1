@@ -1,0 +1,69 @@
+R9_nasscom: HTTP 200 text/html; charset=UTF-8 109987 bytes | Nasscom | nasscom
+R10_ficci_fmcg: HTTP 200 text/html; charset=UTF-8 265475 bytes | FICCI FMCG Sector
+R11_startupindia: HTTP 200 text/html; charset=UTF-8 612076 bytes | Startup India
+R45_irdai_life: robots.txt disallows
+R46_irdai_general: robots.txt disallows
+R50_ambitionbox: HTTP 403 text/html 398 bytes | Access Denied
+R51_abeca: HTTP 403 text/html 454 bytes | Access Denied
+R65_growthlist: HTTP 200 text/html; charset=UTF-8 280033 bytes | Startups in India 2026: 3,928+ Funded Companies | Growth List
+R67_inc42_datalabs: HTTP 200 text/html; charset=UTF-8 666326 bytes | Inc42 Datalabs: India&#039;s #1 Startup Intelligence Platform
+R72_datagov: failed HTTPSConnectionPool(host='data.gov.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='data.gov.in', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+R73_quickcompany: HTTP 200 text/html; charset=utf-8 8300 bytes | 
+R82_clutch: HTTP 403 text/html; charset=UTF-8 5610 bytes | Just a moment...
+R83_fortuneindia: HTTP 200 text/html; charset=utf-8 1130850 bytes | Fortune India: Business News, Finance, Economy, and Corporate Insights
+R85_hurun: HTTP 200 text/html; charset=utf-8 80049 bytes | Hurun
+R89_wellfound: HTTP 200 text/html; charset=utf-8 310860 bytes | Best Tech Companies and Startups in India 2027 | Wellfound
+R90_iesa: HTTP 200 text/html; charset=UTF-8 73608 bytes | 
+R91_elcina_pdf: HTTP 200 application/pdf 1057088 bytes | 
+R95_rbi_pso: HTTP 200 text/html; charset=utf-8 152165 bytes | Home | Official website of Reserve Bank of India
+R96_rbi_pa_pdf: HTTP 200 text/html; charset=utf-8 153724 bytes | Home | Official website of Reserve Bank of India
+R98_nhb: HTTP 403 text/html; charset=UTF-8 5658 bytes | Attention Required! | Cloudflare
+R100_amfi: HTTP 200 text/html; charset=utf-8 248887 bytes | 
+R101_mfin: HTTP 200 text/html; charset=UTF-8 86386 bytes | MFIN INDIA
+R102_ifsca: HTTP 200 text/html; charset=utf-8 125399 bytes | International Financial Services Centres Authority
+R103_cdsco_mfg_pdf: failed HTTPSConnectionPool(host='cdsco.gov.in', port=443): Max retries exceeded with url: /opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/CLAAmanufacturing.pdf (Caused by NewConnectionError("HTTPSConnection(host='cdsco.gov.in', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+R104_tn_md_pdf: failed HTTPSConnectionPool(host='drugscontrol.tn.gov.in', port=443): Max retries exceeded with url: /tamil/pages/manufacturers_directory/medical_devices.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))
+R105_cdsco_rc_pdf: failed HTTPSConnectionPool(host='cdsco.gov.in', port=443): Max retries exceeded with url: /opencms/resources/UploadCDSCOWeb/2018/UploadImmunization/RC_2016.pdf (Caused by NewConnectionError("HTTPSConnection(host='cdsco.gov.in', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+R107_nabh: HTTP 200 text/html; charset=UTF-8 298846 bytes | National Accreditation Board for Hospitals &amp; Healthcare Providers
+R108_nabl: HTTP 200 text/html; charset=UTF-8 254555 bytes | Home - NABL
+R109_abdm_hfr: HTTP 403 text/html 919 bytes | ERROR: The request could not be satisfied
+R111_birac: HTTP 200 text/html; charset=UTF-8 125940 bytes | BIRAC-Home
+R112_pli_pib: HTTP 403 text/html 402 bytes | Access Denied
+R113_ism: HTTP 200 text/html; charset=utf-8 140571 bytes | Home | India Semiconductor Mission
+R114_dot: HTTP 403 text/html 370 bytes | Access Denied
+R115_mib_pdf: HTTP 200 application/pdf 122479 bytes | 
+R115_fta_pdf: HTTP 200 application/pdf 210811 bytes | 
+R116_rni: failed HTTPSConnectionPool(host='rni.nic.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='rni.nic.in', port=443) at 0x7915451cda90>, 'Connection to rni.nic.in timed out. (connect timeout=45)'))
+R117_bis_fmcs: HTTP 200 text/html; charset=UTF-8 457817 bytes | 
+R117_bis_list: HTTP 200 text/html; charset=UTF-8 2098206 bytes | All FMCS list
+R118_dsir_pdf: HTTP 200 application/pdf 710319 bytes | 
+R120_dgca: HTTP 200 text/html;charset=utf-8 220927 bytes | Home | Directorate General of Civil Aviation | Government of India
+R121_sidm: HTTP 200 text/html 212 bytes | 
+R122_sez: failed HTTPSConnectionPool(host='sezindia.nic.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='sezindia.nic.in', port=443): Failed to resolve 'sezindia.nic.in' ([Errno -2] Name or service not known)"))
+R123_mpeda: HTTP 200 text/html; charset=UTF-8 275659 bytes | MPEDA &#8211; MARINE PRODUCTS EXPORTS DEVELOPMENT AUTHORITY
+R123_eepc: HTTP 200 text/html 1976 bytes | EEPC India
+R123_fieo: failed HTTPSConnectionPool(host='www.fieo.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)')))
+R125_foscos: HTTP 200 text/html 4181 bytes | FoSCoS - FSSAI
+R126_cea: HTTP 200 text/html;charset=UTF-8 232876 bytes | Central Electricity Authority, Ministry of Power, Government of India
+R126_mnre: HTTP 200 text/html; charset=utf-8 3998 bytes | 
+R127_dpe: HTTP 403 text/html 372 bytes | Access Denied
+R128_dgshipping: failed HTTPSConnectionPool(host='www.dgshipping.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.dgshipping.gov.in', port=443) at 0x79154514a600>, 'Connection to www.dgshipping.gov.in timed out. (connect timeout=45)'))
+R129_maharera: failed HTTPSConnectionPool(host='maharera.maharashtra.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='maharera.maharashtra.gov.in', port=443) at 0x79154514bad0>, 'Connection to maharera.maharashtra.gov.in timed out. (connect timeout=45)'))
+R132_cmmi: HTTP 200 text/html; charset=utf-8 30793 bytes | CMMI Institute - Home
+R133_certin: HTTP 200 text/html;charset=ISO-8859-1 447 bytes | Indian - Computer Emergency Response Team
+R133_dsci: HTTP 200 text/html; charset=utf-8 298060 bytes | Data Security Council of India (DSCI)
+R134_csr: HTTP 403 text/html 370 bytes | Access Denied
+R135_ondc: HTTP 200 text/html 2489 bytes | Open Network for Digital Commerce (ONDC)
+R136_icai: HTTP 200 text/html; charset=UTF-8 81286 bytes | ICAI - The Institute of Chartered Accountants of India
+R137_nifty_fmcg_pdf: failed HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=45)
+R139_inc42_d2c: HTTP 200 text/html; charset=UTF-8 585994 bytes | Indian D2C Tracker: 100+ D2C Brands Database At One Place
+R139_inc42_122: HTTP 200 text/html; charset=UTF-8 820026 bytes | 122 D2C Brands That Are Disrupting India’s Consumer Market
+R139_inc42_fnb: HTTP 200 text/html; charset=UTF-8 743198 bytes | Here Are 49 F&amp;B D2C Brands Reshaping The Indian Consumer Market
+R145_apeda_dir: HTTP 200 text/html; charset=utf-8 64548 bytes | List of Registered Exporters
+R146_apeda_pdf: HTTP 200 application/pdf 504110 bytes | 
+R147_inspace_pib: HTTP 402 application/json 694 bytes | 
+R148_idex_pdf: failed HTTPSConnectionPool(host='eparlib.sansad.in', port=443): Max retries exceeded with url: /bitstream/123456789/1470083/1/AU1428.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='eparlib.sansad.in', port=443) at 0x7915451ac0e0>, 'Connection to eparlib.sansad.in timed out. (connect timeout=45)'))
+R149_acma_cat: HTTP 200 application/pdf 5869092 bytes | 
+R150_tourism_hotels: HTTP 403 text/html 415 bytes | Access Denied
+R152_credai: HTTP 200 text/html; charset=UTF-8 40029 bytes | CREDAI
+R152_rera_up: HTTP 200 text/html; charset=utf-8 171775 bytes | 

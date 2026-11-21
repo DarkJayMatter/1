@@ -1,0 +1,2213 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>MFIN INDIA</title>
+<link rel="icon" type="image/png" href="https://mfinindia.org/frontend_assets/images/mfinfavio.png">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!-- stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/media.css">
+<!-- stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/reset.css">
+<!-- stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/bootstrap.min.css">
+<!-- bootstrap stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/bootstrap-theme.min.css">
+<!--bootstrap-themestylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/owl.carousel.min.css">
+<!-- carousel stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/jquery.fancybox.min.css">
+<!-- carousel stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://mfinindia.org/frontend_assets/css/style.css">
+<!-- SweetAlert2 (Modern Popup) -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Animation (Optional but recommended) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+
+<style type="text/css">
+  
+</style>
+
+<meta property="og:title" content="MFIN INDIA" />
+    <meta property="og:description"
+      content="Unlock your future in microfinance with  ASCEND – The Education and Advancement program in Microfinance." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mfinindia.org/ascend" />
+    <meta property="og:image" content="https://mfinindia.org/frontend_assets/images/mfin-logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mfinindia.org/ascend" />
+    <meta name="twitter:title" content="MFIN INDIA" />
+    <meta name="twitter:description"
+      content="Unlock your future in microfinance with  ASCEND – The Education and Advancement program in Microfinance." />
+    <meta name="twitter:image" content="https://mfinindia.org/frontend_assets/images/mfin-logo.png" />
+
+
+<meta name="google-site-verification" content="cvmxu5T_Ujh7eC-lFr0x9DrIN0ISRouQSOgn_c8ypJk" />
+</head>
+<body>
+   <style type="text/css">
+                .modal_before
+                {
+                background-image: url('https://mfinindia.org/assets/images/after_images.png');
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                }
+                .modal_before::after
+                {
+                content: "";
+                background-image: url('https://mfinindia.org/assets/images/after_images1.png');
+                position: absolute;
+                right: 0;
+                bottom: 1px;
+                width: 13%;
+                height: 165px;
+                z-index: 0;
+                }
+                .feature_heading 
+                {
+                color: #fff;
+                margin: 0 auto;
+                }
+                .border_blue
+                {
+                border:1px solid #36bada;
+                }
+                #tab_modal .modal-content
+                {
+                background-image: url('https://mfinindia.org/assets/images/after_images.png');
+                background-size: cover;
+                width: 100%;
+                position: relative;
+                border: 2px solid #d86e56;
+                } 
+                #tab_modal .modal-content::after
+                {
+                content: "";
+                position: absolute;
+                background-image: url('https://mfinindia.org/assets/images/after_images1.png');
+                background-size: contain;
+                width: 127px;
+                height: 227px;
+                bottom: -141px;
+                background-repeat: no-repeat;
+                right: 0;
+                } 
+                .modal_top
+                {
+                z-index: 9999 !important;
+                }
+                #tab_modal img
+                {
+                position: relative;
+                }
+                 #tab_modal .thumbnail_heading
+                {
+                position: absolute;
+                background-color: #000000d1;
+                z-index: 1;
+                width: 90%;
+                left: 15px;
+                height: 28px;
+                bottom: 0;
+                margin: 0 auto;
+                text-align: center;
+                }
+                #modal-carousel .fa-angle-right
+                     {
+                      position: absolute;
+                        right: 12px;
+                      top: 45%;
+                      color: #fff;
+                      font-size: 38px;
+                     }
+                     #tab_modal1 .fa-angle-left
+                     {
+                    position: absolute;
+                    left: 12px;
+                    top: 45%;
+                    color: #fff;
+                    font-size: 38px;
+                  }
+                  #servicemodal
+                  {
+                  z-index: 99999;
+                  }
+                  #venturemodal
+                  {
+                  z-index: 99999;
+                  }
+	   #watersanitizationmodal
+                  {
+                  z-index: 99999;
+                  }
+  </style>
+
+
+ <!-- Modal -->
+            <div class="modal fade modal_top"  z-index="9999" id="tab_modal1" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="modal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/stories1.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/stories2.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/stories3.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/stories4.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/stories5.jpg"></div>
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+               <div class="modal fade "  z-index="9999" id="livestockmodal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="livestockmodal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/Agriculturist.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/PoultryBusiness.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/Floriculture.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/DairyFarming&Sericulture.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/DairyFarming.jpg"></div>
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+             <div class="modal fade "  z-index="9999" id="manufacturingmodal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="manufacturingmodal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/manufacturing1.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/manufacturing2.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/manufacturing3.jpg"></div>
+                         
+                          <div class="item"><img src="https://mfinindia.org/assets/images/manufacturing4.jpg"></div>
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="modal fade " id="servicemodal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="servicemodal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/service1.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/service2.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/service3.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/service4.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/service5.jpg"></div>
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+<div class="modal fade " id="venturemodal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="servicemodal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/venture1.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/venture2.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/venture3.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/venture4.jpg"></div>
+                          
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+	
+<div class="modal fade "  z-index="9999" id="watersanitizationmodal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-12  col-lg-12  text-center"><!-- column -->
+                      <div id="servicemodal-carousel" class="owl-carousel owl-theme">
+                          <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization1.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization2.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization3.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization4.jpg"></div>
+						  <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization5.jpg"></div>
+                          <div class="item"><img src="https://mfinindia.org/assets/images/watersanitization6.jpg"></div>
+                          
+             
+                          
+                      </div>
+                      </div><!-- column -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+<!--   <script type="text/javascript">
+
+            $(window).on('load', function() {
+              
+          $('#packageDtl').modal('show');
+    });
+        </script>    -->
+             <!-- Modal -->
+
+              <div class="modal fade"  z-index="9998" id="tab_modal" role="dialog">
+              <div class="modal-dialog  modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="modal-body">
+                   <div class="row  text-center">
+                      <div class="col-md-4  col-lg-4 text-center"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#tab_modal1">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading">Handicraft</h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/handicraft.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+                      <div class="col-md-4  col-lg-4  text-center"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#livestockmodal">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading">Livestock | Cultivation</h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/livestock.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+                      <div class="col-md-4  col-lg-4  text-center"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#manufacturingmodal">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading">Manufacturing</h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/manufacture.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+                      <div class="col-md-4  col-lg-4  text-center" style="margin-top: 25px;"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#servicemodal">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading">Services</h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/servicesm.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+                      <div class="col-md-4  col-lg-4  text-center" style="margin-top: 25px;"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#venturemodal">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading"> Entrepreneur Venture </h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/VentureCat.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+					       <div class="col-md-4  col-lg-4  text-center" style="margin-top: 25px;"><!-- column -->
+                        <a href="#0" data-toggle="modal" data-target="#watersanitizationmodal">
+                          <div class="thumbnail_heading"><!-- thumbanail_heading -->
+                            <h3 class="feature_heading">Water and Sanitation</h3>
+                          </div><!-- thumbnail_heading -->
+                          <img src="https://mfinindia.org/assets/images/handicraft-2.jpg" class="img-responsive border_blue">
+                        </a>
+                      </div><!-- column -->
+                     
+                    
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
+
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+
+
+
+
+<div class="wrapper"><!-- wrapper -->
+  <div class="sidebar">
+    <div class="lft_search">
+      <div class="search_box"><!-- search_box -->
+        <div class="form-group">
+          <input type="search" class="form-control" name="websearchData" id="websearchData" onkeypress="getWebsearchData(this.value);">
+          <a href="#0" class="left_search"><img src="https://mfinindia.org/frontend_assets/images/search_left.png"></a> </div>
+        <!-- form-gorup --> 
+      </div>
+      <!-- search_box --> 
+    </div>
+    <ul class="sidebar-menu">
+      <li class="treeview"> <a href="https://mfinindia.org/" style="padding: 0px 24px 10px 24px;"> <i><span>Home</span></i> </a> </li>
+      <li class="treeview"> <a href="#"><span>About Us</span><i class="fa fa-angle-down pull-right"></i></a>
+        <ul class="treeview-menu" style="display: none;">
+          <li><a href="https://mfinindia.org/about/industry">MFIN Industry Association</a></li>
+          <li><a href="https://mfinindia.org/about/sro">MFIN as an SRO</a></li>
+          <li><a href="https://mfinindia.org/about/leadership"> Leadership</a></li>
+          <!-- <li><a href="https://mfinindia.org/about/ceo_message">CEO's Message</a></li>   -->       
+          <li><a href="https://mfinindia.org/about/reach">Presence</a></li>
+          <li><a href="https://mfinindia.org/about/team">Team</a></li> 
+           <li><a href="https://mfinindia.org/About/Achievements"> Achievements</a></li>
+          <li><a href="https://mfinindia.org/about/history"> History</a></li>
+
+  
+          
+          
+                   
+        </ul>
+      </li>
+        <li> <a href="#"><span>Microfinance</span><i class="fa fa-angle-down pull-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a href="https://mfinindia.org/microfinance/industryOverview">Industry Overview</a></li>
+          <li><a href="https://mfinindia.org/microfinance/BenefitsofMicrofinance">Benefits of Microfinance</a></li>
+          <li><a href="https://mfinindia.org/microfinance/IndustryPortfolio">Industry Portfolio and Outreach</a></li>
+           
+          
+        </ul>
+      </li>
+      <li> <a href="#"><span>Our Work</span><i class="fa fa-angle-down pull-right"></i> </a>
+        <ul class="treeview-menu">
+          <li><a href="https://mfinindia.org/ourwork/strengthening">Strengthening the Ecosystem</a></li>
+          <li><a href="https://mfinindia.org/ourwork/support_member">Support to Members</a></li>
+           <li><a href="https://mfinindia.org/ourwork/clientprotection">Client Protection</a></li>
+        </ul>
+      </li>
+      <li> <a href="https://mfinindia.org/members"><span>Members</span></a>
+        <!-- <ul class="treeview-menu">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> About Us</a></li>
+        </ul> -->
+      </li>
+      <li> <a href="https://mfinindia.org/associates"><span>Associates</span></a>
+        <!-- <ul class="treeview-menu">
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> About Us</a></li>
+        </ul> -->
+      </li>
+      <li> <a href="#"><span>Resource Centre</span><i class="fa fa-angle-down pull-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a href="https://mfinindia.org/Resources/regulatoryinformation">Regulatory Information</a></li>
+          <li><a href="https://mfinindia.org/Resources/informationhub">MFIN Information Hub</a></li>
+          <!-- <li><a href="https://mfinindia.org/Resources/microscape">Micro Scope</a></li>
+          <li><a href="https://mfinindia.org/Resources/microdrive">Micro Drive</a></li>
+          <li><a href="https://mfinindia.org/Resources/micromirror">Micro Mirror</a></li>
+          <li><a href="https://mfinindia.org/Resources/annualreport">Annual report</a></li>
+          <li><a href="https://mfinindia.org/Resources/otherpublications">Other Publications</a></li> -->
+          
+        </ul>
+      </li>
+      <li> <a href="#"><span>News &amp; Events</span><i class="fa fa-angle-down pull-right"></i></a>
+        <ul class="treeview-menu">
+          <li><a href="https://mfinindia.org/NewsEvent/pressreleases">Press Releases and Coverage</a></li>
+         <a href="#" class="sub_sub_menu">Print and Electronic <br>Coverage<i class="fa fa-angle-down pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="https://mfinindia.org/NewsEvent/electronic">Electronic</a></li>
+            <li><a href="https://mfinindia.org/NewsEvent/print">Print</a></li>
+          </ul>
+          <li><a href="https://mfinindia.org/NewsEvent/opinion_court">Opinions that Count</a></li>
+          <li><a href="https://mfinindia.org/NewsEvent/interviews_qa">Interviews (Q&A)</a></li> 
+          <li><a href="https://mfinindia.org/NewsEvent/work_shop">Events</a></li>
+        </ul>
+      </li>
+      <li> <a href="https://mfinindia.org/career"><span>Careers</span></a> </li>
+      <li> <a href="https://mfinindia.org/home/contactus"><span>Contact Us</span></a> </li>
+      <!--   <li class="treeview">
+					        <a href="#">
+					          <i class="fa fa-share"></i> <span>Multilevel</span>
+					          <i class="fa fa-angle-down pull-right"></i>
+					        </a>
+					        <ul class="treeview-menu">
+					          <li><a href="#"> Level One</a></li>
+					          <li>
+					            <a href="#"> Level One <i class="fa fa-angle-down pull-right"></i></a>
+					            <ul class="treeview-menu">
+					              <li><a href="#"> Level Two</a></li>
+					              <li>
+					                <a href="#"> Level Two <i class="fa fa-angle-down pull-right"></i></a>
+					                <ul class="treeview-menu">
+					                  <li><a href="#"> Level Three</a></li>
+					                  <li><a href="#"> Level Three</a></li>
+					                </ul>
+					              </li>
+					            </ul>
+					          </li>
+					          <li><a href="#"> Level One</a></li>
+					        </ul>
+					      </li> -->
+    </ul>
+    <div class="left_menu_contact  col_100  left"><!-- left_menu_contact --> 
+      <span>MFIN Toll Free Helpline </span>
+      <p> 18001021080</p>
+      <span>for Customers of Member NBFC-MFIs</span>
+      <ul class="social_linke_left  pull-right">
+     
+   <li class="pr-1 left"><a href="https://www.facebook.com/mfinindia.org" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+        <li><a href="https://twitter.com/mfin_india" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/microfinance-institutions-network" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCsFL4uW_vTucJ13Xgg0AuWg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <!-- left_menu_contact --> 
+  </div>
+  <div class="content  custom_op" id="content"><!-- content -->
+    <div class="main_header  col_100  left hight_4"><!-- main_header -->
+<!-- MANTHAN Ticker Start -->
+<!-- MANTHAN Slim Ticker -->
+<!-- <div class="manthan-ticker">
+    <div class="container-fluid">
+        <div class="ticker-flex">
+
+            <div class="ticker-label">
+                Upcoming Event
+            </div>
+
+            <div class="ticker-wrap">
+                <div class="ticker-move">
+                    <a href="javascript:void(0);" data-toggle="modal" data-target="#manthanModal">
+                        4th Edition of MANTHAN - National Conclave of CEOs : 2-3 April 2026 - Gurugram.
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+<!-- MANTHAN Ticker End -->
+    
+      <div class="container p-0 p-xs-5"><!-- container -->
+        <div class="main_header_in row left order_row"><!-- row -->
+          <div class="col-sm-5"><!-- column -->
+            <ul class="header_left">
+              <li><a class="menu_btn"><em class="fa fa-bars" aria-hidden="true"></em>&nbsp;<span>Menu</span></a></li>
+             <!--  <li><a href="#0"><img class="srchbox" src="https://mfinindia.org/frontend_assets/images/search.png"></a></li> -->
+                               <li><a  href="https://mfinindia.org/user/login"><button style="margin-top: -4px;" class="btn btn-primary btn-sm"><i class="fa fa-user"></i>&nbsp;&nbsp;Login</button></a></li>
+
+                
+               <li><a  href="https://datahub.mfinindia.org/" target="_blank"><button style="margin-top: -4px;" class="btn btn-primary btn-sm">Datahub</button></a></li>
+               <li><a  href="https://mfinindia.org/ascend"><button style="margin-top: -4px;" class="btn btn-primary btn-sm">ASCEND</button></a></li> 
+
+               <li><a  href="https://radar.mfinindia.org/site/login" target="_blank"><button style="margin-top: -4px;" class="btn btn-primary btn-sm">Radar</button></a></li>
+                
+            </ul>
+          </div>
+          <!-- column -->
+          <div class="col-sm-3"><!-- column -->
+            <div class="logo  col_100  left"><!-- logo --> 
+              <a href="https://mfinindia.org/"><img src="https://mfinindia.org/frontend_assets/images/mfin-logo.png" class="img-responsive"></a> </div>
+            <!-- logo --> 
+          </div>
+          <!-- column -->
+          <div class="col-sm-4"><!-- column -->
+            <ul class="header_right  pull-right">
+               <li><a href="https://www.facebook.com/mfinindia.org" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+               <li><a href="https://twitter.com/mfin_india" target="_blank"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/company/microfinance-institutions-network" target="_blank"><i class="fa fa-linkedin" ></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCsFL4uW_vTucJ13Xgg0AuWg" target="_blank"><i class="fa fa-youtube" ></i></a></li>
+            </ul>
+          </div>
+          <!-- column --> 
+        </div>
+        <!-- row --> 
+      </div>
+      <!-- contianer --> 
+    </div>
+    <!-- main_header -->
+
+<!-- MANTHAN Flyer Modal -->
+<!-- <div class="modal fade" id="manthanModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg kk" role="document">
+    <div class="modal-content" style="text-align:center; padding:20px;">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <img src="https://mfinindia.org/assets/images/Manthan - v3.jpeg" 
+             class="img-responsive" 
+             style="margin:0 auto; max-width:100%;">
+    </div>
+  </div>
+</div> -->
+<!-- teammfin -->
+
+
+<!-- MANTHAN Flyer Modal (Improved Size) -->
+<!-- <div class="modal fade" id="manthanModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content manthan-modal-content">
+        
+        <button type="button" class="close manthan-close" data-dismiss="modal">&times;</button>
+
+        <div class="modal-body text-center">
+            <img src="https://mfinindia.org/assets/images/Manthan - v3.jpeg" 
+                 class="manthan-flyer-img">
+        </div>
+
+    </div>
+  </div>
+</div> -->
+
+
+<style type="text/css">
+  .sidebar-menu .treeview-menu > a.sub_sub_menu {
+    padding: 0px 33px;
+    display: block;
+    border-bottom: 1px solid #e14f2e;
+    color: #b8c7ce;
+    font-family: 'Avenir-Roman';
+    font-size: 12px;
+    background: #d53b17;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+
+/* Slim Professional Ticker */
+.manthan-ticker {
+    background: #d53b17;
+    color: #fff;
+    padding: 2px 0; /* very slim */
+    font-size: 18px; /* smaller base size */
+    z-index: 999;
+}
+
+.ticker-flex {
+    display: flex;
+    align-items: center;
+}
+
+.ticker-label {
+    font-weight: 600;
+    margin-right: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.ticker-wrap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    animation: tickerMove 25s linear infinite;
+}
+
+.ticker-move a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ticker-move a:hover {
+    text-decoration: underline;
+}
+/* Proper Sized Modal */
+.manthan-modal-content {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    
+}
+
+/* Control Image Size */
+.manthan-flyer-img {
+    max-width: 200px;   /* control width */
+    width: 100%;
+    height: auto;
+}
+
+/* Better Close Button */
+.manthan-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+/* Reduce Modal Width */
+.modal-dialog.kk {
+    max-width: 400px;
+}
+@keyframes tickerMove {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+</style>
+
+
+
+<script>
+document.addEventListener("click", function (e) {
+
+    var trigger = e.target.closest('[data-toggle="modal"], [data-bs-toggle="modal"]');
+    if (!trigger) return;
+
+    e.preventDefault();
+
+    var targetSelector =
+        trigger.getAttribute("data-target") ||
+        trigger.getAttribute("data-bs-target");
+
+    var targetModal = document.querySelector(targetSelector);
+
+    // 🔹 CLEANUP FUNCTION
+    function cleanupAllModals() {
+
+        // Hide all modals
+        document.querySelectorAll(".modal").forEach(function (modal) {
+            modal.classList.remove("show");
+            modal.style.display = "none";
+            modal.setAttribute("aria-hidden", "true");
+        });
+
+        // Remove body lock
+        document.body.classList.remove("modal-open");
+        document.body.style.paddingRight = "";
+        document.body.style.overflow = "";
+
+        // Remove ALL backdrops
+        document.querySelectorAll(".modal-backdrop").forEach(function (bd) {
+            bd.parentNode.removeChild(bd);
+        });
+    }
+
+    // 1️⃣ First cleanup everything
+    cleanupAllModals();
+
+    // 2️⃣ Open target modal
+    if (targetModal) {
+
+        targetModal.style.display = "block";
+        targetModal.classList.add("show");
+        targetModal.removeAttribute("aria-hidden");
+
+        document.body.classList.add("modal-open");
+        document.body.style.overflow = "hidden";
+
+        // Fresh backdrop
+        var backdrop = document.createElement("div");
+        backdrop.className = "modal-backdrop fade show";
+        document.body.appendChild(backdrop);
+
+        // Backdrop click → close everything properly
+        backdrop.addEventListener("click", cleanupAllModals);
+    }
+
+});
+
+// 🔹 ALSO fix close button
+document.addEventListener("click", function (e) {
+    if (e.target.closest(".close, [data-dismiss='modal'], [data-bs-dismiss='modal']")) {
+
+        document.querySelectorAll(".modal").forEach(function (modal) {
+            modal.classList.remove("show");
+            modal.style.display = "none";
+        });
+
+        document.body.classList.remove("modal-open");
+        document.body.style.paddingRight = "";
+        document.body.style.overflow = "";
+
+        document.querySelectorAll(".modal-backdrop").forEach(function (bd) {
+            bd.remove();
+        });
+    }
+});
+
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+
+//     setTimeout(function () {
+//         Swal.fire({
+//             html: `
+//                 <img src="https://mfinindia.org/assets/images/Manthan - v3.jpeg" 
+//                      style="width:100%; border-radius:12px;">
+//             `,
+//             showConfirmButton: false,
+//             showCloseButton: true,
+//             width: '520px',
+//             padding: '10px',
+//             background: '#fff',
+//             backdrop: 'rgba(0,0,0,0.7)',
+
+//             showClass: {
+//                 popup: 'animate__animated animate__zoomIn'
+//             },
+//             hideClass: {
+//                 popup: 'animate__animated animate__zoomOut'
+//             }
+//         });
+//     }, 800);
+
+// });
+
+</script><div class="main_slider  col_100  left"><!-- maiin_slider -->
+  <div id="main_slider" class="owl-carousel owl-theme">
+          <div class="item">
+                <div class="banner_content"><!-- banner_content -->
+                    <div class="container"><!-- container -->
+            <div class="row"><!-- row -->
+              <div class="col-md-6  col-lg-6"><!-- column -->
+                                <h4>About MFIN</h4>
+                <p>MFIN works closely with regulators & other key stakeholders in building meaningful universal financial inclusion through microfinance.</p>
+                <div class="wht_view_more  col_100  left"><!-- wht_view_more -->
+                  <a href="https://mfinindia.org/about/industry" class="view-more">Read More</a>
+                </div>
+                              </div>
+
+              <!-- column -->
+            </div>
+            <!-- row -->
+          </div>
+          <!-- container -->
+                  </div>
+                <!-- banner_content -->
+        <img src="https://mfinindia.org/assets/upload_image/banner/Homebanner_55099.jpg" class="img-responsive">
+      </div>
+            <div class="item">
+                <div class="banner_content"><!-- banner_content -->
+                    <div class="container"><!-- container -->
+            <div class="row"><!-- row -->
+              <div class="col-md-6  col-lg-6"><!-- column -->
+                                <h4>About MFIN</h4>
+                <p>MFIN focuses on creating an enabling policy and business environment for sustainable financial inclusion business with highest standards of customer protection and corporate governance.</p>
+                <div class="wht_view_more  col_100  left"><!-- wht_view_more -->
+                  <a href="https://mfinindia.org/about/industry" class="view-more">Read More</a>
+                </div>
+                              </div>
+
+              <!-- column -->
+            </div>
+            <!-- row -->
+          </div>
+          <!-- container -->
+                  </div>
+                <!-- banner_content -->
+        <img src="https://mfinindia.org/assets/upload_image/banner/Homebanner_14405.jpg" class="img-responsive">
+      </div>
+        </div>
+</div>
+<!-- main_slider -->
+<div class="about_section  col_100  left"><!-- about_section -->
+  <div class="container"><!-- container -->
+    <div class="row"><!-- row -->
+
+      <div class="heading  col_100  left  text-center"><!-- heading -->
+        <h1 class="title">What MFIN Does</h1>
+        <p class="tag_heading" style="font-size:19px;">As an Industry Association and SRO, MFIN’s primary objective is to work towards the robust development of the microfinance sector.</p>
+        <div class="horizonatalimge_border"></div>
+      </div>
+      <!-- heading -->
+      <div class="read_more  col_100  left  text-center"><!-- read_more -->
+        <!--  <a href="#0" class="read_more_btn">Read More<i class="fa fa-arrow-right"></i></a> </div> -->
+        <!-- read_more -->
+        <!--  <p class="tag_heading text-center">MFIN’s primary objective is to work towards the robust development of the microfinance sector, by promoting:</p> -->
+        <ul class="about_list  col_100 left">
+          <li class="col-md-4  col-lg-4  col-xs-12  col-sm-4  "><!-- column -->
+            <div class="about-box  col_100 left text-center"><!-- about_box -->
+              <div class="about_ic"><!-- about_ic -->
+               <i class="fa fa-users" style="font-size: 40px; color: #d53b17;"></i>
+              </div>
+              <!-- about_ic -->
+              <h3>Inclusive Growth</h3>
+              <p class="tag_heading">Advancing an inclusive microfinance ecosystem through advocacy, collaboration and industry development, while expanding opportunities for underserved communities across India.</p>
+             
+            </div>
+            <!-- about_box -->
+          </li>
+          <!-- column -->
+          <li class="col-md-4  col-lg-4  col-xs-12  col-sm-4  "><!-- column -->
+            <div class="about-box  col_100 left text-center"><!-- about_box -->
+             <i class="fa fa-money" style="font-size: 40px; color: #d53b17;"></i>
+
+
+              <h3>Financial Empowerment</h3>
+              <p class="tag_heading">Equipping borrowers with the financial awareness, knowledge and tools they need, while promoting responsible lending and client protection.</p>
+              
+            </div>
+            <!-- about_box -->
+          </li>
+          <!-- column -->
+          <li class="col-md-4  col-lg-4  col-xs-12  col-sm-4  "><!-- column -->
+            <div class="about-box  col_100 left text-center"><!-- about_box -->
+             <i class="fa fa-line-chart" style="font-size: 40px; color: #d53b17;"></i>
+              <h3>Stronger Tomorrow</h3>
+              <p class="tag_heading">Strengthening the microfinance industry through self-regulation, capacity building, market intelligence and responsible practices.</p>
+         
+            </div>
+            <!-- about_box -->
+          </li>
+          <!-- column -->
+        </ul>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- about_section -->
+</div>
+<div class="events_stories  col_100  left"><!-- events_stories -->
+  <div class="container"><!-- container -->
+    <div class="row"><!-- row -->
+      <div class="col-md-5  col-lg-5  col-xs-12  col-sm-12 col-md-offset-1"><!-- column -->
+        <div class="wht_heading  col_100  left  text-center"><!-- wht_heading -->
+          <h3 class="tk-forma-djr-micro">Events</h3>
+        </div>
+        <!-- wht_heading -->
+        <div class="events_stories_container  col_100 left"><!--  events_stories_container-->
+          <div id="events_stories" class="owl-carousel owl-theme">
+            
+ <div class="item ss">
+              <div class="enents_fluid  col_100  left">
+                             <img src="https://mfinindia.org/assets/images_data/CEOCVC.JPG" class="img-responsive">
+                <div class="events_content  col_100  left  text-center">
+                  <p class="para text-center" style="font-size:13px">MFIN Annual General Meeting 2025-26
+
+
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="item ss">
+              <div class="enents_fluid  col_100  left">
+
+
+                <img src="https://mfinindia.org/assets/images_data/eve_3.webp" class="img-responsive">
+                <div class="events_content  col_100  left  text-center">
+                  <p class="para text-center" style="font-size:13px">Launch of the NCAER-MFIN Report
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+           
+
+            <div class="item ss"><!-- item -->
+              <div class="enents_fluid  col_100  left"><!-- events_fluid -->
+                                             <img src="https://mfinindia.org/assets/images_data/DSC_7231v1_a.jpeg" class="img-responsive">
+
+                <div class="events_content  col_100  left  text-center"><!-- events_content -->
+
+
+                  <p class="para text-center">MFIN launched the 5th edition of ‘Micro Matters: Macro View – India Microfinance Review FY 24-25’, on 14th November 2025 in Mumbai.<br><br></p>
+                  <p>&nbsp; &nbsp;</p>
+                </div>
+                <!-- events_content -->
+              </div>
+              <!-- events_fluids -->
+            </div>
+
+
+            <!-- <div class="item ss">
+              <div class="enents_fluid  col_100  left">
+
+                <img src="https://mfinindia.org/assets/images_data/E24.jpg" class="img-responsive">
+
+                 <div class="events_content  col_100  left  text-center">
+                  <p class="para text-center">Launch of Micro Matters: Macro View – India Microfinance Review FY 2021-22 (2nd Edition) on 4th November 2022</p>
+
+                </div>
+              
+              </div>
+             
+            </div> -->
+
+
+            
+          </div>
+          <div class="wht_view_more  col_100  left"><!-- wht_view_more -->
+          <a href="https://mfinindia.org/NewsEvent/work_shop?radio=rdb3" 
+   class="view-more">
+   View more <i class="fa fa-arrow-right"></i>
+</a>
+          </div>
+          <!-- wht_view_more -->
+        </div>
+        <!-- events_stories_container -->
+
+
+
+      </div>
+      <!-- column -->
+      <div class="col-md-5  col-lg-5  col-xs-12  col-sm-12"><!-- column -->
+        <div class="wht_heading  col_100  left  text-center"><!-- wht_heading -->
+          <h3 class="tk-forma-djr-micro">Success Stories</h3>
+        </div>
+        <!-- wht_heading -->
+        <div class="events_stories_container  col_100 left"><!--  events_stories_container-->
+          <div id="events_stories1" class="owl-carousel owl-theme">
+                          <div class="item"><!-- item -->
+                <div class="enents_fluid  col_100  left"><!-- events_fluid -->
+                  <a href="#" data-toggle="modal" data-target="#tab_modal"><img
+                      src="https://mfinindia.org/assets/images/success.jpg" class="img-responsive"></a>
+                  <div class="events_content  col_100  left  text-center"><!-- events_content -->
+                    <p class="para text-center ">A Constant Source of Income and  a Better Life</p>
+
+                  </div>
+                  <!-- events_content -->
+                </div>
+                <!-- events_fluids -->
+
+              </div>
+              <!-- item -->
+              
+          </div>
+          <div class="wht_view_more  col_100  left"><!-- wht_view_more -->
+            <a href="#0" class="view-more" data-toggle="modal" data-target="#tab_modal">View More <i
+                class="fa fa-arrow-right"></i></a>
+          </div>
+          <!-- wht_view_more -->
+        </div>
+        <!-- events_stories_container -->
+      </div>
+      <!-- column -->
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</div>
+<!-- events_stories -->
+
+<div class="video_section col_100  left"><!-- video_section -->
+  <div id="video_box" class="owl-carousel owl-theme">
+
+
+    <!-- <div class="item" style="position: relative !important; background-image: url('https://mfinindia.org/frontend_assets/images/womenday.jpg') !important; background-size: contain; background-position: center !important;"> 
+          <a class="owl-video-play-icon" data-fancybox  href="https://www.youtube.com/watch?v=DStKoj48stw"></a>
+          <div class="videos video1" style="background: url('https://mfinindia.org/frontend_assets/images/mfine.jpg') !important; background-size: cover !important; background-repeat: no-repeat !important;">
+            <div class="video_content">
+              <div class="contianer">
+                <div class="row">
+                   <h3>Brief guide for microfinance loan officer on Household Income Assessment in Hindi</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+
+    <!-- <div class="item" style="position: relative !important; background-image: url('https://mfinindia.org/frontend_assets/images/Brief_guide.jpg') !important; background-size: contain; background-position: center !important;"> 
+          <a class="owl-video-play-icon" data-fancybox  href="https://www.youtube.com/watch?v=ofdDArAnxXI"></a>
+          <div class="videos video1" style="background: url('https://mfinindia.org/frontend_assets/images/Brief_guide.jpg') !important; background-size: cover !important; background-repeat: no-repeat !important;">
+            <div class="video_content">
+              <div class="contianer">
+                <div class="row">
+                   <h3>Brief guide for customers awareness on the new "Regulatory Framework of Microfinance Loans 2022"</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+    <div class="item"
+      style="position: relative !important; background-image: url('https://mfinindia.org/frontend_assets/images/micro_video.jpg') !important; background-size: contain; background-position: center !important;">
+      <a class="owl-video-play-icon" data-fancybox href="https://www.youtube.com/watch?v=z6Lz-lMF2Ag"></a>
+      <div class="videos video1"
+        style="background: url('https://mfinindia.org/frontend_assets/images/micro_video.jpg') !important; background-size: cover !important; background-repeat: no-repeat !important;">
+        <div class="video_content">
+          <div class="contianer">
+            <div class="row">
+              <h3>‘माइक्रोफाइनेंस - हर हौसले के साथ’</h3>
+              <h3>Highlights importance of Microfinance loans for economic upliftment of low-income women groups.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--<div class="item"> 
+           <img src="frontend_assets/images/video_bg.png" alt="" class="img-responsive" />-->
+    <!-- <a class="owl-video-play-icon" data-fancybox  href="https://www.youtube.com/embed/FGatmo4wcNQ"></a> -->
+    <!-- <div class="videos video1">
+            <div class="video_content">
+              <div class="contianer">
+                <div class="row">
+                  <h3>The Microfinance Industry: <br>
+                     Provider of a Unique and Fulfilling Career in Hindi
+</h3>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div> 
+        </div>-->
+
+  </div>
+</div>
+<!-- video_section -->
+
+<div class="clearfix"></div>
+<div class="news_media col_100 left com_pd"><!-- news_media -->
+  <div class="container"><!-- container -->
+    <div class="row"><!-- row -->
+      <div class="col-md-6  col-lg-6  col-xs-12  col-sm-12"><!-- column -->
+        <div class="heading  col_100  left  text-left"><!-- heading -->
+          <h1 class="title bordr-none">News &amp; Media</h1>
+        </div>
+        <div class="tabbable-panel">
+          <div class="tabbable-line">
+            <ul class="nav nav-tabs ">
+              <li class="active"> <a href="#tab_default_1" data-toggle="tab">Press Releases</a> </li>
+              <!-- <li> <a href="#tab_default_2" data-toggle="tab">MFIN In News</a> </li>
+                  <li> <a href="#tab_default_3" data-toggle="tab">Awards</a> </li> -->
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_default_1">
+                <ul class="news_vertical">
+              
+
+<li class="col_100 left">
+<a target="_blank" href="https://mfinindia.org/assets/upload_image/news/pdf/Micrometer Q1 FY 26-27 Press Release.pdf">
+
+<div class="col-md-1 col-lg-1 col-xs-2 col-sm-2 padding_none">
+<div class="news_fluid">
+
+<div class="news_date col_100 left">
+<h4>
+30<br>October.
+</h4>
+</div>
+<div class="year col_100 left text-center">
+<p>2026</p>
+</div>
+</div>
+</div>
+<div class="col-md-10 col-lg-10 col-xs-8 col-sm-8">
+<div class="news col_100 left">
+<h4>
+Microfinance - Note for Editors (Maharashtra)
+</h4>
+<a target="_blank"
+href="https://mfinindia.org/assets/upload_image/news/pdf/MICROFINANCE - Note for Editors (Masharashtra).pdf"
+class="download">
+View / Download
+</a>
+</div>
+</div>
+</a>
+</li>
+
+
+
+<li class="col_100 left">
+<a target="_blank" href="https://mfinindia.org/assets/upload_image/news/pdf/Press Release - MFIN New Board 2026.pdf">
+
+<div class="col-md-1 col-lg-1 col-xs-2 col-sm-2 padding_none">
+<div class="news_fluid">
+
+<div class="news_date col_100 left">
+<h4>
+30<br>October
+</h4>
+</div>
+<div class="year col_100 left text-center">
+<p>2026</p>
+</div>
+</div>
+</div>
+<div class="col-md-10 col-lg-10 col-xs-8 col-sm-8">
+<div class="news col_100 left">
+<h4>
+MFIN Mourns the Tragic Death of Nanded Farmer; Repudiates Attribution to Microfinance</h4>
+<a target="_blank"
+href="https://mfinindia.org/assets/upload_image/news/pdf/MFIN Mourns the Tragic Death of Nanded Farmer_ repudiates attribution to Microfinance.pdf"
+class="download">
+View / Download
+</a>
+</div>
+</div>
+</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+              </div>
+              <div class="tab-pane" id="tab_default_2">
+                <ul class="news_vertical">
+                                      <li class="col_100 left"> <a href="#0">
+                        <div class="col-md-1 col-lg-1  col-xs-2  col-sm-2 padding_none"><!-- column -->
+                          <div class="news_fluid"><!-- news_fluid -->
+                            <div class="news_date  col_100  left"><!-- news_date -->
+                              <h4>
+                                22<br>
+                                Nov                              </h4>
+                            </div>
+                            <!-- news_date -->
+                            <div class="year  col_100  left  text-center"><!-- year -->
+                              <p>2020</p>
+                            </div>
+                            <!-- year -->
+                          </div>
+                          <!-- news_fluid -->
+                        </div>
+                        <!-- column -->
+                        <div class="col-md-10 col-lg-10  col-xs-8  col-sm-8"><!-- column -->
+                          <div class="news  col_100  left"><!-- news -->
+                            <a target="_blank"
+                              href="https://mfinindia.org/assets/upload_image/news/pdf/"
+                              class="download">
+                              <h4>Importance of Customer-centric approach in the post moratorium period," says MFIN Issues Advisory to its Members</h4>
+                            </a>
+                            <a target="_blank"
+                              href="https://mfinindia.org/assets/upload_image/news/pdf/"
+                              class="download">View / Download</a>
+                          </div>
+                          <!-- news -->
+                        </div>
+                        <!-- column -->
+                      </a>
+                    </li>
+
+                                        <li class="col_100 left"> <a href="#0">
+                        <div class="col-md-1 col-lg-1  col-xs-2  col-sm-2 padding_none"><!-- column -->
+                          <div class="news_fluid"><!-- news_fluid -->
+                            <div class="news_date  col_100  left"><!-- news_date -->
+                              <h4>
+                                22<br>
+                                Nov                              </h4>
+                            </div>
+                            <!-- news_date -->
+                            <div class="year  col_100  left  text-center"><!-- year -->
+                              <p>2020</p>
+                            </div>
+                            <!-- year -->
+                          </div>
+                          <!-- news_fluid -->
+                        </div>
+                        <!-- column -->
+                        <div class="col-md-10 col-lg-10  col-xs-8  col-sm-8"><!-- column -->
+                          <div class="news  col_100  left"><!-- news -->
+                            <a target="_blank"
+                              href="https://mfinindia.org/assets/upload_image/news/pdf/"
+                              class="download">
+                              <h4>Microfinance helping borrowers rebuild livelihoods in Assam</h4>
+                            </a>
+                            <a target="_blank"
+                              href="https://mfinindia.org/assets/upload_image/news/pdf/"
+                              class="download">View / Download</a>
+                          </div>
+                          <!-- news -->
+                        </div>
+                        <!-- column -->
+                      </a>
+                    </li>
+
+                                    </ul>
+              </div>
+              <div class="tab-pane" id="tab_default_3">
+                <ul class="news_vertical">
+                                  </ul>
+              </div>
+            </div>
+          </div>
+          <!-- tab_panel -->
+          <div class="read_more  col_100  left  text-center"><!-- read_more -->
+            <a href="https://mfinindia.org/NewsEvent/pressrelease" class="read_more_btn">View All<i
+                class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- column -->
+      <div class="col-md-6  col-lg-6  col-xs-12  col-sm-12" style="display:none;"><!-- column -->
+        <div class="heading  col_100  left  text-left"><!-- heading -->
+          <h1 class="title bordr-none">Resource Centre</h1>
+        </div>
+        <a href="https://mfinindia.org/Resources/annualreport" class="publication">Annual Reports</a>
+        <div class="latest_publication  col_100  left" style="margin-bottom:20px; ">
+          <div class="col-md-4  col-lg-4  col-xs-12  col-sm-12 padding_none  border_right"><!-- column -->
+            <img src="https://mfinindia.org/assets/images/anual_report.jpg" class="img-responsive">
+          </div>
+          <!-- column -->
+          <div class="col-md-8  col-lg-8  col-xs-12  col-sm-12 padding_none"><!-- column -->
+            <div class="latest_pub col_100  left"><!-- latest_pub -->
+              <h3>MFIN Annual Report 2021-22</h3>
+              <p>MFIN Annual Report 2021-22 theme “Building an Inclusive India – A Unified Approach by Microfinance”
+                talks about Microfinance's holistic approach to the customer and its role in women empowerment, digital
+                inclusion, among others.</p>
+            </div>
+            <!-- lates_pub -->
+            <div class="synopsis  col_100  left"><!-- synopsis -->
+              <a href="https://mfinindia.org/assets/upload_image/publications/AnnualReports/AR 2021-22 - Web.pdf"
+                download="Micrometer Q1_FY_26-27_Synopsis.pdf"> <span><img
+                    src="https://mfinindia.org/frontend_assets/images/download.png"
+                    class="pull-left img-responsive"></span> <span></span> </a>
+            </div>
+            <!-- synopsis -->
+          </div>
+          <!-- column -->
+        </div>
+        <!-- latest_publication -->
+        <div class="read_more  col_100  left  text-center"><!-- read_more -->
+          <a href="https://mfinindia.org/Resources/annualreport" class="read_more_btn">View All<i
+              class="fa fa-arrow-right"></i></a>
+        </div>
+        <!-- read_more -->
+      </div>
+      <!-- column -->
+
+
+
+
+
+      <!-- column -->
+      <div class="col-md-6  col-lg-6  col-xs-12  col-sm-12"><!-- column -->
+        <div class="heading  col_100  left  text-left"><!-- heading -->
+          <h1 class="title bordr-none">Resource Center</h1>
+        </div>
+        <!-- <a href="#0" class="publication">Micrometer</a> -->
+        <div class="latest_publication  col_100  left" style="margin-bottom:20px; ">
+          <div class="col-md-4  col-lg-4  col-xs-12  col-sm-12 padding_none  border_right"><!-- column -->
+            <img src="https://mfinindia.org/assets/upload_image/IndustryStandards/Untitled design.jpg"
+              class="img-responsive">
+          </div>
+          <!-- column -->
+          <div class="col-md-8  col-lg-8  col-xs-12  col-sm-12 padding_none"><!-- column -->
+            <div class="latest_pub col_100  left"><!-- latest_pub -->
+              <h3 style="font-size: 20px;">MFIN-NCAER Report on “Assessing the Effectiveness of Regulated Small Borrowing in India"</h3>
+              <!--<p> Compendium of MFIN Directives and Advisories as on February 2023</p>-->
+            </div>
+            <!-- lates_pub -->
+            <div class="synopsis  col_100  left">
+              <a href="https://mfinindia.org/assets/upload_image/publications/Studies/MFIN-NCAER-study-on-Assessing-the-Effectiveness-of-Regulated-Small-Borrowing-in-India.pdf"
+                download="Micro Matters Macro View"> <span><img
+                    src="https://mfinindia.org/frontend_assets/images/download.png"
+                    class="pull-left img-responsive"></span> <span>Download</span> </a>
+            </div>
+
+          </div>
+          <!-- column -->
+        </div>
+        <!-- latest_publication -->
+        <div class="read_more  col_100  left  text-center"><!-- read_more -->
+          <a href="https://mfinindia.org/Resources/studyreport" class="read_more_btn">View All<i
+              class="fa fa-arrow-right"></i></a>
+        </div>
+        <!-- read_more -->
+      </div>
+      <!-- column -->
+
+
+
+
+
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</div>
+<!-- news_media -->
+
+<!-- One-Time Popup Modal -->
+<!-- <div class="modal fade" id="oneTimePopup" tabindex="-1" role="dialog" aria-labelledby="popupLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="border-radius: 15px;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 25px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-body text-center">
+        <img src="https://mfinindia.org/assets/images/STD.webp" alt="MFIN" class="img-fluid mb-3">
+       
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<script>
+  // Run once popup logic
+  document.addEventListener("DOMContentLoaded", function() {
+    // Check if popup was already shown before
+    //if (!localStorage.getItem("popupShown")) {
+      setTimeout(function() {
+        $("#oneTimePopup").modal("show");
+        // Save flag so it won’t show again
+        localStorage.setItem("popupShown", "true");
+      }, 500); // Show after 3 seconds
+    //}
+  });
+</script>
+
+<style>
+  /* ==== One-Time Popup Styles ==== */
+#oneTimePopup .modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  text-align: center;
+  animation: popupFadeIn 0.5s ease;
+}
+
+#oneTimePopup .modal-header {
+  background: #004aad; /* MFIN blue tone */
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+#oneTimePopup .modal-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#oneTimePopup .modal-body {
+  padding: 0px;
+  color: #333;
+}
+
+#oneTimePopup .modal-body p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+#oneTimePopup .modal-footer {
+  background: #f5f7fa;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+#oneTimePopup .btn-primary {
+  background: #004aad;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+
+#oneTimePopup .btn-primary:hover {
+  background: #0062d0;
+}
+
+#oneTimePopup .close {
+  color: #000000;
+  opacity: 1;
+  font-size: 26px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+#oneTimePopup img {
+  max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: scroll;
+    height: 660px;
+    width: 100%;
+}
+.modal-dialog{max-width: 540px !important;}
+/* Animation */
+@keyframes popupFadeIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 575px) {
+  #oneTimePopup .modal-content {
+    margin: 15px;
+  }
+  #oneTimePopup .modal-title {
+    font-size: 18px;
+  }
+  #oneTimePopup .modal-body p {
+    font-size: 15px;
+  }
+}
+/* Ensure modal appears above all elements */
+.modal {
+  z-index: 99999 !important;
+
+  background: #00000091;
+}
+
+.modal-backdrop {
+  z-index: -1 !important;
+  background-color: rgba(0, 0, 0, 0.7) !important; /* dark overlay */
+}
+
+/* Optional - if your slider or header uses high z-index */
+.owl-carousel, .main_slider, header, nav, .navbar {
+  z-index: 1 !important;
+}
+
+
+.about_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_list > li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about_list .about-box {
+    width: 100%;
+    height: 100%;
+    min-height: 300px; /* Same minimum height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_list > li {
+    float: none !important;
+    display: flex;
+}
+</style>
+
+ 				<!-- put on before footer -->
+
+
+
+ 			
+    <div class="enquiry_section col_100 left"><!-- enquiry_section -->
+      <div class="container"><!-- container -->
+        <div class="row"><!-- row -->
+          <div class="col-sm-4  col-lg-4  col-xs-12"><!-- column -->
+            <h2>For any Help/Enquiry:</h2>
+          </div>
+          <!-- column -->
+          <div class="col-sm-4  col-lg-4  col-xs-12"><!-- column -->
+           
+           
+              <h2><img src="https://mfinindia.org/frontend_assets/images/envelope.png" class="img-responsive  pull-left" style="margin: 0 auto;">&nbsp;contact@mfinindia.org</h2>
+          
+          </div>
+          <!-- column -->
+          <div class="col-sm-4  col-lg-4  col-xs-12"><!-- column -->
+            <h2><img src="https://mfinindia.org/frontend_assets/images/call_ic.png" class="img-responsive  pull-left">&nbsp;1800 102 1080 </h2>
+			<strong style="color:#fff; display: block; padding-left: 37px;">Operational Monday to Saturday, 09:30 AM to 05:30 PM (excluding national holidays).</strong>
+          </div>
+          <!-- column --> 
+        </div>
+        <!-- row --> 
+      </div>
+      <!-- container --> 
+    </div>
+    <!-- enquiry_section -->
+    
+    <div class="footer  col_100  left  com_pd"><!-- footer -->
+      <div class="container"><!-- container -->
+        <div class="row"><!-- row -->
+          <ul class="footer_list">
+            <li class=" col-md-3  col-lg-3  col-xs-12 col-sm-3 footer_list-item">
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <h5>About Us</h5>
+                <ul class="footer-list-style2">
+                                 
+                  <li><a href="https://mfinindia.org/about/industry">MFIN-Industry Association</a></li>
+                  <li><a href="https://mfinindia.org/about/sro">MFIN as an SRO</a></li>
+                  <li><a href="https://mfinindia.org/about/leadership">Leadership</a></li>
+                <!--   <li><a href="https://mfinindia.org/about/ceo_message">CEO's Message</a></li> -->
+                  <li><a href="https://mfinindia.org/about/reach">Presence</a></li>
+                  <li><a href="https://mfinindia.org/about/team">Team</a></li>
+                  <li><a href="https://mfinindia.org/About/Achievements">Achievements</a></li>
+                  <li><a href="https://mfinindia.org/about/history">History</a></li>
+                </ul>
+              </div>
+              <!-- list_details -->
+             
+              <!-- list_details -->
+              
+              <!-- list_details --> 
+            </li>
+            <li class=" col-md-3  col-lg-3  col-xs-12 col-sm-3 footer_list-item">
+             
+       		<div class="list_details  col_100  left"><!-- list_details -->
+                <h5>MiCROFINANCE</h5>
+                <ul class="footer-list-style2">
+                  <li><a href="https://mfinindia.org/microfinance/industryOverview">Industry Overview</a></li>
+                  <li><a href="https://mfinindia.org/microfinance/BenefitsofMicrofinance">Benefits of Microfinance</a></li>
+                  <li><a href="https://mfinindia.org/microfinance/IndustryPortfolio">Industry Outreach and Portfolio</a></li>
+                 
+                </ul>
+              </div>
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <h5>Our Work</h5>
+                <ul class="footer-list-style2">
+                  <li><a href="https://mfinindia.org/ourwork/strengthening">Strengthening the Ecosystem</a></li>
+                  <li><a href="https://mfinindia.org/ourwork/support_member">Support to the Members</a></li>
+                  <li><a href="https://mfinindia.org/ourwork/clientprotection">Client Protection</a></li>
+                </ul>
+              </div>
+              
+              
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <h5 ><a style="font-size:15px !important;" href="https://mfinindia.org/members">Members</a> <span style="color: #FFF !important;">|</span><a style="font-size:15px !important;"  href="https://mfinindia.org/associates"> Associates</a></h5>
+               
+              </div>
+        
+              
+            </li>
+            <li class=" col-md-3  col-lg-3  col-xs-12 col-sm-3 footer_list-item">
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <ul class="footer-list-style2">
+                  <h5>Resource Centre</h5>
+                  <li><a href="https://mfinindia.org/Resources/regulatoryinformation">Regulatory Information</a></li>
+                  <li><a href="https://mfinindia.org/Resources/informationhub">MFIN Information Hub</a></li>
+                  
+                </ul>
+              </div>
+              
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <ul class="footer-list-style2">
+                  <h5>NEWS AND EVENTS</h5>
+                  <li><a href="https://mfinindia.org/NewsEvent/pressrelease">Press Releases and Coverage</a></li>
+                  <li><a href="https://mfinindia.org/NewsEvent/highImpactCoverage">High Impact Coverage</a></li>
+                  <li><a href="https://mfinindia.org/NewsEvent/opinion_court">Opinions that Count</a></li>
+                  <li><a href="https://mfinindia.org/NewsEvent/work_shop">Events</a></li>
+                  
+                </ul>
+              </div>
+              <div class="list_details  col_100  left"><!-- list_details -->
+                <a href="https://mfinindia.org/home/contactus"><h5>CONTACT US</h5></a>
+               
+              </div>
+             
+            </li>
+
+ <li class=" col-md-3  col-lg-3 col-xs-12 col-sm-3 footer_list-item">
+              
+              
+            
+              <div class="list_details  col_100  left"><!-- list_details -->
+              	  <h5 style="margin-bottom:0px !important; text-transform: capitalize !important;">MFIN's Toll Free Helpline</h5>
+                <p style="margin: 0px;">
+</p>
+<p style="margin-bottom: 0px;">for Customers of Member NBFC-MFIs:</p>
+                <h5 class="footer-single-style"><a href="callto:18001021080">18001021080</a></h5>
+                
+              </div>
+
+              <div class="list_details col_100  w-100  left"><!-- list_details -->
+                       <h5 style="margin-bottom:0px !important; text-transform: capitalize !important;">MFIN's  Email Id</h5>
+                       <p style="margin-bottom: 0px;">for Customer Grievances:</p>
+                      <h4 class="" style="font-size:15px !important; color:#41a073; ">customercomplaint@mfinindia.org</h4>
+                      
+                    </div>
+
+
+              <!-- list_details -->
+              <div class="list_details  col_100  left"><!-- list_details --><br>
+                <h5>Follow Us</h5>
+                <ul class="social_linke_footer  pull-right">
+                 <li><a href="https://www.facebook.com/mfinindia.org" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+               <li><a href="https://twitter.com/mfin_india" target="_blank"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/company/microfinance-institutions-network" target="_blank"><i class="fa fa-linkedin" ></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCsFL4uW_vTucJ13Xgg0AuWg" target="_blank"><i class="fa fa-youtube" ></i></a></li>
+                </ul>
+              </div>
+            </li>          </ul>
+        </div>
+        <!-- row --> 
+      </div>
+      <!-- container --> 
+    </div>
+
+    
+
+<script type="text/javascript" src="https://mfinindia.org/frontend_assets/js/jquery-3.3.1.min.js"></script> 
+<script type="text/javascript" src="https://mfinindia.org/frontend_assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="https://mfinindia.org/frontend_assets/js/jquery.fancybox.min.js"></script> 
+<script type="text/javascript" src="https://mfinindia.org/frontend_assets/js/owl.carousel.min.js"></script> 
+<script type="text/javascript">
+				
+function getWebsearchData(searchData)
+{
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == '13'){
+        var  pd=searchData;
+        window.location.href="http://mfinindia.org/home/webSearchData?keyword="+pd;
+    }
+}
+
+</script>
+            <script type="text/javascript">
+              function annualcopydata() {
+              //	alert();
+              /* Get the text field */
+              var annualcopyText = document.getElementById("annualpdffilename").value;
+             // alert(annualcopyText);
+              /* Select the text field */
+              annualcopyText.select();
+              annualcopyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+              /* Copy the text inside the text field */
+              document.execCommand("copy");
+
+              /* Alert the copied text */
+              alert("Copied the text: " + annualcopyText.value);
+            }
+            </script>
+
+<script type="text/javascript">
+	function getClearData()
+	{
+		  
+
+             document.cookie = "pakgeid = "; 
+             document.cookie = "pakgeid = "; 
+             document.cookie = "pakgepricerr = "; 
+             document.cookie = "pakgepricerr = "; 
+	}
+</script>
+<script type="text/javascript">
+                  var owl = $('#modal-carousel,#livestockmodal-carousel,#manufacturingmodal-carousel,#servicemodal-carousel');
+                    owl.owlCarousel({
+                    items:1,
+                    loop:true,
+                    margin:0,
+                    dots:false,
+                    autoplay:true,
+                    smartSpeed:500,
+                    autoplayHoverPause:true,
+                    navigation:true,
+					navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+                    autoplayTimeout:3000
+                });
+                </script>
+<script type="text/javascript">
+							$('#opinins').owlCarousel({
+						    loop:true,
+						    margin:10,
+						    nav:true,
+						    dots:true,
+						    responsive:{
+						        0:{
+						            items:1
+						        },
+						        600:{
+						            items:1
+						        },
+						        1000:{
+						            items:1,
+						            dots:true
+						        }
+						    }
+						});
+							$('#work_eventslider,#work_eventslider1').owlCarousel({
+						    loop:true,
+						    margin:10,
+						    nav:true,
+						    dots:false,
+						    responsive:{
+						        0:{
+						            items:1
+						        },
+						        600:{
+						            items:1
+						        },
+						        1000:{
+						            items:1,
+						            dots:false
+						        }
+						    }
+						})
+						</script>
+						<script type="text/javascript">
+							$(function() {
+							    $("[name=toggler]").click(function(){
+							            $('.toHide').hide();
+							            $("#event_workshop-"+$(this).val()).fadeIn('fast');
+							    });
+							 });
+							</script>
+<script type="text/javascript">
+	$('#workshop_slider').owlCarousel({
+							    loop:true,
+							    margin:0,
+							    dots:true,
+							    autoplay:true,
+							    nav:false,
+							    // navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:5000,
+							     responsiveClass:true,
+							    responsive:{
+							        0:{
+							            items:1,
+							            nav:false,
+							            dots:false,
+							        },
+							        600:{
+							            items:2,
+							            nav:false,
+							        },
+							        1000:{
+							            items:1,
+							            nav:false,
+							            margin:0,
+							            dots:false
+							        }
+							    }
+							});
+</script>
+<script type="text/javascript">
+					var owl = $('#main_slider');
+				owl.owlCarousel({
+				    items:1,
+				    loop:true,
+				    margin:0,
+				    dots:true,
+				    autoplay:true,
+				    smartSpeed:500,
+				    // animateOut: 'fadeOut',
+				    autoplayTimeout:60000
+				});
+				</script> 
+<script type="text/javascript">
+							$(document).ready(function() {
+							  $('.menu_btn').on('click', function(e) {
+								 
+								 e.stopPropagation();
+							    $('.content').addClass('isOpen');
+								  $('body').css("overflow","hidden");
+								  
+
+							  } );
+								
+								$('.content').on('click', function() {
+								 
+							    if($('.content').hasClass('isOpen')){
+									$('.content').removeClass('isOpen');
+									$('body').css("overflow","auto");
+								}
+
+							  }	)
+							
+								
+						     $(".nav li a").hover(function() {
+						      $(this).addClass("active");
+						      }, function(){
+						        $(this).removeClass('active');
+						    });
+						});
+							
+							$('[data-fancybox]').fancybox({
+    youtube : {
+        controls : 0,
+        showinfo : 0
+    },
+    vimeo : {
+        color : 'f00'
+    }
+							})
+								
+						</script> 
+<!--<script type="text/javascript">
+							$(document).ready(function() {
+							  $('.menu_btn').on('click', function() {
+							    $('.content').toggleClass('isOpen');
+
+							    if ($(".content").hasClass('isOpen')){
+							  	  $('.content').width(100% - 250);
+							  }
+							  });
+						</script>--> 
+<!-- <script type="text/javascript">
+							$(document).ready(function(){
+								$('.left_search').click(function(){
+									$(".content").removeClass('isOpen');
+								})
+							})
+						</script> --> 
+<!-- 						<script type="text/javascript">
+							$(function(){
+							    $('isOpen::before').click(function() {
+							        alert("Yes");
+							    }); 
+							});
+						</script> --> 
+<script type="text/javascript">
+							// $(document).ready(function() {
+							// 	    $('.menu_btn').click(function() {
+							// 	        if ($('.content').hasClass("custom_op")) {
+							// 	            $('.content').addClass('isOpen');
+							// 	            // $('#homeSecLink').removeClass('active');
+							// 	        } else {
+							// 	            $('.content.isOpen::before').removeClass('isOpen');
+							// 	            $('.content').addClass('custom_op');
+							// 	        }
+							// 	    });
+							// 	});
+						</script> 
+<script type="text/javascript">
+							$.sidebarMenu = function(menu) {
+						  var animationSpeed = 300;
+						  
+						  $(menu).on('click', 'li a', function(e) {
+						    var $this = $(this);
+						    var checkElement = $this.next();
+
+						    if (checkElement.is('.treeview-menu') && checkElement.is(':visible')) {
+						      checkElement.slideUp(animationSpeed, function() {
+						        checkElement.removeClass('menu-open');
+						      });
+						      checkElement.parent("li").removeClass("active");
+						    }
+
+						    //If the menu is not visible
+						    else if ((checkElement.is('.treeview-menu')) && (!checkElement.is(':visible'))) {
+						      //Get the parent menu
+						      var parent = $this.parents('ul').first();
+						      //Close all open menus within the parent
+						      var ul = parent.find('ul:visible').slideUp(animationSpeed);
+						      //Remove the menu-open class from the parent
+						      ul.removeClass('menu-open');
+						      //Get the parent li
+						      var parent_li = $this.parent("li");
+
+						      //Open the target menu and add the menu-open class
+						      checkElement.slideDown(animationSpeed, function() {
+						        //Add the class active to the parent li
+						        checkElement.addClass('menu-open');
+						        parent.find('li.active').removeClass('active');
+						        parent_li.addClass('active');
+						      });
+						    }
+						    //if this isn't a link, prevent the page from being redirected
+						    if (checkElement.is('.treeview-menu')) {
+						      e.preventDefault();
+						    }
+						  });
+						}
+
+						$.sidebarMenu($('.sidebar-menu'))
+						</script> 
+<script type="text/javascript">
+							var owl = $('#events_stories,#events_stories1');
+							owl.owlCarousel({
+							    items:1,
+							    loop:true,
+							    margin:0,
+							    dots:true,
+							    autoplay:false,
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:3000
+							});
+						</script> 
+<script type="text/javascript">
+							var owl = $('#client_success');
+							owl.owlCarousel({
+							    items:3,
+							    loop:true,
+							    margin:10,
+							    dots:true,
+							    autoplay:false,
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:3000,
+							        responsiveClass:true
+
+							 							});
+						</script> 
+<script type="text/javascript">
+							$('#video_box').owlCarousel({
+							    items: 1,
+							    loop: true,
+							    video: true,
+							    lazyLoad: true
+							}); 
+						</script> 
+<!-- <script type="text/javascript">
+							$('.content.isOpen::before').click(function(){
+								$('.content').removeClass('content.isOpen');
+							})
+						</script> -->
+						<script type="text/javascript">
+							$('#photo_features').owlCarousel({
+							    loop:true,
+							    margin:20,
+							    dots:true,
+							    autoplay:false,
+							    nav:true,
+							    navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:3000,
+							     responsiveClass:true,
+							    responsive:{
+							        0:{
+							            items:1,
+							            nav:true,
+							            dots:false,
+							        },
+							        600:{
+							            items:2,
+							            nav:true,
+							        },
+							        1000:{
+							            items:3,
+							            nav:true,
+							            loop:false
+							        }
+							    }
+							}); 
+						</script> 
+						<script type="text/javascript">
+							$('#marquee_slider').owlCarousel({
+							    loop:true,
+							    margin:0,
+							    dots:true,
+							    autoplay:true,
+							    nav:true,
+							    navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:5000,
+							     responsiveClass:true,
+							    responsive:{
+							        0:{
+							            items:1,
+							            nav:false,
+							            dots:false,
+							        },
+							        600:{
+							            items:2,
+							            nav:true,
+							        },
+							        1000:{
+							            items:5,
+							            nav:true,
+							            loop:false
+							        }
+							    }
+							}); 
+						</script> 
+						<script type="text/javascript">
+							$('#what_they_say').owlCarousel({
+							    loop:true,
+							    margin:0,
+							    dots:true,
+							    autoplay:false,
+							    nav:true,
+							    navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+							    // animateOut: 'fadeOut',
+							    autoplayTimeout:3000,
+							     responsiveClass:true,
+							    responsive:{
+							        0:{
+							            items:1,
+							            nav:false,
+							            dots:false,
+							        },
+							        600:{
+							            items:2,
+							            nav:true,
+							        },
+							        1000:{
+							            items:1,
+							            nav:true,
+							            margin:0,
+							            dots:false
+							        }
+							    }
+							}); 
+						</script> 
+						<!-- <script type="text/javascript">
+							$(document).ready(function() {
+
+  $(".toggle-accordion").on("click", function() {
+    var accordionId = $(this).attr("accordion-id"),
+      numPanelOpen = $(accordionId + ' .collapse.in').length;
+    
+    $(this).toggleClass("active");
+
+    if (numPanelOpen == 0) {
+      openAllPanels(accordionId);
+    } else {
+      closeAllPanels(accordionId);
+    }
+  })
+
+  openAllPanels = function(aId) {
+    console.log("setAllPanelOpen");
+    $(aId + ' .panel-collapse:not(".in")').collapse('show');
+  }
+  closeAllPanels = function(aId) {
+    console.log("setAllPanelclose");
+    $(aId + ' .panel-collapse.in').collapse('hide');
+  }
+     
+});
+						</script> -->
+						<script type="text/javascript">
+							$('#mfin_reach').owlCarousel({
+						    loop:true,
+						    margin:10,
+						    nav:true,
+						    responsive:{
+						        0:{
+						            items:1
+						        },
+						        600:{
+						            items:3
+						        },
+						        1000:{
+						            items:1
+						        }
+						    }
+						})
+						</script>
+						<script type="text/javascript">
+								$(document).ready(function() {
+								    // Configure/customize these variables.
+								    var showChar = 200;  // How many characters are shown by default
+								    var ellipsestext = "...";
+								    var moretext = "Read more";
+								    
+
+								    $('.more').each(function() {
+								        var content = $(this).html();
+								 
+								        if(content.length > showChar) {
+								 
+								            var c = content.substr(0, showChar);
+								            var h = content.substr(showChar, content.length - showChar);
+								 
+								            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+								 
+								            $(this).html(html);
+								        }
+								 
+								    });
+								 
+								    $(".morelink").click(function(){
+								        $(this).parent().prev().toggle();
+								        $(this).prev().toggle();
+								        return false;
+								    });
+								});
+
+							</script>
+								<!-- put on footer -->
+ 			 <script type="text/javascript">//back to top
+                $(document).ready(function() {
+                    $(window).scroll(function() {
+                    if ($(this).scrollTop() > 20) {
+                    $('#toTopBtn').fadeIn();
+                    } else {
+                    $('#toTopBtn').fadeOut();
+                    }
+                    });
+
+                    $('#toTopBtn').click(function() {
+                    $("html, body").animate({
+                    scrollTop: 0
+                    }, 1000);
+                    return false;
+                    });
+                    });
+              </script>
+		
+</body>
+</html>
