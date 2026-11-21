@@ -1,1 +1,1 @@
-deep --csv out --delay 1
+growthlist --csv out --delay 1

@@ -863,6 +863,64 @@ def run_deep(sink, args):
 
 
 
+def parse_apeda_dir(html):
+    soup = BeautifulSoup(html, "html.parser")
+    toks = [t.strip() for t in soup.get_text("|").split("|") if t.strip()]
+    out = []
+    for i, t in enumerate(toks):
+        if t.lower().startswith("click here to contact") and i >= 5:
+            name, addr, prod, state, pin = toks[i - 5:i]
+            if re.fullmatch(r"\d{5,6}", pin) and len(name) > 2:
+                out.append((name.strip(), addr, prod, state, pin))
+    return out
+
+
+def run_apedadir(sink, args):
+    """R145: APEDA registered exporters directory (server-rendered, ?page=N)."""
+    base = "https://agriexchange.apeda.gov.in/AgriDirectory/Exporter/Exporters?page={n}"
+    if not allowed(base.format(n=1)):
+        print("apedadir: robots disallows"); return
+    n, new, total, empty = args.start_page if args.start_page > 1 else 1, 0, 0, 0
+    while n <= max(args.max_pages, 600):
+        r = get(base.format(n=n), args.delay)
+        if r is None:
+            break
+        rows = parse_apeda_dir(r.text)
+        if not rows:
+            empty += 1
+            if empty >= 3:
+                break
+        else:
+            empty = 0
+        for name, addr, prod, state, pin in rows:
+            total += 1
+            new += sink.add(name, state=state, industry="Agri exporter (APEDA registered)", profile_url=base.format(n=1),
+                            raw={"address": addr[:200], "products": prod[:120], "pincode": pin})
+        if n % 50 == 0:
+            print(f"apedadir: page {n}, {total} rows, {new} new")
+        n += 1
+    print(f"apedadir: {total} rows, {new} new, stopped at page {n}")
+
+
+def run_growthlist(sink, args):
+    """R65: Growth List 'recently funded India startups' table (name, website, industry, funding)."""
+    url = "https://growthlist.co/india-startups/"
+    if not allowed(url):
+        print("growthlist: robots disallows"); return
+    r = get(url, args.delay)
+    if r is None:
+        print("growthlist: no response"); return
+    soup = BeautifulSoup(r.text, "html.parser")
+    n = new = 0
+    for tr in soup.find_all("tr"):
+        c = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+        if len(c) >= 7 and c[0]:
+            n += 1
+            new += sink.add(c[0], industry=c[2][:120], raw={"website": c[1], "country": c[3], "funding_type": c[5], "last_funding": c[6]})
+    print(f"growthlist: {n} rows, {new} new")
+
+
+
 def run_nextknock(sink, args):
     """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
     r = get("https://www.nextknock.in/companies", args.delay)
@@ -1288,7 +1346,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"deep": ("DEEP", run_deep), "dsci": ("R133", run_dsci), "birac": ("R111", run_birac), "links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"apedadir": ("R145", run_apedadir), "growthlist": ("R65", run_growthlist), "deep": ("DEEP", run_deep), "dsci": ("R133", run_dsci), "birac": ("R111", run_birac), "links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),
