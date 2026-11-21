@@ -757,23 +757,40 @@ def run_dsci(sink, args):
         return sum(sink.add(n, city=c, industry=f"DSCI member: {sec}", profile_url=base, raw={"sector": sec}) for n, sec, c in rows)
     new = add(first)
     # find a paging parameter that changes the page content
-    variants = ["?page={n}", "?p={n}", "?pageNo={n}"]
+    be = "https://www.dsci.in/backend/corporate-member/member-directory"
+    variants = [(be, "?page={n}"), (be, "?page_no={n}"), (be, "?pageNo={n}"), (be, "?current_page={n}"), (base, "?page_no={n}")]
     param = None
-    for v in variants:
-        url = base + v.format(n=2)
+    for root, v in variants:
+        url = root + v.format(n=2)
+        if not allowed(url):
+            print(f"dsci: robots disallows {url}"); continue
         r2 = get(url, args.delay)
-        if r2 is not None:
-            rows2 = _dsci_page(r2.text)
-            if rows2 and rows2[0] != first[0]:
-                param = v; print(f"dsci: paging works with {v}"); new += add(rows2); break
+        if r2 is None:
+            continue
+        rows2 = _dsci_page(r2.text)
+        if not rows2:
+            try:
+                rows2 = [(x.get("company_name"), x.get("sector"), x.get("city")) for x in r2.json().get("data", [])]
+            except Exception:
+                rows2 = []
+        print(f"dsci: tried {url} -> {len(rows2)} rows, first={rows2[0][0] if rows2 else None}")
+        if rows2 and rows2[0] != first[0]:
+            param = (root, v); new += add(rows2); break
     if not param:
         print("dsci: no paging parameter changed the content; only page 1 loaded")
     else:
+        root, v = param
         for n in range(3, total + 1):
-            r = get(base + param.format(n=n), args.delay)
+            r = get(root + v.format(n=n), args.delay)
             if r is None:
                 break
-            new += add(_dsci_page(r.text))
+            rows_n = _dsci_page(r.text)
+            if not rows_n:
+                try:
+                    rows_n = [(x.get("company_name"), x.get("sector"), x.get("city")) for x in r.json().get("data", [])]
+                except Exception:
+                    rows_n = []
+            new += add(rows_n)
     print(f"dsci: {new} new rows")
 
 
