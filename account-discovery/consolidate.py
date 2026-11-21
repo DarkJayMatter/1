@@ -2,9 +2,9 @@ import re
 """Merge every out/R*.csv (plus the 35 STPI rows already in the sheet) into ONE deduped file."""
 import csv, glob, json, os, re, sys
 
-ORDER = ["R87", "R86", "R63", "R62", "R25", "R94", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R43", "R44", "R47", "R48", "R53", "R80"]
+ORDER = ["R87", "R86", "R63", "R62", "R25", "R94", "R26", "R57", "R54", "R59", "R58", "R55", "R61", "R43", "R44", "R47", "R48", "R53", "R80", "R115", "R146", "R139"]
 GCC = {"R63", "R62", "R25", "R94"}
-URLS = {"R53": "https://careerscan.in/sitemap.xml",
+URLS = {"R115": "https://trai.gov.in/sites/default/files/2026-07/MIB_23072026.pdf", "R146": "https://apeda.gov.in/sites/default/files/documents/2025-11/Quality_Development_2021_to_2025.pdf", "R139": "https://inc42.com/features/d2c-brands-that-are-disrupting-indias-consumer-market/amp/", "R53": "https://careerscan.in/sitemap.xml",
         "R94": "https://www.scribd.com/",
         "R63": "https://astraviseservices.com/insights/the-india-gcc-index-2026-companies-cities-sectors-and-functions/",
         "R62": "https://gccjournal.in/insights/list-of-global-capability-centers-gcc-in-india/",

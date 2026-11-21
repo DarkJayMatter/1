@@ -1,1 +1,1 @@
-inc42d2c --csv out --delay 1
+links --csv out --delay 1

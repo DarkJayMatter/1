@@ -754,6 +754,45 @@ def run_inc42d2c(sink, args):
 
 
 
+LINK_SITES = {
+ "R90_iesa":"https://iesaonline.org/", "R100_amfi":"https://www.amfiindia.com/", "R101_mfin":"https://mfinindia.org/",
+ "R102_ifsca":"https://ifsca.gov.in/", "R107_nabh":"https://nabh.co/", "R108_nabl":"https://nabl-india.org/",
+ "R111_birac":"https://birac.nic.in/", "R113_ism":"https://ism.gov.in/", "R120_dgca":"https://www.dgca.gov.in/",
+ "R121_sidm":"https://sidm.in/", "R123_mpeda":"https://mpeda.gov.in/", "R126_cea":"https://cea.nic.in/",
+ "R132_cmmi":"https://cmmiinstitute.com/", "R133_dsci":"https://www.dsci.in/", "R136_icai":"https://www.icai.org/",
+ "R152_credai":"https://credai.org/abouts", "R152_rera_up":"https://up-rera.in/", "R65_growthlist":"https://growthlist.co/india-startups/",
+ "R10_ficci":"https://ficci.in/sector/fmcg", "R9_nasscom":"https://nasscom.in/",
+}
+_LINK_KW = re.compile(r"list|director|member|registered|approved|licen[cs]|accredit|empanel|beneficiar|recogni[sz]ed|appraised|holders|authori[sz]ed|promoter|exhibitor", re.I)
+
+
+def run_links(sink, args):
+    """For each homepage, list links whose text or URL suggests a company list. Writes out/probe/links.csv."""
+    os.makedirs("out/probe", exist_ok=True)
+    rows = []
+    for k, url in LINK_SITES.items():
+        try:
+            if not allowed(url):
+                print(f"{k}: robots disallows"); continue
+            r = SESSION.get(url, timeout=45)
+            soup = BeautifulSoup(r.text, "html.parser")
+            seen = set()
+            for a in soup.find_all("a", href=True):
+                txt = a.get_text(" ", strip=True)[:90]
+                href = urljoin(url, a["href"])
+                if href in seen or href.startswith(("javascript", "mailto", "tel")):
+                    continue
+                if _LINK_KW.search(txt) or re.search(r"\.(pdf|xlsx?|csv)(\?|$)", href, re.I) and _LINK_KW.search(href):
+                    seen.add(href); rows.append((k, txt, href))
+            print(f"{k}: HTTP {r.status_code}, {len(seen)} candidate links")
+        except Exception as e:
+            print(f"{k}: failed {e}")
+        time.sleep(args.delay)
+    with open("out/probe/links.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f); w.writerow(["site", "text", "href"]); w.writerows(rows)
+
+
+
 def run_nextknock(sink, args):
     """One page lists all companies: <a href=/companies/slug>Name<span>open roles</span></a>."""
     r = get("https://www.nextknock.in/companies", args.delay)
@@ -1179,7 +1218,7 @@ def run_rbi(sink, args):
 
 
 
-JOBS = {"mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
+JOBS = {"links": ("LINKS", run_links), "mib": ("R115", run_mib), "apedafas": ("R146", run_apedafas), "inc42d2c": ("R139", run_inc42d2c), "ism": ("R80", run_ism), "rss": ("R21", run_rss), "csmap": ("R53", run_csmap), "nse": ("R38", run_nse), "careerscan": ("R53", run_careerscan), "erekrut": ("R55", run_erekrut),
         "edgar": ("R25", run_edgar),
         "probe": ("PROBE", run_probe),
         "gptw": ("R87", run_gptw),
